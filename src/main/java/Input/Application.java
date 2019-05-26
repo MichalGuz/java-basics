@@ -1,4 +1,4 @@
 package Input;
 
-public class Aplication {
+public class Application {
 }
