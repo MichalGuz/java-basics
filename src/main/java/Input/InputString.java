@@ -13,6 +13,7 @@ public class InputString {
         //wait for the user to enter a line of text
         String line = input.nextLine();
 
+        //Tell them what they entered
         System.out.println("You entered " + line);
     }
 }
