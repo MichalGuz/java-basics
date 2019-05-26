@@ -11,7 +11,7 @@ public class InputString {
 //      output the prompt
         System.out.println("Enter the line of text");
 
-
+        String line = input.nextLine();
 
     }
 }
