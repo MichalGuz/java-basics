@@ -14,7 +14,7 @@ public class Input {
         String line0 = input0.nextLine();
 
         //Tell them what they entered
-        System.out.println("You entered " + line0);
+        System.out.println("You entered: [ " + line0 + " ]");
     }
 
     public void inputInt(){
@@ -25,7 +25,7 @@ public class Input {
 
         Integer line1 = input1.nextInt();
 
-        System.out.println("Your integer is: " + line1 );
+        System.out.println("Your integer is: [ " + line1 + " ]" );
 
     }
 }
