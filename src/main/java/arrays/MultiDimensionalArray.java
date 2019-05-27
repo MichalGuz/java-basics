@@ -38,7 +38,7 @@ public class MultiDimensionalArray {
         System.out.println("\n[2D array]");
         for(int row=0; row < grid.length; row++){
             for(int col=0; col < grid[row].length; col++) {
-                System.out.print(grid[row][col]);
+                System.out.print(grid[row][col] + "\t");
             }
         }
     }
