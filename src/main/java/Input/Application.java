@@ -2,7 +2,7 @@ package Input;
 
 public class Application {
     public static void main(String[] args) {
-        InputString inputString = new InputString();
-        inputString.inputString();
+        Input input = new Input();
+        input.inputString();
     }
 }
