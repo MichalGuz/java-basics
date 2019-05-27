@@ -1,4 +1,4 @@
-package Input;
+package input;
 
 import java.util.Scanner;
 
@@ -26,6 +26,5 @@ public class Input {
         Integer line1 = input1.nextInt();
 
         System.out.println("Your integer is: [ " + line1 + " ]" );
-
     }
 }
