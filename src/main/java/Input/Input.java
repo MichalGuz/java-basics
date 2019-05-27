@@ -16,4 +16,9 @@ public class Input {
         //Tell them what they entered
         System.out.println("You entered " + line);
     }
+
+    public void inputInt(){
+
+
+    }
 }
