@@ -31,6 +31,15 @@ public class MultiDimensionalArray {
 
         System.out.println("First item in the 2D array is: ");
         System.out.println("Last item in the 2D array is:");
+
+        // how to iterate through 2D array ?
+        // first iterate through rows, then for each row
+        // go through the columns
+        System.out.println("\n[2D array]");
+        for(int row=0; row < grid.length; row++){
+            for(int col=0; col < grid[row].length; col++) {
+                System.out.println(grid[row][col]);
+            }
+        }
     }
 }
-
