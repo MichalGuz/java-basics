@@ -5,5 +5,4 @@ public class ApplicationArray {
         MultiDimensionalArray array = new MultiDimensionalArray();
         array.multiDimensionalArray();
     }
-
 }
