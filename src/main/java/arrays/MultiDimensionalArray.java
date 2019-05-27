@@ -40,6 +40,7 @@ public class MultiDimensionalArray {
             for(int col=0; col < grid[row].length; col++) {
                 System.out.print(grid[row][col] + "\t");
             }
+            System.out.println();
         }
     }
 }
