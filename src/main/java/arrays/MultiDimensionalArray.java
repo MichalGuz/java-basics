@@ -22,6 +22,15 @@ public class MultiDimensionalArray {
         // need 2 indices to access values
         System.out.println("First item in array: " + grid[0][0]);
         System.out.println("Last item in array: " + grid[3][5]);
+
+        // can also create without initializing
+        String[][] texts = new String[3][4];
+
+        texts[0][0] = "row 1 and column 1: ";
+        texts[2][3] = "row 3 and column 5: ";
+
+        System.out.println("First item in the 2D array is: ");
+        System.out.println("Last item in the 2D array is:");
     }
 }
 
