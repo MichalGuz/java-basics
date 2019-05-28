@@ -8,5 +8,9 @@ public class Application {
         System.out.println("Please enter the name:");
 
         String text = input.nextLine();
+
+        switch(text){
+
+        }
     }
 }
