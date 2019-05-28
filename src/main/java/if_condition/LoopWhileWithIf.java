@@ -6,6 +6,10 @@ public class LoopWhileWithIf {
     public void simpleLoop(){
         while(true){
 
+            if(value==5){
+                System.out.println("End of the loop");
+                break;
+            }
         }
     }
 }
