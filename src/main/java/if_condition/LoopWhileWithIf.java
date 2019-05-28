@@ -10,6 +10,9 @@ public class LoopWhileWithIf {
                 System.out.println("End of the loop");
                 break;
             }
+            value++;
+
+            System.out.println("loop is running");
         }
     }
 }
