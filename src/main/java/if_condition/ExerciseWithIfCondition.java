@@ -8,6 +8,8 @@ public class ExerciseWithIfCondition {
             System.out.println("The value is bigger than ten");
         } else if(value < 30){
             System.out.println("The value is bigger than 10 and less than 30");
+        } else {
+            System.out.println("The is less than 10 or bigger than 30");
         }
     }
 
