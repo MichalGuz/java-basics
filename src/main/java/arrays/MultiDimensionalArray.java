@@ -34,7 +34,8 @@ public class MultiDimensionalArray {
 
         // how to iterate through 2D array ?
         // first iterate through rows, then for each row
-        // go through the columns
+        // go through the columns;
+        // method of printing the array in console like a chart
         System.out.println("\n[2D array]");
         for(int row=0; row < grid.length; row++){
             for(int col=0; col < grid[row].length; col++) {
