@@ -7,7 +7,7 @@ public class LoopWhileWithIf {
         while(true){
             System.out.println("Value is " + value);
 
-            if(value==5){
+            if(value==15){
                 System.out.println("End of the loop");
                 break;
             }
