@@ -5,6 +5,7 @@ public class LoopWhileWithIf {
 
     public void simpleLoop(){
         while(true){
+            System.out.println("Value is " + value);
 
             if(value==5){
                 System.out.println("End of the loop");
