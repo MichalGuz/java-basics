@@ -16,6 +16,7 @@ public class Application {
 
             case "stop":
                 System.out.println("Program has stopped");
+                break;
 
             default:
                 System.out.println("Command not recognized.\nTry one more time!");
