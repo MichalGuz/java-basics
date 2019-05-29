@@ -5,5 +5,8 @@ public class Application {
         Input input = new Input();
         input.inputString();
         input.inputInt();
+
+        Alibaba alibaba = new Alibaba();
+        alibaba.findTreasury();
     }
 }
