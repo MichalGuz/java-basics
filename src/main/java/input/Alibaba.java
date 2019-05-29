@@ -10,7 +10,7 @@ public class Alibaba {
         Scanner firstInput = new Scanner(System.in);
         System.out.println("Please enter your login!");
         String line0 = firstInput.nextLine();
-        if(login == line0){
+        if(login != line0){
             System.out.println("Please enter the password!");
             Scanner secondInput = new Scanner(System.in);
             String line1 = secondInput.nextLine();
