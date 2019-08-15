@@ -12,6 +12,10 @@ public class Dog {
     }
 
     public static void createNewDog(Dog dog) {
-
+        System.out.println("Poczatek createNewDog");
+        System.out.println(dog.getName()); // "Burek"
+        dog = new Dog("Rex");
+        System.out.println(dog.getName()); // "Rex"
+        System.out.println("Koniec createNewDog");
     }
 }
