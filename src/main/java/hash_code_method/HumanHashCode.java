@@ -42,6 +42,13 @@ public class HumanHashCode {
         HumanHashCode a = new HumanHashCode(100, "Adam", "Warsaw");
         HumanHashCode x = new HumanHashCode(100, "Adam", "Berlin");
         HumanHashCode y = new HumanHashCode(100, "Jan", "Berlin");
+        System.out.println(h.hashCode());
+        System.out.println(a.hashCode());
+        System.out.println(x.hashCode());
+        System.out.println(y.hashCode());
+        System.out.println(h.equals(a));
+        System.out.println(h.equals(x));
+        System.out.println(x.equals(y));
 
     }
 }
