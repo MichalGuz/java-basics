@@ -2,54 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HumanHCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Practice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ProductSec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder_bob_practice/BuilderBob$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder_bob_practice/BuilderBob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder_bob_practice/BuilderTool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder_bob_practice/BuliderBobMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/journaldev/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/journaldev/Executor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/journaldev/MessengerInjector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/journaldev/MessengerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/journaldev/SocialMediaService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/journaldev/SocialMediaServiceInjector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/journaldev/SocialMediaServiceMessageMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/journaldev/TwitterInjector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/journaldev/TwitterService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/my/EmailMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/my/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/my/MessageMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/my/MessageProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/my/Processor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/my/SmsMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/equals_product/Drinks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/equals_product/Food.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/equals_product/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/is_permutation/CompareString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/is_permutation/CompareStringMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/smallest_difference_array/DifferenceArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/smallest_difference_array/DifferenceArrayMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/smallest_difference_array_list/Difference.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/smallest_difference_array_list/DifferenceMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/strategy_calculator/AddNumbersStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/strategy_calculator/CalculatorContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/strategy_calculator/CalculatorStrategyInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/strategy_calculator/CalculatorToTransform.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/strategy_calculator/ClientCalculatorStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/strategy_calculator/DivideNumbersStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/strategy_calculator/MultiplyNumbersStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/strategy_calculator/SubtractNumbersStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pass_by_value/DogMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass_by_value/DogMain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -72,24 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pass_by_value/Dog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-              <folding>
-                <element signature="e#97#98#0" expanded="true" />
-                <element signature="e#129#130#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pass_by_value/DogMain.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hash_code_method/HumanHashCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="51">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -110,7 +50,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Hashcode.java" />
         <option value="$PROJECT_DIR$/src/main/java/HorseHCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/Product" />
         <option value="$PROJECT_DIR$/src/main/java/Food.java" />
@@ -161,6 +100,7 @@
         <option value="$PROJECT_DIR$/src/main/java/is_permutation/CompareStringMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/pass_by_value/Dog.java" />
         <option value="$PROJECT_DIR$/src/main/java/pass_by_value/DogMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hash_code_method/HumanHashCode.java" />
       </list>
     </option>
   </component>
@@ -209,7 +149,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pass_by_value" type="462c0819:PsiDirectoryNode" />
+              <item name="hash_code_method" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -360,6 +300,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3357605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -440,13 +381,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/input/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/input/Input.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -522,6 +456,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hash_code_method/HumanHashCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
