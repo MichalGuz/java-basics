@@ -1,5 +1,7 @@
 package hash_code_method;
 
+import java.util.Objects;
+
 public class HumanHashCode {
     private int id;
     private String name;
@@ -14,6 +16,8 @@ public class HumanHashCode {
     @Override
     public int hashCode(){
         int result;
+        result = Objects.hashCode(id) * 31;
+
         return result;
     }
 }
