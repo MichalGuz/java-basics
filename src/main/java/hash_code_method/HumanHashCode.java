@@ -10,4 +10,10 @@ public class HumanHashCode {
         this.name = name;
         this.city = city;
     }
+
+    @Override
+    public int hashCode(){
+        int result;
+        return result;
+    }
 }
