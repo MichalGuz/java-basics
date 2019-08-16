@@ -23,14 +23,17 @@ public class HumanHashCode {
     }
 
     @Override
-    public boolean equals(Object o){
-        if (this == o){
+    public boolean equals(Object o) {
+        if (this == o) {
             return true;
         }
-        if (o == null || getClass()!= o.getClass()) {
+        if (o == null || getClass() != o.getClass()) {
             return false;
         }
         HumanHashCode that = (HumanHashCode) o;
-
+        if (this.id == that.id && this.name == that.name && this.city == that.city) {
+            return true;
+        }
+        return true;
     }
 }
