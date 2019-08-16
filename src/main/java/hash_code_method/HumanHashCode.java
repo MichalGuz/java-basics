@@ -24,6 +24,13 @@ public class HumanHashCode {
 
     @Override
     public boolean equals(Object o){
+        if (this == o){
+            return true;
+        }
+        if (o == null || getClass()!= o.getClass()) {
+            return false;
+        }
+        HumanHashCode that = (HumanHashCode) o;
 
     }
 }
