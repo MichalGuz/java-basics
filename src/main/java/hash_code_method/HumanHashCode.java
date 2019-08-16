@@ -21,4 +21,9 @@ public class HumanHashCode {
         result = 31 * result + Objects.hashCode(city);
         return result;
     }
+
+    @Override
+    public boolean equals(Object o){
+
+    }
 }
