@@ -49,6 +49,6 @@ public class HumanHashCode {
         System.out.println(h.equals(a));
         System.out.println(h.equals(x));
         System.out.println(x.equals(y));
-
+        System.out.println(h==a);
     }
 }

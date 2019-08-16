@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/hash_code_method/HumanHashCode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
-              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -104,7 +104,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="24" />
     <option name="y" value="18" />
     <option name="width" value="1260" />
@@ -299,8 +299,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3357605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -462,7 +461,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/hash_code_method/HumanHashCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
-          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
