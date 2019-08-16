@@ -36,4 +36,12 @@ public class HumanHashCode {
         }
         return true;
     }
+
+    public static void main(String[] args) {
+        HumanHashCode h = new HumanHashCode(100, "Adam", "Warsaw");
+        HumanHashCode a = new HumanHashCode(100, "Adam", "Warsaw");
+        HumanHashCode x = new HumanHashCode(100, "Adam", "Berlin");
+        HumanHashCode y = new HumanHashCode(100, "Jan", "Berlin");
+
+    }
 }
