@@ -2,8 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pass_by_value/DogMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pass_by_value/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass_by_value/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HumanHCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Practice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ProductSec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder_bob_practice/BuilderBob$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder_bob_practice/BuilderBob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder_bob_practice/BuilderTool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/builder_bob_practice/BuliderBobMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/journaldev/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/journaldev/Executor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/journaldev/MessengerInjector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/journaldev/MessengerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/journaldev/SocialMediaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/journaldev/SocialMediaServiceInjector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/journaldev/SocialMediaServiceMessageMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/journaldev/TwitterInjector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/journaldev/TwitterService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/my/EmailMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/my/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/my/MessageMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/my/MessageProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/my/Processor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dependency_injection/message/my/SmsMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/equals_product/Drinks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/equals_product/Food.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/equals_product/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/is_permutation/CompareString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/is_permutation/CompareStringMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/smallest_difference_array/DifferenceArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/smallest_difference_array/DifferenceArrayMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/smallest_difference_array_list/Difference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/smallest_difference_array_list/DifferenceMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/strategy_calculator/AddNumbersStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/strategy_calculator/CalculatorContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/strategy_calculator/CalculatorStrategyInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/strategy_calculator/CalculatorToTransform.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/strategy_calculator/ClientCalculatorStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/strategy_calculator/DivideNumbersStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/strategy_calculator/MultiplyNumbersStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/strategy_calculator/SubtractNumbersStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pass_by_value/DogMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass_by_value/DogMain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -29,12 +75,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pass_by_value/Dog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="221">
               <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
               <folding>
+                <element signature="e#97#98#0" expanded="true" />
                 <element signature="e#129#130#0" expanded="true" />
-                <element signature="e#158#159#0" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pass_by_value/DogMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="136">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -65,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/DogMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/Hashcode.java" />
         <option value="$PROJECT_DIR$/src/main/java/HorseHCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/Product" />
@@ -116,6 +160,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ProductSec.java" />
         <option value="$PROJECT_DIR$/src/main/java/is_permutation/CompareStringMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/pass_by_value/Dog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pass_by_value/DogMain.java" />
       </list>
     </option>
   </component>
@@ -131,6 +176,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,8 +215,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SocialMediaServiceMessageMain">
+  <component name="RunManager" selected="Application.DogMain">
     <configuration name="BuliderBobMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="builder_bob_practice.BuliderBobMain" />
       <module name="basics.main" />
@@ -205,6 +250,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="strategy_calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DogMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pass_by_value.DogMain" />
+      <module name="basics.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pass_by_value.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,6 +337,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DogMain" />
         <item itemvalue="Application.SocialMediaServiceMessageMain" />
         <item itemvalue="Application.MessageMain" />
         <item itemvalue="Application.ClientCalculatorStrategy" />
@@ -301,7 +361,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33009708" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3357605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -449,20 +509,19 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/equals_product/Product.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pass_by_value/Dog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="221">
           <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
           <folding>
+            <element signature="e#97#98#0" expanded="true" />
             <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pass_by_value/DogMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="136">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
