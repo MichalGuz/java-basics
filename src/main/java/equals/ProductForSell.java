@@ -27,7 +27,7 @@ public class ProductForSell {
                 return false;
         } else if (!(this.getName() == other.getName()))
             return false;
-        if ((this.getName() == other.getName()) && (this.getPrice() == other.getPrice())) return true;
+        if (this.getPrice() != other.getPrice()) return false;
         return true;
     }
 }
