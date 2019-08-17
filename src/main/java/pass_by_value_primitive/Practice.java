@@ -21,6 +21,9 @@ public class Practice {
         int result = increase(x);
         System.out.println("The x after invoking increase method is: " + result);
 
+        Practice pr = new Practice();
+        pr.a = 2;
+        pr.b = 5;
     }
 
 }
