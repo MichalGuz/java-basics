@@ -19,6 +19,7 @@ public class ProductForSell {
 
     public boolean equals(Object o){
         if (this == o) return true;
+        if (this == null) return false;
         return true;
     }
 }
