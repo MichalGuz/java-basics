@@ -1,4 +1,4 @@
-package pass_by_value;
+package pass_by_value_object;
 
 public class Dog {
     private String name;

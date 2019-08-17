@@ -1,4 +1,4 @@
-package pass_by_value;
+package pass_by_value_object;
 
 public class DogMain {
     public static void main(String[] args) {
