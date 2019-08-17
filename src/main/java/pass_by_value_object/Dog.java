@@ -13,7 +13,7 @@ public class Dog {
 
     public static void createNewDog(Dog dog) {
         System.out.println("Poczatek createNewDog");
-        System.out.println(dog.getName()); // "print Burek"
+        System.out.println(dog.getName()); // "print Burek - name from main method"
         dog = new Dog("Rex");
         System.out.println(dog.getName()); // "print Rex"
         System.out.println("Koniec createNewDog");
