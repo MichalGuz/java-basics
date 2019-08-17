@@ -16,4 +16,9 @@ public class ProductForSell {
     public int getPrice() {
         return price;
     }
+
+    public boolean equals(Object o){
+        if (this == o) return true;
+        return true;
+    }
 }
