@@ -21,6 +21,7 @@ public class ProductForSell {
         if (this == o) return true;
         if (this == null) return false;
         if (getClass() != o.getClass()) return false;
+        ProductForSell other = (ProductForSell) o;
         return true;
     }
 }
