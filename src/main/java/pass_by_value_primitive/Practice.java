@@ -1,5 +1,7 @@
 package pass_by_value_primitive;
 
+import javax.xml.bind.SchemaOutputResolver;
+
 public class Practice {
     private static int increase(int i){
         return i+i;
@@ -11,6 +13,14 @@ public class Practice {
     private static void change(Practice p){
         p.a++;
         p.b++;
+    }
+
+    public static void main(String[] args) {
+        int x = 5;
+        System.out.println("The x before invoking increase method is: " + x);
+        int result = increase(x);
+        System.out.println("The x after invoking increase method is: " + result);
+
     }
 
 }
