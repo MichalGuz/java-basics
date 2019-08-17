@@ -22,6 +22,7 @@ public class ProductForSell {
         if (this == null) return false;
         if (getClass() != o.getClass()) return false;
         ProductForSell other = (ProductForSell) o;
+        if ((this.getName() == other.getName()) && (this.getPrice() == other.getPrice())) return true;
         return true;
     }
 }
