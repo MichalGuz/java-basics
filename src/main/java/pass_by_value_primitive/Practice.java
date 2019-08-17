@@ -24,6 +24,9 @@ public class Practice {
         Practice pr = new Practice();
         pr.a = 2;
         pr.b = 5;
+
+        change(pr);
+        System.out.println("The a = " + pr.a + ";\nThe b = " + pr.b);
     }
 
 }
