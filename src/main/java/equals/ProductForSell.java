@@ -20,6 +20,7 @@ public class ProductForSell {
     public boolean equals(Object o){
         if (this == o) return true;
         if (this == null) return false;
+        if (getClass() != o.getClass()) return false;
         return true;
     }
 }
