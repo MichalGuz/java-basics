@@ -15,6 +15,7 @@ public class Reader {
         Path path = Paths.get(file.getPath());
         try {
             Stream<String> linesOfTextFromFile = Files.lines(path);
+            linesOfTextFromFile.forEach(System.out::println);
         } catch (IOException e) {
                 System.out.println("Required file not found. Check path to file.");
         }
