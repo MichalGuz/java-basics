@@ -13,8 +13,10 @@ public class Reader {
         ClassLoader cl = getClass().getClassLoader();
         File file = new File(cl.getResource("file_reader/textForFileReader.txt").getFile());
         Path path = Paths.get(file.getPath());
-        try{
+        try {
             Stream<String> linesOfTextFromFile = Files.lines(path);
+        } catch (IOException e) {
+                System.out.println("Required file not found. Check path to file.");
         }
     }
 }
