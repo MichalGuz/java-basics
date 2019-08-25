@@ -18,4 +18,9 @@ public class SecondHighest {
     }
 
     Integer found = secHigh.get(secHigh.size() - 2);
+
+
+    public Integer getFound(){
+        return found;
+    }
 }
