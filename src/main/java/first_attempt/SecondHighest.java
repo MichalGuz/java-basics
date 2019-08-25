@@ -27,5 +27,6 @@ public class SecondHighest {
     public static void main(String[] args) {
         SecondHighest s = new SecondHighest();
         System.out.println(s.getSecHigh() + "\nThe size of list is: " + s.getSecHigh().size());
+        System.out.println("The second highest number in array 'nbs' is: " + s.getFound());
     }
 }

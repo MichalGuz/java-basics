@@ -73,12 +73,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/first_attempt/SecondHighest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+            <state relative-caret-position="146">
+              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#456#457#0" expanded="true" />
                 <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -229,21 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReaderMain">
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pass_by_value_primitive.Practice" />
-      <module name="basics.main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pass_by_value_primitive.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SecondHighest (1)">
     <configuration name="ReaderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="file_reader.ReaderMain" />
       <module name="basics.main" />
@@ -251,6 +239,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="file_reader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondHighest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="first_attempt.SecondHighest" />
+      <module name="basics.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="first_attempt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -306,11 +308,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SecondHighest (1)" />
         <item itemvalue="Application.ReaderMain" />
         <item itemvalue="Application.StringSplitter" />
         <item itemvalue="Application.SecondHighest" />
         <item itemvalue="Application.Temp" />
-        <item itemvalue="Application.Practice" />
       </list>
     </recent_temporary>
   </component>
@@ -329,6 +331,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="24" y="18" width="1260" height="476" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889135" visible="true" weight="0.37" />
       <window_info id="Structure" order="1" sideWeight="0.50110865" side_tool="true" weight="0.33090615" />
@@ -339,7 +342,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32848838" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -528,12 +531,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/first_attempt/SecondHighest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        <state relative-caret-position="146">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#456#457#0" expanded="true" />
             <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
           </folding>
         </state>
       </provider>
