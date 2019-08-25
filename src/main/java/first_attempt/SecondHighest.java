@@ -10,5 +10,6 @@ public class SecondHighest {
     List<Integer> secHigh = Arrays.stream(nbs)
             .mapToObj(o -> o)
             .collect(Collectors.toSet()).stream()
+            .sorted()
             .
 }
