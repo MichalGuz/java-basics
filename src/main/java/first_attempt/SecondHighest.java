@@ -11,5 +11,5 @@ public class SecondHighest {
             .mapToObj(o -> o)
             .collect(Collectors.toSet()).stream()
             .sorted()
-            .
+            .collect(Collectors.toList());
 }
