@@ -16,4 +16,6 @@ public class SecondHighest {
     public List<Integer> getSecHigh(){
         return secHigh;
     }
+
+    Integer found = secHigh.get(secHigh.size() - 2);
 }
