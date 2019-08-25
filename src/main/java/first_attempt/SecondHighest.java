@@ -12,4 +12,8 @@ public class SecondHighest {
             .collect(Collectors.toSet()).stream()
             .sorted()
             .collect(Collectors.toList());
+
+    public List<Integer> getSecHigh(){
+        return secHigh;
+    }
 }
