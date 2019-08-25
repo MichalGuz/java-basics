@@ -13,20 +13,17 @@ public class SecondHighest {
             .sorted()
             .collect(Collectors.toList());
 
-    public List<Integer> getSecHigh(){
+    public List<Integer> getListSecHigh(){
         return secHigh;
     }
 
-    Integer found = secHigh.get(secHigh.size() - 2);
-
-
-    public Integer getFound(){
-        return found;
+    public Integer getSecHighNumber(){
+        return secHigh.get(secHigh.size() - 2);
     }
 
     public static void main(String[] args) {
         SecondHighest s = new SecondHighest();
-        System.out.println(s.getSecHigh() + "\nThe size of list is: " + s.getSecHigh().size());
-        System.out.println("The second highest number in array 'nbs' is: " + s.getFound());
+        System.out.println(s.getListSecHigh() + "\nThe size of list is: " + s.getListSecHigh().size());
+        System.out.println("The second highest number in array 'nbs' is: " + s.getSecHighNumber());
     }
 }
