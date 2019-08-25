@@ -23,4 +23,8 @@ public class SecondHighest {
     public Integer getFound(){
         return found;
     }
+
+    public static void main(String[] args) {
+        SecondHighest s = new SecondHighest();
+    }
 }
