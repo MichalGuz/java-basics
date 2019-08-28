@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/equals/ProductForSell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/equals/ProductForSell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/first_attempt/StringSplitter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -35,17 +34,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/equals/ProductForSell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+            <state relative-caret-position="382">
+              <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
               <folding>
                 <element signature="e#236#237#0" expanded="true" />
                 <element signature="e#263#264#0" expanded="true" />
                 <element signature="e#292#293#0" expanded="true" />
                 <element signature="e#320#321#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/first_attempt/StringSplitter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -101,7 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/strategy_calculator/CalculatorStrategyInt.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy_calculator/AddNumbersStrategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy_calculator/SubtractNumbersStrategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy_calculator/MultiplyNumbersStrategy.java" />
@@ -152,6 +159,7 @@
         <option value="$PROJECT_DIR$/src/main/java/file_reader/Reader.java" />
         <option value="$PROJECT_DIR$/src/main/java/first_attempt/SecondHighest.java" />
         <option value="$PROJECT_DIR$/src/main/java/equals/ProductForSell.java" />
+        <option value="$PROJECT_DIR$/src/main/java/first_attempt/StringSplitter.java" />
       </list>
     </option>
   </component>
@@ -338,9 +346,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49889135" visible="true" weight="0.37864077" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889135" visible="true" weight="0.37864077" />
       <window_info id="Structure" order="1" sideWeight="0.50110865" side_tool="true" weight="0.33090615" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -354,7 +361,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" visible="true" weight="0.17391305" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" visible="true" weight="0.17391305" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5008091" side_tool="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
@@ -425,7 +432,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/strategy_calculator/CalculatorToTransform.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/strategy_calculator/AddNumbersStrategy.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/strategy_calculator/CalculatorContext.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/strategy_calculator/ClientCalculatorStrategy.java" />
@@ -537,14 +543,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/equals/ProductForSell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+        <state relative-caret-position="382">
+          <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
           <folding>
             <element signature="e#236#237#0" expanded="true" />
             <element signature="e#263#264#0" expanded="true" />
             <element signature="e#292#293#0" expanded="true" />
             <element signature="e#320#321#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/first_attempt/StringSplitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
