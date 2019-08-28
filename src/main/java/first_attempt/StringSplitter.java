@@ -21,4 +21,9 @@ public class StringSplitter {
         return originalStrings;
     }
 
+    public static void main(String[] args) { StringSplitter.countStrings();
+        System.out.println(originalStrings.size());
+    }
+
+
 }
