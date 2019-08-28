@@ -17,4 +17,8 @@ public class StringSplitter {
     private static Set<String> originalStrings = Arrays.stream(strings)
             .collect(Collectors.toSet());
 
+    public static Set<String> getOriginalStrings(){
+        return originalStrings;
+    }
+
 }
