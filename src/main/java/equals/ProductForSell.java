@@ -35,5 +35,8 @@ public class ProductForSell {
         ProductForSell p1 = new ProductForSell("atom", 2);
         ProductForSell p2 = new ProductForSell("atom", 2);
         ProductForSell p3 = new ProductForSell("atom", 20);
+        System.out.println(p1.equals(p1));
+        System.out.println(p1.equals(p2));
+        System.out.println(p1.equals(p3));
     }
 }
