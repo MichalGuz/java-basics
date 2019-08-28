@@ -32,6 +32,8 @@ public class ProductForSell {
     }
 
     public static void main(String[] args) {
-
+        ProductForSell p1 = new ProductForSell("atom", 2);
+        ProductForSell p2 = new ProductForSell("atom", 2);
+        ProductForSell p3 = new ProductForSell("atom", 20);
     }
 }
