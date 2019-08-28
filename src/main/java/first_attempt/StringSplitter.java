@@ -5,5 +5,7 @@ public class StringSplitter {
 
     public static String[] strings = line.split(" ");
 
-}
+    public static int countStrings(){
+
+    }
 }
