@@ -1,4 +1,4 @@
-package smallest_difference;
+package smallest_difference_array;
 
 public class DifferenceArray {
     int[] ints = {4,2,4,1,1};

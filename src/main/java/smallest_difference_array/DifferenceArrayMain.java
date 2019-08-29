@@ -1,4 +1,4 @@
-package smallest_difference;
+package smallest_difference_array;
 
 public class DifferenceArrayMain {
     public static void main(String[] args) {

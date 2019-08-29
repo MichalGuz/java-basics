@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/smallest_difference/DifferenceArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smallest_difference/DifferenceArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/smallest_difference/DifferenceArrayMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smallest_difference/DifferenceArrayMain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -49,11 +49,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/smallest_difference/DifferenceArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="416">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/smallest_difference/DifferenceArrayMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -123,7 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/strategy_calculator/SubtractNumbersStrategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy_calculator/MultiplyNumbersStrategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy_calculator/DivideNumbersStrategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy_calculator/CalculatorContext.java" />
@@ -174,10 +182,11 @@
         <option value="$PROJECT_DIR$/src/main/java/equals/ProductForSell.java" />
         <option value="$PROJECT_DIR$/src/main/java/first_attempt/StringSplitter.java" />
         <option value="$PROJECT_DIR$/src/main/java/smallest_difference/DifferenceArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/smallest_difference/DifferenceArrayMain.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="24" />
     <option name="y" value="18" />
     <option name="width" value="1260" />
@@ -368,7 +377,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889135" visible="true" weight="0.38511327" />
       <window_info id="Structure" order="1" sideWeight="0.50110865" side_tool="true" weight="0.33090615" />
@@ -455,7 +463,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/strategy_calculator/CalculatorContext.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/strategy_calculator/ClientCalculatorStrategy.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/strategy_calculator/CalculatorStrategyInterface.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/DogMain.java" />
@@ -590,8 +597,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/smallest_difference/DifferenceArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="416">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/smallest_difference/DifferenceArrayMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
         </state>
       </provider>
     </entry>
