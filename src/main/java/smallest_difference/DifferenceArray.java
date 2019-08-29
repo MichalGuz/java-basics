@@ -8,6 +8,9 @@ public class DifferenceArray {
     int[] coutnDiffs(){
         int tempValue;
         for (int i = 0; i < ints.length; i++) {
+            tempValue = ints[i];
+            for (int j = 0; j < ints.length; j++) {
+            }
         }
         return diffs;
     }
