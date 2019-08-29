@@ -10,6 +10,10 @@ public class DifferenceArray {
         for (int i = 0; i < ints.length; i++) {
             tempValue = ints[i];
             for (int j = 0; j < ints.length; j++) {
+                int diff = tempValue - ints[j];
+                if(diff >= 0) {
+                    diffs[j] = diff;
+                }
             }
         }
         return diffs;
