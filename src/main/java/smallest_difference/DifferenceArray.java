@@ -21,6 +21,11 @@ public class DifferenceArray {
 
     int findTheSmallest() {
         int theSmallestDiff = diffs[0];
-        return theSmallestDiff;
+        for(int i = 0; i < diffs.length; i++){
+            if(diffs[i] < theSmallestDiff){
+                theSmallestDiff = diffs[i];
+            }
+        }
+            return theSmallestDiff;
     }
 }
