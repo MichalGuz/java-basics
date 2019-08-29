@@ -6,5 +6,8 @@ public class DifferenceArray {
     int[] diffs = new int[25];
 
     int[] coutnDiffs(){
+        int tempValue;
+
+        return diffs;
     }
 }
