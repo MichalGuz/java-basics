@@ -18,4 +18,7 @@ public class DifferenceArray {
         }
         return diffs;
     }
+
+    int findTheSmallest() {
+    }
 }
