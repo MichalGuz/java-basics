@@ -7,7 +7,8 @@ public class DifferenceArray {
 
     int[] coutnDiffs(){
         int tempValue;
-
+        for (int i = 0; i < ints.length; i++) {
+        }
         return diffs;
     }
 }
