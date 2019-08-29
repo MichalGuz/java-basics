@@ -20,5 +20,7 @@ public class DifferenceArray {
     }
 
     int findTheSmallest() {
+        int theSmallestDiff = diffs[0];
+        return theSmallestDiff;
     }
 }
