@@ -26,6 +26,8 @@ public class DifferenceArray {
                 theSmallestDiff = diffs[i];
             }
         }
-            return theSmallestDiff;
+        System.out.println("The smallest non-negative difference is: " + theSmallestDiff);
+        return theSmallestDiff;
     }
+
 }
