@@ -25,4 +25,7 @@ public class CompareStrings {
 
         return true;
     }
+
+    void result(String stringOne, String stringTwo) {
+    }
 }
