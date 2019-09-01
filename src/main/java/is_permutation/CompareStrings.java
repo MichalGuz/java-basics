@@ -18,6 +18,10 @@ public class CompareStrings {
 
         Arrays.sort(one);
         Arrays.sort(two);
+        for (int i = 0; i< one.length; i++)
+            if (one[i] != two[i]) {
+                return false;
+            }
 
         return true;
     }
