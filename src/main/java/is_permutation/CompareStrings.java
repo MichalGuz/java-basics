@@ -27,5 +27,10 @@ public class CompareStrings {
     }
 
     void result(String stringOne, String stringTwo) {
+        if(isPermutation(stringOne, stringTwo) == false){
+            System.out.println("No!");
+        } else {
+            System.out.println("Yes.");
+        }
     }
 }
