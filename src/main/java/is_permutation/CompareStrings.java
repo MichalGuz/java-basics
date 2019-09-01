@@ -10,6 +10,9 @@ public class CompareStrings {
 
         one = firstString.toCharArray();
         two = secondString.toCharArray();
+        if(controlOne != controlTwo){
+            return false;
+        }
 
         return true;
     }
