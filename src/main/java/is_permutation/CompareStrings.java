@@ -1,5 +1,7 @@
 package is_permutation;
 
+import java.util.Arrays;
+
 public class CompareStrings {
     public boolean isPermutation(String firstString, String secondString){
         char [] one = new char[firstString.length()];
@@ -13,6 +15,9 @@ public class CompareStrings {
         if(controlOne != controlTwo){
             return false;
         }
+
+        Arrays.sort(one);
+        Arrays.sort(two);
 
         return true;
     }
