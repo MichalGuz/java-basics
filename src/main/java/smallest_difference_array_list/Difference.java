@@ -9,6 +9,7 @@ public class Difference {
     ArrayList<Integer> fill() {
         for(int i =0; i<5; i++){
             Random generator = new Random();
+            int number = generator.nextInt(5);
         }
         return ints;
     }
