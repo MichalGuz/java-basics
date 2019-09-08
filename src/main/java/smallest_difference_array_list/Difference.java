@@ -16,5 +16,8 @@ public class Difference {
     }
 
     void checkArrayList() {
+        for (Integer index : ints) {
+            System.out.println(index);
+        }
     }
 }
