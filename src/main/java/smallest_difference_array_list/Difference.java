@@ -10,6 +10,7 @@ public class Difference {
         for(int i =0; i<5; i++){
             Random generator = new Random();
             int number = generator.nextInt(5);
+            ints.add(number);
         }
         return ints;
     }
