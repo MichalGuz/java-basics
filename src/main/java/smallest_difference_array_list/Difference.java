@@ -19,5 +19,6 @@ public class Difference {
         for (Integer index : ints) {
             System.out.println(index);
         }
+        System.out.println("The size of ints list is: " + ints.size());
     }
 }
