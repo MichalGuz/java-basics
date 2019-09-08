@@ -14,4 +14,7 @@ public class Difference {
         }
         return ints;
     }
+
+    void checkArrayList() {
+    }
 }
