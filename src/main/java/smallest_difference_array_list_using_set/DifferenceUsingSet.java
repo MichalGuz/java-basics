@@ -29,6 +29,9 @@ public class DifferenceUsingSet {
 
         System.out.println("Sorted list contains:\n" + sortedDiffs);
 
+        int foundSmallestDifference = sortedDiffs.get(0);
+        System.out.println("The smallest non-negative difference is:" + foundSmallestDifference);
+
 
 
     }
