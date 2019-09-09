@@ -1,5 +1,4 @@
 package smallest_difference_array_list_using_set;
-
 import smallest_difference_array_list.ListCreator;
 
 import java.util.ArrayList;
