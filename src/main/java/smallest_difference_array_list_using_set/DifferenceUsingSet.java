@@ -22,6 +22,10 @@ public class DifferenceUsingSet {
             }
         }
         System.out.println("Size of set is: " + diffs.size());
+        List<Integer> sortedDiffs = diffs.stream()
+                .sorted()
+                .collect(Collectors.toList());
+
 
     }
 }
