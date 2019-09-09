@@ -3,20 +3,12 @@ package smallest_difference_array_list;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Random;
+
 
 public class Difference {
-    ArrayList<Integer> ints = new ArrayList<>();
+    ListCreator creator = new ListCreator();
+    ArrayList<Integer> ints = creator.fill();
 
-    ArrayList<Integer> fill() {
-        for(int i =0; i<5; i++){
-            Random generator = new Random();
-            int number = generator.nextInt(25);
-            ints.add(number);
-        }
-        System.out.println("The 'ints' list contains:\n" + ints);
-        return ints;
-    }
 
     List<Integer> diffs = new ArrayList<>();
 
@@ -39,7 +31,7 @@ public class Difference {
 
     public static void main(String[] args) {
         Difference d = new Difference();
-        d.fill();
+
         d.findSmallestDifference();
     }
 }
