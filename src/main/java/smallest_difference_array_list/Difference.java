@@ -46,4 +46,5 @@ public class Difference {
 
     public static void main(String[] args) {
         Difference d = new Difference();
+        d.fill();
     }
