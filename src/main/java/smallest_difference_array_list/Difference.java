@@ -39,6 +39,7 @@ public class Difference {
         System.out.println("The sorted collection of difference:\n" + diffs);
 
         int foundSmallestDifference = diffs.get(0);
+        System.out.println("The smallest difference is:" + foundSmallestDifference);
         return foundSmallestDifference;
     }
 }
