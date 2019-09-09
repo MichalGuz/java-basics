@@ -26,10 +26,10 @@ public class Difference {
 
     List<Integer> diffs = new ArrayList<>();
 
-    int findSmallestDifference(){
-        for(int i = 0; i<ints.size(); i++){
+    int findSmallestDifference() {
+        for (int i = 0; i < ints.size(); i++) {
             int temp = ints.get(i);
-            for(int j = 0; j<ints.size(); j++){
+            for (int j = 0; j < ints.size(); j++) {
                 int diff = temp - ints.get(j);
                 diffs.add(diff);
             }
@@ -42,10 +42,11 @@ public class Difference {
         System.out.println("The smallest difference is:" + foundSmallestDifference);
         return foundSmallestDifference;
     }
-}
 
     public static void main(String[] args) {
         Difference d = new Difference();
         d.fill();
         d.checkArrayList();
+        d.findSmallestDifference();
     }
+}
