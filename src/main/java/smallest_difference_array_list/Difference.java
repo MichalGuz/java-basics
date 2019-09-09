@@ -33,6 +33,7 @@ public class Difference {
                 diffs.add(diff);
             }
         }
+        System.out.println("Unsorted collection of differences:\n" + diffs);
         int foundSmallestDifference;
         return foundSmallestDifference;
     }
