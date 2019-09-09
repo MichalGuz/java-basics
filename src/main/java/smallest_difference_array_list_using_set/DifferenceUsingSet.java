@@ -21,5 +21,7 @@ public class DifferenceUsingSet {
                 }
             }
         }
+        System.out.println("Size of set is: " + diffs.size());
+
     }
 }
