@@ -43,3 +43,7 @@ public class Difference {
         return foundSmallestDifference;
     }
 }
+
+    public static void main(String[] args) {
+        Difference d = new Difference();
+    }
