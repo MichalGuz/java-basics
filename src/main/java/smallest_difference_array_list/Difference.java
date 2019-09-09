@@ -28,6 +28,9 @@ public class Difference {
     int findSmallestDifference(){
         for(int i = 0; i<ints.size(); i++){
             int temp = ints.get(i);
+            for(int j = 0; j<ints.size(); j++){
+                int diff = temp - ints.get(j);
+            }
         }
         int foundSmallestDifference;
         return foundSmallestDifference;
