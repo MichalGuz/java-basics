@@ -1,6 +1,7 @@
 package smallest_difference_array_list;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 public class Difference {
@@ -21,6 +22,8 @@ public class Difference {
         }
         System.out.println("The size of ints list is: " + ints.size());
     }
+
+    List<Integer> diffs = new ArrayList<>();
 
     int findSmallestDifference(){
         int foundSmallestDifference;
