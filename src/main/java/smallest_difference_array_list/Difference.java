@@ -26,6 +26,9 @@ public class Difference {
     List<Integer> diffs = new ArrayList<>();
 
     int findSmallestDifference(){
+        for(int i = 0; i<ints.size(); i++){
+            int temp = ints.get(i);
+        }
         int foundSmallestDifference;
         return foundSmallestDifference;
     }
