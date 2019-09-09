@@ -11,17 +11,11 @@ public class Difference {
     ArrayList<Integer> fill() {
         for(int i =0; i<5; i++){
             Random generator = new Random();
-            int number = generator.nextInt(5);
+            int number = generator.nextInt(25);
             ints.add(number);
         }
+        System.out.println("The 'ints' list contains:\n" + ints);
         return ints;
-    }
-
-    void checkArrayList() {
-        for (Integer index : ints) {
-            System.out.println(index);
-        }
-        System.out.println("The size of ints list is: " + ints.size());
     }
 
     List<Integer> diffs = new ArrayList<>();
@@ -46,7 +40,6 @@ public class Difference {
     public static void main(String[] args) {
         Difference d = new Difference();
         d.fill();
-        d.checkArrayList();
         d.findSmallestDifference();
     }
 }
