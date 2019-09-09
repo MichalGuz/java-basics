@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/smallest_difference_array_list/DifferenceMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/smallest_difference_array_list/Difference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smallest_difference_array_list/Difference.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,11 +35,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/smallest_difference_array_list/Difference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            <state relative-caret-position="477">
+              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/smallest_difference_array_list/DifferenceMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/smallest_difference_array_list/ListCreator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,8 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/DependencyInjection/Message.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DependencyInjection/MessageServiceInjector.java" />
         <option value="$PROJECT_DIR$/src/main/java/DependencyInjection/EmailMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/DependencyInjection/SmsMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/DependencyInjection/MessageService.java" />
@@ -122,11 +141,13 @@
         <option value="$PROJECT_DIR$/src/main/java/smallest_difference_array/DifferenceArrayMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/is_permutation/CompareStrings.java" />
         <option value="$PROJECT_DIR$/src/main/java/is_permutation/CompareStringsMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/smallest_difference_array_list/ListCreator.java" />
         <option value="$PROJECT_DIR$/src/main/java/smallest_difference_array_list/Difference.java" />
+        <option value="$PROJECT_DIR$/src/main/java/smallest_difference_array_list/DifferenceMain.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="24" />
     <option name="y" value="18" />
     <option name="width" value="1260" />
@@ -312,9 +333,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889135" visible="true" weight="0.26213592" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889135" weight="0.26213592" />
       <window_info id="Structure" order="1" sideWeight="0.50110865" side_tool="true" weight="0.33090615" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -323,7 +345,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32763976" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32763976" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -344,8 +366,8 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30825242" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889135" visible="true" weight="0.26213592" />
+      <window_info id="Structure" order="1" sideWeight="0.50110865" side_tool="true" weight="0.33090615" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -353,13 +375,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32763976" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32919255" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" visible="true" weight="0.36801243" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5008091" side_tool="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -399,7 +421,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/strategy_calculator/CalculatorStrategyInterface.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/DogMain.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Dog.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/HumanHCode.java" />
@@ -407,7 +428,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ProductSec.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/is_permutation/CompareString.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/is_permutation/CompareStringMain.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/smallest_difference_array_list/DifferenceMain.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/SocialMediaService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/MessengerService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/TwitterService.java" />
@@ -562,13 +582,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/smallest_difference_array_list/Difference.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/smallest_difference_array_list/ListCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        <state relative-caret-position="130">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/smallest_difference_array_list/Difference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/smallest_difference_array_list/DifferenceMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

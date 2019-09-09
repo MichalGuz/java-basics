@@ -28,10 +28,4 @@ public class Difference {
         System.out.println("The smallest difference is:" + foundSmallestDifference);
         return foundSmallestDifference;
     }
-
-    public static void main(String[] args) {
-        Difference d = new Difference();
-
-        d.findSmallestDifference();
-    }
 }
