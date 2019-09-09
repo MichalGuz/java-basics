@@ -21,4 +21,9 @@ public class Difference {
         }
         System.out.println("The size of ints list is: " + ints.size());
     }
+
+    int findSmallestDifference(){
+        int foundSmallestDifference;
+        return foundSmallestDifference;
+    }
 }
