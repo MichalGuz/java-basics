@@ -17,15 +17,17 @@ public class Difference {
             int temp = ints.get(i);
             for (int j = 0; j < ints.size(); j++) {
                 int diff = temp - ints.get(j);
-                diffs.add(diff);
+                if(diff >= 0) {
+                    diffs.add(diff);
+                }
             }
         }
-        System.out.println("Unsorted collection of differences:\n" + diffs);
+        System.out.println("Unsorted collection of non-negative differences:\n" + diffs);
         Collections.sort(diffs);
-        System.out.println("The sorted collection of difference:\n" + diffs);
+        System.out.println("The sorted collection of non-negative differences:\n" + diffs);
 
         int foundSmallestDifference = diffs.get(0);
-        System.out.println("The smallest difference is:" + foundSmallestDifference);
+        System.out.println("The smallest non-negative difference is:" + foundSmallestDifference);
         return foundSmallestDifference;
     }
 }
