@@ -1,6 +1,7 @@
 package smallest_difference_array_list;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
@@ -34,6 +35,7 @@ public class Difference {
             }
         }
         System.out.println("Unsorted collection of differences:\n" + diffs);
+        Collections.sort(diffs);
         int foundSmallestDifference;
         return foundSmallestDifference;
     }
