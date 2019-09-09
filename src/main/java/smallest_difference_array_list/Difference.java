@@ -37,7 +37,8 @@ public class Difference {
         System.out.println("Unsorted collection of differences:\n" + diffs);
         Collections.sort(diffs);
         System.out.println("The sorted collection of difference:\n" + diffs);
-        int foundSmallestDifference;
+
+        int foundSmallestDifference = diffs.get(0);
         return foundSmallestDifference;
     }
 }
