@@ -8,6 +8,6 @@ public class Application implements Executor {
     }
     @Override
     public void performMethodSend(String msg, String rec){
-
+        this.socialMediaService.sendMessage(msg, rec);
     }
 }
