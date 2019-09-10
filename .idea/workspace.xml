@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/smallest_difference_array_list_using_set/DifferenceUsingSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/smallest_difference_array_list_using_set/DifferenceUsingSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/smallest_difference_array_list_using_set/DifferenceUsingSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smallest_difference_array_list_using_set/DifferenceUsingSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/MessengerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/MessengerService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -46,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/smallest_difference_array_list_using_set/DifferenceUsingSet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="206">
@@ -54,6 +45,24 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/SocialMediaService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/MessengerService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -124,9 +133,7 @@
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/my/Processor.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/my/MessageMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/my/MessageProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/SocialMediaService.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/TwitterService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/MessengerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/Consumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/MessageServiceInjector.java" />
@@ -164,6 +171,8 @@
         <option value="$PROJECT_DIR$/src/main/java/smallest_difference_array_list/ListCreator.java" />
         <option value="$PROJECT_DIR$/src/main/java/smallest_difference_array_list_using_set/DifferenceUsingSetMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/smallest_difference_array_list_using_set/DifferenceUsingSet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/SocialMediaService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/MessengerService.java" />
       </list>
     </option>
   </component>
@@ -467,8 +476,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ProductSec.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/is_permutation/CompareString.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/is_permutation/CompareStringMain.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/SocialMediaService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/MessengerService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/TwitterService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/SocialMediaServiceInjector.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/Executor.java" />
@@ -662,6 +669,20 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/SocialMediaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/MessengerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
