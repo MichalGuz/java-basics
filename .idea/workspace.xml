@@ -369,7 +369,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889135" weight="0.26213592" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889135" visible="true" weight="0.26213592" />
       <window_info id="Structure" order="1" sideWeight="0.50110865" side_tool="true" weight="0.33090615" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
