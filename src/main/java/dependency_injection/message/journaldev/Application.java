@@ -1,4 +1,8 @@
 package dependency_injection.message.journaldev;
 
-public class Application {
+public class Application implements Executor {
+    @Override
+    public void performMethodSend(String msg, String rec){
+
+    }
 }
