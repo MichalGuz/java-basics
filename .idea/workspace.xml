@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/SocialMediaServiceInjector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,18 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/smallest_difference_array_list_using_set/DifferenceUsingSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/SocialMediaService.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -77,15 +66,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+            <state relative-caret-position="187">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="e#315#316#0" expanded="true" />
                 <element signature="e#376#377#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/SocialMediaServiceInjector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -134,8 +132,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -158,7 +156,6 @@
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/my/MessageProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/Consumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/MessageServiceInjector.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/SocialMediaServiceInjector.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/MessengerInjector.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/TwitterInjector.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/SocialMediaServiceMessageMain.java" />
@@ -196,6 +193,7 @@
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/TwitterService.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/Executor.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/SocialMediaServiceInjector.java" />
       </list>
     </option>
   </component>
@@ -407,7 +405,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889135" visible="true" weight="0.27022654" />
       <window_info id="Structure" order="1" sideWeight="0.50110865" side_tool="true" weight="0.33090615" />
@@ -499,7 +497,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ProductSec.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/is_permutation/CompareString.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/is_permutation/CompareStringMain.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/SocialMediaServiceInjector.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/MessengerInjector.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/SocialMediaServiceMessageMain.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/TwitterInjector.java" />
@@ -726,12 +723,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+        <state relative-caret-position="187">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#315#316#0" expanded="true" />
             <element signature="e#376#377#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/SocialMediaServiceInjector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
         </state>
       </provider>
     </entry>
