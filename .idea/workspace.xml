@@ -84,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/SocialMediaServiceMessageMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="170">
+              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -199,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="24" />
     <option name="y" value="18" />
     <option name="width" value="1260" />
@@ -290,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DifferenceUsingSetMain">
+  <component name="RunManager" selected="Application.SocialMediaServiceMessageMain">
     <configuration name="CompareStringsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="is_permutation.CompareStringsMain" />
       <module name="basics.main" />
@@ -347,13 +347,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondHighest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="first_attempt.SecondHighest" />
+    <configuration name="SocialMediaServiceMessageMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dependency_injection.message.journaldev.SocialMediaServiceMessageMain" />
       <module name="basics.main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="first_attempt.*" />
+          <option name="PATTERN" value="dependency_injection.message.journaldev.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -385,11 +385,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SocialMediaServiceMessageMain" />
         <item itemvalue="Application.DifferenceUsingSetMain" />
         <item itemvalue="Application.DifferenceMain" />
         <item itemvalue="Application.Difference" />
         <item itemvalue="Application.CompareStringsMain" />
-        <item itemvalue="Application.SecondHighest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -405,6 +405,15 @@
       <updated>1558910457522</updated>
     </task>
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
@@ -761,8 +770,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/SocialMediaServiceMessageMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="170">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
         </state>
       </provider>
     </entry>

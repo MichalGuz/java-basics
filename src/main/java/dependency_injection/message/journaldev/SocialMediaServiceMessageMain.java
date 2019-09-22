@@ -7,5 +7,9 @@ public class SocialMediaServiceMessageMain {
         String twittRec = "molk99";
         String twittMsg = "WYL grab some beer tonight?";
 
+        SocialMediaServiceInjector injector= new MessengerInjector();
+        Executor app = injector.execute();
+        app.performMethodSend(messengerMsg, messengerRec);
+        app.performMethodSend(twittMsg, twittRec);
     }
 }
