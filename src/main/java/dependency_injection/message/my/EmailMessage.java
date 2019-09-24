@@ -1,4 +1,4 @@
 package dependency_injection.message.my;
 
-public class EmailMessage {
+public class EmailMessage implements Message{
 }
