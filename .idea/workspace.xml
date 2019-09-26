@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dependency_injection/message/my/EmailMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dependency_injection/message/my/EmailMessage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -26,15 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/SocialMediaServiceInjector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/MessengerInjector.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,11 +65,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/my/EmailMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/my/SmsMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -143,7 +142,6 @@
         <option value="$PROJECT_DIR$/src/main/java/DependencyInjection/EmailInjector.java" />
         <option value="$PROJECT_DIR$/src/main/java/DependencyInjection/MessageMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/DependencyInjection/message/my/MessageMain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/my/SmsMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/my/MessageService.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/my/Processor.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/my/MessageMain.java" />
@@ -190,10 +188,11 @@
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/SocialMediaServiceMessageMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/my/Message.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/my/EmailMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/my/SmsMessage.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="24" />
     <option name="y" value="18" />
     <option name="width" value="1260" />
@@ -205,8 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,6 +266,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -419,9 +418,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889135" visible="true" weight="0.27912623" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889135" visible="true" weight="0.28398058" />
       <window_info id="Structure" order="1" sideWeight="0.50110865" side_tool="true" weight="0.33090615" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -511,7 +510,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ProductSec.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/is_permutation/CompareString.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/is_permutation/CompareStringMain.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/my/SmsMessage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/my/MessageProcessor.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/my/Processor.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/my/MessageMain.java" />
@@ -742,6 +740,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/my/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/my/EmailMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/smallest_difference_array_list_using_set/DifferenceUsingSetMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -773,17 +785,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/my/Message.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/my/SmsMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/my/EmailMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
