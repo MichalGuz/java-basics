@@ -6,4 +6,9 @@ public class Processor implements MessageProcessor{
    public Processor(Message mess) {
        this.message = mess;
    }
+
+   @Override
+   public void process(String receiver, String text){
+       this.message.send(receiver, text);
+   }
 }
