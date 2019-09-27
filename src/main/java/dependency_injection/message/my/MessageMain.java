@@ -1,7 +1,5 @@
 package dependency_injection.message.my;
 
-import equals.ProductForSell;
-
 public class MessageMain {
     public static void main(String[] args) {
         String receiver = "Man@man.com";
