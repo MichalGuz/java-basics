@@ -11,5 +11,6 @@ public class MessageMain {
 
         EmailMessage emailMessage = new EmailMessage();
         Processor processor = new Processor(emailMessage);
+        processor.process(receiver, text);
     }
 }
