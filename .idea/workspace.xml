@@ -79,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/my/MessageMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -145,7 +145,6 @@
         <option value="$PROJECT_DIR$/src/main/java/DependencyInjection/MessageMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/DependencyInjection/message/my/MessageMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/my/MessageService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/my/MessageMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/Consumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/MessageServiceInjector.java" />
         <option value="$PROJECT_DIR$/src/main/java/first_attempt/TaskOne.java" />
@@ -191,6 +190,7 @@
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/my/SmsMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/my/MessageProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/my/Processor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/my/MessageMain.java" />
       </list>
     </option>
   </component>
@@ -811,8 +811,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/my/MessageMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

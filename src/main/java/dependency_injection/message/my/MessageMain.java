@@ -6,5 +6,7 @@ public class MessageMain {
         String text = "Hi Man!";
         String receiverSms = "696 679 777";
         String message = "Hi M!";
+
+        EmailMessage emailMessage = new EmailMessage();
     }
 }
