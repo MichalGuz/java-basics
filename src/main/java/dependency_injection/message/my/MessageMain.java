@@ -15,5 +15,6 @@ public class MessageMain {
 
         SmsMessage smsMessage = new SmsMessage();
         Processor processor1 = new Processor(smsMessage);
+        processor1.process(receiverSms, message);
     }
 }
