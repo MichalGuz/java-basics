@@ -30,6 +30,19 @@ public class Product {
         if (getClass() != obj.getClass()) {
             return false;
         }
+
+        Product other = (Product) obj;
+        if (name == null) {
+            if (other.name != null)
+                return false;
+        } else if (!name.equals(other.name)) {
+            return false;
+        }
+        if (Double.doubleToLongBits(price) != Double.doubleToLongBits(other.price)) {
+            return false;
+        }
+
+
         return true;
     }
 }
