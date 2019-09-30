@@ -26,6 +26,10 @@ public class Product {
         if (obj == null) {
             return false;
         }
+
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
         return true;
     }
 }
