@@ -32,6 +32,12 @@ public class Product {
         }
 
         Product other = (Product) obj;
+
+        System.out.println("This name = " + this.name);
+        System.out.println("This price = " + this.price);
+        System.out.println("Obj name = " + other.name);
+        System.out.println("Obj price = " + other.price);
+
         if (name == null) {
             if (other.name != null)
                 return false;
