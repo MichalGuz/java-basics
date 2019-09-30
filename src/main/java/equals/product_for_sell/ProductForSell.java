@@ -1,4 +1,4 @@
-package equals;
+package equals.product_for_sell;
 
 public class ProductForSell {
     private String name;
