@@ -23,6 +23,9 @@ public class Product {
             return true;
         }
 
+        if (obj == null) {
+            return false;
+        }
         return true;
     }
 }
