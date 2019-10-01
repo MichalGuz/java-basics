@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/equals_products/Drink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/equals_products/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/equals_products/Food.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -26,15 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/my/MessageProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/message/my/Processor.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/equals_products/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            <state>
+              <caret lean-forward="true" />
               <folding>
                 <element signature="e#212#213#0" expanded="true" />
                 <element signature="e#239#240#0" expanded="true" />
@@ -81,11 +71,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/equals_products/Drink.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#104#105#0" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/equals_products/Food.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -145,8 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/DependencyInjection/MessageMain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DependencyInjection/message/my/MessageMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/my/MessageService.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/Consumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/MessageServiceInjector.java" />
@@ -196,6 +197,8 @@
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/my/MessageMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/equals/product_for_sell/ProductForSell.java" />
         <option value="$PROJECT_DIR$/src/main/java/equals_products/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/equals_products/Drink.java" />
+        <option value="$PROJECT_DIR$/src/main/java/equals_products/Food.java" />
       </list>
     </option>
   </component>
@@ -417,6 +420,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889135" visible="true" weight="0.29449838" />
       <window_info id="Structure" order="1" sideWeight="0.50110865" side_tool="true" weight="0.33090615" />
@@ -503,7 +507,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ProductSec.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/is_permutation/CompareString.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/is_permutation/CompareStringMain.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/builder_bob_practice/BuilderBob.java" />
@@ -806,8 +809,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/equals_products/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        <state>
+          <caret lean-forward="true" />
           <folding>
             <element signature="e#212#213#0" expanded="true" />
             <element signature="e#239#240#0" expanded="true" />
@@ -819,8 +822,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/equals_products/Drink.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/equals_products/Food.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
     </entry>
