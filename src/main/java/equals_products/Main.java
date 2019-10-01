@@ -10,9 +10,9 @@ public class Main {
         Food f1 = new Food("chopin", 30);
         Food f2 = new Food("chopin", 30);
 
-        Drink d1 = new Drink("chopin", 30);
-        Food f1 = new Food("chopin", 30);
-        Food f2 = new Food("chopin", 30);
+        Drink d2 = new Drink("chopin", 30);
+        Food f3 = new Food("chopin", 30);
+        Food f4 = new Food("chopin", 30);
         System.out.println(p1.equals(p1) + " [ " + p1.name + " = " + p1.name + ", " + p1.price + " = " + p1.price + "]" + "comparing classes:  " + p1.getClass() + " : " + p1.getClass());
         System.out.println(p1.equals(p2) + " [ " + p1.name + " = " + p2.name + ", " + p1.price + " = " + p2.price + "]" + "comparing classes:  " + p1.getClass() + " : " + p2.getClass());
         System.out.println(p2.equals(p3) + " [ " + p2.name + " = " + p3.name + ", " + p2.price + " = " + p3.price + "]" + "comparing classes:  " + p2.getClass() + " : " + p3.getClass());
