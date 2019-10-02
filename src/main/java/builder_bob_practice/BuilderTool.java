@@ -10,4 +10,9 @@ public class BuilderTool {
     public String getTool(){
         return tool;
     }
+
+    @Override
+    public String toString(){
+        return "{ builder_bob_practice.BuilderTool = " + tool + "\'" + "}";
+    }
 }
