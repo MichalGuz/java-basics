@@ -15,4 +15,12 @@ public class BuilderTool {
     public String toString(){
         return "{ builder_bob_practice.BuilderTool = " + tool + "\'" + "}";
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        BuilderTool that = (BuilderTool) o;
+        return getTool().equals(that.getTool());
+    }
 }
