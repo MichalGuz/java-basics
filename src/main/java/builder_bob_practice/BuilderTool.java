@@ -7,4 +7,7 @@ public class BuilderTool {
         this.tool = tool;
     }
 
+    public String getTool(){
+        return tool;
+    }
 }
