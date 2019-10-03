@@ -1,4 +1,4 @@
-package dependency_injection.message.journaldev;
+package dependency_injection.journaldev;
 
 public interface Executor {
     void performMethodSend(String msg, String rec);

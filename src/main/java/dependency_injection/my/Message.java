@@ -1,4 +1,4 @@
-package dependency_injection.message.my;
+package dependency_injection.my;
 
 public interface Message {
     void send(String receiver, String text);

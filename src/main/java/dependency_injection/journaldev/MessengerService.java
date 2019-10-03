@@ -1,4 +1,4 @@
-package dependency_injection.message.journaldev;
+package dependency_injection.journaldev;
 
 public class MessengerService implements SocialMediaService{
     @Override

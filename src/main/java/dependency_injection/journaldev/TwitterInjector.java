@@ -1,4 +1,4 @@
-package dependency_injection.message.journaldev;
+package dependency_injection.journaldev;
 
 public class TwitterInjector implements SocialMediaServiceInjector {
         @Override
