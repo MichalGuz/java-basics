@@ -2,12 +2,12 @@ package dependency_injection.shape;
 
 public class Drawer {
     public void processDrawing(){
-        Figure figure;
+        Shape shape;
 
-        figure = new Circle();
-        figure.draw();
+        shape = new Circle();
+        shape.draw();
 
-        figure = new Triangle();
-        figure.draw();
+        shape = new Triangle();
+        shape.draw();
     }
 }
