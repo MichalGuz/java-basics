@@ -16,4 +16,17 @@ public class DrawerTestSuite {
         // then
         Assert.assertEquals("This is a circle", result);
     }
+
+    @Test
+    public void testDrawingWithTriangle(){
+        // given
+        Triangle triangle = new Triangle();
+
+        // when
+        Drawer drawer = new Drawer(triangle);
+        String result = drawer.processDrawing();
+
+        // then
+        Assert.assertEquals("This is a triangle", result);
+    }
 }
