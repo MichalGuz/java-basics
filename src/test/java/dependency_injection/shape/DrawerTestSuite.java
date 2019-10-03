@@ -1,17 +1,19 @@
 package dependency_injection.shape;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class DrawerTestSuite {
     @Test
-    public void testProcessDraw(){
+    public void testDrawingWithCircle(){
         // given
-        Drawer drawer = new Drawer();
+        Circle circle = new Circle();
 
         // when
-        drawer.processDrawing();
+        Drawer drawer = new Drawer(circle);
+        String result = drawer.processDrawing();
 
         // then
-        //do nothing
+        Assert.assertEquals("This is a circle", result);
     }
 }
