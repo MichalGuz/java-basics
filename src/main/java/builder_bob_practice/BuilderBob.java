@@ -8,4 +8,9 @@ public class BuilderBob {
     private boolean busy;
     private List<BuilderTool> tools;
 
+    @Override
+    public String toString() {
+        return "{name = " + name + ", id = " + id + ", busy = " + busy + ", tools quantity = " + tools.size() + "}";
+    }
+
 }
