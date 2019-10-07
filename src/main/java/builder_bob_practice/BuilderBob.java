@@ -38,5 +38,15 @@ public class BuilderBob {
             this.tools = tools;
             return this;
         }
+
+        public BuilderBob build() {
+            BuilderBob bob = new BuilderBob();
+            bob.name = this.name;
+            bob.id = this.id;
+            bob.busy = this.busy;
+            bob.tools = this.tools;
+            return bob;
+        }
+
     }
 }
