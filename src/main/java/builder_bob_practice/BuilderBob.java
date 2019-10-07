@@ -19,5 +19,9 @@ public class BuilderBob {
         private boolean busy;
         private List<BuilderTool> tools;
 
+        public Builder name(String name) {
+            this.name = name;
+            return this;
+        }
     }
 }
