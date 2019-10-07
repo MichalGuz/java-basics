@@ -28,5 +28,10 @@ public class BuilderBob {
             this.id = id;
             return this;
         }
+
+        public Builder busy(boolean busy) {
+            this.busy = busy;
+            return this;
+        }
     }
 }
