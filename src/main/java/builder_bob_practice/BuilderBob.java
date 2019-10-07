@@ -13,4 +13,6 @@ public class BuilderBob {
         return "{name = " + name + ", id = " + id + ", busy = " + busy + ", tools quantity = " + tools.size() + "}";
     }
 
+    public static final class Builder {
+    }
 }
