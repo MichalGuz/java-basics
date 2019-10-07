@@ -23,5 +23,10 @@ public class BuilderBob {
             this.name = name;
             return this;
         }
+
+        public Builder id(int id) {
+            this.id = id;
+            return this;
+        }
     }
 }
