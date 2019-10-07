@@ -33,5 +33,10 @@ public class BuilderBob {
             this.busy = busy;
             return this;
         }
+
+        public Builder tools(List<BuilderTool> tools) {
+            this.tools = tools;
+            return this;
+        }
     }
 }
