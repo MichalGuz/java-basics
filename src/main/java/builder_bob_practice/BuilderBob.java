@@ -14,5 +14,10 @@ public class BuilderBob {
     }
 
     public static final class Builder {
+        private String name;
+        private int id;
+        private boolean busy;
+        private List<BuilderTool> tools;
+
     }
 }
