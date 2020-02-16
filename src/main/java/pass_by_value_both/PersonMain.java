@@ -8,5 +8,8 @@ public class PersonMain {
         System.out.println(adam.getName());
         System.out.println(roman.getName());
 
-        }
+        roman = new Person("Roman");
+        adam = new Person();
+
+    }
 }
