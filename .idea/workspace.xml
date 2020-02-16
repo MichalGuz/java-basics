@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/pass_by_value_both/PersonVerifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass_by_value_both/PersonVerifier.java" afterDir="false" />
-    </list>
+    <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -66,11 +64,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pass_by_value_both/PersonVerifier.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pass_by_value_both/PersonMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -96,7 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/SecondHighest.java" />
         <option value="$PROJECT_DIR$/src/main/java/StringSplitter.java" />
         <option value="$PROJECT_DIR$/src/main/resources/textForFileReader.txt" />
         <option value="$PROJECT_DIR$/src/main/java/file_reader/ReaderMain.java" />
@@ -147,6 +153,7 @@
         <option value="$PROJECT_DIR$/src/main/java/builder_bob_practice/BuilderBob.java" />
         <option value="$PROJECT_DIR$/src/main/java/pass_by_value_both/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/pass_by_value_both/PersonVerifier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pass_by_value_both/PersonMain.java" />
       </list>
     </option>
   </component>
@@ -402,7 +409,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889135" visible="true" weight="0.33009708" />
       <window_info id="Structure" order="1" sideWeight="0.50110865" side_tool="true" weight="0.33090615" />
@@ -489,7 +495,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/SecondHighest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/StringSplitter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/file_reader.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/file_reader/textForFileReader.txt">
@@ -875,7 +880,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pass_by_value_both/PersonVerifier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pass_by_value_both/PersonMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
