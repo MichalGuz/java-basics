@@ -7,7 +7,7 @@ public class FibRecursion {
         if (n == 1 || n == 2) {
             return 1;
         } else {
-            return findFibonacciNumber(n - 1) + findFibonacciNumber((n));
+            return findFibonacciNumber(n - 1) + findFibonacciNumber((n-2));
         }
     }
 
@@ -16,6 +16,6 @@ public class FibRecursion {
         Scanner input = new Scanner(System.in);
         Integer chosenNumber = input.nextInt();
         int result = findFibonacciNumber(chosenNumber);
-
+        System.out.println(chosenNumber + " number in the Fibonacci sequence is: " + result);
     }
 }
