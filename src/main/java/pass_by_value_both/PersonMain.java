@@ -11,5 +11,7 @@ public class PersonMain {
         roman = new Person("Roman");
         adam = new Person();
 
+        System.out.println(adam.getName());
+        System.out.println(roman.getName());
     }
 }
