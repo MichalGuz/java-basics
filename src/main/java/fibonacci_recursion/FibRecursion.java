@@ -14,5 +14,8 @@ public class FibRecursion {
     public static void main(String[] args) {
         System.out.println("Which number from Fibonacci sequence do you want to see?");
         Scanner input = new Scanner(System.in);
+        Integer chosenNumber = input.nextInt();
+        int result = findFibonacciNumber(chosenNumber);
+
     }
 }
