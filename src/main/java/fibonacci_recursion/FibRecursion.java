@@ -8,4 +8,8 @@ public class FibRecursion {
             return findFibonacciNumber(n - 1) + findFibonacciNumber((n));
         }
     }
+
+    public static void main(String[] args) {
+
+    }
 }
