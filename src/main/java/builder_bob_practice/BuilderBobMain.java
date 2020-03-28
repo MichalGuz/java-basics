@@ -11,5 +11,10 @@ public class BuilderBobMain {
 
 
         BuilderBob robot = new BuilderBob.Builder()
+                .name("Robot Bob")
+                .id(1)
+                .busy(true)
+                .tools(listOfTools)
+                .build();
     }
 }
