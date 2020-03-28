@@ -16,5 +16,7 @@ public class BuilderBobMain {
                 .busy(true)
                 .tools(listOfTools)
                 .build();
+
+        System.out.println(robot.toString());
     }
 }
