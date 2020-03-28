@@ -7,7 +7,7 @@ public class FibRecursion {
         if (n == 1 || n == 2) {
             return 1;
         } else {
-            return findFibonacciNumber(n - 1) + findFibonacciNumber((n-2));
+            return findFibonacciNumber(n - 1) + findFibonacciNumber(n - 2);
         }
     }
 

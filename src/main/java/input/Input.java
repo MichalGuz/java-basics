@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Input {
     public void inputString(){
 
-        //create Scanner object
+        //create Scawnner object
         Scanner input0 = new Scanner(System.in);
         //output the prompt
         System.out.println("Enter the line of text");
