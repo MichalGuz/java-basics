@@ -8,5 +8,8 @@ public class BuilderBobMain {
         List<BuilderTool> listOfTools = new ArrayList<>();
         listOfTools.add(new BuilderTool("hammer"));
         listOfTools.add(new BuilderTool("screwdriver"));
+
+
+        BuilderBob robot = new BuilderBob.Builder()
     }
 }
