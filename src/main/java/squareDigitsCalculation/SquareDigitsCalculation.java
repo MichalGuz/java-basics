@@ -2,7 +2,7 @@ package squareDigitsCalculation;
 
 public class SquareDigitsCalculation {
     private static int TEN  = 10;
-    public int squareDigitsCalc(int n) {
+    public static int squareDigitsCalc(int n) {
         if (n < TEN) {
             return n * n;
         }
