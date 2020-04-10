@@ -16,6 +16,7 @@ public class SquareDigitsCalculation {
         System.out.println("squaredDigit = " + squaredDigit);
 
         int a = (squaredDigit < TEN ? TEN : TEN * TEN);
+        System.out.println("a = " + a);
 
         return result;
     }
