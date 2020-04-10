@@ -20,7 +20,7 @@ public class SquareDigitsCalculation {
         System.out.println("b = " + b);
 
         int result = squaredDigit + a * b;
-        System.out.println("result = " + result);
+        System.out.println("result of squareDigitsCalc() = " + result);
 
         return result;
     }
