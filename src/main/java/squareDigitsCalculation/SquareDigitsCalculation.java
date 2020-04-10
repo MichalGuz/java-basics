@@ -22,6 +22,7 @@ public class SquareDigitsCalculation {
         System.out.println("b = " + b);
 
         result = squaredDigit + a * b;
+        System.out.println("result = " + result);
 
         return result;
     }
