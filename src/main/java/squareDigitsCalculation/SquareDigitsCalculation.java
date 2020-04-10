@@ -6,7 +6,7 @@ public class SquareDigitsCalculation {
         int result = 0;
 
         if (n < TEN) {
-            result = n * n;
+            return n * n;
         }
 
         int digit = n % TEN;
