@@ -12,6 +12,8 @@ public class SquareDigitsCalculationConcise {
         int squaredDigit = digit * digit;
 
         int result = squaredDigit + (squaredDigit < TEN ? TEN : TEN * TEN) * squareDigitsCalcConcisely(n / TEN);
+        System.out.println("result = " + result);
 
+        return result;
     }
 }
