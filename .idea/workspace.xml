@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/squareDigitsCalculation/SquareDigitsCalculationConcise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/squareDigitsCalculation/SquareDigitsCalculationConcise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/squareDigitsCalculation/SquareDigitsCalculationConcise.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -63,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/squareDigitsCalculation/SquareDigitsCalculationConcise.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="43" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="43" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -85,7 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/smallest_difference/DifferenceArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/smallest_difference/DifferenceArrayMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/smallest_difference_array/DifferenceArrayMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/is_permutation/CompareStrings.java" />
@@ -136,6 +135,7 @@
         <option value="$PROJECT_DIR$/src/main/java/squareDigitsCalculation/squareDigitsCalcMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/squareDigitsCalculation/SquareDigitsCalculation.java" />
         <option value="$PROJECT_DIR$/src/main/java/squareDigitsCalculation/SquareDigitsCalcMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/squareDigitsCalculation/SquareDigitsCalculationConcise.java" />
       </list>
     </option>
   </component>
@@ -408,6 +408,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4965358" visible="true" weight="0.2632653" />
       <window_info id="Structure" order="1" sideWeight="0.5034642" side_tool="true" weight="0.2540453" />
@@ -906,8 +907,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/squareDigitsCalculation/SquareDigitsCalculationConcise.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="43" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>

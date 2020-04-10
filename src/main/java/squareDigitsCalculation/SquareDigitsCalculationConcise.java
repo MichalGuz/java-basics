@@ -10,5 +10,8 @@ public class SquareDigitsCalculationConcise {
         int digit = n % TEN;
 
         int squaredDigit = digit * digit;
+
+        int result = squaredDigit + (squaredDigit < TEN ? TEN : TEN * TEN) * squareDigitsCalcConcisely(n / TEN);
+
     }
 }
