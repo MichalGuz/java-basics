@@ -21,6 +21,8 @@ public class SquareDigitsCalculation {
         int b = squareDigitsCalc(n / TEN);
         System.out.println("b = " + b);
 
+        result = squaredDigit + a * b;
+
         return result;
     }
 }
