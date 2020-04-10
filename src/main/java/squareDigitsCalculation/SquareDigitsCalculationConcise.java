@@ -6,5 +6,7 @@ public class SquareDigitsCalculationConcise {
         if (n < TEN) {
             return n * n;
         }
+        int digit = n % TEN;
+
     }
 }
