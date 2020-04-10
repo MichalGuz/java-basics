@@ -12,6 +12,9 @@ public class SquareDigitsCalculation {
         int digit = n % TEN;
         System.out.println("digit = " + digit);
 
+        int squaredDigit = digit * digit;
+        System.out.println("squaredDigit = " + squaredDigit);
+
         return result;
     }
 }
