@@ -3,8 +3,6 @@ package squareDigitsCalculation;
 public class SquareDigitsCalculation {
     private static int TEN  = 10;
     public int squareDigitsCalc(int n) {
-        int result = 0;
-
         if (n < TEN) {
             return n * n;
         }
@@ -21,7 +19,7 @@ public class SquareDigitsCalculation {
         int b = squareDigitsCalc(n / TEN);
         System.out.println("b = " + b);
 
-        result = squaredDigit + a * b;
+        int result = squaredDigit + a * b;
         System.out.println("result = " + result);
 
         return result;
