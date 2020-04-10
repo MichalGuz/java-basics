@@ -1,5 +1,8 @@
 package squareDigitsCalculation;
 
 public class SquareDigitsCalculationConcise {
-    public static int squareDigitsCalcConcisly(int n) {}
+    private static int TEN = 10;
+    public static int squareDigitsCalcConcisely(int n) {
+
+    }
 }
