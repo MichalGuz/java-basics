@@ -15,6 +15,9 @@ public class SquareDigitsCalculationWhileLoop {
             n /= 10;
             System.out.println("Last calculation in a single run of loop: n = " + n);
         }
-        return Integer.parseInt(result);
+
+        Integer squaredDigits = Integer.parseInt(result);
+
+        return squaredDigits;
     }
 }

@@ -7,5 +7,6 @@ public class SquareDigitsCalcMain {
     public static void main(String[] args) {
         int firstSquaredDigits = squareDigitsCalc(12345);
         int secondSquaredDigits = squareDigitsCalcConcisely(2035602);
+
     }
 }
