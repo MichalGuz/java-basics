@@ -10,6 +10,7 @@ public class SquareDigitsCalculationWhileLoop {
             System.out.println("Loop is running: digit = " + digit);
 
             result = digit * digit + result;
+            System.out.println("Loop is still running: result = " + result);
 
         }
     }
