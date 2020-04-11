@@ -1,7 +1,7 @@
  package squareDigitsCalculation;
 
 public class SquareDigitsCalculationWhileLoop {
-    public static int squareDigitCalcWhileLoop(int n) {
+    public static int squareDigitsCalcWhileLoop(int n) {
         String result = "";
         while (n != 0) {
             System.out.println("Start the loop: n = " + n);
