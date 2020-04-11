@@ -5,6 +5,7 @@ public class SquareDigitsCalculationWhileLoop {
         String result = "";
         while (n != 0) {
             System.out.println("Start the loop: n = " + n);
+            int digit = n % 10;
         }
     }
 }
