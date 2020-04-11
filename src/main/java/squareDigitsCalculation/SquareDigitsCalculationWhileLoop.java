@@ -17,6 +17,7 @@ public class SquareDigitsCalculationWhileLoop {
         }
 
         Integer squaredDigits = Integer.parseInt(result);
+        System.out.println("result of squareDigitsCalcWhileLoop() method = " + squaredDigits);
 
         return squaredDigits;
     }
