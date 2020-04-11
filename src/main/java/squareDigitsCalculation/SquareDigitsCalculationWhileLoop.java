@@ -13,6 +13,7 @@ public class SquareDigitsCalculationWhileLoop {
             System.out.println("Loop is still running: result = " + result);
 
             n /= 10;
+            System.out.println("Last calculation in a single run of loop: n = " + n);
 
         }
     }
