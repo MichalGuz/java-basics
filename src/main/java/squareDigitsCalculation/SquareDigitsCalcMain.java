@@ -8,5 +8,6 @@ public class SquareDigitsCalcMain {
         int firstSquaredDigits = squareDigitsCalc(12345);
         int secondSquaredDigits = squareDigitsCalcConcisely(2035602);
 
+
     }
 }
