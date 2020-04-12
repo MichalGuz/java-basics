@@ -1,7 +1,7 @@
-package squareDigitsTypesConvertion;
+package squareDigitsTypesConversion;
 
-public class SquareDigitsTypesConvertion {
-    public int squareDigitsWithTypesConvertion( int n){
+public class SquareDigitsTypesConversion {
+    public int squareDigitsWithTypesConversion(int n){
         System.out.println("Number to square its digits: " + n);
         String number = String.valueOf(n);
         String[] arrayOfDigits = number.split("");
