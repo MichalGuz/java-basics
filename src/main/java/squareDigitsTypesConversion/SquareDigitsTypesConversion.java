@@ -16,7 +16,7 @@ public class SquareDigitsTypesConversion {
         String joined = "";
 
         for (String b : arrayOfDigits) {
-
+            int digit = Integer.parseInt(b);
         }
             int temporary = arrayOfDigits.length;
             return temporary;
