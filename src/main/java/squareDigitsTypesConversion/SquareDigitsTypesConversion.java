@@ -21,7 +21,8 @@ public class SquareDigitsTypesConversion {
             String sqrDig = Integer.toString(squaredDigit);
             joined = joined + sqrDig;
         }
-            int temporary = arrayOfDigits.length;
-            return temporary;
+
+            int result = Integer.parseInt(joined);
+            return result;
     }
 }
