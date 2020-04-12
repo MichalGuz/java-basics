@@ -5,7 +5,9 @@ public class SquareDigitsTypesConversion {
         System.out.println("Number to square its digits: " + n);
         String number = String.valueOf(n);
         String[] arrayOfDigits = number.split("");
-        System.out.println(arrayOfDigits);
+        for(String a: arrayOfDigits){
+            System.out.println(a);
+        }
         int temporary = arrayOfDigits.length;
         return temporary;
     }
