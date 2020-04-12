@@ -18,7 +18,7 @@ public class SquareDigitsTypesConversion {
         for (String b : arrayOfDigits) {
             int digit = Integer.parseInt(b);
             int squaredDigit = digit * digit;
-
+            String sqrDig = Integer.toString(squaredDigit);
         }
             int temporary = arrayOfDigits.length;
             return temporary;
