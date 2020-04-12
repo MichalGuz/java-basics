@@ -13,6 +13,8 @@ public class SquareDigitsTypesConversion {
             System.out.print(a);
         }
 
+        String joined = "";
+
         int temporary = arrayOfDigits.length;
         return temporary;
     }
