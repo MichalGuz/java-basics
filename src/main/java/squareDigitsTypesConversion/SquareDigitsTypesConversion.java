@@ -22,7 +22,8 @@ public class SquareDigitsTypesConversion {
             joined = joined + sqrDig;
         }
 
-            int result = Integer.parseInt(joined);
-            return result;
+        int result = Integer.parseInt(joined);
+        System.out.println("Squared digits = " + result);
+        return result;
     }
 }
