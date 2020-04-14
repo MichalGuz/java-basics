@@ -8,5 +8,6 @@ public class SquareVerifier {
         } else if (p / n == n && p % n == 0) {
             return true;
         }
+        return false;
     }
 }
