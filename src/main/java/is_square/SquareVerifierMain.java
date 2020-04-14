@@ -14,6 +14,7 @@ public class SquareVerifierMain {
         for (int n : numbers) {
             System.out.println("Number: " + n );
             boolean check = isSquare(n);
+            System.out.println(check);
         }
     }
 }
