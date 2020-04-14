@@ -12,9 +12,9 @@ public class SquareVerifierMain {
         }
 
         for (int n : numbers) {
-            System.out.println("Number: " + n );
+            System.out.print("For a number: " + n + " the statement \"this number is square\" = ");
             boolean check = isSquare(n);
-            System.out.println(check);
+            System.out.println(check + ";");
         }
     }
 }

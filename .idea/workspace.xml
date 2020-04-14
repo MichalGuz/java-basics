@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/is_square/SquareVerifierMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is_square/SquareVerifierMain.java" afterDir="false" />
-    </list>
+    <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -59,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/is_square/SquareVerifierMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -243,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SquareVerifier">
+  <component name="RunManager" selected="Application.SquareVerifierMain">
     <configuration name="BuilderBobMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="builder_bob_practice.BuilderBobMain" />
       <module name="basics.main" />
@@ -251,20 +249,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="builder_bob_practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FibRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fibonacci_recursion.FibRecursion" />
-      <module name="basics.main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fibonacci_recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -314,6 +298,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SquareVerifierMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="is_square.SquareVerifierMain" />
+      <module name="basics.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="is_square.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -338,11 +336,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SquareVerifierMain" />
         <item itemvalue="Application.SquareVerifier" />
         <item itemvalue="Application.SquareDigitsTypesConversionMain" />
         <item itemvalue="Application.SquareDigitsCalcMain" />
         <item itemvalue="Application.BuilderBobMain" />
-        <item itemvalue="Application.FibRecursion" />
       </list>
     </recent_temporary>
   </component>
@@ -404,12 +402,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.503876" side_tool="true" weight="0.2540453" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3267974" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3267974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32919255" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" visible="true" weight="0.35620916" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" weight="0.35620916" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5008091" side_tool="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32919255" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
@@ -868,8 +866,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/is_square/SquareVerifierMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="289">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
