@@ -10,6 +10,7 @@ public class SquareVerifierMain {
         }
 
         for (int n : numbers) {
+            System.out.println("Number: " + n );
         }
     }
 }
