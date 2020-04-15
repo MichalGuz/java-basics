@@ -5,7 +5,7 @@ public class SquareVerifier {
         double n = Math.sqrt(p);
         if (p <= 0) {
             return false;
-        } else if (p / n == n && p % n == 0) {
+        } else if ( p % n == 0) {
             return true;
         }
         return false;
