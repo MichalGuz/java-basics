@@ -2,7 +2,7 @@ package is_square;
 
 import java.util.Arrays;
 
-import static is_square.SquareVerifier.isSquare;
+import static is_square.SquareVerifierNegative.isSquare;
 
 public class SquareVerifierMain {
     public static void main(String[] args) {
