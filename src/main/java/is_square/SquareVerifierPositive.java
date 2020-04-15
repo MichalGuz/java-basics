@@ -5,5 +5,6 @@ public class SquareVerifierPositive {
         if (n < 0 || Math.sqrt(n) % 1 != 0 ) {
             return false;
         }
+        return true;
     }
 }
