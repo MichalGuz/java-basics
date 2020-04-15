@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/is_square/SquareVerifierPositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is_square/SquareVerifierPositive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is_square/SquareVerifierMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is_square/SquareVerifierMain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -39,15 +39,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/squareDigitsTypesConversion/SquareDigitsTypesConversion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/is_square/SquareVerifierNegative.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -56,23 +47,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/is_square/SquareVerifierPositive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-              <folding>
-                <element signature="e#101#102#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/is_square/SquareVerifierMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            <state relative-caret-position="193">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,10 +140,10 @@
         <option value="$PROJECT_DIR$/src/main/java/squareDigitsTypesConvertion/SquareDigitsTypesConvertionMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/squareDigitsTypesConversion/SquareDigitsTypesConversion.java" />
         <option value="$PROJECT_DIR$/src/main/java/is_square/SquareVerificator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/is_square/SquareVerifierMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/is_square/SquareVerifier.java" />
         <option value="$PROJECT_DIR$/src/main/java/is_square/SquareVerifierNegative.java" />
         <option value="$PROJECT_DIR$/src/main/java/is_square/SquareVerifierPositive.java" />
+        <option value="$PROJECT_DIR$/src/main/java/is_square/SquareVerifierMain.java" />
       </list>
     </option>
   </component>
@@ -406,7 +394,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4965358" visible="true" weight="0.29591838" />
       <window_info id="Structure" order="1" sideWeight="0.5034642" side_tool="true" weight="0.2540453" />
@@ -851,13 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/squareDigitsTypesConversion/SquareDigitsTypesConversion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/squareDigitsTypesConversion/SquareDigitsTypesConversionMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -865,13 +845,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/is_square/SquareVerifierMain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/is_square/SquareVerifierPositive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/squareDigitsTypesConversion/SquareDigitsTypesConversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -882,12 +866,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/is_square/SquareVerifierPositive.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/is_square/SquareVerifierMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="193">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding>
-            <element signature="e#101#102#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
