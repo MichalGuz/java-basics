@@ -12,12 +12,14 @@ public class SquareVerifierMain {
             Arrays.fill(numbers, i, i + 1, i);
         }
 
+        System.out.println("[Call the isSquareN() method and check the numbers.] ");
         for (int n : numbers) {
             System.out.print("For a number: " + n + " the statement \"this number is square\" = ");
             boolean check = isSquareN(n);
             System.out.println(check + ";");
         }
 
+        System.out.println("\n[Call the isSquareN() method and check the numbers.] ");
         for (int n :numbers) {
             System.out.print("For a number: " + n + " the statement \"this number is square\" = ");
             boolean check = isSquareP(n);
