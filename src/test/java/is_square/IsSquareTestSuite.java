@@ -2,6 +2,8 @@ package is_square;
 
 import org.junit.Test;
 
+import static is_square.SquareVerifierConcise.isSquareConcise;
+
 public class IsSquareTestSuite {
     @Test
     public void testIsSquareConciseWithExamples() {
@@ -14,5 +16,13 @@ public class IsSquareTestSuite {
         int sixteen = 16;
         int seventeen = 17;
 
+        // when
+        boolean checkNegative = isSquareConcise(negative);
+        boolean checkZero = isSquareConcise(zero);
+        boolean checkOne = isSquareConcise(one);
+        boolean checkThree = isSquareConcise(three);
+        boolean checkNine = isSquareConcise(nine);
+        boolean checkSixteen = isSquareConcise(sixteen);
+        boolean checkSeventeen = isSquareConcise(seventeen);
     }
 }
