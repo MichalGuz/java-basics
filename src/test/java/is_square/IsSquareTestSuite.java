@@ -1,5 +1,6 @@
 package is_square;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import static is_square.SquareVerifierConcise.isSquareConcise;
@@ -24,5 +25,14 @@ public class IsSquareTestSuite {
         boolean checkNine = isSquareConcise(nine);
         boolean checkSixteen = isSquareConcise(sixteen);
         boolean checkSeventeen = isSquareConcise(seventeen);
+
+        // then
+        Assert.assertEquals("A negative number isn't square number.", false, checkNegative);
+        Assert.assertEquals("0 is a square number.", true, checkZero);
+        Assert.assertEquals("1 is a square number.", true, checkOne);
+        Assert.assertEquals("3 isn't a square number.", false, checkThree);
+        Assert.assertEquals("9 is a square number.", true, checkNine);
+        Assert.assertEquals("16 is a square number.", true, checkSixteen);
+        Assert.assertEquals("17 is a square number.", false, checkSeventeen);
     }
 }
