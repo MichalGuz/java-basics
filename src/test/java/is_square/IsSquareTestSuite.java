@@ -3,6 +3,8 @@ package is_square;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.Random;
+
 import static is_square.SquareVerifierConcise.isSquareConcise;
 
 public class IsSquareTestSuite {
@@ -37,5 +39,7 @@ public class IsSquareTestSuite {
     }
 
     @Test
-    public void testIsSquareConciseWithRandomNumbers() {
+    public void testIsSquareConciseWithRandomSquareNumbers() {
+
+    }
 }
