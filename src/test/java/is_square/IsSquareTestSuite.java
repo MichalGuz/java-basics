@@ -35,4 +35,7 @@ public class IsSquareTestSuite {
         Assert.assertEquals("16 is a square number.", true, checkSixteen);
         Assert.assertEquals("17 is a square number.", false, checkSeventeen);
     }
+
+    @Test
+    public void testIsSquareConciseWithRandomNumbers() {
 }

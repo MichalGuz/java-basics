@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/is_square/IsSquareTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/is_square/IsSquareTestSuite.java" afterDir="false" />
-    </list>
+    <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -84,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/is_square/IsSquareTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+            <state relative-caret-position="115">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -313,21 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SquareVerifierMain">
-    <configuration name="BuilderBobMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="builder_bob_practice.BuilderBobMain" />
-      <module name="basics.main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="builder_bob_practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.IsSquareTestSuite.testIsSquareConciseWithExamples">
     <configuration name="SquareDigitsCalcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="squareDigitsCalculation.SquareDigitsCalcMain" />
       <module name="basics.main" />
@@ -390,6 +374,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IsSquareTestSuite.testIsSquareConciseWithExamples" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;is_square.IsSquareTestSuite.testIsSquareConciseWithExamples&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -408,11 +412,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.IsSquareTestSuite.testIsSquareConciseWithExamples" />
         <item itemvalue="Application.SquareVerifierMain" />
         <item itemvalue="Application.SquareVerifierNegative" />
         <item itemvalue="Application.SquareDigitsTypesConversionMain" />
         <item itemvalue="Application.SquareDigitsCalcMain" />
-        <item itemvalue="Application.BuilderBobMain" />
       </list>
     </recent_temporary>
   </component>
@@ -451,6 +455,9 @@
     <history-entry file="DrawerTestSuite_testDrawingWithTriangle - 2019.10.03 at 23h 22m 59s.xml">
       <configuration name="DrawerTestSuite.testDrawingWithTriangle" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="IsSquareTestSuite_testIsSquareConciseWithExamples - 2020.04.19 at 21h 52m 38s.xml">
+      <configuration name="IsSquareTestSuite.testIsSquareConciseWithExamples" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -462,8 +469,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1040" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4965358" visible="true" weight="0.30816326" />
       <window_info id="Structure" order="1" sideWeight="0.5034642" side_tool="true" weight="0.2540453" />
@@ -941,8 +947,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/is_square/IsSquareTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+        <state relative-caret-position="115">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
