@@ -40,6 +40,8 @@ public class IsSquareTestSuite {
 
     @Test
     public void testIsSquareConciseWithRandomSquareNumbers() {
+        // given
+        Random random = new Random();
 
     }
 }
