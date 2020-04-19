@@ -48,6 +48,11 @@ public class IsSquareTestSuite {
         int randomNumber4 = random.nextInt(2000);
         int randomNumber5= random.nextInt(2000);
 
+        int square1 = randomNumber1 * randomNumber1;
+        int square2 = randomNumber2 * randomNumber2;
+        int square3 = randomNumber3 * randomNumber3;
+        int square4 = randomNumber4 * randomNumber4;
+        int square5 = randomNumber5 * randomNumber5;
     }
 
 }
