@@ -60,6 +60,13 @@ public class IsSquareTestSuite {
         boolean b3 = isSquareConcise(square3);
         boolean b4 = isSquareConcise(square4);
         boolean b5 = isSquareConcise(square5);
+
+        // then
+        Assert.assertEquals(true, b1);
+        Assert.assertEquals(true, b2);
+        Assert.assertEquals(true, b3);
+        Assert.assertEquals(true, b4);
+        Assert.assertEquals(true, b5);
     }
 
 }
