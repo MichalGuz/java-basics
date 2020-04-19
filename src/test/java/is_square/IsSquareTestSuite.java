@@ -42,6 +42,12 @@ public class IsSquareTestSuite {
     public void testIsSquareConciseWithRandomSquareNumbers() {
         // given
         Random random = new Random();
+        int randomNumber1 = random.nextInt(2000);
+        int randomNumber2 = random.nextInt(2000);
+        int randomNumber3 = random.nextInt(2000);
+        int randomNumber4 = random.nextInt(2000);
+        int randomNumber5= random.nextInt(2000);
 
     }
+
 }
