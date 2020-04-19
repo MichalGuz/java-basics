@@ -53,6 +53,13 @@ public class IsSquareTestSuite {
         int square3 = randomNumber3 * randomNumber3;
         int square4 = randomNumber4 * randomNumber4;
         int square5 = randomNumber5 * randomNumber5;
+
+        // when
+        boolean b1 = isSquareConcise(square1);
+        boolean b2 = isSquareConcise(square2);
+        boolean b3 = isSquareConcise(square3);
+        boolean b4 = isSquareConcise(square4);
+        boolean b5 = isSquareConcise(square5);
     }
 
 }
