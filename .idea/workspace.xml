@@ -2,6 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/is_square/IsSquareTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/is_square/IsSquareTestSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/is_square.IsSquareTestSuite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/is_square.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-is_square.IsSquareTestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/is_square/IsSquareTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/is_square/IsSquareTestSuite.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,7 +43,17 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="basics" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -71,7 +95,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/is_square/SquareVerifierConcise.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
+            <state relative-caret-position="68">
               <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
               <folding>
                 <element signature="e#105#106#0" expanded="true" />
@@ -84,8 +108,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/is_square/IsSquareTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+            <state relative-caret-position="119">
+              <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,20 +120,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/dependency_injection/shape/DrawerTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="331">
               <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -139,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/TwitterService.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/Executor.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/SocialMediaServiceInjector.java" />
@@ -189,6 +203,7 @@
         <option value="$PROJECT_DIR$/src/main/java/is_square/SquareVerifierNegative.java" />
         <option value="$PROJECT_DIR$/src/main/java/is_square/SquareVerifierMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/is_square/SquareVerifierConcise.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/is_square/IsSquareTestSuite.java" />
       </list>
     </option>
@@ -205,7 +220,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,6 +287,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -314,34 +329,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Gradle.IsSquareTestSuite.testIsSquareConciseWithExamples">
-    <configuration name="SquareDigitsCalcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="squareDigitsCalculation.SquareDigitsCalcMain" />
-      <module name="basics.main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="squareDigitsCalculation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SquareDigitsTypesConversionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="squareDigitsTypesConversion.SquareDigitsTypesConversionMain" />
-      <module name="basics.main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="squareDigitsTypesConversion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SquareVerifierMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="is_square.SquareVerifierMain" />
       <module name="basics.main" />
@@ -376,12 +363,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DrawerTestSuite.testDrawingWithTriangle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;dependency_injection.shape.DrawerTestSuite.testDrawingWithTriangle&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="IsSquareTestSuite.testIsSquareConciseWithExamples" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;is_square.IsSquareTestSuite.testIsSquareConciseWithExamples&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="IsSquareTestSuite.testIsSquareConciseWithRandomSquareNumbers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;is_square.IsSquareTestSuite.testIsSquareConciseWithRandomSquareNumbers&quot; --stacktrace" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -415,10 +442,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.IsSquareTestSuite.testIsSquareConciseWithExamples" />
+        <item itemvalue="Gradle.IsSquareTestSuite.testIsSquareConciseWithRandomSquareNumbers" />
+        <item itemvalue="Gradle.DrawerTestSuite.testDrawingWithTriangle" />
         <item itemvalue="Application.SquareVerifierMain" />
         <item itemvalue="Application.SquareVerifierNegative" />
-        <item itemvalue="Application.SquareDigitsTypesConversionMain" />
-        <item itemvalue="Application.SquareDigitsCalcMain" />
       </list>
     </recent_temporary>
   </component>
@@ -436,28 +463,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DrawerTestSuite_testProcessDraw - 2019.10.03 at 22h 35m 22s.xml">
-      <configuration name="DrawerTestSuite.testProcessDraw" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="DrawerTestSuite_testProcessDraw - 2019.10.03 at 22h 35m 23s.xml">
-      <configuration name="DrawerTestSuite.testProcessDraw" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="DrawerTestSuite_testProcessDraw - 2019.10.03 at 22h 39m 27s.xml">
-      <configuration name="DrawerTestSuite.testProcessDraw" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="DrawerTestSuite_testProcessDraw - 2019.10.03 at 22h 39m 33s.xml">
-      <configuration name="DrawerTestSuite.testProcessDraw" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="DrawerTestSuite_testProcessDraw - 2019.10.03 at 23h 13m 31s.xml">
-      <configuration name="DrawerTestSuite.testProcessDraw" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="DrawerTestSuite_testDrawingWithCircle - 2019.10.03 at 23h 19m 21s.xml">
-      <configuration name="DrawerTestSuite.testDrawingWithCircle" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="DrawerTestSuite_testDrawingWithTriangle - 2019.10.03 at 23h 22m 59s.xml">
       <configuration name="DrawerTestSuite.testDrawingWithTriangle" configurationId="GradleRunConfiguration" />
     </history-entry>
     <history-entry file="IsSquareTestSuite_testIsSquareConciseWithExamples - 2020.04.19 at 21h 52m 38s.xml">
+      <configuration name="IsSquareTestSuite.testIsSquareConciseWithExamples" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="IsSquareTestSuite_testIsSquareConciseWithRandomSquareNumbers - 2020.04.19 at 22h 54m 04s.xml">
+      <configuration name="IsSquareTestSuite.testIsSquareConciseWithRandomSquareNumbers" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="IsSquareTestSuite_testIsSquareConciseWithRandomSquareNumbers - 2020.04.21 at 20h 36m 27s.xml">
+      <configuration name="IsSquareTestSuite.testIsSquareConciseWithRandomSquareNumbers" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="IsSquareTestSuite_testIsSquareConciseWithRandomSquareNumbers - 2020.04.21 at 20h 38m 00s.xml">
+      <configuration name="IsSquareTestSuite.testIsSquareConciseWithRandomSquareNumbers" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="IsSquareTestSuite_testIsSquareConciseWithExamples - 2020.04.21 at 20h 39m 07s.xml">
+      <configuration name="IsSquareTestSuite.testIsSquareConciseWithExamples" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="IsSquareTestSuite_testIsSquareConciseWithExamples - 2020.04.21 at 20h 40m 03s.xml">
+      <configuration name="IsSquareTestSuite.testIsSquareConciseWithExamples" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="DrawerTestSuite_testDrawingWithTriangle - 2020.04.21 at 20h 41m 50s.xml">
+      <configuration name="DrawerTestSuite.testDrawingWithTriangle" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="IsSquareTestSuite_testIsSquareConciseWithRandomSquareNumbers - 2020.04.21 at 20h 43m 09s.xml">
+      <configuration name="IsSquareTestSuite.testIsSquareConciseWithRandomSquareNumbers" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="IsSquareTestSuite_testIsSquareConciseWithExamples - 2020.04.21 at 20h 43m 26s.xml">
       <configuration name="IsSquareTestSuite.testIsSquareConciseWithExamples" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
@@ -471,10 +504,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4965358" visible="true" weight="0.3131068" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4965358" visible="true" weight="0.3265306" />
       <window_info id="Structure" order="1" sideWeight="0.5034642" side_tool="true" weight="0.2540453" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -483,13 +516,13 @@
       <window_info id="Favorites" order="6" sideWeight="0.503876" side_tool="true" weight="0.2540453" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3267974" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4979592" visible="true" weight="0.3251634" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4979592" visible="true" weight="0.35559008" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5020408" side_tool="true" weight="0.35620916" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4979592" weight="0.35457516" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5020408" side_tool="true" weight="0.3251634" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32843137" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -498,7 +531,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.32959184" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -568,17 +601,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/journaldev/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/journaldev/SocialMediaServiceInjector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -913,24 +935,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/is_square/SquareVerifierConcise.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/squareDigitsTypesConversion/SquareDigitsTypesConversionMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-          <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#149#150#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dependency_injection/shape/DrawerTestSuite.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -941,17 +956,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/squareDigitsTypesConversion/SquareDigitsTypesConversionMain.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/dependency_injection/shape/DrawerTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        <state relative-caret-position="331">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is_square/SquareVerifierConcise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/is_square/IsSquareTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+        <state relative-caret-position="119">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

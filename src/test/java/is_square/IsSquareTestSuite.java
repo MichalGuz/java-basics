@@ -40,33 +40,6 @@ public class IsSquareTestSuite {
 
     @Test
     public void testIsSquareConciseWithRandomSquareNumbers() {
-        // given
-        Random random = new Random();
-        int randomNumber1 = random.nextInt(2000);
-        int randomNumber2 = random.nextInt(2000);
-        int randomNumber3 = random.nextInt(2000);
-        int randomNumber4 = random.nextInt(2000);
-        int randomNumber5= random.nextInt(2000);
-
-        int square1 = randomNumber1 * randomNumber1;
-        int square2 = randomNumber2 * randomNumber2;
-        int square3 = randomNumber3 * randomNumber3;
-        int square4 = randomNumber4 * randomNumber4;
-        int square5 = randomNumber5 * randomNumber5;
-
-        // when
-        boolean b1 = isSquareConcise(square1);
-        boolean b2 = isSquareConcise(square2);
-        boolean b3 = isSquareConcise(square3);
-        boolean b4 = isSquareConcise(square4);
-        boolean b5 = isSquareConcise(square5);
-
-        // then
-        Assert.assertEquals(true, b1);
-        Assert.assertEquals(true, b2);
-        Assert.assertEquals(true, b3);
-        Assert.assertEquals(true, b4);
-        Assert.assertEquals(true, b5);
     }
 
 }
