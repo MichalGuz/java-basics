@@ -29,13 +29,13 @@ public class IsSquareTestSuite {
         boolean checkSeventeen = isSquareConcise(seventeen);
 
         // then
-        Assert.assertEquals("A negative number isn't square number.", false, checkNegative);
-        Assert.assertEquals("0 is a square number.", true, checkZero);
-        Assert.assertEquals("1 is a square number.", true, checkOne);
-        Assert.assertEquals("3 isn't a square number.", false, checkThree);
-        Assert.assertEquals("9 is a square number.", true, checkNine);
-        Assert.assertEquals("16 is a square number.", true, checkSixteen);
-        Assert.assertEquals("17 is a square number.", false, checkSeventeen);
+        Assert.assertFalse("A negative number isn't square number.", checkNegative);
+        Assert.assertTrue("0 is a square number.", checkZero);
+        Assert.assertTrue("1 is a square number.", checkOne);
+        Assert.assertFalse("3 isn't a square number.", checkThree);
+        Assert.assertTrue("9 is a square number.", checkNine);
+        Assert.assertTrue("16 is a square number.", checkSixteen);
+        Assert.assertFalse("17 is a square number.", checkSeventeen);
     }
 
     @Test
