@@ -10,4 +10,9 @@ public class PhoneNumberCreator {
         System.out.println(number);
         return number;
     }
+
+    public static void main(String[] args) {
+        PhoneNumberCreator test = new PhoneNumberCreator();
+
+    }
 }
