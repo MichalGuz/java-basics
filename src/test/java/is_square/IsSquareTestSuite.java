@@ -41,6 +41,9 @@ public class IsSquareTestSuite {
     @Test
     public void testIsSquareConciseWithRandomSquareNumbers() {
         Random random = new Random();
+        for(int i = 0; i < 200; i++) {
+
+        }
     }
 
 }
