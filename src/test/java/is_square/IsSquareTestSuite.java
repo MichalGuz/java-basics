@@ -42,7 +42,7 @@ public class IsSquareTestSuite {
     public void testIsSquareConciseWithRandomSquareNumbers() {
         Random random = new Random();
         for(int i = 0; i < 200; i++) {
-
+            int r = random.nextInt(2000);
         }
     }
 
