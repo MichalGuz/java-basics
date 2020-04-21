@@ -4,7 +4,7 @@ public class PhoneNumberCreator {
     String number = "";
     public String createPhoneNumber(int[] n) {
         for(int num: n) {
-
+            number = number + num;
         }
 
     }
