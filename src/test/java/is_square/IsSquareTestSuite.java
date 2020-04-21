@@ -44,6 +44,7 @@ public class IsSquareTestSuite {
         for(int i = 0; i < 200; i++) {
             int r = random.nextInt(2000);
             boolean result = isSquareConcise(r * r);
+            System.out.println("Attempt #" + i + " - square number = " + r * r + "; result: " + result);
             Assert.assertTrue(result);
         }
     }
