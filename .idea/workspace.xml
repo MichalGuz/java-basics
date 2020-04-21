@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/is_square/IsSquareTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/is_square/IsSquareTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array_phone_number/PhoneNumberCreator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -91,14 +91,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/is_square/IsSquareTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+            <state relative-caret-position="142">
+              <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/array_phone_number/PhoneNumberCreator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -140,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/Executor.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/SocialMediaServiceInjector.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/MessengerInjector.java" />
@@ -191,10 +199,11 @@
         <option value="$PROJECT_DIR$/src/main/java/is_square/SquareVerifierConcise.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/is_square/IsSquareTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/array_phone_number/PhoneNumberCreator.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="24" />
     <option name="y" value="18" />
     <option name="width" value="1260" />
@@ -237,7 +246,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="is_square" type="462c0819:PsiDirectoryNode" />
+              <item name="array_phone_number" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="basics" type="b2602c69:ProjectViewProjectNode" />
@@ -449,24 +458,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DrawerTestSuite_testDrawingWithTriangle - 2019.10.03 at 23h 22m 59s.xml">
-      <configuration name="DrawerTestSuite.testDrawingWithTriangle" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="IsSquareTestSuite_testIsSquareConciseWithExamples - 2020.04.19 at 21h 52m 38s.xml">
-      <configuration name="IsSquareTestSuite.testIsSquareConciseWithExamples" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="IsSquareTestSuite_testIsSquareConciseWithRandomSquareNumbers - 2020.04.19 at 22h 54m 04s.xml">
-      <configuration name="IsSquareTestSuite.testIsSquareConciseWithRandomSquareNumbers" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="IsSquareTestSuite_testIsSquareConciseWithRandomSquareNumbers - 2020.04.21 at 20h 36m 27s.xml">
-      <configuration name="IsSquareTestSuite.testIsSquareConciseWithRandomSquareNumbers" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="IsSquareTestSuite_testIsSquareConciseWithRandomSquareNumbers - 2020.04.21 at 20h 38m 00s.xml">
-      <configuration name="IsSquareTestSuite.testIsSquareConciseWithRandomSquareNumbers" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="IsSquareTestSuite_testIsSquareConciseWithExamples - 2020.04.21 at 20h 39m 07s.xml">
-      <configuration name="IsSquareTestSuite.testIsSquareConciseWithExamples" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="IsSquareTestSuite_testIsSquareConciseWithExamples - 2020.04.21 at 20h 40m 03s.xml">
       <configuration name="IsSquareTestSuite.testIsSquareConciseWithExamples" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -477,6 +468,24 @@
       <configuration name="IsSquareTestSuite.testIsSquareConciseWithRandomSquareNumbers" configurationId="GradleRunConfiguration" />
     </history-entry>
     <history-entry file="IsSquareTestSuite_testIsSquareConciseWithExamples - 2020.04.21 at 20h 43m 26s.xml">
+      <configuration name="IsSquareTestSuite.testIsSquareConciseWithExamples" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="IsSquareTestSuite_testIsSquareConciseWithRandomSquareNumbers - 2020.04.21 at 21h 02m 57s.xml">
+      <configuration name="IsSquareTestSuite.testIsSquareConciseWithRandomSquareNumbers" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="IsSquareTestSuite_testIsSquareConciseWithRandomSquareNumbers - 2020.04.21 at 21h 04m 23s.xml">
+      <configuration name="IsSquareTestSuite.testIsSquareConciseWithRandomSquareNumbers" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="IsSquareTestSuite_testIsSquareConciseWithRandomSquareNumbers - 2020.04.21 at 21h 06m 08s.xml">
+      <configuration name="IsSquareTestSuite.testIsSquareConciseWithRandomSquareNumbers" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="IsSquareTestSuite_testIsSquareConciseWithRandomSquareNumbers - 2020.04.21 at 21h 06m 48s.xml">
+      <configuration name="IsSquareTestSuite.testIsSquareConciseWithRandomSquareNumbers" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="IsSquareTestSuite_testIsSquareConciseWithRandomSquareNumbers - 2020.04.21 at 21h 07m 44s.xml">
+      <configuration name="IsSquareTestSuite.testIsSquareConciseWithRandomSquareNumbers" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="IsSquareTestSuite_testIsSquareConciseWithExamples - 2020.04.21 at 21h 12m 55s.xml">
       <configuration name="IsSquareTestSuite.testIsSquareConciseWithExamples" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
@@ -490,10 +499,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1040" height="744" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4965358" visible="true" weight="0.3265306" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4965358" visible="true" weight="0.3265306" />
       <window_info id="Structure" order="1" sideWeight="0.5034642" side_tool="true" weight="0.2540453" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -507,7 +515,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4979592" visible="true" weight="0.35457516" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4979592" visible="true" weight="0.35457516" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5020408" side_tool="true" weight="0.3251634" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32843137" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
@@ -587,13 +595,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/journaldev/SocialMediaServiceInjector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/journaldev/MessengerInjector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -965,11 +966,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/is_square/IsSquareTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+        <state relative-caret-position="142">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/array_phone_number/PhoneNumberCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
