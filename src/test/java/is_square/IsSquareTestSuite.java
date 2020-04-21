@@ -43,6 +43,7 @@ public class IsSquareTestSuite {
         Random random = new Random();
         for(int i = 0; i < 200; i++) {
             int r = random.nextInt(2000);
+            boolean result = isSquareConcise(r * r);
         }
     }
 
