@@ -7,6 +7,6 @@ public class PhoneNumberCreator {
             number = number + num;
         }
         number = "(" + number.substring(0,3) + ") " + number.substring(3,6) + "-" + number.substring(6,9);
-
+        System.out.println(number);
     }
 }
