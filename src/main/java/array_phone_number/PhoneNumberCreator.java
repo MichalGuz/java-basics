@@ -13,6 +13,6 @@ public class PhoneNumberCreator {
 
     public static void main(String[] args) {
         PhoneNumberCreator test = new PhoneNumberCreator();
-
+        int[] digits = {6,6,5,4,5,5,6,6,6};
     }
 }
