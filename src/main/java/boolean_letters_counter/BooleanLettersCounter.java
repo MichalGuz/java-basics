@@ -6,9 +6,9 @@ public class BooleanLettersCounter {
         int oCounter = 0;
         char[] letters = n.toCharArray();
         for(char let: letters) {
-            if (let == 'x') {
+            if (let == 'x' || let == 'X' ) {
                 xCounter++;
-            } if (let == 'o') {
+            } if (let == 'o' || let == 'O') {
                 oCounter++;
             }
         }

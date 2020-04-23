@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="boolean_letters_counter.BooleanLettersCounterTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-23T19:26:15" hostname="Dell-Komputer" time="0.031">
+  <properties/>
+  <testcase name="testcompareAmountOfXAndOLetters" classname="boolean_letters_counter.BooleanLettersCounterTestSuite" time="0.031"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

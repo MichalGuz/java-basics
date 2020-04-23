@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/boolean_letters_counter/BooleanLettersCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/boolean_letters_counter/BooleanLettersCounter.java" afterDir="false" />
-    </list>
+    <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -115,8 +113,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/boolean_letters_counter/BooleanLettersCounter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            <state relative-caret-position="289">
+              <caret line="17" column="21" selection-start-line="4" selection-start-column="8" selection-end-line="17" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/boolean_letters_counter/BooleanLettersCounterTestSuite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/SocialMediaServiceInjector.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/MessengerInjector.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/TwitterInjector.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/journaldev/SocialMediaServiceMessageMain.java" />
@@ -209,10 +218,11 @@
         <option value="$PROJECT_DIR$/src/test/java/is_square/IsSquareTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/array_phone_number/PhoneNumberCreator.java" />
         <option value="$PROJECT_DIR$/src/main/java/boolean_letters_counter/BooleanLettersCounter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/boolean_letters_counter/BooleanLettersCounterTestSuite.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="24" />
     <option name="y" value="18" />
     <option name="width" value="1260" />
@@ -277,6 +287,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boolean_letters_counter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="shape" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -332,7 +350,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BooleanLettersCounter">
+  <component name="RunManager" selected="Gradle.BooleanLettersCounterTestSuite.testcompareAmountOfXAndOLetters">
     <configuration name="BooleanLettersCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boolean_letters_counter.BooleanLettersCounter" />
       <module name="basics.main" />
@@ -367,12 +385,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DrawerTestSuite.testDrawingWithTriangle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BooleanLettersCounterTestSuite.testcompareAmountOfXAndOLetters" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dependency_injection.shape.DrawerTestSuite.testDrawingWithTriangle&quot;" />
+        <option name="scriptParameters" value="--tests &quot;boolean_letters_counter.BooleanLettersCounterTestSuite.testcompareAmountOfXAndOLetters&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -445,11 +463,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BooleanLettersCounterTestSuite.testcompareAmountOfXAndOLetters" />
         <item itemvalue="Application.BooleanLettersCounter" />
         <item itemvalue="Application.PhoneNumberCreator" />
         <item itemvalue="Gradle.IsSquareTestSuite.testIsSquareConciseWithExamples" />
         <item itemvalue="Gradle.IsSquareTestSuite.testIsSquareConciseWithRandomSquareNumbers" />
-        <item itemvalue="Gradle.DrawerTestSuite.testDrawingWithTriangle" />
       </list>
     </recent_temporary>
   </component>
@@ -520,12 +538,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.503876" side_tool="true" weight="0.2540453" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4979592" weight="0.3251634" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4979592" visible="true" weight="0.3251634" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4979592" visible="true" weight="0.35457516" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4979592" weight="0.35457516" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5020408" side_tool="true" weight="0.3251634" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32843137" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
@@ -605,13 +623,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/journaldev/TwitterInjector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/journaldev/SocialMediaServiceMessageMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -974,10 +985,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/boolean_letters_counter/BooleanLettersCounterTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/boolean_letters_counter/BooleanLettersCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="289">
+          <caret line="17" column="21" selection-start-line="4" selection-start-column="8" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>

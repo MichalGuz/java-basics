@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="is_square.IsSquareTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-21T19:12:55" hostname="Dell-Komputer" time="0.008">
-  <properties/>
-  <testcase name="testIsSquareConciseWithExamples" classname="is_square.IsSquareTestSuite" time="0.008"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
