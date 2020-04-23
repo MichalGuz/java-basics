@@ -4,6 +4,7 @@ public class BooleanLettersCounter {
     public boolean compareAmountOfXAndOLetters(String n) {
         int xCounter = 0;
         int oCounter = 0;
+        char[] letters = n.toCharArray();
         return false;
     }
 
