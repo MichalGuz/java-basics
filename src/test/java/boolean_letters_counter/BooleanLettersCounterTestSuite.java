@@ -37,5 +37,7 @@ public class BooleanLettersCounterTestSuite {
         Assert.assertFalse(attempt5);
         Assert.assertFalse(attempt6);
         Assert.assertTrue(attempt7);
+        Assert.assertTrue(attempt8);
+        Assert.assertTrue(attempt9);
     }
 }
