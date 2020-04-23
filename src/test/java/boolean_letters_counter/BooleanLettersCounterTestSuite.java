@@ -1,5 +1,6 @@
 package boolean_letters_counter;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class BooleanLettersCounterTestSuite {
@@ -23,5 +24,14 @@ public class BooleanLettersCounterTestSuite {
         boolean attempt5 = b.compareAmountOfXAndOLetters(s5);
         boolean attempt6 = b.compareAmountOfXAndOLetters(s6);
         boolean attempt7 = b.compareAmountOfXAndOLetters(s7);
+
+        //then
+        Assert.assertTrue(attempt1);
+        Assert.assertFalse(attempt2);
+        Assert.assertTrue(attempt3);
+        Assert.assertTrue(attempt4);
+        Assert.assertFalse(attempt5);
+        Assert.assertFalse(attempt6);
+        Assert.assertTrue(attempt7);
     }
 }
