@@ -5,7 +5,13 @@ public class BooleanLettersCounter {
         int xCounter = 0;
         int oCounter = 0;
         char[] letters = n.toCharArray();
+        for(char let: letters) {
+            if(let=='x') {
+                xCounter++;
+            }
+        }
         return false;
+
     }
 
 }
