@@ -15,6 +15,8 @@ public class BooleanLettersCounterTestSuite {
         String s5 = "ooooooooooooo";
         String s6 = "xxxxxxx";
         String s7 = "xpoxoppoxopxpoxxopxopxopxpoxpoopxopx";
+        String s8 = "Xoprxo";
+        String s9 = "lllOOOxxX";
 
         //when
         boolean attempt1 = b.compareAmountOfXAndOLetters(s1);
@@ -24,6 +26,8 @@ public class BooleanLettersCounterTestSuite {
         boolean attempt5 = b.compareAmountOfXAndOLetters(s5);
         boolean attempt6 = b.compareAmountOfXAndOLetters(s6);
         boolean attempt7 = b.compareAmountOfXAndOLetters(s7);
+        boolean attempt8 = b.compareAmountOfXAndOLetters(s8);
+        boolean attempt9 = b.compareAmountOfXAndOLetters(s9);
 
         //then
         Assert.assertTrue(attempt1);
