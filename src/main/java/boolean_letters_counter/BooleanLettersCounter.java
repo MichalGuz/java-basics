@@ -8,7 +8,7 @@ public class BooleanLettersCounter {
         for(char let: letters) {
             if (let == 'x' || let == 'X' ) {
                 xCounter++;
-            } if (let == 'o' || let == 'O') {
+            } else if (let == 'o' || let == 'O') {
                 oCounter++;
             }
         }
