@@ -12,10 +12,7 @@ public class BooleanLettersCounter {
                 oCounter++;
             }
         }
-        if (xCounter == oCounter) {
-            return true;
-        }
-        return false;
+        return xCounter == oCounter;
     }
 
 }
