@@ -21,6 +21,9 @@ public class MumbledLetters {
             String retrievedLetter = Character.toString((char) Array.get(letters, i));
             for (int j = 1; j <= counter; j++) {
                 temporaryString = retrievedLetter.toLowerCase();
+                if ( j > 1) {
+
+                }
             }
         }
     }
