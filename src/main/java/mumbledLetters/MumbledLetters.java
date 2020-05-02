@@ -25,8 +25,10 @@ public class MumbledLetters {
                     for (int k = 1; k < counter; k++) {
                         temporaryString = temporaryString + retrievedLetter;
                     }
-
                 }
+            }
+            if ( i < letters.length - 1) {
+
             }
         }
     }
