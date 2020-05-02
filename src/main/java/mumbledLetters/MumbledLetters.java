@@ -22,6 +22,9 @@ public class MumbledLetters {
             for (int j = 1; j <= counter; j++) {
                 temporaryString = retrievedLetter.toLowerCase();
                 if ( j > 1) {
+                    for (int k = 1; k < counter; k++) {
+
+                    }
 
                 }
             }
