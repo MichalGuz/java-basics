@@ -15,10 +15,10 @@ public class MumbledLetters {
         n = n.toLowerCase();
         char[] letters = n.toCharArray();
         int counter = 1;
-        String retrievedLetter = "";
+        String temporaryString = "";
         String result = "";
         for (int i = 0; i < letters.length; i++ ){
-            retrievedLetter = Character.toString((char) Array.get(letters, i));
+            String retrievedLetter = Character.toString((char) Array.get(letters, i));
 
         }
     }
