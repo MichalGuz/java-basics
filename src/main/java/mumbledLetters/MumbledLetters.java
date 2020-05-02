@@ -12,5 +12,8 @@ public class MumbledLetters {
     public static String accum(String n) {
         n = n.toLowerCase();
         char[] letters = n.toCharArray();
+        int counter = 1;
+        String retrievedLetter = "";
+        String result = "";
     }
 }
