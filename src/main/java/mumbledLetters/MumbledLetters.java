@@ -30,7 +30,7 @@ public class MumbledLetters {
             if ( i < letters.length - 1) {
                 temporaryString = temporaryString + "-";
             }
-            result = temporaryString + result;
+            result = result + temporaryString;
             counter++;
         }
     }
