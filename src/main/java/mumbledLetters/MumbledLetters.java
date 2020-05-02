@@ -10,7 +10,7 @@ public class MumbledLetters {
     //  The parameter of accum is a string which includes only letters from a..z and A..Z.
 
     public static String accum(String n) {
-        n.toLowerCase();
+        n = n.toLowerCase();
         char[] letters = n.toCharArray();
     }
 }
