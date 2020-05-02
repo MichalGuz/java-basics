@@ -33,5 +33,7 @@ public class MumbledLetters {
             result = result + temporaryString;
             counter++;
         }
+        System.out.println("The result of accum() method is: " + result);
+        return result;
     }
 }
