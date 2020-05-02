@@ -1,5 +1,7 @@
 package mumbledLetters;
 
+import java.lang.reflect.Array;
+
 public class MumbledLetters {
 
     //  Write function accum
@@ -16,6 +18,7 @@ public class MumbledLetters {
         String retrievedLetter = "";
         String result = "";
         for (int i = 0; i < letters.length; i++ ){
+            retrievedLetter = Character.toString((char) Array.get(letters, i));
 
         }
     }
