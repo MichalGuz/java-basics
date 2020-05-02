@@ -15,5 +15,8 @@ public class MumbledLetters {
         int counter = 1;
         String retrievedLetter = "";
         String result = "";
+        for (int i = 0; i < letters.length; i++ ){
+
+        }
     }
 }
