@@ -28,7 +28,7 @@ public class MumbledLetters {
                 }
             }
             if ( i < letters.length - 1) {
-
+                temporaryString = temporaryString + "-";
             }
         }
     }
