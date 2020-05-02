@@ -1,5 +1,6 @@
 package mumbled_letters;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import static mumbled_letters.MumbledLetters.accum;
@@ -11,6 +12,8 @@ public class MumbledLettersTestSuite {
         String n = "AbCd";
 
         // when
-        accum(n);
+        String result = accum(n);
+
+
     }
 }
