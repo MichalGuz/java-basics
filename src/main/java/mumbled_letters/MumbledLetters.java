@@ -1,4 +1,4 @@
-package mumbledLetters;
+package mumbled_letters;
 
 import java.lang.reflect.Array;
 
