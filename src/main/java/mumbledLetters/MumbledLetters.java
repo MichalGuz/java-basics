@@ -23,7 +23,7 @@ public class MumbledLetters {
                 temporaryString = retrievedLetter.toLowerCase();
                 if ( j > 1) {
                     for (int k = 1; k < counter; k++) {
-
+                        temporaryString = temporaryString + retrievedLetter;
                     }
 
                 }
