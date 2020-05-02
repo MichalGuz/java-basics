@@ -19,7 +19,9 @@ public class MumbledLetters {
         String result = "";
         for (int i = 0; i < letters.length; i++ ){
             String retrievedLetter = Character.toString((char) Array.get(letters, i));
+            for (int j = 1; j <= counter; j++) {
 
+            }
         }
     }
 }
