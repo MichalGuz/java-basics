@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="" />
+    <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/mumbled_letters/MumbledLettersShorterVer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mumbled_letters/MumbledLettersShorterVer.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -46,11 +48,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mumbled_letters/MumbledLetters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="301">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mumbled_letters/MumbledLettersShorterVer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+              <folding>
+                <element signature="e#109#110#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/mumbled_letters/MumbledLettersTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            <state relative-caret-position="187">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/my/Message.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/my/EmailMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/my/SmsMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/my/MessageProcessor.java" />
@@ -134,6 +148,7 @@
         <option value="$PROJECT_DIR$/src/main/java/mumbledLetters/MumbledLetters.java" />
         <option value="$PROJECT_DIR$/src/test/java/mumbled_letters/MumbledLettersTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/mumbled_letters/MumbledLetters.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mumbled_letters/MumbledLettersShorterVer.java" />
       </list>
     </option>
   </component>
@@ -149,6 +164,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,14 +190,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basics" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="array_phone_number" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="basics" type="b2602c69:ProjectViewProjectNode" />
@@ -231,8 +240,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -445,7 +452,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4965358" visible="true" weight="0.35679612" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4965358" visible="true" weight="0.36245954" />
       <window_info id="Structure" order="1" sideWeight="0.5034642" side_tool="true" weight="0.2540453" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -539,13 +546,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/my/SmsMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dependency_injection/my/MessageProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -903,20 +903,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mumbled_letters/MumbledLetters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/mumbled_letters/MumbledLettersTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state relative-caret-position="187">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mumbled_letters/MumbledLetters.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mumbled_letters/MumbledLettersShorterVer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="51">
+          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
