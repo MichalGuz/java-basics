@@ -7,7 +7,7 @@ public class MumbledLettersShorterVer {
         for (int i = 0; i < charArray.length; i++) {
             for (int k = 0; k < i + 1; k++) {
                 if (k == 0) {
-
+                    str += Character.toUpperCase(charArray[i]);
                 }
             }
         }
