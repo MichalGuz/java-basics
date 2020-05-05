@@ -4,8 +4,12 @@ public class MumbledLettersShorterVer {
     public static String acuumShorterVer(String s) {
         char[] charArray = s.toLowerCase().toCharArray();
         String str = "";
-        for(int i = 0; i < charArray.length; i++) {
-            for(int k = 0; k < i+1; k++){
+        for (int i = 0; i < charArray.length; i++) {
+            for (int k = 0; k < i + 1; k++) {
+                if (k == 0) {
+
+                }
+            }
         }
     }
 }
