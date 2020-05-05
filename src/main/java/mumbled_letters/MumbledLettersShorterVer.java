@@ -12,6 +12,8 @@ public class MumbledLettersShorterVer {
                     str += charArray[i];
             }
         }
-            if(i != charArray.length-1){
+            if(i != charArray.length-1) {
+                str+= "-";
+            }
     }
 }
