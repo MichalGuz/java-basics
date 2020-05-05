@@ -8,12 +8,14 @@ public class MumbledLettersShorterVer {
             for (int k = 0; k < i + 1; k++) {
                 if (k == 0) {
                     str += Character.toUpperCase(charArray[i]);
-                } else{
+                } else {
                     str += charArray[i];
+                }
+            }
+            if (i != charArray.length - 1) {
+                str += "-";
             }
         }
-            if(i != charArray.length-1) {
-                str+= "-";
-            }
+        return str;
     }
 }
