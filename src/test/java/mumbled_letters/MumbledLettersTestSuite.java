@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import static mumbled_letters.MumbledLetters.accum;
+import static mumbled_letters.MumbledLettersShorterVer.accumShorterVer;
 
 public class MumbledLettersTestSuite {
     @Test
@@ -23,6 +24,8 @@ public class MumbledLettersTestSuite {
         // given
         String n = "xYZv";
 
+        // when
+        String result = accumShorterVer(n);
 
 
     }
