@@ -17,4 +17,9 @@ public class MumbledLettersTestSuite {
         // then
         Assert.assertEquals("A-Bb-Ccc-Dddd", result);
     }
+
+    @Test
+    public void testAccumShorterVer() {
+
+    }
 }
