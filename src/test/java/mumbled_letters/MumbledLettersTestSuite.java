@@ -20,6 +20,10 @@ public class MumbledLettersTestSuite {
 
     @Test
     public void testAccumShorterVer() {
+        // given
+        String n = "xYZv";
+
+
 
     }
 }
