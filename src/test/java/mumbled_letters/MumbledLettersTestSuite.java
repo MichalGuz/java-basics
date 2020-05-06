@@ -27,6 +27,7 @@ public class MumbledLettersTestSuite {
         // when
         String result = accumShorterVer(n);
 
-
+        // then
+        Assert.assertEquals("X-Yy-Zzz-Vvvv", result);
     }
 }
