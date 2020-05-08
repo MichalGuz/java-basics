@@ -5,7 +5,9 @@ public class MumbledLettersWithStringBuilder {
         StringBuilder bldr = new StringBuilder();
         int i = 0;
         for(char c : s.toCharArray()) {
-            if(i > 0) bldr.append('-');
+            if(i > 0) {
+                bldr.append('-');
+            }
             bldr.append(Character.toUpperCase(c));
             for(int j = 0; j < i; j++) {
                 bldr.append(Character.toLowerCase(c));
