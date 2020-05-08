@@ -12,5 +12,6 @@ public class MumbledLettersWithStringBuilder {
             }
             i++;
         }
+        return bldr.toString();
     }
 }
