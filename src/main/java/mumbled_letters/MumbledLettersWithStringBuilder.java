@@ -10,6 +10,7 @@ public class MumbledLettersWithStringBuilder {
             for(int j = 0; j < i; j++) {
                 bldr.append(Character.toLowerCase(c));
             }
+            i++;
         }
     }
 }
