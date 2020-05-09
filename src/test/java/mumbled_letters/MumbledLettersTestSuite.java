@@ -30,4 +30,9 @@ public class MumbledLettersTestSuite {
         // then
         Assert.assertEquals("X-Yy-Zzz-Vvvv", result);
     }
+
+    @Test
+    public void testAccumStringBuild() {
+
+    }
 }
