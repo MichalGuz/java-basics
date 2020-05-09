@@ -5,6 +5,7 @@ import org.junit.Test;
 
 import static mumbled_letters.MumbledLetters.accum;
 import static mumbled_letters.MumbledLettersShorterVer.accumShorterVer;
+import static mumbled_letters.MumbledLettersWithStringBuilder.accumStringBuild;
 
 public class MumbledLettersTestSuite {
     @Test
@@ -35,5 +36,8 @@ public class MumbledLettersTestSuite {
     public void testAccumStringBuild() {
         // given
         String n = "oPqRsT";
+
+        // when
+        String results = accumStringBuild(n);
     }
 }
