@@ -39,5 +39,8 @@ public class MumbledLettersTestSuite {
 
         // when
         String results = accumStringBuild(n);
+
+        // then
+        Assert.assertEquals("O-Pp-Qqq-Rrrr-Sssss-Tttttt", results);
     }
 }
