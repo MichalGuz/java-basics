@@ -33,6 +33,7 @@ public class MumbledLettersTestSuite {
 
     @Test
     public void testAccumStringBuild() {
-
+        // given
+        String n = "oPqRsT";
     }
 }
