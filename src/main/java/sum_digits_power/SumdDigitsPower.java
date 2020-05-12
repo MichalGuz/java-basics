@@ -12,5 +12,7 @@ public class SumdDigitsPower {
         for (long i = a; i < b+1; i++) {
             inputNums.add(i);
         }
+        for (Long x: inputNums) {}
+
     }
 }
