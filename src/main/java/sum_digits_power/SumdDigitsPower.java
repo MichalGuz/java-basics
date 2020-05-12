@@ -13,6 +13,6 @@ public class SumdDigitsPower {
             inputNums.add(i);
         }
         for (Long x: inputNums) {}
-
+        return output;
     }
 }
