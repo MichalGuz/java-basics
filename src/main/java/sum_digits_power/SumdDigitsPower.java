@@ -7,5 +7,8 @@ public class SumdDigitsPower {
     public static Long[] sumDigitsPower(Long a, Long b) {
         List<Long> inputNums = new ArrayList<>();
         List<Long> outputInts = new ArrayList<>();
+        Long[] inputArray = new Long[inputNums.size()];
+        Long[] output = new Long[outputInts.size()];
+
     }
 }
