@@ -9,6 +9,8 @@ public class SumdDigitsPower {
         List<Long> outputInts = new ArrayList<>();
         Long[] inputArray = new Long[inputNums.size()];
         Long[] output = new Long[outputInts.size()];
-
+        for (long i = a; i < b+1; i++) {
+            inputNums.add(i);
+        }
     }
 }
