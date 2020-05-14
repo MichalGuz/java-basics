@@ -17,7 +17,9 @@ public class SumdDigitsPower {
             if (x < 10 && x > 0) {
                 powered.add(x);
             } else {
-
+                long temp = 0;
+                double poweredTemp = 0;
+                long sum = 0;
             }
         }
         return output;
