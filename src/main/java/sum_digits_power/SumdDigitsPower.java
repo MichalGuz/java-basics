@@ -20,7 +20,8 @@ public class SumdDigitsPower {
                 long temp = 0;
                 double poweredTemp = 0;
                 long sum = 0;
-            }
+                do {
+            } while (x >= 1);
         }
         return output;
     }
