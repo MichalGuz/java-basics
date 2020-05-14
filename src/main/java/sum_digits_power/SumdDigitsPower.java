@@ -16,6 +16,8 @@ public class SumdDigitsPower {
         for (Long x: inputNums) {
             if (x < 10 && x > 0) {
                 powered.add(x);
+            } else {
+
             }
         }
         return output;
