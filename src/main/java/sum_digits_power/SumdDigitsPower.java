@@ -24,6 +24,7 @@ public class SumdDigitsPower {
                     temp = x % 10;
                     poweredTemp = Math.pow(temp, x.toString().length());
                     sum += poweredTemp;
+                    x /= 10;
                 } while (x >= 1);
             }
         }
