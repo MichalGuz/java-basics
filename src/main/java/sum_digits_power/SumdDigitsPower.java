@@ -21,7 +21,9 @@ public class SumdDigitsPower {
                 double poweredTemp = 0;
                 long sum = 0;
                 do {
-            } while (x >= 1);
+                    temp = x % 10;
+                } while (x >= 1);
+            }
         }
         return output;
     }
