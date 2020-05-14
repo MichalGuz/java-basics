@@ -26,6 +26,7 @@ public class SumdDigitsPower {
                     sum += poweredTemp;
                     x /= 10;
                 } while (x >= 1);
+                powered.add(sum);
             }
         }
         return output;
