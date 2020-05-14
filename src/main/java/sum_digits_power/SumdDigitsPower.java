@@ -23,6 +23,7 @@ public class SumdDigitsPower {
                 do {
                     temp = x % 10;
                     poweredTemp = Math.pow(temp, x.toString().length());
+                    sum += poweredTemp;
                 } while (x >= 1);
             }
         }
