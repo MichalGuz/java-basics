@@ -10,6 +10,7 @@ public class SumdDigitsPower {
         List<Long>  powered = new ArrayList<>();
         Long[] inputArray = new Long[inputNums.size()];
         Long[] output = new Long[outputInts.size()];
+        Long[] poweredInts = new Long[powered.size()];
 
         for (long i = a; i < b+1; i++) {
             inputNums.add(i);
@@ -35,6 +36,7 @@ public class SumdDigitsPower {
                 Long q = inputNums.get(y);
                 outputInts.add(q);
             }
+
         }
         return output;
     }
