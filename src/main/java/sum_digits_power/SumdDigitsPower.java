@@ -1,6 +1,7 @@
 package sum_digits_power;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class SumdDigitsPower {
@@ -38,6 +39,10 @@ public class SumdDigitsPower {
             }
 
         }
+        System.out.println("inputArray = " + Arrays.toString(inputNums.toArray(inputArray)));
+        System.out.println("powered ArrayList = " + Arrays.toString(powered.toArray(poweredInts)));
+        System.out.println("outputInts ArrayList = " + Arrays.toString(outputInts.toArray(output)));
+
         return output;
     }
 }
