@@ -33,7 +33,7 @@ public class SumdDigitsPower {
         for (int y = 0; y < inputNums.size(); y++) {
             if (inputNums.get(y).equals(powered.get(y))) {
                 Long q = inputNums.get(y);
-
+                outputInts.add(q);
             }
         }
         return output;
