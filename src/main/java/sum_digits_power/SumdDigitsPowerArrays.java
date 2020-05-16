@@ -15,6 +15,8 @@ public class SumdDigitsPowerArrays {
         int index1 = 0;
         for (long i = a; i < b + 1; i++) {
             fill(inputArray, index1, index1+1, i);
+            System.out.println("i = " + i);
+            System.out.println("inputArray = " + Arrays.toString(inputArray));
             index1++;
         }
 
