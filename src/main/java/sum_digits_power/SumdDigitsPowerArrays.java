@@ -7,5 +7,8 @@ public class SumdDigitsPowerArrays {
         long[] inputArray = new long[(int)((b-a)+1L)];
         long[] output = new long[(int)((b-a)+1L)];
         long[] poweredInts = new long[(int)((b-a)+1L)];;
+
+        for (long i = a; i < b + 1; i++) {
+        }
     }
 }
