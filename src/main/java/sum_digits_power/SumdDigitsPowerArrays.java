@@ -20,6 +20,9 @@ public class SumdDigitsPowerArrays {
             index1++;
         }
 
+        int index2 = 0;
+
+
         List<Long> list = new ArrayList<>();
         return list;
     }
