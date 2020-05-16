@@ -21,9 +21,9 @@ public class SumdDigitsPowerArrays {
         }
 
         int index2 = 0;
+        for (long x : inputArray) {}
 
-
-        List<Long> list = new ArrayList<>();
+            List<Long> list = new ArrayList<>();
         return list;
     }
 }
