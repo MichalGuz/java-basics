@@ -1,5 +1,7 @@
 package sum_digits_power;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import static java.util.Arrays.fill;
@@ -15,5 +17,8 @@ public class SumdDigitsPowerArrays {
             fill(inputArray, index1, index1+1, i);
             index1++;
         }
+
+        List<Long> list = new ArrayList<>();
+        return list;
     }
 }
