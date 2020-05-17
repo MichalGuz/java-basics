@@ -26,6 +26,10 @@ public class SumdDigitsPowerArrays {
             double poweredTemp = 0;
             long sum = 0;
             String tempStr = "";
+            do {
+                tempStr = Integer.toString((int) x);
+
+            } while (x >=0);
         }
 
             List<Long> list = new ArrayList<>();
