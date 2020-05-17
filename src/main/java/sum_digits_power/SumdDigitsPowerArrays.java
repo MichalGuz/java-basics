@@ -21,7 +21,11 @@ public class SumdDigitsPowerArrays {
         }
 
         int index2 = 0;
-        for (long x : inputArray) {}
+        for (long x : inputArray) {
+            long temp = 0;
+            double poweredTemp = 0;
+            long sum = 0;
+        }
 
             List<Long> list = new ArrayList<>();
         return list;
