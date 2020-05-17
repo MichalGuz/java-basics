@@ -29,6 +29,7 @@ public class SumdDigitsPowerArrays {
             do {
                 tempStr = Integer.toString((int) x);
                 temp = x % 10;
+                poweredTemp = Math.pow(temp, tempStr.length());
             } while (x >=0);
         }
 
