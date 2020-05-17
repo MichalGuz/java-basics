@@ -30,6 +30,7 @@ public class SumdDigitsPowerArrays {
                 tempStr = Integer.toString((int) x);
                 temp = x % 10;
                 poweredTemp = Math.pow(temp, tempStr.length());
+                sum += poweredTemp;
             } while (x >=0);
         }
 
