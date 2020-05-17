@@ -50,6 +50,8 @@ public class SumdDigitsPowerArrays {
             }
         }
 
+        long[] outputf = Arrays.stream(output).filter(elem -> elem != 0).toArray();
+
         List<Long> list = new ArrayList<>();
         return list;
     }
