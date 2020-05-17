@@ -38,7 +38,10 @@ public class SumdDigitsPowerArrays {
         }
         System.out.println("powered ArrayList = " + Arrays.toString(poweredInts));
 
-            List<Long> list = new ArrayList<>();
+        for (int y = 0; y < inputArray.length; y++) {
+        }
+
+        List<Long> list = new ArrayList<>();
         return list;
     }
 }
