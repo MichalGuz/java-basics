@@ -36,7 +36,7 @@ public class SumdDigitsPowerArrays {
             fill(poweredInts, index2, index2+1, sum);
             index2++;
         }
-
+        System.out.println("powered ArrayList = " + Arrays.toString(poweredInts));
 
             List<Long> list = new ArrayList<>();
         return list;
