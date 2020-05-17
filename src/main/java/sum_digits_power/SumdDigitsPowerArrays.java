@@ -33,7 +33,9 @@ public class SumdDigitsPowerArrays {
                 sum += poweredTemp;
                 x /= 10;
             } while (x >=0);
+            fill(poweredInts, index2, index2+1, sum);
         }
+
 
             List<Long> list = new ArrayList<>();
         return list;
