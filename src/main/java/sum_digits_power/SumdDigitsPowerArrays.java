@@ -44,6 +44,9 @@ public class SumdDigitsPowerArrays {
             Object[] ar2 = {poweredInts[y]};
             Object[] deepAr1 = {ar1};
             Object[] deepAr2 = {ar2};
+            if (Arrays.deepEquals(deepAr1,deepAr2) && inputArray[y] != 0){
+
+            }
         }
 
         List<Long> list = new ArrayList<>();
