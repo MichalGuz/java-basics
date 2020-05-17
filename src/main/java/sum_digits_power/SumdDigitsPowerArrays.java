@@ -16,9 +16,9 @@ public class SumdDigitsPowerArrays {
         for (long i = a; i < b + 1; i++) {
             fill(inputArray, index1, index1+1, i);
             System.out.println("i = " + i);
-            System.out.println("inputArray = " + Arrays.toString(inputArray));
             index1++;
         }
+        System.out.println("inputArray = " + Arrays.toString(inputArray));
 
         int index2 = 0;
         for (long x : inputArray) {
@@ -39,6 +39,7 @@ public class SumdDigitsPowerArrays {
         System.out.println("powered ArrayList = " + Arrays.toString(poweredInts));
 
         for (int y = 0; y < inputArray.length; y++) {
+
         }
 
         List<Long> list = new ArrayList<>();
