@@ -45,7 +45,8 @@ public class SumdDigitsPowerArrays {
             Object[] deepAr1 = {ar1};
             Object[] deepAr2 = {ar2};
             if (Arrays.deepEquals(deepAr1,deepAr2) && inputArray[y] != 0){
-
+                long q = inputArray[y];
+                fill(output, y, y+1, q);
             }
         }
 
