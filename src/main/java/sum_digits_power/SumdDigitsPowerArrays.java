@@ -34,6 +34,7 @@ public class SumdDigitsPowerArrays {
                 x /= 10;
             } while (x >=0);
             fill(poweredInts, index2, index2+1, sum);
+            index2++;
         }
 
 
