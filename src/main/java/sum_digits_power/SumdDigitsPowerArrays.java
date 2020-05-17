@@ -28,7 +28,7 @@ public class SumdDigitsPowerArrays {
             String tempStr = "";
             do {
                 tempStr = Integer.toString((int) x);
-
+                temp = x % 10;
             } while (x >=0);
         }
 
