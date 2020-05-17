@@ -25,6 +25,7 @@ public class SumdDigitsPowerArrays {
             long temp = 0;
             double poweredTemp = 0;
             long sum = 0;
+            String tempStr = "";
         }
 
             List<Long> list = new ArrayList<>();
