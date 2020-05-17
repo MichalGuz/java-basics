@@ -39,7 +39,11 @@ public class SumdDigitsPowerArrays {
         System.out.println("powered ArrayList = " + Arrays.toString(poweredInts));
 
         for (int y = 0; y < inputArray.length; y++) {
-
+            // objects: ar1, ar2, deepAr1, deepAr2 contains only one element
+            Object[] ar1 = {inputArray[y]};
+            Object[] ar2 = {poweredInts[y]};
+            Object[] deepAr1 = {ar1};
+            Object[] deepAr2 = {ar2};
         }
 
         List<Long> list = new ArrayList<>();
