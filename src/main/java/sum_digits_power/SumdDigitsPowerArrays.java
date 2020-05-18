@@ -6,6 +6,7 @@ import java.util.List;
 
 import static java.util.Arrays.fill;
 
+
 public class SumdDigitsPowerArrays {
     public static List<Long> sumDigitsPower(long a, long b) {
         long[] inputArray = new long[(int)((b-a)+1L)];
@@ -57,11 +58,12 @@ public class SumdDigitsPowerArrays {
             casted[cnt++]= r;
         }
 
+        System.out.println("result list = " + Arrays.toString(casted));;
         List<Long> list = new ArrayList<>();
-        return list;
+        return list = Arrays.asList(casted);
     }
 
     public static void main(String[] args) {
-        sumDigitsPower(1, 6);
+        sumDigitsPower(1L, 3000L);
     }
 }
