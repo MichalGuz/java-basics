@@ -6,6 +6,7 @@ public class ReverseArray {
             int temp = n[i];
             // swap elements
             n[i] = n[n.length - 1 - i];
+            n[n.length - 1 - i] = temp;
         }
     }
 }
