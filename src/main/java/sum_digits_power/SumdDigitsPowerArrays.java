@@ -32,7 +32,7 @@ public class SumdDigitsPowerArrays {
                 poweredTemp = Math.pow(temp, tempStr.length());
                 sum += poweredTemp;
                 x /= 10;
-            } while (x >=0);
+            } while (x >=1);
             fill(poweredInts, index2, index2+1, sum);
             index2++;
         }
