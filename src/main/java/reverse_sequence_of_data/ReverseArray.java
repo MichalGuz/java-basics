@@ -8,5 +8,7 @@ public class ReverseArray {
             n[i] = n[n.length - 1 - i];
             n[n.length - 1 - i] = temp;
         }
+
+        return n;
     }
 }
