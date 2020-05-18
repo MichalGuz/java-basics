@@ -36,7 +36,7 @@ public class SumdDigitsPowerArrays {
             fill(poweredInts, index2, index2+1, sum);
             index2++;
         }
-        System.out.println("powered ArrayList = " + Arrays.toString(poweredInts));
+        System.out.println("powered = " + Arrays.toString(poweredInts));
 
         for (int y = 0; y < inputArray.length; y++) {
             // objects: ar1, ar2, deepAr1, deepAr2 contains only one element
