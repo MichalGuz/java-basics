@@ -55,4 +55,8 @@ public class SumdDigitsPowerArrays {
         List<Long> list = new ArrayList<>();
         return list;
     }
+
+    public static void main(String[] args) {
+        sumDigitsPower(1, 6);
+    }
 }
