@@ -51,6 +51,9 @@ public class SumdDigitsPowerArrays {
         }
 
         long[] outputf = Arrays.stream(output).filter(elem -> elem != 0).toArray();
+        Long[] casted = new Long[outputf.length];
+        int cnt = 0;
+        
 
         List<Long> list = new ArrayList<>();
         return list;
