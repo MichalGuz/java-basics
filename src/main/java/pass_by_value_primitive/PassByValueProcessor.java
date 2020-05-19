@@ -8,10 +8,15 @@ public class PassByValueProcessor {
 
     public void printInt( int n) {
         n++;
-        System.out.println("n after the call of printInt method = " + n);
+        System.out.println("int after the call of printInt method = " + n);
     }
 
     public static void main(String[] args) {
         PassByValueNumber pbvn = new PassByValueNumber(5,"name");
+
+        int i = 2;
+        System.out.println("int before the call of printInt method = " + i);
+        PassByValueProcessor processor = new PassByValueProcessor();
+        processor.printInt(i);
     }
 }
