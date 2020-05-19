@@ -3,13 +3,14 @@ package pass_by_value_primitive;
 public class PassByValueProcessor {
     public void printNumber(PassByValueNumber number) {
         number.setValue(number.getValue() + 1);
-        System.out.println("Value processed by call of printNumber method = " + number.getValue());
+        System.out.println("int processed by call of printNumber method = " + number.getValue());
     }
 
     public void printInt( int n) {
         n++;
-        System.out.println("int after the call of printInt method = " + n);
+        System.out.println("int processed the call of printInt method = " + n);
     }
+
 
     public static void main(String[] args) {
         PassByValueNumber pbvn = new PassByValueNumber(5,"name");
@@ -19,11 +20,21 @@ public class PassByValueProcessor {
         System.out.println("int before the call of printInt method = " + i);
         PassByValueProcessor processor = new PassByValueProcessor();
         processor.printInt(i);
+        System.out.println("int after the call of printInt method = " + i);
 
-        System.out.println("value before the call of printNumber method = " + val);
+        System.out.println("int before the call of printNumber method = " + val);
         processor.printNumber(pbvn);
 
         int valAfter = pbvn.getValue();
-        System.out.println("value after the call of printNumber method = " + valAfter);
+        System.out.println("int after the call of printNumber method = " + valAfter);
+
+        processor.printInt(val); // raw val retrieved from object pbvn
+        int check = pbvn.getValue();
+
+        System.out.println("int check = " + check);
+
+        processor.printInt(check);
+
+
     }
 }
