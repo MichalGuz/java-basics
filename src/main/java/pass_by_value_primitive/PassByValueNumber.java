@@ -16,4 +16,12 @@ public class PassByValueNumber {
     public String getName() {
         return name;
     }
+
+    public void setValue(int value) {
+        this.value = value;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
