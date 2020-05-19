@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="" />
+    <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/array_comparison/CompareArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array_comparison/CompareArrays.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -46,11 +48,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/reverse_sequence_of_data/ReverseArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/array_comparison/CompareArrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -71,7 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/equals_products/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/builder_bob_practice/BuilderTool.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/shape/Figure.java" />
         <option value="$PROJECT_DIR$/src/main/java/dependency_injection/message/shape/Triangle.java" />
@@ -122,10 +132,11 @@
         <option value="$PROJECT_DIR$/src/main/java/pass_by_value_primitive/PassByValueNumber.java" />
         <option value="$PROJECT_DIR$/src/main/java/pass_by_value_primitive/PassByValueProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/pass_by_value_primitive/Practice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/array_comparison/CompareArrays.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="24" />
     <option name="y" value="18" />
     <option name="width" value="1260" />
@@ -162,6 +173,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="array_comparison" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="basics" type="b2602c69:ProjectViewProjectNode" />
@@ -414,10 +433,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4965358" visible="true" weight="0.45711973" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4965358" visible="true" weight="0.45711973" />
       <window_info id="Structure" order="1" sideWeight="0.5034642" side_tool="true" weight="0.2540453" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -431,7 +450,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32763976" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49676377" visible="true" weight="0.35248446" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49676377" visible="true" weight="0.35248446" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5048544" side_tool="true" weight="0.32298136" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32843137" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
@@ -511,7 +530,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pass_by_value_both/User.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/smallest_difference_array/Temp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -886,6 +904,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/array_comparison/CompareArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
