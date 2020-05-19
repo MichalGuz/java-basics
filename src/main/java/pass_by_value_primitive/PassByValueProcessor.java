@@ -23,5 +23,7 @@ public class PassByValueProcessor {
         System.out.println("val before the call of printNumber method = " + val);
         processor.printNumber(pbvn);
 
+        int valAfter = pbvn.getValue();
+        System.out.println("valAfter after the call of printNumber method = " + valAfter);
     }
 }
