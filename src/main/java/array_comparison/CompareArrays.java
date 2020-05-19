@@ -21,5 +21,8 @@ public class CompareArrays {
         int[] example3 = {1,2,3,5,4};
         int[] example4 = {1,2,3,4,5,6};
 
+        compareArraysInt(example1, example2);
+        compareArraysInt(example1, example3);
+        compareArraysInt(example3, example4);
     }
 }
