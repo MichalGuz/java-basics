@@ -3,7 +3,7 @@ package pass_by_value_primitive;
 public class PassByValueProcessor {
     public void printNumber(PassByValueNumber number) {
         number.setValue(number.getValue() + 1);
-        System.out.println("Value after call the printNumber method = " + number.getValue());
+        System.out.println("Value processed by call of printNumber method = " + number.getValue());
     }
 
     public void printInt( int n) {
@@ -20,10 +20,10 @@ public class PassByValueProcessor {
         PassByValueProcessor processor = new PassByValueProcessor();
         processor.printInt(i);
 
-        System.out.println("val before the call of printNumber method = " + val);
+        System.out.println("value before the call of printNumber method = " + val);
         processor.printNumber(pbvn);
 
         int valAfter = pbvn.getValue();
-        System.out.println("valAfter after the call of printNumber method = " + valAfter);
+        System.out.println("value after the call of printNumber method = " + valAfter);
     }
 }
