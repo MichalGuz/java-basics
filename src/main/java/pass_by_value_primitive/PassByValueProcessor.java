@@ -13,6 +13,7 @@ public class PassByValueProcessor {
 
     public static void main(String[] args) {
         PassByValueNumber pbvn = new PassByValueNumber(5,"name");
+        int val = pbvn.getValue();
 
         int i = 2;
         System.out.println("int before the call of printInt method = " + i);
