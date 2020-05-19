@@ -1,7 +1,5 @@
 package pass_by_value_primitive;
 
-import javax.xml.bind.SchemaOutputResolver;
-
 public class Practice {
     private static int increase(int i){
         return i+i;
