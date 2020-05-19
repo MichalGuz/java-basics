@@ -9,10 +9,17 @@ public class CompareArrays {
         Object[] inArr1 = {arr1};
         Object[] inArr2 = {arr2};
         if(Arrays.deepEquals(inArr1, inArr2)) {
-            System.out.println("arrays are equal.");
+            System.out.println("Arrays are equal.");
         } else {
-            System.out.println("arrays are different");
+            System.out.println("Arrays are different.");
         }
+    }
+
+    public static void main(String[] args) {
+        int[] example1 = {1,2,3,4,5};
+        int[] example2 = {1,2,3,4,5};
+        int[] example3 = {1,2,3,5,4};
+        int[] example4 = {1,2,3,4,5,6};
 
     }
 }
