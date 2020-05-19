@@ -19,5 +19,9 @@ public class PassByValueProcessor {
         System.out.println("int before the call of printInt method = " + i);
         PassByValueProcessor processor = new PassByValueProcessor();
         processor.printInt(i);
+
+        System.out.println("val before the call of printNumber method = " + val);
+        processor.printNumber(pbvn);
+
     }
 }
