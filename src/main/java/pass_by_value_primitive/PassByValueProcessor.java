@@ -10,4 +10,8 @@ public class PassByValueProcessor {
         n++;
         System.out.println("n after the call of printInt method = " + n);
     }
+
+    public static void main(String[] args) {
+        PassByValueNumber pbvn = new PassByValueNumber(5,"name");
+    }
 }
