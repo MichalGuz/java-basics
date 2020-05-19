@@ -43,9 +43,7 @@ public class SumdDigitsPowerArrays {
             // objects: ar1, ar2, deepAr1, deepAr2 contains only one element
             Object[] ar1 = {inputArray[y]};
             Object[] ar2 = {poweredInts[y]};
-            Object[] deepAr1 = {ar1};
-            Object[] deepAr2 = {ar2};
-            if (Arrays.deepEquals(deepAr1,deepAr2) && inputArray[y] != 0){
+            if (Arrays.deepEquals(ar1,ar2) && inputArray[y] != 0){
                 long q = inputArray[y];
                 fill(output, y, y+1, q);
             }
