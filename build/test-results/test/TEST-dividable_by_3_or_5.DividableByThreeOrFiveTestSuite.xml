@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="dividable_by_3_or_5.DividableByThreeOrFiveTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-20T17:40:07" hostname="Dell-Komputer" time="0.032">
+<testsuite name="dividable_by_3_or_5.DividableByThreeOrFiveTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-20T17:50:44" hostname="Dell-Komputer" time="0.035">
   <properties/>
-  <testcase name="testSumDivadableNumbersFromRange" classname="dividable_by_3_or_5.DividableByThreeOrFiveTestSuite" time="0.032"/>
+  <testcase name="testSumDividableNumbersBelow" classname="dividable_by_3_or_5.DividableByThreeOrFiveTestSuite" time="0.035"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

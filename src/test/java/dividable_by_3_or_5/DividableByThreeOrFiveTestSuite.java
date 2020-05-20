@@ -19,6 +19,7 @@ public class DividableByThreeOrFiveTestSuite {
         // when
         testList = dividableNumbersFromRange(a,b);
         int counter = testList.size();
+        testList.stream().map(i -> i.toString()).forEach(System.out::println);
 
         // then
         Assert.assertEquals(5, counter);
