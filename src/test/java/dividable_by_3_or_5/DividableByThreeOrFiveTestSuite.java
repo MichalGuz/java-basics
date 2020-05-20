@@ -38,6 +38,8 @@ public class DividableByThreeOrFiveTestSuite {
         // when
         int n = sumDivadableNumbersFromRange(listOfInts);
 
-        }
-    }
+        // then
+        Assert.assertEquals(33, n);
+     }
 }
+
