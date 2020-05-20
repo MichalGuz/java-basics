@@ -22,6 +22,10 @@ public class DividableByThreeOrFiveTestSuite {
 
         // then
         Assert.assertEquals(5, counter);
+    }
+
+    @Test
+    public void testSumDivadableNumbersFromRange() {
 
     }
 }
