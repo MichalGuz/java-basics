@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static dividable_by_3_or_5.DividableByThreeOrFive.dividableNumbersFromRange;
+import static dividable_by_3_or_5.DividableByThreeOrFive.sumDivadableNumbersFromRange;
 
 public class DividableByThreeOrFiveTestSuite {
     @Test
@@ -33,6 +34,9 @@ public class DividableByThreeOrFiveTestSuite {
                 listOfInts.add(i);
             }
         }
+
+        // when
+        int n = sumDivadableNumbersFromRange(listOfInts);
 
         }
     }
