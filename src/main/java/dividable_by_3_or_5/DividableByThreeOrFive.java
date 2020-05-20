@@ -12,6 +12,9 @@ public class DividableByThreeOrFive {
 //   Note: If the number is a multiple of both 3 and 5, only count it once.
 
     public static List<Integer> dividableNumbersFromRange(int a, int b) {
+        if ((a < 1) || b < 0) {
+            System.out.println("All numbers must be non-zero, positive integer.");
+        }
         List<Integer> numbers = new ArrayList<>();
         numbers = IntStream.rangeClosed(a, b)
                 .filter(i -> ((i% 3) == 0) || ((i % 5) == 0))
