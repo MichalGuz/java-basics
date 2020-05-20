@@ -48,6 +48,9 @@ public class DividableByThreeOrFiveTestSuite {
 
          // when
          int sum = sumDividableNumbersBelow(number);
+
+         // then
+         Assert.assertEquals(23, sum);
     }
 }
 
