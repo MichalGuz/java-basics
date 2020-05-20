@@ -31,7 +31,12 @@ public class DividableByThreeOrFive {
     }
 
     public static int sumDividableNumbersBelow(int number) {
-        return IntStream.range(0,number).filter(i -> ((i % 3) == 0) || ((i % 5) == 0)).sum();
+        if (number < 1) {
+            System.out.println("All numbers must be non-zero, positive integer.");
+            throw new IllegalArgumentException();
+        } else {
+            return IntStream.range(0, number).filter(i -> ((i % 3) == 0) || ((i % 5) == 0)).sum();
+        }
     }
 }
 
