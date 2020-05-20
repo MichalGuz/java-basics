@@ -44,7 +44,8 @@ public class DividableByThreeOrFiveTestSuite {
 
      @Test
      public void testSumDividableNumbersBelow() {
-
+        // given
+         int number = 10;
      }
 }
 
