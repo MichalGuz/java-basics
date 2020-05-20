@@ -63,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dividable_by_3_or_5/DividableByThreeOrFive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="27" column="50" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="50" />
+            <state relative-caret-position="196">
+              <caret line="32" column="46" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/dividable_by_3_or_5/DividableByThreeOrFiveTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="267">
+              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -302,7 +302,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.DividableByThreeOrFiveTestSuite.testDividableNumbersFromRange">
+  <component name="RunManager" selected="Gradle.DividableByThreeOrFiveTestSuite.testSumDivadableNumbersFromRange">
     <configuration name="CompareArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array_comparison.CompareArrays" />
       <module name="basics.main" />
@@ -345,20 +345,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pass_by_value_primitive.Practice" />
-      <module name="basics.main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pass_by_value_primitive.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -371,6 +357,26 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;dividable_by_3_or_5.DividableByThreeOrFiveTestSuite.testDividableNumbersFromRange&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DividableByThreeOrFiveTestSuite.testSumDivadableNumbersFromRange" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;dividable_by_3_or_5.DividableByThreeOrFiveTestSuite.testSumDivadableNumbersFromRange&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -403,11 +409,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DividableByThreeOrFiveTestSuite.testSumDivadableNumbersFromRange" />
         <item itemvalue="Gradle.DividableByThreeOrFiveTestSuite.testDividableNumbersFromRange" />
         <item itemvalue="Application.DividableByThreeOrFive" />
         <item itemvalue="Application.CompareArrays" />
         <item itemvalue="Application.PassByValueProcessor" />
-        <item itemvalue="Application.Practice" />
       </list>
     </recent_temporary>
   </component>
@@ -425,21 +431,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BooleanLettersCounterTestSuite_testcompareAmountOfXAndOLetters - 2020.04.23 at 21h 26m 17s.xml">
-      <configuration name="BooleanLettersCounterTestSuite.testcompareAmountOfXAndOLetters" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="BooleanLettersCounterTestSuite_testcompareAmountOfXAndOLetters - 2020.04.23 at 21h 51m 01s.xml">
-      <configuration name="BooleanLettersCounterTestSuite.testcompareAmountOfXAndOLetters" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="MumbledLettersTestSuite_testAccum - 2020.05.02 at 19h 01m 31s.xml">
-      <configuration name="MumbledLettersTestSuite.testAccum" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="MumbledLettersTestSuite_testAccum - 2020.05.02 at 19h 01m 32s.xml">
-      <configuration name="MumbledLettersTestSuite.testAccum" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="MumbledLettersTestSuite_testAccum - 2020.05.02 at 19h 06m 06s.xml">
-      <configuration name="MumbledLettersTestSuite.testAccum" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="MumbledLettersTestSuite_testAccumShorterVer - 2020.05.06 at 21h 57m 33s.xml">
       <configuration name="MumbledLettersTestSuite.testAccumShorterVer" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -455,6 +446,21 @@
     <history-entry file="DividableByThreeOrFiveTestSuite_testDividableNumbersFromRange - 2020.05.20 at 19h 26m 40s.xml">
       <configuration name="DividableByThreeOrFiveTestSuite.testDividableNumbersFromRange" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="DividableByThreeOrFiveTestSuite_testSumDivadableNumbersFromRange - 2020.05.20 at 19h 38m 04s.xml">
+      <configuration name="DividableByThreeOrFiveTestSuite.testSumDivadableNumbersFromRange" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="DividableByThreeOrFiveTestSuite_testSumDivadableNumbersFromRange - 2020.05.20 at 19h 39m 05s.xml">
+      <configuration name="DividableByThreeOrFiveTestSuite.testSumDivadableNumbersFromRange" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="DividableByThreeOrFiveTestSuite_testSumDivadableNumbersFromRange - 2020.05.20 at 19h 39m 17s.xml">
+      <configuration name="DividableByThreeOrFiveTestSuite.testSumDivadableNumbersFromRange" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="DividableByThreeOrFiveTestSuite_testSumDivadableNumbersFromRange - 2020.05.20 at 19h 39m 46s.xml">
+      <configuration name="DividableByThreeOrFiveTestSuite.testSumDivadableNumbersFromRange" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="DividableByThreeOrFiveTestSuite_testSumDivadableNumbersFromRange - 2020.05.20 at 19h 40m 07s.xml">
+      <configuration name="DividableByThreeOrFiveTestSuite.testSumDivadableNumbersFromRange" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -467,6 +473,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4965358" visible="true" weight="0.47330096" />
       <window_info id="Structure" order="1" sideWeight="0.5034642" side_tool="true" weight="0.2540453" />
@@ -932,8 +939,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dividable_by_3_or_5/DividableByThreeOrFive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" column="50" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="50" />
+        <state relative-caret-position="196">
+          <caret line="32" column="46" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -942,8 +949,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dividable_by_3_or_5/DividableByThreeOrFiveTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="267">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
