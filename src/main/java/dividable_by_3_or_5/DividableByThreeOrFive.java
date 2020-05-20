@@ -15,14 +15,18 @@ public class DividableByThreeOrFive {
         if ((a < 1) || b < 0) {
             System.out.println("All numbers must be non-zero, positive integer.");
             throw new IllegalArgumentException();
+        } else {
+            List<Integer> numbers = new ArrayList<>();
+            numbers = IntStream.rangeClosed(a, b)
+                    .filter(i -> ((i % 3) == 0) || ((i % 5) == 0))
+                    .boxed()
+                    .collect(Collectors.toList());
+            return numbers;
         }
-        List<Integer> numbers = new ArrayList<>();
-        numbers = IntStream.rangeClosed(a, b)
-                .filter(i -> ((i% 3) == 0) || ((i % 5) == 0))
-                .boxed()
-                .collect(Collectors.toList());
+    }
 
-        return numbers;
+    public static int sumDivadableNumbersFromRange(List<Integer> numbers) {
+
     }
 }
 
