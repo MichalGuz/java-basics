@@ -29,5 +29,9 @@ public class DividableByThreeOrFive {
         int n = 0;
         return n = numbers.stream().mapToInt(i -> i).sum();
     }
+
+    public static int sumDividableNumbersBelow(int number) {
+
+    }
 }
 
