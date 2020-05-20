@@ -41,5 +41,10 @@ public class DividableByThreeOrFiveTestSuite {
         // then
         Assert.assertEquals(33, n);
      }
+
+     @Test
+     public void testSumDividableNumbersBelow() {
+
+     }
 }
 
