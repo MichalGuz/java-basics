@@ -26,6 +26,14 @@ public class DividableByThreeOrFiveTestSuite {
 
     @Test
     public void testSumDivadableNumbersFromRange() {
+        // given
+        List<Integer> listOfInts = new ArrayList<>();
+        for(int i = 1; i < 11; i++) {
+            if ((i % 3) == 0 || (i % 5) == 0) {
+                listOfInts.add(i);
+            }
+        }
 
+        }
     }
 }
