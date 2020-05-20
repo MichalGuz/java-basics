@@ -1,5 +1,6 @@
 package dividable_by_3_or_5;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -18,6 +19,9 @@ public class DividableByThreeOrFiveTestSuite {
         // when
         testList = dividableNumbersFromRange(a,b);
         int counter = testList.size();
+
+        // then
+        Assert.assertEquals(5, counter);
 
     }
 }
