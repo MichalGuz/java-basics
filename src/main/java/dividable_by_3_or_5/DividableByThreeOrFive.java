@@ -15,7 +15,10 @@ public class DividableByThreeOrFive {
         List<Integer> numbers = new ArrayList<>();
         numbers = IntStream.rangeClosed(a, b)
                 .filter(i -> ((i% 3) == 0) || ((i % 5) == 0))
-               return numbers;
+                .boxed()
+                .collect(Collectors.toList());
+
+        return numbers;
     }
 }
 
