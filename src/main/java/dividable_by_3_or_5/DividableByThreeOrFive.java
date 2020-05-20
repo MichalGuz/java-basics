@@ -14,6 +14,7 @@ public class DividableByThreeOrFive {
     public static List<Integer> dividableNumbersFromRange(int a, int b) {
         if ((a < 1) || b < 0) {
             System.out.println("All numbers must be non-zero, positive integer.");
+            throw new IllegalArgumentException();
         }
         List<Integer> numbers = new ArrayList<>();
         numbers = IntStream.rangeClosed(a, b)
