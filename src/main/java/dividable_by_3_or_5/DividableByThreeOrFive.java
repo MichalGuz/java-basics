@@ -2,6 +2,8 @@ package dividable_by_3_or_5;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class DividableByThreeOrFive {
 //   Instructions:
@@ -11,7 +13,9 @@ public class DividableByThreeOrFive {
 
     public static List<Integer> dividableNumbersFromRange(int a, int b) {
         List<Integer> numbers = new ArrayList<>();
-        return numbers;
+        numbers = IntStream.rangeClosed(a, b)
+                .filter(i -> ((i% 3) == 0) || ((i % 5) == 0))
+               return numbers;
     }
 }
 
