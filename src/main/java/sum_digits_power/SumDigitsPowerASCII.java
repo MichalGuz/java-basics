@@ -14,6 +14,7 @@ public class SumDigitsPowerASCII {
             IntStream hres = String.valueOf(i).chars().mapToObj(x -> (char) x).mapToInt(x -> x - '0');
 
             for(double j : hres.toArray()) {
+                sum += Math.pow(j,y); y++;
             }
         }
         return nums;
