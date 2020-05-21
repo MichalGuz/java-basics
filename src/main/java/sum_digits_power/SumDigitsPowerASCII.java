@@ -23,4 +23,8 @@ public class SumDigitsPowerASCII {
         }
         return nums;
     }
+
+    public static void main(String[] args) {
+        sumDigPowASCII(5L,90L).stream().map(x -> x.toString() + ", ").forEach(System.out::print);
+    }
 }
