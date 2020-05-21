@@ -7,7 +7,7 @@ import java.util.List;
 import static java.util.Arrays.fill;
 
 
-public class SumdDigitsPowerArrays {
+public class SumDigitsPowerArrays {
     public static List<Long> sumDigitsPower(long a, long b) {
         long[] inputArray = new long[(int)((b-a)+1L)];
         long[] output = new long[(int)((b-a)+1L)];

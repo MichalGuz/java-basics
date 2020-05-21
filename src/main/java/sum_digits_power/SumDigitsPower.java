@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class SumdDigitsPower {
+public class SumDigitsPower {
     public static Long[] sumDigitsPower(Long a, Long b) {
         List<Long> inputNums = new ArrayList<>();
         List<Long> outputInts = new ArrayList<>();
