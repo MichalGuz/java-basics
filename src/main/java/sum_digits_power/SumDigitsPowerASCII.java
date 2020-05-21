@@ -12,7 +12,10 @@ public class SumDigitsPowerASCII {
             long sum = 0;
             // using ASCII char value in calculation: '0' = 48, '1' = 49, '2' = 50 etc;
             IntStream hres = String.valueOf(i).chars().mapToObj(x -> (char) x).mapToInt(x -> x - '0');
-        }        }
+
+            for(double j : hres.toArray()) {
+            }
+        }
         return nums;
     }
 }
