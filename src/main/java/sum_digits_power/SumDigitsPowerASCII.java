@@ -16,6 +16,10 @@ public class SumDigitsPowerASCII {
             for(double j : hres.toArray()) {
                 sum += Math.pow(j,y); y++;
             }
+
+            if (sum == i) {
+                nums.add(i);
+            }
         }
         return nums;
     }
