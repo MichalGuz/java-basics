@@ -8,7 +8,7 @@ import static java.util.Arrays.fill;
 
 
 public class SumDigitsPowerArrays {
-    public static List<Long> sumDigitsPower(long a, long b) {
+    public static List<Long> sumDigitsPowerArrays(long a, long b) {
         if ((a < 1) || (b < 1)) {
             System.out.println("numbers must be non-zero positive integers");
             throw new IllegalArgumentException();
@@ -66,6 +66,6 @@ public class SumDigitsPowerArrays {
     }
 
     public static void main(String[] args) {
-        sumDigitsPower(1L, 3000L);
+        sumDigitsPowerArrays(1L, 3000L);
     }
 }
