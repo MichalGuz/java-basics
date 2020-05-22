@@ -1,5 +1,6 @@
 package sum_digits_power;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class SumDigitsPowerShorter {
@@ -8,5 +9,8 @@ public class SumDigitsPowerShorter {
             System.out.println("numbers must be non-zero positive integers");
             throw new IllegalArgumentException();
         }
+
+        List<Long> comparedNumbers = new ArrayList<>();
+        return  comparedNumbers;
     }
 }
