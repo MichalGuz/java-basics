@@ -15,11 +15,10 @@ public class SumDigitsPowerShorter {
     }
 
     private static boolean isEqual(long number){
-        long temp = 0;
+        long temp = number;
         long sum = 0;
         int power = lenght(number);
 
-        }
     }
 
     private static int lenght(long n) {
