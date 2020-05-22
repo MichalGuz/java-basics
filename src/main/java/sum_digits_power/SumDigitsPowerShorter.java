@@ -11,6 +11,9 @@ public class SumDigitsPowerShorter {
         }
 
         List<Long> comparedNumbers = new ArrayList<>();
+        for (long i = a; i < b; i++) {
+
+        }
         return  comparedNumbers;
     }
 
