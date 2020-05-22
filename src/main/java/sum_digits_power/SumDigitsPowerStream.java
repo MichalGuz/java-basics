@@ -3,10 +3,12 @@ package sum_digits_power;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.IntStream;
+import java.util.stream.LongStream;
 
 public class SumDigitsPowerStream {
     public static List<Long> sumDigitsPowerStream(long a, long b) {
-        List<Long> result = new ArrayList<>();
+        return LongStream.rangeClosed(a,b)
+
     }
 
     private static boolean isEqualToPower(long number) {
