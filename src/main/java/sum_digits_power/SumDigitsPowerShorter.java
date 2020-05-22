@@ -20,7 +20,12 @@ public class SumDigitsPowerShorter {
     }
 
     private static int lenght(long n) {
-
+        int length = 0;
+        while (n > 0) {
+            n /= 10;
+            length++;
+        }
+        return length;
     }
 
 }
