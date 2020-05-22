@@ -37,8 +37,9 @@ public class SumDigitsPower {
                 Long q = inputNums.get(y);
                 outputInts.add(q);
             }
-
         }
+
+        System.out.println(outputInts.get(1).getClass().getSimpleName());
         System.out.println("inputArray = " + Arrays.toString(inputNums.toArray(inputArray)));
         System.out.println("powered ArrayList = " + Arrays.toString(powered.toArray(poweredInts)));
         System.out.println("outputInts ArrayList = " + Arrays.toString(outputInts.toArray(output)));
@@ -47,6 +48,6 @@ public class SumDigitsPower {
     }
 
     public static void main(String[] args) {
-        sumDigitsPower(-1L, 135L);
+        sumDigitsPower(9L, 135L);
     }
 }

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerShortest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerShortest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerArrays.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -61,10 +62,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerShortest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerArrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="170">
+              <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,10 +136,10 @@
         <option value="$PROJECT_DIR$/src/main/java/sum_digits_power/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerASCII.java" />
         <option value="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPower.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerArrays.java" />
         <option value="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerShorter.java" />
         <option value="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerStream.java" />
         <option value="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerShortest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerArrays.java" />
       </list>
     </option>
   </component>
@@ -155,7 +156,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,6 +238,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -443,8 +444,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4965358" visible="true" weight="0.33899677" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4965358" visible="true" weight="0.3446602" />
       <window_info id="Structure" order="1" sideWeight="0.5034642" side_tool="true" weight="0.2540453" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -458,7 +460,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32763976" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49676377" visible="true" weight="0.29192546" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49676377" visible="true" weight="0.29192546" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5048544" side_tool="true" weight="0.32298136" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32843137" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
@@ -893,20 +895,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerArrays.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPower.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-37">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="68">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPower.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerShortest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="39" />
+        <state relative-caret-position="256">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -923,10 +925,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerShortest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerArrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="170">
+          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
