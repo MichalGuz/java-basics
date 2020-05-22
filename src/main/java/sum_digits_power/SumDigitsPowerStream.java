@@ -22,6 +22,6 @@ public class SumDigitsPowerStream {
     }
 
     public static void main(String[] args) {
-        sumDigitsPowerStream(9L,90L).stream().map(n -> n.toString()).forEach(System.out::print);
+        sumDigitsPowerStream(9L,90L).stream().map(n -> n.toString() + ", ").forEach(System.out::print);
     }
 }
