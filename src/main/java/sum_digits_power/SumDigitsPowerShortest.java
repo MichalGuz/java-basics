@@ -17,7 +17,7 @@ public class SumDigitsPowerShortest {
     private static boolean isEqualToPowered(long x) {
         String value = String.valueOf(x);
         for (int i = 0; i < value.length(); i++) {
-
+            long digit = Long.parseLong(String.valueOf(value.charAt(i)));
         }
     }
 }
