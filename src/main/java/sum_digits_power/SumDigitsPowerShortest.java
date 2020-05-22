@@ -4,11 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SumDigitsPowerShortest {
-    public static List<Long> sumDigitsPowerShortest( long a, long b){
-        return (calculate(a, b));
-    }
 
-    private static List<Long> calculate(long a, long b) {
+    public static List<Long> sumDigitsPowerShortest(long a, long b) {
         List<Long> numbers = new ArrayList<>();
         for (long i = a; i < b; i++) {
             if(isEqualToPowered(i)) {
@@ -29,6 +26,6 @@ public class SumDigitsPowerShortest {
     }
 
     public static void main(String[] args) {
-        calculate(9L,90L).stream().map(x -> x.toString() + ", ").forEach(System.out::print);
+        sumDigitsPowerShortest(9L,90L).stream().map(x -> x.toString() + ", ").forEach(System.out::print);
     }
 }
