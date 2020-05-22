@@ -14,6 +14,7 @@ public class SumDigitsPowerShortest {
                 numbers.add(i);
             }
         }
+        return numbers;
     }
 
     private static boolean isEqualToPowered(long x) {
