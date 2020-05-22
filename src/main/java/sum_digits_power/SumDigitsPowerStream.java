@@ -11,6 +11,7 @@ public class SumDigitsPowerStream {
         return LongStream.rangeClosed(a,b)
                 .filter(i -> isEqualToPower(i))
                 .boxed()
+                .collect(Collectors.toList());
                 }
 
     private static boolean isEqualToPower(long number) {
