@@ -12,6 +12,7 @@ public class SumDigitsPowerStream {
     private static boolean isEqualToPower(long number) {
         String value = Long.toString(number);
         return IntStream.range(0,value.length())
-                .mapToDouble(x -> Math.pow(Character.getNumericValue(value.charAt(x)), x + 1)
+                .mapToDouble(x -> Math.pow(Character.getNumericValue(value.charAt(x)), x + 1))
+                .sum() == number;
     }
 }
