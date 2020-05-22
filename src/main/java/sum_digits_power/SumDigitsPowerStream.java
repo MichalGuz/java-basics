@@ -11,6 +11,6 @@ public class SumDigitsPowerStream {
 
     private static boolean isEqualToPower(long number) {
         String value = Long.toString(number);
-
+        return IntStream.range(0,value.length())
     }
 }
