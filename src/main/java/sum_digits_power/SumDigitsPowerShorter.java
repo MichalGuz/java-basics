@@ -19,4 +19,8 @@ public class SumDigitsPowerShorter {
         long sum = 0;
     }
 
+    private static int lenght(long n) {
+
+    }
+
 }
