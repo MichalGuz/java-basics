@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerShorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerShorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerStream.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -60,14 +60,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerShorter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="43" column="100" lean-forward="true" selection-start-line="43" selection-start-column="100" selection-end-line="43" selection-end-column="100" />
+            <state relative-caret-position="237">
+              <caret line="43" column="97" lean-forward="true" selection-start-line="43" selection-start-column="97" selection-end-line="43" selection-end-column="97" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -112,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/builder_bob_practice/BuilderBob.java" />
         <option value="$PROJECT_DIR$/src/main/java/pass_by_value_both/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/pass_by_value_both/PersonVerifier.java" />
         <option value="$PROJECT_DIR$/src/main/java/pass_by_value_both/PersonMain.java" />
@@ -163,6 +171,7 @@
         <option value="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPower.java" />
         <option value="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerArrays.java" />
         <option value="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerShorter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerStream.java" />
       </list>
     </option>
   </component>
@@ -479,6 +488,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4965358" visible="true" weight="0.33899677" />
       <window_info id="Structure" order="1" sideWeight="0.5034642" side_tool="true" weight="0.2540453" />
@@ -489,12 +499,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.503876" side_tool="true" weight="0.2540453" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49514562" visible="true" weight="0.32298136" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49514562" weight="0.32298136" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32763976" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49676377" weight="0.29347825" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49676377" visible="true" weight="0.29347825" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5048544" side_tool="true" weight="0.32298136" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32843137" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
@@ -574,13 +584,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/equals_products/Drink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/equals_products/Food.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -959,11 +962,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerShorter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="43" column="100" lean-forward="true" selection-start-line="43" selection-start-column="100" selection-end-line="43" selection-end-column="100" />
+        <state relative-caret-position="237">
+          <caret line="43" column="97" lean-forward="true" selection-start-line="43" selection-start-column="97" selection-end-line="43" selection-end-column="97" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
