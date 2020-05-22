@@ -10,6 +10,7 @@ public class SumDigitsPowerStream {
     public static List<Long> sumDigitsPowerStream(long a, long b) {
         return LongStream.rangeClosed(a,b)
                 .filter(i -> isEqualToPower(i))
+                .boxed()
                 }
 
     private static boolean isEqualToPower(long number) {
