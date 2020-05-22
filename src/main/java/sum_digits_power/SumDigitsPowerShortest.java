@@ -1,5 +1,6 @@
 package sum_digits_power;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class SumDigitsPowerShortest {
@@ -7,6 +8,9 @@ public class SumDigitsPowerShortest {
     }
 
     private static List<Long> calculate(long a, long b) {
+        List<Long> numbers = new ArrayList<>();
+        for (long i = a; i < b; i++) {
 
+        }
     }
 }
