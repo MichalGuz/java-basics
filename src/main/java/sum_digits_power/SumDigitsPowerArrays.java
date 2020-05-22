@@ -9,6 +9,10 @@ import static java.util.Arrays.fill;
 
 public class SumDigitsPowerArrays {
     public static List<Long> sumDigitsPower(long a, long b) {
+        if ((a < 1) || (b < 1)) {
+            System.out.println("numbers must be non-zero positive integers");
+            throw new IllegalArgumentException();
+        }
         long[] inputArray = new long[(int)((b-a)+1L)];
         long[] output = new long[(int)((b-a)+1L)];
         long[] poweredInts = new long[(int)((b-a)+1L)];;
