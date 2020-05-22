@@ -13,4 +13,8 @@ public class SumDigitsPowerShortest {
 
         }
     }
+
+    private static boolean isEqualToPowered(long x) {
+
+    }
 }
