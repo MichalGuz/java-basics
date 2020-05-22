@@ -21,5 +21,6 @@ public class SumDigitsPowerShortest {
             long digit = Long.parseLong(String.valueOf(value.charAt(i)));
             sum+= Math.pow(digit, i + 1);
         }
+        return sum == x;
     }
 }
