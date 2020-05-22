@@ -6,6 +6,10 @@ import java.util.stream.IntStream;
 
 public class SumDigitsPowerASCII {
     public static List<Long> sumDigPowASCII(long a, long b) {
+        if ((a < 1) || (b < 1)) {
+            System.out.println("numbers must be non-zero positive integers");
+            throw new IllegalArgumentException();
+        }
         List<Long> nums = new ArrayList<Long>();
         for(long i = a; i<=b ; i++) {
             int y = 1;
