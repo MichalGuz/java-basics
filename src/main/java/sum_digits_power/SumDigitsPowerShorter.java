@@ -23,7 +23,7 @@ public class SumDigitsPowerShorter {
             temp /= 10;
             power--;
         }
-
+        return sum == number;
     }
 
     private static int lenght(long n) {
