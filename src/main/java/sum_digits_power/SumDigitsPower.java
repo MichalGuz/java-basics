@@ -6,6 +6,10 @@ import java.util.List;
 
 public class SumDigitsPower {
     public static Long[] sumDigitsPower(Long a, Long b) {
+        if ((a < 1) || (b < 1)) {
+            System.out.println("numbers must be non-zero positive integers");
+            throw new IllegalArgumentException();
+        }
         List<Long> inputNums = new ArrayList<>();
         List<Long> outputInts = new ArrayList<>();
         List<Long> powered = new ArrayList<>();
