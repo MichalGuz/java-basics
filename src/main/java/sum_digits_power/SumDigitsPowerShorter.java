@@ -40,4 +40,7 @@ public class SumDigitsPowerShorter {
         return length;
     }
 
+    public static void main(String[] args) {
+        sumDigitsPowerShorter(88, 230).stream().map(i -> i.toString()).forEach(System.out::println);
+    }
 }

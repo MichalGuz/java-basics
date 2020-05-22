@@ -63,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerShorter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+            <state relative-caret-position="300">
+              <caret line="43" column="100" lean-forward="true" selection-start-line="43" selection-start-column="100" selection-end-line="43" selection-end-column="100" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -308,25 +308,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DividableByThreeOrFive">
-    <configuration name="DividableByThreeOrFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dividable_by_3_or_5.DividableByThreeOrFive" />
-      <module name="basics.main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dividable_by_3_or_5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SumDigitsPowerShorter">
     <configuration name="SumDigitsPowerASCII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sum_digits_power.SumDigitsPowerASCII" />
       <module name="basics.main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumDigitsPowerShorter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sum_digits_power.SumDigitsPowerShorter" />
+      <module name="basics.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sum_digits_power.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -415,11 +415,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumDigitsPowerShorter" />
         <item itemvalue="Application.SumDigitsPowerASCII" />
         <item itemvalue="Gradle.DividableByThreeOrFiveTestSuite.testSumDividableNumbersBelow" />
         <item itemvalue="Gradle.DividableByThreeOrFiveTestSuite.testSumDivadableNumbersFromRange" />
         <item itemvalue="Gradle.DividableByThreeOrFiveTestSuite.testDividableNumbersFromRange" />
-        <item itemvalue="Application.DividableByThreeOrFive" />
       </list>
     </recent_temporary>
   </component>
@@ -479,7 +479,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4965358" visible="true" weight="0.33899677" />
       <window_info id="Structure" order="1" sideWeight="0.5034642" side_tool="true" weight="0.2540453" />
@@ -490,12 +489,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.503876" side_tool="true" weight="0.2540453" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49514562" weight="0.32298136" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49514562" visible="true" weight="0.32298136" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32763976" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49676377" visible="true" weight="0.29347825" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49676377" weight="0.29347825" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5048544" side_tool="true" weight="0.32298136" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32843137" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
@@ -960,8 +959,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerShorter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        <state relative-caret-position="300">
+          <caret line="43" column="100" lean-forward="true" selection-start-line="43" selection-start-column="100" selection-end-line="43" selection-end-column="100" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
