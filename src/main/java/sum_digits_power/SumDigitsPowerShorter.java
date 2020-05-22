@@ -20,6 +20,7 @@ public class SumDigitsPowerShorter {
         int power = lenght(number);
         while (temp > 0) {
             sum += (long) Math.pow(temp % 10, power);
+            temp /= 10;
         }
 
     }
