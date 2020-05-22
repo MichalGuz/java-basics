@@ -26,4 +26,8 @@ public class SumDigitsPowerShortest {
         }
         return sum == x;
     }
+
+    public static void main(String[] args) {
+        calculate(9L,90L).stream().map(x -> x.toString() + ", ").forEach(System.out::print);
+    }
 }
