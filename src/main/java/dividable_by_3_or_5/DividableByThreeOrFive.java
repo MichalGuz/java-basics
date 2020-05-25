@@ -38,5 +38,9 @@ public class DividableByThreeOrFive {
             return IntStream.range(0, number).filter(i -> ((i % 3) == 0) || ((i % 5) == 0)).sum();
         }
     }
+
+    public static int sumDividableNumbersBelowWithLoop(int number) {
+
+    }
 }
 
