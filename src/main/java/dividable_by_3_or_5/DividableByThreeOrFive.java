@@ -46,7 +46,7 @@ public class DividableByThreeOrFive {
                 sum += i;
             }
         }
-
+        return sum;
     }
 }
 
