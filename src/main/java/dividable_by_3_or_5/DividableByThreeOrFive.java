@@ -25,7 +25,7 @@ public class DividableByThreeOrFive {
         }
     }
 
-    public static int sumDivadableNumbersFromRange(List<Integer> numbers) {
+    public static int sumDividableNumbersFromRange(List<Integer> numbers) {
         int n = 0;
         return n = numbers.stream().mapToInt(i -> i).sum();
     }

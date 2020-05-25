@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dividable_by_3_or_5/DividableByThreeOrFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dividable_by_3_or_5/DividableByThreeOrFive.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -49,23 +49,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerShorter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="34" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerArrays.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dividable_by_3_or_5/DividableByThreeOrFive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+            <state relative-caret-position="354">
+              <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,16 +118,16 @@
         <option value="$PROJECT_DIR$/src/main/java/multiply_by_3_or_5/MultiplyBy3Or5.java" />
         <option value="$PROJECT_DIR$/src/main/java/dividable_by_3_or_5/MultiplyBy3Or5.java" />
         <option value="$PROJECT_DIR$/src/main/java/dividable_by_3_or_5/Dividable_by_3_or_5.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dividable_by_3_or_5/DividableByThreeOrFive.java" />
         <option value="$PROJECT_DIR$/src/test/java/dividable_by_3_or_5/DividableByThreeOrFiveTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/sum_digits_power/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerASCII.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPower.java" />
         <option value="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerShorter.java" />
         <option value="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerStream.java" />
         <option value="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerShortest.java" />
         <option value="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerArrays.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPower.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dividable_by_3_or_5/DividableByThreeOrFive.java" />
       </list>
     </option>
   </component>
@@ -155,7 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,7 +174,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sum_digits_power" type="462c0819:PsiDirectoryNode" />
+              <item name="dividable_by_3_or_5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="basics" type="b2602c69:ProjectViewProjectNode" />
@@ -239,6 +226,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,7 +273,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SumDigitsPowerShortest">
+  <component name="RunManager" selected="Application.SumDigitsPower">
+    <configuration name="SumDigitsPower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sum_digits_power.SumDigitsPower" />
+      <module name="basics.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sum_digits_power.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SumDigitsPowerASCII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sum_digits_power.SumDigitsPowerASCII" />
       <module name="basics.main" />
@@ -342,26 +344,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DividableByThreeOrFiveTestSuite.testSumDividableNumbersBelow" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dividable_by_3_or_5.DividableByThreeOrFiveTestSuite.testSumDividableNumbersBelow&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -380,11 +362,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumDigitsPower" />
         <item itemvalue="Application.SumDigitsPowerShortest" />
         <item itemvalue="Application.SumDigitsPowerStream" />
         <item itemvalue="Application.SumDigitsPowerShorter" />
         <item itemvalue="Application.SumDigitsPowerASCII" />
-        <item itemvalue="Gradle.DividableByThreeOrFiveTestSuite.testSumDividableNumbersBelow" />
       </list>
     </recent_temporary>
   </component>
@@ -443,10 +425,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4965358" visible="true" weight="0.3446602" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4965358" visible="true" weight="0.35598704" />
       <window_info id="Structure" order="1" sideWeight="0.5034642" side_tool="true" weight="0.2540453" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -746,13 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mumbled_letters/MumbledLettersShorterVer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/mumbled_letters/MumbledLettersTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -774,13 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mumbled_letters/MumbledLettersWithStringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -866,15 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dividable_by_3_or_5/DividableByThreeOrFive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerASCII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -895,16 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerShortest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -915,10 +864,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerShorter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mumbled_letters/MumbledLettersWithStringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="34" />
+        <state relative-caret-position="51">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mumbled_letters/MumbledLettersShorterVer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -927,8 +890,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerArrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+        <state relative-caret-position="371">
+          <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sum_digits_power/SumDigitsPowerShorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dividable_by_3_or_5/DividableByThreeOrFive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
