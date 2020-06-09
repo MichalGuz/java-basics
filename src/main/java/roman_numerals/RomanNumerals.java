@@ -35,4 +35,14 @@ public class RomanNumerals {
         }
     }
 
+    public static void main(String[] args) {
+        toRoman(1234);
+        toRoman(10);
+        toRoman(101);
+        toRoman(55);
+        toRoman(1987);
+        toRoman(3000);
+        toRoman(999);
+    }
+
 }
