@@ -24,6 +24,7 @@ public class RomanNumerals {
         int temp = 0;
         for (Integer i: numbers ) {
             i = i + temp;
+            result = new StringBuilder().append(roman.get(i)).append(result).toString();
         }
         return result;
     }
