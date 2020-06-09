@@ -17,6 +17,7 @@ public class RomanNumerals {
         while (number > 0) {
             int digit = number % 10;
             numbers.add(digit);
+            number /= 10;
         }
 
         String result = "";
