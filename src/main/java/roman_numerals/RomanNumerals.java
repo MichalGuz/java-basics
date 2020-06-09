@@ -13,7 +13,6 @@ public class RomanNumerals {
 
             for (String r : rom) {
                 roman.add(r);
-                System.out.print(r + ", ");
             }
 
             List<Integer> numbers = new ArrayList<>();
