@@ -15,6 +15,7 @@ public class RomanNumerals {
 
         List<Integer> numbers = new ArrayList<>();
         while (number > 0) {
+            int digit = number % 10;
 
         }
 
