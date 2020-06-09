@@ -27,6 +27,7 @@ public class RomanNumerals {
             result = new StringBuilder().append(roman.get(i)).append(result).toString();
             temp += 10;
         }
+        System.out.println(result);
         return result;
     }
 }
