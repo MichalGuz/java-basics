@@ -9,6 +9,8 @@ public class RomanNumerals {
             String[] rom = {"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC", "", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM", "", "M", "MM", "MMM"};
             List<String> roman = new ArrayList<>();
 
+            int numberOnlyForPrint = number;
+
             for (String r : rom) {
                 roman.add(r);
                 System.out.print(r + ", ");
@@ -28,7 +30,7 @@ public class RomanNumerals {
                 result = new StringBuilder().append(roman.get(i)).append(result).toString();
                 temp += 10;
             }
-            System.out.println("The roman numeral of " + number + " = " + result);
+            System.out.println("The roman numeral of " + numberOnlyForPrint + " = " + result);
             return result;
         } else {
             throw new IllegalArgumentException("Value of number must be less than 4000.");
