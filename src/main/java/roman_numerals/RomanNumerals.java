@@ -28,7 +28,7 @@ public class RomanNumerals {
                 result = new StringBuilder().append(roman.get(i)).append(result).toString();
                 temp += 10;
             }
-            System.out.println(result);
+            System.out.println("The roman numeral of " + number + " = " + result);
             return result;
         } else {
             throw new IllegalArgumentException("Value of number must be less than 4000.");
