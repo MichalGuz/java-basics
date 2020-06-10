@@ -8,7 +8,9 @@ public class RomanNumeralsUnique {
         StringBuilder result = new StringBuilder();
         int i = 0;
         while (n > 0) {
-
+            if (n >= arab[i++]) {
+                result.append(roman[i--]);
+            }
         }
     }
 }
