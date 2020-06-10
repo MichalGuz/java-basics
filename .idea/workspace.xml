@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="739efaa2-dbc9-4f55-b7eb-9903932fa832" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/roman_numerals/RomanNumerals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/roman_numerals/RomanNumerals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/roman_numerals/RomanNumeralsUnique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/roman_numerals/RomanNumeralsUnique.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -74,15 +73,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/roman_numerals/Temp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/roman_numerals/RomanNumeralsUnique.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1537#1538#0" expanded="true" />
-                <element signature="e#1567#1568#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -103,7 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/smallest_difference_array/Temp.java" />
         <option value="$PROJECT_DIR$/src/main/java/input/Input.java" />
         <option value="$PROJECT_DIR$/src/main/java/fibonacci_recursion/FibRecursion.java" />
         <option value="$PROJECT_DIR$/src/main/java/builder_bob_practice/BuilderBobMain.java" />
@@ -154,10 +147,11 @@
         <option value="$PROJECT_DIR$/src/main/java/dividable_by_3_or_5/DividableByThreeOrFive.java" />
         <option value="$PROJECT_DIR$/src/main/java/roman_numerals/RomanNumerals.java" />
         <option value="$PROJECT_DIR$/src/main/java/roman_numerals/Temp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/roman_numerals/RomanNumeralsUnique.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="24" />
     <option name="y" value="18" />
     <option name="width" value="1260" />
@@ -457,7 +451,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4965358" visible="true" weight="0.39967638" />
@@ -469,12 +463,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.503876" side_tool="true" weight="0.2540453" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49514562" visible="true" weight="0.32298136" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49514562" weight="0.32298136" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32763976" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49676377" weight="0.29192546" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49676377" visible="true" weight="0.29192546" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5048544" side_tool="true" weight="0.32298136" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32843137" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
@@ -554,13 +548,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/fibonacci_recursion/FibRecursion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pass_by_value_both/PersonMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -930,6 +917,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/roman_numerals/Temp.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/roman_numerals/RomanNumerals.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -940,15 +930,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/roman_numerals/Temp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/roman_numerals/RomanNumeralsUnique.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1537#1538#0" expanded="true" />
-            <element signature="e#1567#1568#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
         </state>
       </provider>
     </entry>
