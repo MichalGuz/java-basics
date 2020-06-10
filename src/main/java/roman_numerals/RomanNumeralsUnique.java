@@ -10,6 +10,7 @@ public class RomanNumeralsUnique {
         while (n > 0) {
             if (n >= arab[i++]) {
                 result.append(roman[i--]);
+                n = n - arab[i];
             }
         }
     }
