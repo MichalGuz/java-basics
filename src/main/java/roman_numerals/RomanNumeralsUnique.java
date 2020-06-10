@@ -5,13 +5,14 @@ public class RomanNumeralsUnique {
     private static final String[] roman = {"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"};
 
     public static String toRomanNumeral(int n) {
-        StringBuilder result = new StringBuilder();
+       final StringBuilder result = new StringBuilder();
         int i = 0;
         while (n > 0) {
             if (n >= arab[i++]) {
-                result.append(roman[i--]);
+                result.append(roman[--i]);
                 n = n - arab[i];
             }
         }
+        return result.toString();
     }
 }
