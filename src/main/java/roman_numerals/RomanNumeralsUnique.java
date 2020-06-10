@@ -6,6 +6,9 @@ public class RomanNumeralsUnique {
 
     public static String toRomanNumeral(int n) {
         StringBuilder result = new StringBuilder();
+        int i = 0;
+        while (n > 0) {
 
+        }
     }
 }
