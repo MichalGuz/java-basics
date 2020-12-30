@@ -42,4 +42,8 @@ public class Duration {
 
         return getDurationString(min, sec);
     }
+
+    public static void main(String[] args) {
+        System.out.println(getDurationString(3601));
+    }
 }
