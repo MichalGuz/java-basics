@@ -5,11 +5,14 @@ public class Duration {
         if (minutes < 0 || seconds < 0 || seconds > 59) {
             return "Invalid value.";
         }
+
         int hours = minutes / 60;
         minutes %= 60;
+
         String h;
         String m;
         String s;
+
         if (hours < 10) {
             h = "0" + hours;
         } else {
@@ -22,6 +25,11 @@ public class Duration {
             m = "" + minutes;
         }
 
-        return  h + " h : " + m + "m ";
+        if (seconds < 10) {
+            s = "0" + seconds;
+        } else {
+            s = "" + seconds;
+        }
+        return  h + " h : " + m + "m : " + s + "s";
     }
 }
