@@ -16,6 +16,12 @@ public class Duration {
             h = "" + hours;
         }
 
-        return h;
+        if (minutes < 10) {
+            m = "0" + minutes;
+        } else {
+            m = "" + minutes;
+        }
+
+        return  h + " h : " + m + "m ";
     }
 }
