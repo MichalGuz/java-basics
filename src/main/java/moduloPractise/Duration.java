@@ -32,4 +32,14 @@ public class Duration {
         }
         return  h + " h : " + m + "m : " + s + "s";
     }
+
+    public static String getDurationString(int seconds) {
+        if (seconds < 0) {
+            return "Invalid value.";
+        }
+        int min = seconds / 60;
+        int sec = seconds % 60;
+
+        return getDurationString(min, sec);
+    }
 }
