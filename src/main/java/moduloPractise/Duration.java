@@ -30,7 +30,7 @@ public class Duration {
         } else {
             s = "" + seconds;
         }
-        return  h + " h : " + m + "m : " + s + "s";
+        return  h + " h : " + m + " m : " + s + " s";
     }
 
     public static String getDurationString(int seconds) {
