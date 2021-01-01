@@ -11,5 +11,14 @@ public class OddAndEven {
     }
 
     public static void evenPrint(int firstNumber, int lastNumber) {
+        int counter = 0;
+        while (firstNumber <= lastNumber && counter < 6) {
+            firstNumber++;
+            if (!isEven(firstNumber)) {
+                continue;
+            }
+            System.out.println("The even number is: " + firstNumber);
+            counter++;
+        }
     }
 }
