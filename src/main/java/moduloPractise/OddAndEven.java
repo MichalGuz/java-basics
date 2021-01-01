@@ -35,4 +35,8 @@ public class OddAndEven {
         System.out.println("Sum of even numbers = " + sum);
         return sum;
     }
+
+    public static boolean isOdd(int number) {
+        return false;
+    }
 }
