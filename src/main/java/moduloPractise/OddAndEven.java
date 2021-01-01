@@ -65,4 +65,14 @@ public class OddAndEven {
         }
         return sum;
     }
+
+    public static void main(String[] args) {
+        isEven(24);
+        printEven(20,26);
+        sumEven(20,26);
+
+        isOdd(13);
+        printOdd(9,13);
+        sumOdd(9,13);
+    }
 }
