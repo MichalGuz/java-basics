@@ -12,12 +12,13 @@ public class OddAndEven {
 
     public static void printEven(int firstNumber, int lastNumber) {
         int counter = 0;
-        while (firstNumber <= lastNumber && counter < 6) {
-            firstNumber++;
+        while ((firstNumber <= lastNumber) && (counter <= (lastNumber - firstNumber))) {
             if (!isEven(firstNumber)) {
+                firstNumber++;
                 continue;
             }
             System.out.println("The even number is: " + firstNumber);
+            firstNumber++;
             counter++;
         }
     }
@@ -25,11 +26,13 @@ public class OddAndEven {
     public static int sumEven(int firstNumber, int lastNumber) {
         int sum = 0;
         int counter = 0;
-        while(firstNumber <= lastNumber && counter < 6) {
+        while((firstNumber <= lastNumber) && (counter <= (lastNumber - firstNumber))) {
             if(!isEven((firstNumber))) {
+                firstNumber++;
                 continue;
             }
             sum += firstNumber;
+            firstNumber++;
             counter++;
         }
         System.out.println("Sum of even numbers = " + sum);
@@ -46,7 +49,7 @@ public class OddAndEven {
     public static void printOdd(int firstNumber, int lastNumber) {
         int counter = 0;
         if((firstNumber > 0) && (lastNumber > 0) && (firstNumber <= lastNumber)){
-            for(int i = firstNumber; i < lastNumber; i++){
+            for(int i = firstNumber; i <= lastNumber; i++){
                 if(isOdd(i) == true){
                     System.out.println("The odd number is: "+ i);
                 }
