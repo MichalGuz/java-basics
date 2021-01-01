@@ -42,4 +42,8 @@ public class OddAndEven {
         }
         return false;
     }
+
+    public static void oddPrint(int firstNumber, int lastNumber) {
+
+    }
 }
