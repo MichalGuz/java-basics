@@ -9,4 +9,7 @@ public class OddAndEven {
             return false;
         }
     }
+
+    public static void evenPrint(int firstNumber, int lastNumber) {
+    }
 }
