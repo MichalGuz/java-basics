@@ -66,6 +66,7 @@ public class OddAndEven {
                 }
             }
         }
+        System.out.println("Sum of odd numbers = " + sum);
         return sum;
     }
 
