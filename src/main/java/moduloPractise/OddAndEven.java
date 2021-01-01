@@ -46,8 +46,8 @@ public class OddAndEven {
     public static void printOdd(int firstNumber, int lastNumber) {
         int counter = 0;
         if((firstNumber > 0) && (lastNumber > 0) && (firstNumber <= lastNumber)){
-            for(int i=firstNumber; i<lastNumber; i++){
-                if(isOdd(i)==true){
+            for(int i = firstNumber; i < lastNumber; i++){
+                if(isOdd(i) == true){
                     System.out.println("The odd number is: ");
                 }
             }
@@ -56,6 +56,13 @@ public class OddAndEven {
 
     public static int sumOdd(int firstNumber, int lastNumber) {
         int sum = 0;
+        if((firstNumber > 0) && (lastNumber >0) && (firstNumber <= lastNumber)) {
+            for(int i=firstNumber; i<lastNumber; i++) {
+                if(isOdd(i) == true) {
+                    sum += i;
+                }
+            }
+        }
         return sum;
     }
 }
