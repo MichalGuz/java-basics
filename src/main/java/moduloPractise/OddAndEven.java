@@ -53,4 +53,9 @@ public class OddAndEven {
             }
         }
     }
+
+    public static int sumOdd(int firstNumber, int lastNumber) {
+        int sum = 0;
+        return sum;
+    }
 }
