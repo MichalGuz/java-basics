@@ -10,7 +10,7 @@ public class OddAndEven {
         }
     }
 
-    public static void evenPrint(int firstNumber, int lastNumber) {
+    public static void printEven(int firstNumber, int lastNumber) {
         int counter = 0;
         while (firstNumber <= lastNumber && counter < 6) {
             firstNumber++;
