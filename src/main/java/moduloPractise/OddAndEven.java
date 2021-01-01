@@ -43,7 +43,7 @@ public class OddAndEven {
         return false;
     }
 
-    public static void oddPrint(int firstNumber, int lastNumber) {
+    public static void printOdd(int firstNumber, int lastNumber) {
 
     }
 }
