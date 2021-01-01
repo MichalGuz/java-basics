@@ -22,8 +22,17 @@ public class OddAndEven {
         }
     }
 
-    public static int sumEven(int firstNumber, int lastNumber){
+    public static int sumEven(int firstNumber, int lastNumber) {
         int sum = 0;
+        int counter = 0;
+        while(firstNumber <= lastNumber && counter < 6) {
+            if(!isEven((firstNumber))) {
+                continue;
+            }
+            sum += firstNumber;
+            counter++;
+        }
+        System.out.println("Sum of even numbers = " + sum);
         return sum;
     }
 }
