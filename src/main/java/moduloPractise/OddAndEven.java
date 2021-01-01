@@ -21,4 +21,9 @@ public class OddAndEven {
             counter++;
         }
     }
+
+    public static int sumEven(int firstNumber, int lastNumber){
+        int sum = 0;
+        return sum;
+    }
 }
