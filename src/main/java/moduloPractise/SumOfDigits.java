@@ -21,6 +21,14 @@ public class SumOfDigits {
             }
         }
     }
+
+    public static void main(String[] args) {
+        sumOfDigits(8);
+        sumOfDigits(88);
+        sumOfDigits(80880);
+        sumOfDigits(0);
+        sumOfDigits(-18);
+    }
 }
 
 
