@@ -10,6 +10,10 @@ public class SumFirstAndLastDigits {
         } else {
             int firstDigit = 0;
             int lastDigit = processedNumber % 10;
+            do {
+                firstDigit = processedNumber % 10;
+                processedNumber /= 10;
+            } while (processedNumber > 0);
         }
     return sum;
     }
