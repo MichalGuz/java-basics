@@ -14,6 +14,10 @@ public class SumFirstAndLastDigits {
                 firstDigit = processedNumber % 10;
                 processedNumber /= 10;
             } while (processedNumber > 0);
+            sum = firstDigit + lastDigit;
+            System.out.println("First digit of number " + number + " is " + firstDigit);
+            System.out.println("Last digit of number " + number + " is " + lastDigit);
+            System.out.println("Sum of first and last digits is " + sum);
         }
     return sum;
     }
