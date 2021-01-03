@@ -16,7 +16,8 @@ public class HasSharedDigits {
                 System.out.println("true");
                 return true;
             }
+            System.out.println("There ain't no shared digit in numbers " + f + " and " + s);
+            return false;
         }
-        return false;
     }
 }
