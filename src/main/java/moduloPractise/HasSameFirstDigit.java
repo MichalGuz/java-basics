@@ -44,4 +44,10 @@ public class HasSameFirstDigit {
             return false;
         }
     }
+
+    public static void main(String[] args) {
+        hasSameFirstDigit(112, 132, 14);
+        hasSameFirstDigit(234, 23, 32);
+        hasSameFirstDigit(3, 33, 333);
+    }
 }
