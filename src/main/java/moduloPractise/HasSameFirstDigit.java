@@ -10,6 +10,20 @@ public class HasSameFirstDigit {
             int secondNumberfirstDigit = 0;
             int thirdNumberfirstDigit = 0;
 
+            while ( firstNumber > 0) {
+                firstNumberfirstDigit = firstNumber % 10;
+                firstNumber /= 10;
+            }
+
+            while (secondNumber > 0) {
+                secondNumberfirstDigit = secondNumber % 10;
+                secondNumber /= 10;
+            }
+
+            while (thirdNumber > 0) {
+                thirdNumberfirstDigit = thirdNumber % 10;
+                thirdNumber /= 10;
+            }
 
             if ((firstNumberfirstDigit == secondNumberfirstDigit) || (firstNumberfirstDigit == thirdNumberfirstDigit) || (secondNumberfirstDigit == thirdNumberfirstDigit)) {
                 System.out.println("has same firts digit - true");
