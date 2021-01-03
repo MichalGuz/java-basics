@@ -12,6 +12,10 @@ public class HasSharedDigits {
             int digitTwo = (firstNumber / 10) % 10;
             int digitTree = secondNumber % 10;
             int digitFour = (secondNumber / 10) % 10;
+            if(digitOne == digitTree || digitOne == digitFour || digitTwo == digitTree || digitTwo == digitFour) {
+                System.out.println("true");
+                return true;
+            }
         }
         return false;
     }
