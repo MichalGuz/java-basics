@@ -5,7 +5,7 @@ public class HasSharedDigits {
         int f = firstNumber;
         int s = secondNumber;
         if ((firstNumber < 10) || (firstNumber > 99 ) || (secondNumber < 10) || (secondNumber > 99)) {
-            System.out.println("false");
+            System.out.println("Both numbers should be two-digit number");
             return false;
         } else {
             int digitOne = firstNumber % 10;
