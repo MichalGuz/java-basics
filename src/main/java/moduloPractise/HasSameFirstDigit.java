@@ -1,7 +1,11 @@
 package moduloPractise;
 
 public class HasSameFirstDigit {
-    public static boolean hasSameFirstDigit(int firstNumber, int secondNumber) {
+    public static boolean hasSameFirstDigit(int firstNumber, int secondNumber, int thirdNumber) {
+        if((isValid(firstNumber)!= true) || (isValid(secondNumber)!= true) || (isValid(thirdNumber)!= true)){
+            System.out.println("has same last digit - false");
+            return false;
+        }
         return false;
     }
 
