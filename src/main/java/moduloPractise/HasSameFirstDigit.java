@@ -9,9 +9,14 @@ public class HasSameFirstDigit {
             int firstNumberLastDigit = firstNumber % 10;
             int secondNumberLastDigit = secondNumber % 10;
             int thirdNumberLastDigit = thirdNumber % 10;
-
+            if ((firstNumberLastDigit == secondNumberLastDigit) || (firstNumberLastDigit == thirdNumberLastDigit) || (secondNumberLastDigit == thirdNumberLastDigit)) {
+                System.out.println("has same last digit - true");
+                return true;
+            } else {
+                System.out.println("has same last digit - false");
+                return false;
+            }
         }
-        return false;
     }
 
     public static boolean isValid ( int number){
