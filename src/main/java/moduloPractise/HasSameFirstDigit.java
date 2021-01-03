@@ -3,17 +3,19 @@ package moduloPractise;
 public class HasSameFirstDigit {
     public static boolean hasSameFirstDigit(int firstNumber, int secondNumber, int thirdNumber) {
         if((isValid(firstNumber)!= true) || (isValid(secondNumber)!= true) || (isValid(thirdNumber)!= true)){
-            System.out.println("has same last digit - false");
+            System.out.println("has same first digit - false");
             return false;
         } else {
-            int firstNumberLastDigit = firstNumber % 10;
-            int secondNumberLastDigit = secondNumber % 10;
-            int thirdNumberLastDigit = thirdNumber % 10;
-            if ((firstNumberLastDigit == secondNumberLastDigit) || (firstNumberLastDigit == thirdNumberLastDigit) || (secondNumberLastDigit == thirdNumberLastDigit)) {
-                System.out.println("has same last digit - true");
+            int firstNumberfirstDigit = 0;
+            int secondNumberfirstDigit = 0;
+            int thirdNumberfirstDigit = 0;
+
+
+            if ((firstNumberfirstDigit == secondNumberfirstDigit) || (firstNumberfirstDigit == thirdNumberfirstDigit) || (secondNumberfirstDigit == thirdNumberfirstDigit)) {
+                System.out.println("has same firts digit - true");
                 return true;
             } else {
-                System.out.println("has same last digit - false");
+                System.out.println("has same first digit - false");
                 return false;
             }
         }
