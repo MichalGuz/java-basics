@@ -5,6 +5,11 @@ public class HasSameFirstDigit {
         if((isValid(firstNumber)!= true) || (isValid(secondNumber)!= true) || (isValid(thirdNumber)!= true)){
             System.out.println("has same last digit - false");
             return false;
+        } else {
+            int firstNumberLastDigit = firstNumber % 10;
+            int secondNumberLastDigit = secondNumber % 10;
+            int thirdNumberLastDigit = thirdNumber % 10;
+
         }
         return false;
     }
