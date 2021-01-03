@@ -20,4 +20,13 @@ public class HasSharedDigits {
             return false;
         }
     }
+
+    public static void main(String[] args) {
+        hasSharedDigits(12,34);
+        hasSharedDigits(21,42);
+        hasSharedDigits(21,12);
+        hasSharedDigits(101,11);
+    }
 }
+
+
