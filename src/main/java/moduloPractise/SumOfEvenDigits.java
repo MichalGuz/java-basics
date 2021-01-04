@@ -1,7 +1,7 @@
 package moduloPractise;
 
 public class SumOfEvenDigits {
-    public static int sumOfEvenDigit(int number) {
+    public static int sumOfEvenDigits(int number) {
         int theNumber = number;
         int sum = 0;
         int processedNumber = 0;
@@ -22,10 +22,10 @@ public class SumOfEvenDigits {
     }
 
     public static void main(String[] args) {
-        sumOfEvenDigit(124421);
-        sumOfEvenDigit(202);
-        sumOfEvenDigit(198);
-        sumOfEvenDigit(-2222);
-        sumOfEvenDigit(222222);
+        sumOfEvenDigits(124421);
+        sumOfEvenDigits(202);
+        sumOfEvenDigits(198);
+        sumOfEvenDigits(-2222);
+        sumOfEvenDigits(222222);
     }
 }
