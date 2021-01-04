@@ -8,13 +8,15 @@ public class SumOfEvenDigit {
             System.out.println("It's a negative number");
             return -1;
         } else {
-            while(processedNumber > 0) {
-                processedNumber /= 10;
-
+            while(number > 0) {
+                processedNumber = number % 10;
+                if (processedNumber % 2 == 0) {
+                    sum += processedNumber;
+                }
+                number /= 10;
             }
-
-
+            System.out.println("Sum of even digits in number = " + sum);
+            return sum;
         }
-        return sum;
     }
 }
