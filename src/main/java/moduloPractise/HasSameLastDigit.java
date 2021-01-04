@@ -7,10 +7,10 @@ public class HasSameLastDigit {
             int secondLastDigit = secondNumber% 10;
             int thirdLastDigit = thirdNumber% 10;
             if(firstLastDigit == secondLastDigit && secondLastDigit == thirdLastDigit) {
-                System.out.println("The" + firstLastDigit + " the same last digit in numbers: " + firstLastDigit + ", " + secondLastDigit + ", " + thirdLastDigit);
+                System.out.println("The " + firstLastDigit + " is the same last digit in numbers: " + firstLastDigit + ", " + secondLastDigit + ", " + thirdLastDigit);
                 return true;
             } else {
-                System.out.println("False");
+                System.out.println("Has same last digit - false");
                 return false;
             }
         } else {
@@ -25,5 +25,11 @@ public class HasSameLastDigit {
         } else {
             return false;
         }
+    }
+
+    public static void main(String[] args) {
+        hasSameLastDigit(122,12,932);
+        hasSameLastDigit(101, 12, 221);
+        hasSameLastDigit(122, 72, 1002);
     }
 }
