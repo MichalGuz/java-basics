@@ -2,6 +2,7 @@ package moduloPractise;
 
 public class SumOfEvenDigit {
     public static int sumOfEvenDigit(int number) {
+        int theNumber = number;
         int sum = 0;
         int processedNumber = 0;
         if (number < 0) {
@@ -15,8 +16,16 @@ public class SumOfEvenDigit {
                 }
                 number /= 10;
             }
-            System.out.println("Sum of even digits in number = " + sum);
+            System.out.println("Sum of even digits in number " + theNumber + " = " + sum);
             return sum;
         }
+    }
+
+    public static void main(String[] args) {
+        sumOfEvenDigit(124421);
+        sumOfEvenDigit(202);
+        sumOfEvenDigit(198);
+        sumOfEvenDigit(-2222);
+        sumOfEvenDigit(222222);
     }
 }
