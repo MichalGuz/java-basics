@@ -1,6 +1,6 @@
 package moduloPractise;
 
-public class SumOfEvenDigit {
+public class SumOfEvenDigits {
     public static int sumOfEvenDigit(int number) {
         int theNumber = number;
         int sum = 0;
