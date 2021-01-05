@@ -15,7 +15,13 @@ public class IsPerfectNumber {
                 }
                 factor++;
             }
+            if(sum == number) {
+                System.out.println("True: " + number + " is a perfect number");
+                return true;
+            } else {
+                System.out.println("False: " + number + " is not a perfect number");
+                return false;
+            }
         }
-        return false;
     }
 }
