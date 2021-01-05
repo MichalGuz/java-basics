@@ -22,4 +22,13 @@ public class IsPalindrome {
             }
         }
     }
+
+    public static void main(String[] args) {
+        isPalindrom(303);
+        isPalindrom(5439345);
+        isPalindrom(111);
+        isPalindrom(6985);
+        isPalindrom(316913);
+        isPalindrom(0);
+    }
 }
