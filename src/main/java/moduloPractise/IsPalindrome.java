@@ -4,8 +4,8 @@ public class IsPalindrome {
     public static boolean isPalindrom(int number) {
         int temp = number;
         int reversed = 0;
-        if (number < 0) {
-            System.out.println("False: " + number + " is a negative number.");
+        if (number < 10 ) {
+            System.out.println("False: " + number + " is less than 10.");
             return false;
         } else {
             while (temp > 0) {
