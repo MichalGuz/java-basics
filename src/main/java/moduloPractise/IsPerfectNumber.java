@@ -10,6 +10,10 @@ public class IsPerfectNumber {
             int factor = 1;
             int sum = 0;
             while (factor < number) {
+                if(number % factor == 0){
+                    sum += factor;
+                }
+                factor++;
             }
         }
         return false;
