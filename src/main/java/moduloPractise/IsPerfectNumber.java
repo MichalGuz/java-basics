@@ -6,6 +6,11 @@ public class IsPerfectNumber {
         if (number < 1) {
             System.out.println("Invalid value.");
             return false;
+        } else {
+            int factor = 1;
+            int sum = 0;
+            while (factor < number) {
+            }
         }
         return false;
     }
