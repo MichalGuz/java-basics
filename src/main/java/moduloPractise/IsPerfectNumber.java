@@ -24,4 +24,12 @@ public class IsPerfectNumber {
             }
         }
     }
+
+    public static void main(String[] args) {
+        isPerfectNumber(6);
+        isPerfectNumber(-1);
+        isPerfectNumber(5);
+        isPerfectNumber(28);
+        isPerfectNumber(33550336);
+    }
 }
