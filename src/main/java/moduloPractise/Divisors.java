@@ -10,6 +10,15 @@ public class Divisors {
             return -1;
         }
 
+        if (firstNumber >= secondNumber) {
+            while (divisor <= secondNumber) {
+                if((firstNumber % divisor == 0) && (secondNumber % divisor == 0)) {
+                    theGreatestDivisor = divisor;
+                }
+                divisor++;
+            }
+        }
+
         return theGreatestDivisor;
     }
 }
