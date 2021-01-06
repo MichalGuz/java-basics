@@ -35,6 +35,9 @@ public class Divisors {
         }
         int dividor = 1;
         while(dividor <= number) {
+            if(number % dividor == 0) {
+                System.out.println(dividor);
+            }
             dividor++;
         }
     }
