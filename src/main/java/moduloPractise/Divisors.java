@@ -30,6 +30,9 @@ public class Divisors {
     }
 
     public void printAllFactors(int number) {
+        if (number < 1) {
+            System.out.println("Invalid value");
+        }
     }
 
 
