@@ -29,6 +29,10 @@ public class Divisors {
         return theGreatestDivisor;
     }
 
+    public void printAllFactors(int number) {
+    }
+
+
     public static void main(String[] args) {
         findGreatestCommonDivisor(24, 60);
         findGreatestCommonDivisor(-80, 8);
