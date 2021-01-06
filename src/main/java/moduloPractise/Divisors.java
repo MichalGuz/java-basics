@@ -28,4 +28,13 @@ public class Divisors {
         System.out.println("The greatest common divisor of number " + firstNumber + " and number " + secondNumber + " is " + theGreatestDivisor);
         return theGreatestDivisor;
     }
+
+    public static void main(String[] args) {
+        findGreatestCommonDivisor(24, 60);
+        findGreatestCommonDivisor(-80, 8);
+        findGreatestCommonDivisor(88, 320);
+        findGreatestCommonDivisor(17, 144);
+        findGreatestCommonDivisor(17, 289);
+    }
+
 }
