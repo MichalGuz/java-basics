@@ -33,6 +33,10 @@ public class Divisors {
         if (number < 1) {
             System.out.println("Invalid value");
         }
+        int dividor = 1;
+        while(dividor <= number) {
+            dividor++;
+        }
     }
 
 
