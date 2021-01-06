@@ -25,7 +25,7 @@ public class Divisors {
                 divisor++;
             }
         }
-
+        System.out.println("The greatest common divisor of number " + firstNumber + " and number " + secondNumber + " is " + theGreatestDivisor);
         return theGreatestDivisor;
     }
 }
