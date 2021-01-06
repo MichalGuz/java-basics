@@ -17,6 +17,13 @@ public class Divisors {
                 }
                 divisor++;
             }
+        } else {
+            while (divisor <= firstNumber) {
+                if ((firstNumber % divisor == 0) && (secondNumber % divisor == 0)) {
+                    theGreatestDivisor = divisor;
+                }
+                divisor++;
+            }
         }
 
         return theGreatestDivisor;
