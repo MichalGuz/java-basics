@@ -32,14 +32,15 @@ public class Divisors {
     public static void printAllFactors(int number) {
         if (number < 1) {
             System.out.println("Invalid value");
+        } else {
+            int dividor = 1;
+            do {
+                if (number % dividor == 0) {
+                    System.out.println(dividor);
+                }
+                dividor++;
+            } while (dividor <= number);
         }
-        int dividor = 1;
-        do {
-            if(number % dividor == 0) {
-                System.out.println(dividor);
-            }
-            dividor++;
-        } while (dividor <= number);
     }
 
     public static void main(String[] args) {
@@ -50,5 +51,6 @@ public class Divisors {
         findGreatestCommonDivisor(17, 289);
 
         printAllFactors(44);
+        printAllFactors(0);
     }
 }
