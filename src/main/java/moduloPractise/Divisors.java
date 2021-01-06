@@ -29,7 +29,7 @@ public class Divisors {
         return theGreatestDivisor;
     }
 
-    public void printAllFactors(int number) {
+    public static void printAllFactors(int number) {
         if (number < 1) {
             System.out.println("Invalid value");
         }
@@ -49,6 +49,9 @@ public class Divisors {
         findGreatestCommonDivisor(88, 320);
         findGreatestCommonDivisor(17, 144);
         findGreatestCommonDivisor(17, 289);
+
+        printAllFactors(44);
+
     }
 
 }
