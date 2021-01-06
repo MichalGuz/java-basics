@@ -34,14 +34,13 @@ public class Divisors {
             System.out.println("Invalid value");
         }
         int dividor = 1;
-        while(dividor <= number) {
+        do {
             if(number % dividor == 0) {
                 System.out.println(dividor);
             }
             dividor++;
-        }
+        } while (dividor <= number);
     }
-
 
     public static void main(String[] args) {
         findGreatestCommonDivisor(24, 60);
@@ -51,7 +50,5 @@ public class Divisors {
         findGreatestCommonDivisor(17, 289);
 
         printAllFactors(44);
-
     }
-
 }
