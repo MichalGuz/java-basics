@@ -8,8 +8,9 @@ public class NumberToWords {
             System.out.println(number + " = ");
             int digit = 0;
             int reversed = reverse(number);
+            int numberOfDigits = countDigits(number);
 
-            for (int i = 0; i < reversed; i++) {
+            for (int i = 0; i < numberOfDigits; i++) {
             }
         }
     }
@@ -24,7 +25,7 @@ public class NumberToWords {
         return reversed;
     }
 
-    private int countDigits(int number) {
+    private static int countDigits(int number) {
         if (number < 0) {
             return -1;
         } else if (number == 0) {
