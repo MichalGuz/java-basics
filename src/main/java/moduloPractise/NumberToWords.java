@@ -10,6 +10,8 @@ public class NumberToWords {
             int reversed = reverse(number);
             int numberOfDigits = countDigits(number);
 
+            int difference = countDigits(number) - countDigits(reversed);
+
             for (int i = 0; i < numberOfDigits; i++) {
                 digit = reversed % 10;
                 reversed /= 10;
@@ -45,7 +47,10 @@ public class NumberToWords {
                         System.out.print("Nine ");
                         break;
                 }
+                System.out.println(" ");
             }
+
+
         }
     }
 
