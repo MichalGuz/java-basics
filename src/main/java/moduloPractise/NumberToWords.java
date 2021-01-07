@@ -55,7 +55,6 @@ public class NumberToWords {
                     System.out.println("Zero ");
                 }
             }
-
         }
     }
 
@@ -82,5 +81,14 @@ public class NumberToWords {
             }
             return counter;
         }
+    }
+
+    public static void main(String[] args) {
+        numberToWords(0);
+        numberToWords(100);
+        numberToWords(1234);
+        numberToWords(2005);
+        numberToWords(987);
+        numberToWords(333);
     }
 }
