@@ -23,4 +23,13 @@ public class NumberToWords {
         }
         return reversed;
     }
+
+    private int countDigits(int number) {
+        int counter = 0;
+        while(number > 0) {
+            counter++;
+            number /= 10;
+        }
+        return counter;
+    }
 }
