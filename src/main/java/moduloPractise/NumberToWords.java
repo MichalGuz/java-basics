@@ -7,7 +7,7 @@ public class NumberToWords {
         } else {
             System.out.println(number + " = ");
             int digit = 0;
-            int reversed;
+            int reversed = reverse(number);
         }
     }
 
