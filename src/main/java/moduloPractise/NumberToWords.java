@@ -1,10 +1,9 @@
 package moduloPractise;
 
 public class NumberToWords {
-    public static String numberToWords(int number) {
+    public static void numberToWords(int number) {
         if(number < 0) {
-            return "Invalid value - number can't be negative";
+            System.out.println("Invalid value - number can't be negative");
         }
-        return "The number = ";
     }
 }
