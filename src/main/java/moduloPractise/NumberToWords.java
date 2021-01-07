@@ -9,7 +9,10 @@ public class NumberToWords {
             int digit = 0;
             int reversed;
         }
+    }
 
-
+    public static int reverse(int number) {
+        int reversed = 0;
+        return reversed;
     }
 }
