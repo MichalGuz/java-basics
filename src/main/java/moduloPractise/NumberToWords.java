@@ -11,6 +11,11 @@ public class NumberToWords {
             int numberOfDigits = countDigits(number);
 
             for (int i = 0; i < numberOfDigits; i++) {
+                digit = reversed % 10;
+                reversed /= 10;
+                switch (digit) {
+
+                }
             }
         }
     }
