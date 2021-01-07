@@ -25,6 +25,9 @@ public class NumberToWords {
     }
 
     private int countDigits(int number) {
+        if(number < 0) {
+            return -1;
+        }
         int counter = 0;
         while(number > 0) {
             counter++;
