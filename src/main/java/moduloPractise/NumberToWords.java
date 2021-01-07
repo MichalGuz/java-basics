@@ -25,14 +25,17 @@ public class NumberToWords {
     }
 
     private int countDigits(int number) {
-        if(number < 0) {
+        if (number < 0) {
             return -1;
+        } else if (number == 0) {
+            return 1;
+        } else {
+            int counter = 0;
+            while (number > 0) {
+                counter++;
+                number /= 10;
+            }
+            return counter;
         }
-        int counter = 0;
-        while(number > 0) {
-            counter++;
-            number /= 10;
-        }
-        return counter;
     }
 }
