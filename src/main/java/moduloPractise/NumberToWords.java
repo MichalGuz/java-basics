@@ -50,6 +50,11 @@ public class NumberToWords {
                 System.out.println(" ");
             }
 
+            if(difference > 0) {
+                for(int i = 0; i<difference; i++) {
+                    System.out.println("Zero ");
+                }
+            }
 
         }
     }
