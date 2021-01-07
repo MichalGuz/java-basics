@@ -8,6 +8,9 @@ public class NumberToWords {
             System.out.println(number + " = ");
             int digit = 0;
             int reversed = reverse(number);
+
+            for (int i = 0; i < reversed; i++) {
+            }
         }
     }
 
