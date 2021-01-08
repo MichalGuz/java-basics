@@ -7,6 +7,10 @@ public class PrintYearsAndDays {
         } else {
             long days = minutes / (60 * 24);
             long years;
+            if(days > 0) {
+                years = days / 365;
+                days = days % 365;
+            }
         }
 
     }
