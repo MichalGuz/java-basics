@@ -22,4 +22,9 @@ public class Simplest {
         }
         return area;
     }
+
+    public static double area(double x, double y) {
+        double area = 0;
+        return area;
+    }
 }
