@@ -25,6 +25,11 @@ public class Simplest {
 
     public static double area(double x, double y) {
         double area = 0;
+        if (x < 0 || y < 0){
+            return -1;
+        } else {
+            area = x * y;
+        }
         return area;
     }
 }
