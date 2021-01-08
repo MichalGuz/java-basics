@@ -12,4 +12,9 @@ public class Simplest {
             System.out.println("Neither all are equal or different");
         }
     }
+
+    public static double area(double radius) {
+        double area = 0;
+        return area;
+    }
 }
