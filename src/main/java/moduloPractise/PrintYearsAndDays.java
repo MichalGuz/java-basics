@@ -10,6 +10,9 @@ public class PrintYearsAndDays {
             if(days > 0) {
                 years = days / 365;
                 days = days % 365;
+            } else {
+                days = 0;
+                years = 0;
             }
         }
 
