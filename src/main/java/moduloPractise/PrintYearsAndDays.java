@@ -14,7 +14,13 @@ public class PrintYearsAndDays {
                 days = 0;
                 years = 0;
             }
-        }
+            System.out.println(minutes + " min = " + years + " y and " + days + " d");        }
+    }
 
+    public static void main(String[] args) {
+        printYearsAndDays(0);
+        printYearsAndDays(6785);
+        printYearsAndDays(362543);
+        printYearsAndDays(8623499);
     }
 }
