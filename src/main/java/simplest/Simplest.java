@@ -6,6 +6,8 @@ public class Simplest {
             System.out.println("Invalid Value");
         } else if ( (a!= b) && (a!= c) && (b!=c)){
             System.out.println("All numbers are different");
+        } else if ( (a == b) && (a == c) && (b ==c)){
+            System.out.println("All numbers are equal");
         }
     }
 }
