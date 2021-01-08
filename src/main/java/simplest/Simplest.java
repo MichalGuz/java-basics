@@ -8,6 +8,8 @@ public class Simplest {
             System.out.println("All numbers are different");
         } else if ( (a == b) && (a == c) && (b ==c)){
             System.out.println("All numbers are equal");
+        } else {
+            System.out.println("Neither all are equal or different");
         }
     }
 }
