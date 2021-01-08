@@ -15,6 +15,11 @@ public class Simplest {
 
     public static double area(double radius) {
         double area = 0;
+        if (radius < 0) {
+            return -1;
+        } else {
+            area = radius * radius * Math.PI;
+        }
         return area;
     }
 }
