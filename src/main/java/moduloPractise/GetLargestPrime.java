@@ -10,13 +10,7 @@ public class GetLargestPrime {
         } else if (number == 2){
             System.out.println("The largest prime factor of number" + number + " is: 2");
             return 2;
-        } else {
-            for(int i=2; i<number; i++) {
-                if(number % i == 0) {
-                    factor = i;
-                }
             }
-        }
         return result;
     }
 }
