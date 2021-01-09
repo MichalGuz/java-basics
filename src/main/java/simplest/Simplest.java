@@ -22,6 +22,7 @@ public class Simplest {
         } else {
             area = radius * radius * Math.PI;
         }
+        System.out.println("area = " + area);
         return area;
     }
 
@@ -32,6 +33,7 @@ public class Simplest {
         } else {
             area = x * y;
         }
+        System.out.println("area = " + area);
         return area;
     }
 
@@ -45,5 +47,16 @@ public class Simplest {
             float f = random.nextFloat();
             System.out.println("random float #" + i + " = " + f);
         }
+    }
+
+    public static void main(String[] args) {
+        printEqual(22, 22, 22);
+        printEqual(22, 2, 22);
+        printEqual(22, 22, -22);
+
+        area(4.5);
+        area(4,5);
+
+        printVariousFloats();
     }
 }
