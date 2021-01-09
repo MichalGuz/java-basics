@@ -28,8 +28,22 @@ public class GetLargestPrime {
                 }
 
             }
+            System.out.println("The largest prime factor of number: " + number + " is " + prime);
             result = prime;
             return result;
             }
         }
+
+    public static void main(String[] args) {
+        getLargestPrime(21);
+        getLargestPrime(217);
+        getLargestPrime(0);
+        getLargestPrime(45);
+        getLargestPrime(-1);
+        getLargestPrime(7);
+        getLargestPrime(1);
+        getLargestPrime(8);
+        getLargestPrime(100);
+        getLargestPrime(2);
+    }
 }
