@@ -40,6 +40,8 @@ public class Simplest {
         for(int i = 0; i < 10; i++) {
             double n = random.nextDouble();
             System.out.println("random double #" + i + " = " + n);
+            double g = random.nextGaussian();
+            System.out.println("random gaussian #" + i + " = " + g);
         }
     }
 }
