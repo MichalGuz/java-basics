@@ -42,6 +42,8 @@ public class Simplest {
             System.out.println("random double #" + i + " = " + n);
             double g = random.nextGaussian();
             System.out.println("random gaussian #" + i + " = " + g);
+            float f = random.nextFloat();
+            System.out.println("random float #" + i + " = " + f);
         }
     }
 }
