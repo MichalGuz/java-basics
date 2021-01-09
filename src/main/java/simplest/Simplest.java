@@ -38,7 +38,8 @@ public class Simplest {
     public static void printVariousFloats() {
         Random random = new Random();
         for(int i = 0; i < 10; i++) {
-
+            double n = random.nextDouble();
+            System.out.println("random double #" + i + " = " + n);
         }
     }
 }
