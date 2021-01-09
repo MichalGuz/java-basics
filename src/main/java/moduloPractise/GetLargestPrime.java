@@ -5,6 +5,7 @@ public class GetLargestPrime {
         int result = 0;
         int factor = 0;
         int counter = 0;
+        int prime = 0;
         if(number <= 1) {
             System.out.println("Invalid value: " + number);
             return -1;
@@ -19,6 +20,9 @@ public class GetLargestPrime {
                         if(factor % p == 0) {
                             counter++;
                         }
+                    }
+                    if(counter == 0){
+                      prime = factor;
                     }
                 }
             }
