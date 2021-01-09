@@ -24,8 +24,11 @@ public class GetLargestPrime {
                     if(counter == 0){
                       prime = factor;
                     }
+                    counter = 0;
                 }
+
             }
+            result = prime;
             return result;
             }
         }
