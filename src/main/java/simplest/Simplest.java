@@ -1,5 +1,7 @@
 package simplest;
 
+import java.util.Random;
+
 public class Simplest {
     public static void printEqual(int a, int b, int c) {
         if ((a < 0) || (b < 0) || (c < 0)) {
@@ -34,5 +36,9 @@ public class Simplest {
     }
 
     public static void printVariousFloats() {
+        Random random = new Random();
+        for(int i = 0; i < 10; i++) {
+
+        }
     }
 }
