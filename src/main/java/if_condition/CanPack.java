@@ -21,6 +21,7 @@ public class CanPack {
 //            * canPack (-3, 2, 12); should return false since bigCount is negative.
 
     public static boolean canPack(int bigCount, int smallCount, int goal) {
+        int tempValue = 0;
         if(bigCount < 0 || smallCount < 0 || goal < 0) {
             System.out.println("false");
             return false;
@@ -30,6 +31,10 @@ public class CanPack {
         } else if (goal <= smallCount || goal == smallCount) {
             System.out.println("true");
             return true;
+        } else if (goal <= (bigCount * 5) + smallCount) {
+            tempValue = goal / 5;
+            goal -= bigCount * 5;
+
         }
         return false;
     }
