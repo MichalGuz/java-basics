@@ -37,6 +37,9 @@ public class CanPack {
             if(goal <= smallCount || goal == 0) {
                 System.out.println("true");
                 return true;
+            } else {
+                System.out.println("false");
+                return false;
             }
         }
         return false;
