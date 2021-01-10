@@ -33,7 +33,7 @@ public class CanPack {
             return true;
         } else if (goal <= (bigCount * 5) + smallCount) {
             tempValue = goal / 5;
-            goal -= bigCount * 5;
+            goal -= tempValue * 5;
             if(goal <= smallCount || goal == 0) {
                 System.out.println("true");
                 return true;
@@ -43,5 +43,15 @@ public class CanPack {
             }
         }
         return false;
+    }
+
+    public static void main(String[] args) {
+        canPack(2,0,10);
+        canPack(2,2, 6);
+        canPack(1,3,4);
+        canPack(1,0,4);
+        canPack(0,5,4);
+        canPack(2,2,11);
+        canPack(-3,2,12);
     }
 }
