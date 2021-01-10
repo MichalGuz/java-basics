@@ -24,6 +24,10 @@ public class CanPack {
         if(bigCount < 0 || smallCount < 0 || goal < 0) {
             System.out.println("false");
             return false;
+        } else if (goal > ((bigCount * 5) + smallCount)) {
+            System.out.println("false");
+            return false;
         }
+        return false;
     }
 }
