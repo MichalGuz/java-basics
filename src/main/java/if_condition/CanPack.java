@@ -34,7 +34,10 @@ public class CanPack {
         } else if (goal <= (bigCount * 5) + smallCount) {
             tempValue = goal / 5;
             goal -= bigCount * 5;
-
+            if(goal <= smallCount || goal == 0) {
+                System.out.println("true");
+                return true;
+            }
         }
         return false;
     }
