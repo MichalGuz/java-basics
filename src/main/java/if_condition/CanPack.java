@@ -20,4 +20,7 @@ public class CanPack {
 //            * canPack (2, 2, 11); should return true since bigCount is 2 (big bags 5 kilos each) and smallCount is 2 (small bags of 1 kilo), makes in total 12 kilos and goal is 11 kilos.
 //            * canPack (-3, 2, 12); should return false since bigCount is negative.
 
+    public static void canPack(int bigCount, int smallCount, int goal) {
+
+    }
 }
