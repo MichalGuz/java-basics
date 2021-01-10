@@ -21,6 +21,7 @@ public class CanPack {
 //            * canPack (-3, 2, 12); should return false since bigCount is negative.
 
     public static boolean canPack(int bigCount, int smallCount, int goal) {
+        System.out.print("counts (" + bigCount + ", " + smallCount + ") and goal: " + goal + " = ");
         int tempValue = 0;
         if(bigCount < 0 || smallCount < 0 || goal < 0) {
             System.out.println("false");
