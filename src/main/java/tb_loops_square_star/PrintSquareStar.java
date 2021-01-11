@@ -17,7 +17,8 @@ public class PrintSquareStar {
                     colCount = 0;
                 }
                 if (rowCount > 0 && rowCount < number - 1) {
-
+                    for(int k=0; k<number; k++) {
+                    }
                 }
             }
         }
