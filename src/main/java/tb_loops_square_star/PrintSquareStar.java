@@ -9,6 +9,12 @@ public class PrintSquareStar {
             System.out.println("Invalid value");
         } else {
             for (int i=0; i<number; i++) {
+                if(rowCount == 0 || rowCount == number - 1) {
+                    while(colCount < number) {
+                        System.out.print("*");
+                        colCount++;
+                    }
+                }
             }
         }
     }
