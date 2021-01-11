@@ -30,7 +30,7 @@ public class PrintSquareStar {
                     }
                 }
                 System.out.println("");
-
+                rowCount++;
             }
         }
     }
