@@ -22,6 +22,8 @@ public class PrintSquareStar {
                             System.out.print("*");
                         } else if (k == rowCount) {
                             System.out.print("*");
+                        } else if (k == number - (rowCount + 1)){
+                            System.out.print("*");
                         }
                     }
                 }
