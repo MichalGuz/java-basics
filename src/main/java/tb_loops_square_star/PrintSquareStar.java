@@ -20,6 +20,8 @@ public class PrintSquareStar {
                     for(int k=0; k<number; k++) {
                         if(k == 0 || k == number - 1) {
                             System.out.print("*");
+                        } else if (k == rowCount) {
+                            System.out.print("*");
                         }
                     }
                 }
