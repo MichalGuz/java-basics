@@ -18,6 +18,9 @@ public class PrintSquareStar {
                 }
                 if (rowCount > 0 && rowCount < number - 1) {
                     for(int k=0; k<number; k++) {
+                        if(k == 0 || k == number - 1) {
+                            System.out.print("*");
+                        }
                     }
                 }
             }
