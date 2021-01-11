@@ -29,6 +29,8 @@ public class PrintSquareStar {
                         }
                     }
                 }
+                System.out.println("");
+
             }
         }
     }
