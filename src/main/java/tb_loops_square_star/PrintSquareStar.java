@@ -14,6 +14,7 @@ public class PrintSquareStar {
                         System.out.print("*");
                         colCount++;
                     }
+                    colCount = 0;
                 }
             }
         }
