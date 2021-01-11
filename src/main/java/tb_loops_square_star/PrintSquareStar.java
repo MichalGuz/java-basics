@@ -7,6 +7,9 @@ public class PrintSquareStar {
 
         if(number < 5) {
             System.out.println("Invalid value");
+        } else {
+            for (int i=0; i<number; i++) {
+            }
         }
     }
 
