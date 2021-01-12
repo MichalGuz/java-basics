@@ -16,6 +16,8 @@ public class SortedArray {
     }
 
     public static void printIntegers(int[] array) {
-
+        for(int i=0; i<array.length; i++) {
+            System.out.println("Element " + i + "contents " + array[i]);
+        }
     }
 }
