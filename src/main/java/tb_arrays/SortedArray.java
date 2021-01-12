@@ -20,4 +20,8 @@ public class SortedArray {
             System.out.println("Element " + i + "contents " + array[i]);
         }
     }
+
+    public static int[] sortIntegers(int[] array) {
+
+    }
 }
