@@ -24,5 +24,7 @@ public class SortedArray {
     public static int[] sortIntegers(int[] array) {
         int[] sortedArray;
         int temp = 0;
+        for(int i=0; i<array.length; i++) {
+        }
     }
 }
