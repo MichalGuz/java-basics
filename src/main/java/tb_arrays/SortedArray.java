@@ -37,4 +37,10 @@ public class SortedArray {
         printIntegers(sortedArray);
         return sortedArray;
     }
+
+    public static void main(String[] args) {
+        int[] array = getIntegers(5);
+        printIntegers(array);
+        sortIntegers(array);
+    }
 }
