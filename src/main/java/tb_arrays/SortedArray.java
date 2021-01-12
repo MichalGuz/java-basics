@@ -6,5 +6,10 @@ public class SortedArray {
     public static int[] getIntegers(int number) {
         int unsortedArray[] = new int[number];
         Scanner scanner = new Scanner(System.in);
+        for(int i=0; i<number; i++) {
+            System.out.println("Enter an integer:");
+            int enteredNumber = scanner.nextInt();
+            scanner.nextLine();
+        }
     }
 }
