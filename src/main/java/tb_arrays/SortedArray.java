@@ -10,6 +10,8 @@ public class SortedArray {
             System.out.println("Enter an integer:");
             int enteredNumber = scanner.nextInt();
             scanner.nextLine();
+            unsortedArray[i] = enteredNumber;
         }
+        return unsortedArray;
     }
 }
