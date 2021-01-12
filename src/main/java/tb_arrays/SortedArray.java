@@ -15,7 +15,7 @@ public class SortedArray {
         return unsortedArray;
     }
 
-    public static void printIntegers(int array) {
+    public static void printIntegers(int[] array) {
 
     }
 }
