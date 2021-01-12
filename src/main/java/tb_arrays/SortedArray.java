@@ -26,6 +26,11 @@ public class SortedArray {
         int temp = 0;
         for(int i=0; i<array.length; i++) {
             for(int k=0; k<array.length; k++) {
+                if(array[i] > array[k]){
+                    temp = array[i];
+                    array[i] = array[k];
+                    array[k] = temp;
+                }
             }
         }
     }
