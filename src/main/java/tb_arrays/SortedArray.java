@@ -25,6 +25,8 @@ public class SortedArray {
         int[] sortedArray;
         int temp = 0;
         for(int i=0; i<array.length; i++) {
+            for(int k=0; k<array.length; k++) {
+            }
         }
     }
 }
