@@ -7,7 +7,7 @@ public class RoundNumbers {
             result = -1;
         } else {
             double bucket = Math.ceil((width * hight) / areaPerBucket);
-
+            result = (int) (bucket - extraBuckets);
         }
         return result;
     }
