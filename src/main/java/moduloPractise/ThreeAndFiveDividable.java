@@ -8,10 +8,11 @@ public class ThreeAndFiveDividable {
             sum = -1;
         } else if (number == 0){
             sum = 0;
-        }
-        for (int i=0; i<number; i++) {
-            if((i % 3 == 0) && (i % 5 == 0)) {
-                sum += i;
+        } else {
+            for (int i = 0; i < number; i++) {
+                if ((i % 3 == 0) && (i % 5 == 0)) {
+                    sum += i;
+                }
             }
         }
         return sum;
