@@ -20,4 +20,7 @@ public class ThreeAndFiveDividable {
         return sum;
     }
 
+    public static void main(String[] args) {
+        sumThreeAndFiveDividable(1000);
+    }
 }
