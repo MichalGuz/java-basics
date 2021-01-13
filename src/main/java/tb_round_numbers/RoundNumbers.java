@@ -6,6 +6,8 @@ public class RoundNumbers {
         if((width <= 0) || (hight <= 0) || (areaPerBucket <= 0) || (extraBuckets < 0)) {
             result = -1;
         } else {
+            double bucket = Math.ceil((width * hight) / areaPerBucket);
+
         }
         return result;
     }
