@@ -9,9 +9,11 @@ public class ThreeAndFiveDividable {
         } else if (number == 0){
             sum = 0;
         } else {
-            for (int i = 0; i < number; i++) {
+            int counter = 0;
+            for (int i = 1; i < number; i++) {
                 if ((i % 3 == 0) && (i % 5 == 0)) {
-                    System.out.println("number dividable by 3 and 5: " + i);
+                    counter++;
+                    System.out.println("number #" + counter + " dividable by 3 and 5: " + i);
                     sum += i;
                 }
             }
