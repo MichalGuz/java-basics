@@ -9,6 +9,7 @@ public class RoundNumbers {
             double bucket = Math.ceil((width * hight) / areaPerBucket);
             result = (int) (bucket - extraBuckets);
         }
+        System.out.println(result);
         return result;
     }
 
@@ -21,6 +22,7 @@ public class RoundNumbers {
             double bucket = Math.ceil((width * hight) / areaPerBucket);
             result = (int) bucket;
         }
+        System.out.println(result);
         return result;
     }
 
@@ -33,6 +35,13 @@ public class RoundNumbers {
             double bucket = Math.ceil(area / areaPerBucket);
             result = (int)bucket;
         }
+        System.out.println(result);
         return result;
+    }
+
+    public static void main(String[] args) {
+        getBucketCount(3.0, 4.5, 0.5, 0);
+        getBucketCount(3.0, 4.5, 0.5);
+        getBucketCount(13.5,0.5);
     }
 }
