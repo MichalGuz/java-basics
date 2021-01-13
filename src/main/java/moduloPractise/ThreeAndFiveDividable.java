@@ -5,10 +5,12 @@ public class ThreeAndFiveDividable {
         int sum = 0;
         if(number < 0) {
             System.out.println("Invalid value");
-            return -1;
+            sum = -1;
         }
         for (int i=0; i<number; i++) {
-
+            if((i % 3 == 0) && (i % 5 == 0)) {
+                sum += i;
+            }
         }
         return sum;
     }
