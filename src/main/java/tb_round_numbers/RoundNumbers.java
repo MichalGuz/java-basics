@@ -23,4 +23,9 @@ public class RoundNumbers {
         }
         return result;
     }
-}
+
+    // #2 overloaded getBucketCount()
+    public static int getBucketCount(double area, double areaPerBucket){
+        int result = 0;
+        return result;
+    }
