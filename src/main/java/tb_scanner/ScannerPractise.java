@@ -20,7 +20,18 @@ public class ScannerPractise {
             int now = Calendar.getInstance().get(Calendar.YEAR);
             System.out.println("Current year = "+ now);
 
-        }
+            int age = now - yearOfBirth;
+
+            System.out.println("Hi " + name + "!");
+            if(age < 18 && age > 0) {
+                System.out.println("You are only " + age + " years old. You are too young to enter the website.");
+            } else if (age >= 18 && age < 110){
+                System.out.println("You are " + age + " years old. Welcome to the website!" );
+            } else {
+                System.out.println("Invalid year of birth");
+
+
+            }
 
     }
 }
