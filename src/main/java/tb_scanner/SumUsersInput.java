@@ -24,6 +24,9 @@ public class SumUsersInput {
             }
             scanner.nextLine();
         }
+        scanner.close();
+
+        System.out.println("sum = " + sum);
         return sum;
     }
 }
