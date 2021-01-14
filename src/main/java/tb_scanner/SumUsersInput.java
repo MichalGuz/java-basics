@@ -12,6 +12,13 @@ public class SumUsersInput {
         while (counter < 11) {
             System.out.println("Enter number #" + counter);
             boolean hasNextInt = scanner.hasNextInt();
+            if(hasNextInt) {
+                counter++;
+                sum += scanner.nextInt();
+            } else {
+                System.out.println("Invalid Value");
+            }
+            scanner.nextLine();
         }
         return sum;
     }
