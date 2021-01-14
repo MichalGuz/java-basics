@@ -9,6 +9,10 @@ public class SumUsersInput {
         int sum = 0;
         int counter = 1;
 
+        while (counter < 11) {
+            System.out.println("Enter number #" + counter);
+            boolean hasNextInt = scanner.hasNextInt();
+        }
         return sum;
     }
 }
