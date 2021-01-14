@@ -14,7 +14,7 @@ public class SumUsersInput {
         int counter = 0;
 
         while (counter < number) {
-            System.out.println("Enter number #" + counter);
+            System.out.println("Enter number #" + (counter + 1));
             boolean hasNextInt = scanner.hasNextInt();
             if(hasNextInt) {
                 counter++;
