@@ -29,4 +29,8 @@ public class SumUsersInput {
         System.out.println("sum = " + sum);
         return sum;
     }
+
+    public static void main(String[] args) {
+        sumUsersInput(5);
+    }
 }
