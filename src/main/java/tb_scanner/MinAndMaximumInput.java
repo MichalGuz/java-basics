@@ -104,8 +104,8 @@ public class MinAndMaximumInput {
         System.out.println("Max = " + max);
         scanner.close();
     }
-}
 
-
+    public static void main(String[] args) {
+        minAndMaximumInputWithFlag();
     }
 }
