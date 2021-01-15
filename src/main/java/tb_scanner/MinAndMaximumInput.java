@@ -28,6 +28,8 @@ public class MinAndMaximumInput {
                     if (number > max) {
                         max = number;
                     }
+                } else {
+                    break;
                 }
             }
         }
