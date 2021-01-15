@@ -90,6 +90,12 @@ public class MinAndMaximumInput {
             boolean hasNextInt = scanner.hasNextInt();
             if (hasNextInt) {
                 number = scanner.nextInt();
+                if (flag) {
+                    flag = false;
+                    min = number;
+                    max = number;
+                }
             }
+        }
     }
 }
