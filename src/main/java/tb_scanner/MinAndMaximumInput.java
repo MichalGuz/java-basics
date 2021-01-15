@@ -20,6 +20,15 @@ public class MinAndMaximumInput {
             while (true) {
                 System.out.println("Enter the number");
                 boolean isNextInt = scanner.hasNextInt();
+                if (isNextInt) {
+                    number = scanner.nextInt();
+                    if (number < min) {
+                        min = number;
+                    }
+                    if (number > max) {
+                        max = number;
+                    }
+                }
             }
         }
     }
