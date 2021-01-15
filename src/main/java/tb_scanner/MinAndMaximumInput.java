@@ -43,5 +43,6 @@ public class MinAndMaximumInput {
     }
 
     public static void minAndMaximumInputWithIntExtent() {
+
     }
 }
