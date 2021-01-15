@@ -53,7 +53,17 @@ public class MinAndMaximumInput {
             boolean hasNextInt = scanner.hasNextInt();
             if (hasNextInt) {
                 number = scanner.nextInt();
+                if (number < min) {
+                    min = number;
+                }
+                if (number > max) {
+                    max = number;
+                }
+            } else {
+                    System.out.println("Invalid value.");
+                    break;
             }
+            scanner.nextLine();
         }
     }
 }
