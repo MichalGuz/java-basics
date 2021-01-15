@@ -71,6 +71,12 @@ public class MinAndMaximumInput {
     }
 
     public static void minAndMaximumInputWithFlag() {
+        int min = 0;
+        int max = 0;
+        int number = 0;
+        Scanner scanner = new Scanner(System.in);
+
+        boolean flag = true;
 
     }
 }
