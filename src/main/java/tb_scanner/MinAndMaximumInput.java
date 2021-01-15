@@ -41,4 +41,7 @@ public class MinAndMaximumInput {
         }
         scanner.close();
     }
+
+    public static void minAndMaximumInputWithIntExtent() {
+    }
 }
