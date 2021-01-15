@@ -45,6 +45,15 @@ public class MinAndMaximumInput {
     public static void minAndMaximumInputWithIntExtent() {
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
+        int number = 0;
+        Scanner scanner = new Scanner(System.in);
 
+        while (true) {
+            System.out.println("Enter the number");
+            boolean hasNextInt = scanner.hasNextInt();
+            if (hasNextInt) {
+                number = scanner.nextInt();
+            }
+        }
     }
 }
