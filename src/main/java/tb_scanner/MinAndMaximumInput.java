@@ -78,13 +78,6 @@ public class MinAndMaximumInput {
 
         boolean flag = true;
 
-        int min = 0;
-        int max = 0;
-        int number = 0;
-        Scanner scanner = new Scanner(System.in);
-
-        boolean flag = true;
-
         while (true) {
             System.out.println("Enter the number");
             boolean hasNextInt = scanner.hasNextInt();
@@ -95,7 +88,24 @@ public class MinAndMaximumInput {
                     min = number;
                     max = number;
                 }
+                if (number < min) {
+                    min = number;
+                }
+                if (number > max) {
+                    max = number;
+                }
+            } else {
+                System.out.println("Invalid value.");
+                break;
             }
+            scanner.nextLine();
         }
+        System.out.println("Min = " + min);
+        System.out.println("Max = " + max);
+        scanner.close();
+    }
+}
+
+
     }
 }
