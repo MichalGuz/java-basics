@@ -11,5 +11,11 @@ public class MinAndMaximumInput {
 
         System.out.println("Enter the number");
         boolean hasNextInt = scanner.hasNextInt();
+
+        if (hasNextInt) {
+            number = scanner.nextInt();
+            min = number;
+            max = number;
+        }
     }
 }
