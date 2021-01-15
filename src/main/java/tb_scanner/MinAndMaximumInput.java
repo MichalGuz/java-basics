@@ -31,7 +31,13 @@ public class MinAndMaximumInput {
                 } else {
                     break;
                 }
+
+                System.out.println("Min = " + min);
+                System.out.println("Max = " + max);
             }
+        } else {
+            System.out.println("Invalid value.");
+            scanner.nextLine();
         }
     }
 }
