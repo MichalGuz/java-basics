@@ -39,5 +39,6 @@ public class MinAndMaximumInput {
             System.out.println("Invalid value.");
             scanner.nextLine();
         }
+        scanner.close();
     }
 }
