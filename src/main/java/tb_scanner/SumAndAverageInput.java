@@ -3,7 +3,7 @@ package tb_scanner;
 import java.util.Scanner;
 
 public class SumAndAverageInput {
-    public void sumAndAverageInput() {
+    public static void sumAndAverageInput() {
         Scanner scanner = new Scanner(System.in);
         int sum = 0;
         int enteredInteger = 0;
@@ -11,10 +11,10 @@ public class SumAndAverageInput {
         int counter = 0;
 
         System.out.println("Start");
-        while(true) {
+        while (true) {
             System.out.println("Enter an integer");
             boolean hasNextInt = scanner.hasNextInt();
-            if(hasNextInt) {
+            if (hasNextInt) {
                 enteredInteger = scanner.nextInt();
                 sum += enteredInteger;
                 counter++;
@@ -29,4 +29,9 @@ public class SumAndAverageInput {
 
         scanner.close();
     }
+
+    public static void main(String[] args) {
+        sumAndAverageInput();
+    }
 }
+
