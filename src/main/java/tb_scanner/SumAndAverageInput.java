@@ -7,6 +7,10 @@ public class SumAndAverageInput {
         Scanner scanner = new Scanner(System.in);
         int sum = 0;
 
+        System.out.println("Start   ");
+        while(true) {
+            System.out.println("Enter the integer");
+        }
 
     }
 }
