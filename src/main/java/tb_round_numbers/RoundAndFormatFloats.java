@@ -1,7 +1,5 @@
 package tb_round_numbers;
 
-import tb_add_arrays_temp.AverageFromScanner;
-
 import java.util.ArrayList;
 import java.util.Random;
 
