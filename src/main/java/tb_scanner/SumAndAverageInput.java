@@ -14,9 +14,11 @@ public class SumAndAverageInput {
             boolean hasNextInt = scanner.hasNextInt();
             if(hasNextInt) {
                 enteredInteger = scanner.nextInt();
-                scanner.nextLine();
                 sum += enteredInteger;
+            } else {
+                break;
             }
+            scanner.nextLine();
         }
 
     }
