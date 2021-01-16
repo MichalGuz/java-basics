@@ -1,16 +1,24 @@
 package tb_round_numbers;
 
+import java.math.BigDecimal;
+import java.math.MathContext;
 import java.util.ArrayList;
 import java.util.Random;
+import java.util.Scanner;
 
 public class RoundAndFormatFloats {
     public static ArrayList<Double> roundAndFormatFloats() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter an integer from range 1-20");
+        int enteredValue = scanner.nextInt();
+        scanner.close();
+
         Random random = new Random();
         ArrayList<Double> numbers = new ArrayList<>();
         double res = 0;
 
-        for (double i = 0; i < 10; i++) {
-            double d = random.nextInt(10);
+        for (double i = 0; i < enteredValue; i++) {
+            double d = random.nextInt(enteredValue);
             System.out.println("i = " + i + " d = " + d);
             if (d <= 1) {
                 res = (i / 1) / 4;
