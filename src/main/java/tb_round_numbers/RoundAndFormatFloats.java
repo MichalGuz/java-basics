@@ -7,5 +7,12 @@ public class RoundAndFormatFloats {
     public static void roundAndFormatFloats() {
         Random random = new Random();
         ArrayList<Double> numbers = new ArrayList<>();
+
+
+        for(double i=0; i<10; i++) {
+            double d = random.nextInt(10);
+            System.out.println("i = " + i + " d = "+ d );
+
+        }
     }
 }
