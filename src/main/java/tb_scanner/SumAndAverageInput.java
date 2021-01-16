@@ -10,6 +10,8 @@ public class SumAndAverageInput {
         System.out.println("Start   ");
         while(true) {
             System.out.println("Enter the integer");
+            boolean hasNextInt = scanner.hasNextInt();
+
         }
 
     }
