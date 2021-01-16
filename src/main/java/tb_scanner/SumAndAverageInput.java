@@ -23,8 +23,10 @@ public class SumAndAverageInput {
             }
             scanner.nextLine();
         }
-
         average = sum / counter;
+        System.out.println("Sum = " + sum);
+        System.out.println("Average = " + average);
 
+        scanner.close();
     }
 }
