@@ -17,6 +17,14 @@ public class RoundAndFormatFloats {
             } else {
                 res = (i / d) / 4;
             }
+
+            System.out.println(String.format("%.2f", res));
+            System.out.println(String.format("%.4f", res));
+            System.out.println(String.format("%.6f", res));
+            System.out.println(String.format("%.10f", res));
+            System.out.println(String.format("%.15f", res));
         }
+
+
     }
 }
