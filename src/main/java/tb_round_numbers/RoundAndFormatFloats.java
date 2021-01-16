@@ -44,4 +44,9 @@ public class RoundAndFormatFloats {
             System.out.println(String.format("%.5f", result));
         }
     }
+
+    public static void main(String[] args) {
+        ArrayList<Double> list = roundFloats();
+        formatFloats(list);
+    }
 }
