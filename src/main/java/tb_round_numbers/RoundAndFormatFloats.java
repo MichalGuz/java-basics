@@ -35,4 +35,7 @@ public class RoundAndFormatFloats {
         }
         return numbers;
     }
+
+    public static void formatFloats(ArrayList<Double> listOfFloats) {
+    }
 }
