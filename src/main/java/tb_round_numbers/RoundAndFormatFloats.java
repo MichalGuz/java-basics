@@ -37,5 +37,7 @@ public class RoundAndFormatFloats {
     }
 
     public static void formatFloats(ArrayList<Double> listOfFloats) {
+        MathContext context = new MathContext(5);
+
     }
 }
