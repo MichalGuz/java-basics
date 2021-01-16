@@ -38,6 +38,10 @@ public class RoundAndFormatFloats {
 
     public static void formatFloats(ArrayList<Double> listOfFloats) {
         MathContext context = new MathContext(5);
-
+        for(Double f: listOfFloats) {
+            BigDecimal decimal = new BigDecimal(f);
+            BigDecimal result = decimal.round(context);
+            System.out.println(String.format("%.5f", result));
+        }
     }
 }
