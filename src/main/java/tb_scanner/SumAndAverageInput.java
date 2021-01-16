@@ -7,6 +7,8 @@ public class SumAndAverageInput {
         Scanner scanner = new Scanner(System.in);
         int sum = 0;
         int enteredInteger = 0;
+        double average = 0;
+        int counter = 0;
 
         System.out.println("Start");
         while(true) {
@@ -15,11 +17,14 @@ public class SumAndAverageInput {
             if(hasNextInt) {
                 enteredInteger = scanner.nextInt();
                 sum += enteredInteger;
+                counter++;
             } else {
                 break;
             }
             scanner.nextLine();
         }
+
+        average = sum / counter;
 
     }
 }
