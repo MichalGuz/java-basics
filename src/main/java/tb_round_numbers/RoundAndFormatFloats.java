@@ -7,7 +7,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class RoundAndFormatFloats {
-    public static ArrayList<Double> roundAndFormatFloats() {
+    public static ArrayList<Double> roundFloats() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter an integer from range 1-20");
         int enteredValue = scanner.nextInt();
