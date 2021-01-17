@@ -9,6 +9,10 @@ public class SwitchWeek {
         int day = scanner.nextInt();
         scanner.nextLine();
 
+        if(day < 0 || day > 7) {
+            System.out.println("Invalid value, Enter the number form range 1-7");
+        }
+
         switch (day) {
             case 0:
                 System.out.println("End");
