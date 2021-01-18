@@ -23,6 +23,9 @@ public class SwitchWithDefault {
             case 'B':
                 System.out.println("It is B");
                 break;
+            case 'C': case 'D': case 'E':
+                System.out.println("It is a letter " + letter);
+                break;
         }
     }
 }
