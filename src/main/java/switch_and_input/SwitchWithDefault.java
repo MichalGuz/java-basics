@@ -16,6 +16,13 @@ public class SwitchWithDefault {
     }
 
     public static void switchLetterPractise(char letter) {
-
+        switch (letter) {
+            case 'A':
+                System.out.println("It is A");
+                break;
+            case 'B':
+                System.out.println("It is B");
+                break;
+        }
     }
 }
