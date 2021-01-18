@@ -1,9 +1,7 @@
 package switch_and_input;
 
 public class SwitchWithDefault {
-    public void switchValuePractise() {
-        int switchValue = 1;
-
+    public static void switchValuePractise(int switchValue) {
         switch (switchValue) {
             case 1:
                 System.out.println("Value equals 1");
