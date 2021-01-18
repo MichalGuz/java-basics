@@ -14,4 +14,8 @@ public class SwitchWithDefault {
                 break;
         }
     }
+
+    public static void switchLetterPractise(char letter) {
+
+    }
 }
