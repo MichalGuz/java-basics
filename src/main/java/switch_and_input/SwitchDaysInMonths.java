@@ -30,6 +30,7 @@ public class SwitchDaysInMonths {
                     break;
             }
         }
+        System.out.println("The " + month + "th month of " + year + " year is " + days + " days long");
         return days;
     }
 
@@ -52,6 +53,8 @@ public class SwitchDaysInMonths {
         System.out.println("Is leap year: 2000 - " + isLeapYear(2000));
         System.out.println("Is leap year: 2020 - " + isLeapYear(2020));
 
-
+        getDaysInMonth(2,1888);
+        getDaysInMonth(10, 1900);
+        getDaysInMonth(2, 1999);
     }
 }
