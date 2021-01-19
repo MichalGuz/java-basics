@@ -10,6 +10,9 @@ public class SwitchDaysInMonths {
     }
 
     public static boolean isLeapYear(int year) {
+        if(year < 1 || year > 9999) {
+            return false;
+        }
         return false;
     }
 }
