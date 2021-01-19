@@ -17,8 +17,10 @@ public class SwitchDaysInMonths {
                     days = 31;
                     break;
             }
+        } else if (isLeapYear(year) == false) {
+
         }
-        return -1;
+        return days;
     }
 
     public static boolean isLeapYear(int year) {
