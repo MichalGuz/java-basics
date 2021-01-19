@@ -29,7 +29,6 @@ public class SwitchDaysInMonths {
                     days = 31;
                     break;
             }
-
         }
         return days;
     }
@@ -44,5 +43,15 @@ public class SwitchDaysInMonths {
             return false;
         }
         return false;
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Is leap year: 1990 - " + isLeapYear(1990));
+        System.out.println("Is leap year: 1900 - " + isLeapYear(1900));
+        System.out.println("Is leap year: 1902 - " + isLeapYear(1902));
+        System.out.println("Is leap year: 2000 - " + isLeapYear(2000));
+        System.out.println("Is leap year: 2020 - " + isLeapYear(2020));
+
+
     }
 }
