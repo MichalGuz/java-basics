@@ -31,4 +31,11 @@ public class SwitchWithDefault {
                 break;
         }
     }
+
+    public static void main(String[] args) {
+        switchLetterPractise('B');
+        switchLetterPractise('Z');
+        switchValuePractise(2);
+        switchValuePractise(5);
+    }
 }
