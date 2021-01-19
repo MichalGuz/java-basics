@@ -5,6 +5,8 @@ public class SwitchDaysInMonths {
         int days = 0;
         if ((month < 1) || (month > 12) || (year < 1) || (year > 9999)) {
             return -1;
+        } else if (isLeapYear(year) == true) {
+
         }
         return -1;
     }
