@@ -8,4 +8,8 @@ public class SwitchDaysInMonths {
         }
         return -1;
     }
+
+    public static boolean isLeapYear(int year) {
+        return false;
+    }
 }
