@@ -24,7 +24,9 @@ public class IsPrime {
         }
 
         for (int i=0; i<bound; i++) {
-
+            if(isPrime(i)) {
+                counter++;
+            }
         }
         return counter;
     }
