@@ -32,4 +32,8 @@ public class IsPrime {
         System.out.println("found " + counter + " prime numbers in " + bound);
         return counter;
     }
+
+    public static void main(String[] args) {
+        primeCounter(250);
+    }
 }
