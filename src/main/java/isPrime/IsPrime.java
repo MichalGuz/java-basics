@@ -7,8 +7,10 @@ public class IsPrime {
         }
 
         for(int i=2; i<=(long)Math.sqrt(i); i++) {
-
+            if(number % i == 0) {
+                return false;
+            }
         }
-        return false;
+        return true;
     }
 }
