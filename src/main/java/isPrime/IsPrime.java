@@ -22,6 +22,10 @@ public class IsPrime {
         if(bound < 2) {
             return -1;
         }
+
+        for (int i=0; i<bound; i++) {
+
+        }
         return counter;
     }
 }
