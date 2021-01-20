@@ -16,4 +16,8 @@ public class IsPrime {
         System.out.println(number + " is a prime number");
         return true;
     }
+
+    public static int primeCounter(int bound) {
+        return -1;
+    }
 }
