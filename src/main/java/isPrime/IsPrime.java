@@ -25,9 +25,11 @@ public class IsPrime {
 
         for (int i=0; i<bound; i++) {
             if(isPrime(i)) {
+                System.out.println("prime: " + i);
                 counter++;
             }
         }
+        System.out.println("found " + counter + " prime numbers in " + bound);
         return counter;
     }
 }
