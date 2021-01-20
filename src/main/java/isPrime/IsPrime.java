@@ -7,7 +7,7 @@ public class IsPrime {
             return false;
         }
 
-        for(int i=2; i<=(long)Math.sqrt(i); i++) {
+        for(int i=2; i<=(long)Math.sqrt(number); i++) {
             if(number % i == 0) {
                 System.out.println(number + " is not a prime number");
                 return false;
