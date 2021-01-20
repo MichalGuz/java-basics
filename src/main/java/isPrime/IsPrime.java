@@ -18,6 +18,10 @@ public class IsPrime {
     }
 
     public static int primeCounter(int bound) {
-        return -1;
+        int counter = 0;
+        if(bound < 2) {
+            return -1;
+        }
+        return counter;
     }
 }
