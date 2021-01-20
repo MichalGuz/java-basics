@@ -4,6 +4,7 @@ public class SwitchDaysInMonths {
     public static int getDaysInMonth(int month, int year) {
         int days = 0;
         if ((month < 1) || (month > 12) || (year < 1) || (year > 9999)) {
+            System.out.println("Invalid vaule of month or year");
             return -1;
         } else if (isLeapYear(year) == true) {
             switch (month) {
@@ -56,5 +57,6 @@ public class SwitchDaysInMonths {
         getDaysInMonth(2,1888);
         getDaysInMonth(10, 1900);
         getDaysInMonth(2, 1999);
+        getDaysInMonth(13, 1112);
     }
 }
