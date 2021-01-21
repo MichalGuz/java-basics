@@ -14,4 +14,8 @@ public class VipCustomer {
     public VipCustomer(String name, double creditLimit) {
         this(name, creditLimit, "emailAddress");
     }
+
+    public VipCustomer() {
+        this("defaultName", 1000, "defaultAddress");
+    }
 }
