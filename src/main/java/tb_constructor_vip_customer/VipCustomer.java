@@ -10,4 +10,8 @@ public class VipCustomer {
         this.creditLimit = creditLimit;
         this.emailAddress = emailAddress;
     }
+
+    public VipCustomer(String name, double creditLimit) {
+        this(name, creditLimit, "emailAddress");
+    }
 }
