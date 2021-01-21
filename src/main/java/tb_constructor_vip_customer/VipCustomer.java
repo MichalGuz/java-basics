@@ -18,4 +18,16 @@ public class VipCustomer {
     public VipCustomer() {
         this("defaultName", 1000, "defaultAddress");
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getCreditLimit() {
+        return creditLimit;
+    }
+
+    public String getEmailAddress() {
+        return emailAddress;
+    }
 }
