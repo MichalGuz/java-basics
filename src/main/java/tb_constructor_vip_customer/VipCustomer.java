@@ -30,4 +30,15 @@ public class VipCustomer {
     public String getEmailAddress() {
         return emailAddress;
     }
+
+    public static void main(String[] args) {
+        VipCustomer vipCustomer1 = new VipCustomer();
+        System.out.println(vipCustomer1.getName() + " " + vipCustomer1.getCreditLimit() + " " + vipCustomer1.getEmailAddress());
+
+        VipCustomer vipCustomer2 = new VipCustomer("John Customer2",5000.0);
+        System.out.println(vipCustomer2.getName() + " " + vipCustomer2.getCreditLimit() + " " + vipCustomer2.getEmailAddress());
+
+        VipCustomer vipCustomer3 = new VipCustomer("Jack Customer3", 333333, "jacko33@xyz.com");
+        System.out.println(vipCustomer3.getName() + " " + vipCustomer3.getCreditLimit() + " " + vipCustomer3.getEmailAddress());
+    }
 }
