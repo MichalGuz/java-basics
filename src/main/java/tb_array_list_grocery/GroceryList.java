@@ -49,4 +49,14 @@ public class GroceryList {
         grocery.remove(position);
     }
 
+    public void removeGroceryItem(String removedItem) {
+        int position = findItem(removedItem);
+        if(position >= 0) {
+            grocery.remove(position);
+        } else {
+            System.out.println("The item " + removedItem + " is not on the list.");
+        }
+    }
+
+
 }
