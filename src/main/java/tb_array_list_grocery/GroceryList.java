@@ -45,5 +45,8 @@ public class GroceryList {
         return grocery.indexOf(item);
     }
 
+    private void removeGroceryItem(int position) {
+        grocery.remove(position);
+    }
 
 }
