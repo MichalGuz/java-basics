@@ -23,6 +23,10 @@ public class GroceryList {
         }
     }
 
+    public String printItem(int indexOfItem){
+        return grocery.get(indexOfItem);
+    }
+
     private void modifyGroceryItem(int position, String item) {
         grocery.set(position, item);
         System.out.println("The item " + position + " has been modified.");
@@ -32,4 +36,6 @@ public class GroceryList {
 
         return grocery.indexOf(item);
     }
+
+
 }
