@@ -22,4 +22,9 @@ public class GroceryList {
             System.out.println("You have 0 item in grocery list");
         }
     }
+
+    private void modifyGroceryItem(int position, String item) {
+        grocery.set(position, item);
+        System.out.println("The item " + position + " has been modified.");
+    }
 }
