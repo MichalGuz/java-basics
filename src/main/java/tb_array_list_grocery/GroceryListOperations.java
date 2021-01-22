@@ -24,5 +24,13 @@ public class GroceryListOperations {
         groceryList.addGroceryItem(scanner.nextLine());
     }
 
+    public static void modifyItem() {
+        System.out.print("Enter item to modify:\n");
+        String modifiedItem = scanner.nextLine();
+        System.out.print("Enter a new item:\n");
+        String enteredItem = scanner.nextLine();
+        groceryList.modifyGroceryItem(modifiedItem, enteredItem);
+    }
+
 
 }
