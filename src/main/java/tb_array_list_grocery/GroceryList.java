@@ -27,4 +27,9 @@ public class GroceryList {
         grocery.set(position, item);
         System.out.println("The item " + position + " has been modified.");
     }
+
+    public int findItem(String item){
+
+        return grocery.indexOf(item);
+    }
 }
