@@ -1,7 +1,12 @@
 package tb_array_list_grocery;
 
-public class GroceryListOperations {
+import tb_add_array_list_grocery.GroceryListTemp;
 
+import java.util.Scanner;
+
+public class GroceryListOperations {
+    private static GroceryList groceryList = new GroceryList();
+    public static Scanner scanner = new Scanner(System.in);
 
     public static void printInstructions() {
         System.out.println("\nPress ");
