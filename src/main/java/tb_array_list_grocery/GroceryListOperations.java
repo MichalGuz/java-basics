@@ -37,4 +37,15 @@ public class GroceryListOperations {
         String removedItem = scanner.nextLine();
         groceryList.removeGroceryItem(removedItem);
     }
+
+    public static void searchItem(){
+        System.out.print("Enter item to search for:\n");
+        String searchedItem = scanner.nextLine();
+        int index = groceryList.findItem(searchedItem);
+        if ( index >= 0) {
+            System.out.println("Found " + groceryList.printItem(index) + " in our grocery list");
+        } else {
+            System.out.println(searchedItem + " is not on the shopping list");
+        }
+    }
 }
