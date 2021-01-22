@@ -32,6 +32,14 @@ public class GroceryList {
         System.out.println("The item " + position + " has been modified.");
     }
 
+    public void modifyGroceryItem(String chosenItem, String enteredItem) {
+        int position = findItem(chosenItem);
+        if(position >= 0){
+            modifyGroceryItem(position, enteredItem);
+        } else {
+            System.out.println("The item " + chosenItem + " is not on the list.");
+        }
+    }
     public int findItem(String item){
 
         return grocery.indexOf(item);
