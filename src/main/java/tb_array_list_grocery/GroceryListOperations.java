@@ -32,5 +32,9 @@ public class GroceryListOperations {
         groceryList.modifyGroceryItem(modifiedItem, enteredItem);
     }
 
-
+    public static void removeItem() {
+        System.out.print("Enter item to remove:\n");
+        String removedItem = scanner.nextLine();
+        groceryList.removeGroceryItem(removedItem);
+    }
 }
