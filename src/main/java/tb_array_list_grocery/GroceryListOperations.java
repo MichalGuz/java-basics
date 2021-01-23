@@ -109,7 +109,7 @@ public class GroceryListOperations {
 
         String[] arrayGroceryList = new String[groceryList.getGrocery().size()];
         arrayGroceryList = groceryList.getGrocery().toArray(arrayGroceryList);
-        System.out.println(Arrays.toString(arrayGroceryList));
+        System.out.println("array = " + Arrays.toString(arrayGroceryList));
     }
 
     public static void main(String[] args) {
