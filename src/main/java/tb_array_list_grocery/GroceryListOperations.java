@@ -96,6 +96,11 @@ public class GroceryListOperations {
         System.out.println("");
 
         ArrayList<String> anotherCopyOfGroceryList = new ArrayList<>(groceryList.getGrocery());
+        System.out.print("anotherCopyOfGroceryList: ");
+        for (int i=0; i<anotherCopyOfGroceryList.size(); i++) {
+            System.out.print(i + " = " + anotherCopyOfGroceryList.get(i) + ", " );
+        }
+        System.out.println("");
 
 
     }
