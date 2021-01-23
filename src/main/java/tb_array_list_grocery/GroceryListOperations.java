@@ -50,8 +50,13 @@ public class GroceryListOperations {
     public static void operate() {
         printInstructions();
 
+        int choice = 0;
         boolean quit = false;
+
         while(!quit) {
+            System.out.println("Enter your choice:");
+            choice = scanner.nextInt();
+            scanner.nextLine();
         }
     }
 }
