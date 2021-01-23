@@ -49,5 +49,9 @@ public class GroceryListOperations {
 
     public static void operate() {
         printInstructions();
+
+        boolean quit = false;
+        while(!quit) {
+        }
     }
 }
