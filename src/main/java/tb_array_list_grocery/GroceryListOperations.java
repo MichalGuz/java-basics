@@ -103,6 +103,6 @@ public class GroceryListOperations {
         System.out.println("");
 
         String[] arrayGroceryList = new String[groceryList.getGrocery().size()];
-
+        arrayGroceryList = groceryList.getGrocery().toArray(arrayGroceryList);
     }
 }
