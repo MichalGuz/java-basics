@@ -84,6 +84,7 @@ public class GroceryListOperations {
         }
     }
 
+    // copy ArrayList or covert contents of ArrayList into a regular Array
     public static void processGroceryList() {
     }
 }
