@@ -1,7 +1,5 @@
 package tb_array_list_grocery;
 
-import tb_add_array_list_grocery.GroceryListTemp;
-
 import java.util.Scanner;
 
 public class GroceryListOperations {
