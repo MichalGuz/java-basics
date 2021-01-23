@@ -48,4 +48,7 @@ public class GroceryListOperations {
             System.out.println(searchedItem + " is not on the shopping list");
         }
     }
+
+    public static void operate() {}
+
 }
