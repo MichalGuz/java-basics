@@ -1,5 +1,6 @@
 package tb_array_list_grocery;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class GroceryListOperations {
@@ -86,5 +87,7 @@ public class GroceryListOperations {
 
     // copy ArrayList or covert contents of ArrayList into a regular Array
     public static void processGroceryList() {
+        ArrayList<String> copiedGroceryList = new ArrayList<>();
+        copiedGroceryList.addAll(groceryList.getGrocery());
     }
 }
