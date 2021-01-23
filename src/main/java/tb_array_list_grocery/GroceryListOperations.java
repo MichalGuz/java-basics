@@ -83,4 +83,7 @@ public class GroceryListOperations {
             }
         }
     }
+
+    public static void processGroceryList() {
+    }
 }
