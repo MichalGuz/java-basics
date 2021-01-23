@@ -16,7 +16,8 @@ public class GroceryListOperations {
         System.out.println("\t 3 - To modify an item in the list.");
         System.out.println("\t 4 - To remove an item from the list.");
         System.out.println("\t 5 - To search for an item in the list.");
-        System.out.println("\t 6 - To quit the application.");
+        System.out.println("\t 6 - To copy or process and print the list.");
+        System.out.println("\t 7 - To quit the application.");
     }
 
     public static void addItem() {
@@ -80,6 +81,9 @@ public class GroceryListOperations {
                     searchItem();
                     break;
                 case 6:
+                    processGroceryList();
+                    break;
+                case 7:
                     quit = true;
                     break;
             }
