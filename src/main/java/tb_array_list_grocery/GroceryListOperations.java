@@ -1,6 +1,7 @@
 package tb_array_list_grocery;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class GroceryListOperations {
@@ -104,5 +105,6 @@ public class GroceryListOperations {
 
         String[] arrayGroceryList = new String[groceryList.getGrocery().size()];
         arrayGroceryList = groceryList.getGrocery().toArray(arrayGroceryList);
+        System.out.println(Arrays.toString(arrayGroceryList));
     }
 }
