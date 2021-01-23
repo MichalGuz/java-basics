@@ -47,6 +47,7 @@ public class GroceryListOperations {
         }
     }
 
-    public static void operate() {}
-
+    public static void operate() {
+        printInstructions();
+    }
 }
