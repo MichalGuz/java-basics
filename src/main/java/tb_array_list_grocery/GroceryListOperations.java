@@ -89,5 +89,11 @@ public class GroceryListOperations {
     public static void processGroceryList() {
         ArrayList<String> copiedGroceryList = new ArrayList<>();
         copiedGroceryList.addAll(groceryList.getGrocery());
+        System.out.print("copiedGroceryList: ");
+        for (int i=0; i<copiedGroceryList.size(); i++) {
+            System.out.print(i + " = " + copiedGroceryList.get(i) + ", " );
+        }
+        System.out.println("");
+
     }
 }
