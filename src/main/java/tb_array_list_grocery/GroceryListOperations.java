@@ -107,4 +107,8 @@ public class GroceryListOperations {
         arrayGroceryList = groceryList.getGrocery().toArray(arrayGroceryList);
         System.out.println(Arrays.toString(arrayGroceryList));
     }
+
+    public static void main(String[] args) {
+        operate();
+    }
 }
