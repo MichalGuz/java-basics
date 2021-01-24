@@ -46,4 +46,12 @@ public class Lamp {
     public double getHigh() {
         return high;
     }
+
+    public void turnOnTheLamp() {
+        System.out.println("The " + name + " is turned on.");
+    }
+
+    public void turnOffTheLamp() {
+        System.out.println("The " + name + " is turned off.");
+    }
 }
