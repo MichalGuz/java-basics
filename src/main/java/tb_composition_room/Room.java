@@ -7,5 +7,11 @@ public class Room {
     private Floor floor;
     private Walls walls;
 
-
+    public Room(Ceiling ceiling, Furniture furniture, Lights lights, Floor floor, Walls walls) {
+        this.ceiling = ceiling;
+        this.furniture = furniture;
+        this.lights = lights;
+        this.floor = floor;
+        this.walls = walls;
+    }
 }
