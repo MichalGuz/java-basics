@@ -24,8 +24,4 @@ public class Ceiling {
     public String getColor() {
         return color;
     }
-
-    public Chandelier getChandelier() {
-        return chandelier;
-    }
 }
