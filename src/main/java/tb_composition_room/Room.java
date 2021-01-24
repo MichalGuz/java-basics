@@ -14,4 +14,24 @@ public class Room {
         this.floor = floor;
         this.walls = walls;
     }
+
+    public Ceiling getCeiling() {
+        return ceiling;
+    }
+
+    public Furniture getFurniture() {
+        return furniture;
+    }
+
+    public Lights getLights() {
+        return lights;
+    }
+
+    public Floor getFloor() {
+        return floor;
+    }
+
+    public Walls getWalls() {
+        return walls;
+    }
 }
