@@ -7,11 +7,13 @@ public class Chandelier extends Lamp {
 
     @Override
     public void turnOnTheLamp() {
+        System.out.println("pull the string down to switch on the chandelier");
         super.turnOnTheLamp();
     }
 
     @Override
     public void turnOffTheLamp() {
+        System.out.println("pull the string down to switch off the chandelier");
         super.turnOffTheLamp();
     }
 
