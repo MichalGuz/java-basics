@@ -8,4 +8,14 @@ public class Lamp {
     private String typeOfLights;
     private double width;
     private double high;
+
+    public Lamp(String name, String style, String color, int numberOfLights, String typeOfLights, double width, double high) {
+        this.name = name;
+        this.style = style;
+        this.color = color;
+        this.numberOfLights = numberOfLights;
+        this.typeOfLights = typeOfLights;
+        this.width = width;
+        this.high = high;
+    }
 }
