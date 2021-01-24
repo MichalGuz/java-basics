@@ -14,4 +14,24 @@ public class Lights {
         this.numberOfTableLamps = numberOfTableLamps;
         this.numberOfFloorLamps = numberOfFloorLamps;
     }
+
+    public Chandelier getChandelier() {
+        return chandelier;
+    }
+
+    public TableLamp getTableLamp() {
+        return tableLamp;
+    }
+
+    public FloorLamp getFloorLamp() {
+        return floorLamp;
+    }
+
+    public int getNumberOfTableLamps() {
+        return numberOfTableLamps;
+    }
+
+    public int getNumberOfFloorLamps() {
+        return numberOfFloorLamps;
+    }
 }
