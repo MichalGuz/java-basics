@@ -18,4 +18,32 @@ public class Lamp {
         this.width = width;
         this.high = high;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getStyle() {
+        return style;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public int getNumberOfLights() {
+        return numberOfLights;
+    }
+
+    public String getTypeOfLights() {
+        return typeOfLights;
+    }
+
+    public double getWidth() {
+        return width;
+    }
+
+    public double getHigh() {
+        return high;
+    }
 }
