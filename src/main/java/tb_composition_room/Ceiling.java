@@ -13,6 +13,14 @@ public class Ceiling {
         this.chandelier = chandelier;
     }
 
+    public void turnTheChandalierOn() {
+        chandelier.turnOnTheLamp();
+    }
+
+    public void turnTheChandalierOff() {
+        chandelier.turnOffTheLamp();
+    }
+
     public double getWidth() {
         return width;
     }
