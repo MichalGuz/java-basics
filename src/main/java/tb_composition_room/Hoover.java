@@ -16,4 +16,16 @@ public class Hoover {
     public int getPower() {
         return power;
     }
+
+    public void turnOnHoover() {
+        System.out.println("Hoover was turned on");
+    }
+
+    public void turnOffHoover() {
+        System.out.println("Hoover was turned off");
+    }
+
+    public void clean() {
+        System.out.println(" was cleaned with hoover");
+    }
 }
