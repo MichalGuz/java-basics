@@ -6,6 +6,18 @@ public class FloorLamp extends Lamp {
     }
 
     @Override
+    public void turnOnTheLamp() {
+        System.out.println("step on the button to turn on the floor lamp");
+        super.turnOnTheLamp();
+    }
+
+    @Override
+    public void turnOffTheLamp() {
+        System.out.println("step on the button to turn off the floor lamp");
+        super.turnOffTheLamp();
+    }
+
+    @Override
     public String getName() {
         return super.getName();
     }
@@ -38,15 +50,5 @@ public class FloorLamp extends Lamp {
     @Override
     public double getHigh() {
         return super.getHigh();
-    }
-
-    @Override
-    public void turnOnTheLamp() {
-        super.turnOnTheLamp();
-    }
-
-    @Override
-    public void turnOffTheLamp() {
-        super.turnOffTheLamp();
     }
 }
