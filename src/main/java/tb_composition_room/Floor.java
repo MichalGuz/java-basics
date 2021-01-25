@@ -35,4 +35,9 @@ public class Floor {
         hoover.clean();
         hoover.turnOffHoover();
     }
+
+    public void cleanFloor() {
+        cleanCarpet();
+        System.out.println("The floor was cleaned with " + hoover.getName() + ".");
+    }
 }
