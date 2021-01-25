@@ -28,4 +28,11 @@ public class Floor {
     public Hoover getHoover() {
         return hoover;
     }
+
+    private void cleanCarpet() {
+        hoover.turnOnHoover();
+        System.out.print("Carpet ");
+        hoover.clean();
+        hoover.turnOffHoover();
+    }
 }
