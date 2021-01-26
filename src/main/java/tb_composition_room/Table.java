@@ -12,6 +12,10 @@ public class Table extends FurnitureItem{
         super(name, height, width, length, color, material);
     }
 
+    public void coverTheTable() {
+        System.out.println("Table was covered");
+    }
+
     public int getNumberOfLegs() {
         return numberOfLegs;
     }
