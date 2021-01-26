@@ -5,6 +5,10 @@ public class Sofa extends FurnitureItem {
         super("sofa", height, width, length, color, material);
     }
 
+    public void openSofa () {
+        System.out.println("Sofa was opened");
+    }
+
     @Override
     public String getName() {
         return super.getName();
