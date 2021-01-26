@@ -1,4 +1,4 @@
 package tb_composition_room;
 
-public class Table {
+public class Table extends FurnitureItem{
 }
