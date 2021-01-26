@@ -12,6 +12,10 @@ public class Table extends FurnitureItem{
         super(name, height, width, length, color, material);
     }
 
+    public int getNumberOfLegs() {
+        return numberOfLegs;
+    }
+
     @Override
     public String getName() {
         return super.getName();
