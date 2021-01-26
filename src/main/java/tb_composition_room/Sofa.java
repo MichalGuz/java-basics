@@ -1,4 +1,5 @@
 package tb_composition_room;
 
-public class Sofa {
+public class Sofa extends FurnitureItem {
+
 }
