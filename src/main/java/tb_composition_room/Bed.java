@@ -5,6 +5,10 @@ public class Bed extends FurnitureItem {
         super("bed", height, width, length, color, material);
     }
 
+    public void makeBed() {
+        System.out.println("Bed was made");
+    }
+
     @Override
     public String getName() {
         return super.getName();
