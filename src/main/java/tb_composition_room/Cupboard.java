@@ -5,6 +5,10 @@ public class Cupboard extends FurnitureItem {
         super("cupboard", height, width, length, color, material);
     }
 
+    public void openCupboard(){
+        System.out.println("The cupboard was opened");
+    }
+
     @Override
     public String getName() {
         return super.getName();
