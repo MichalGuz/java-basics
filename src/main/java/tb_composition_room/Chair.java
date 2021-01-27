@@ -5,6 +5,10 @@ public class Chair extends FurnitureItem {
         super("chair", height, width, length, color, material);
     }
 
+    public void moveChair() {
+        System.out.println("chair was moved");
+    }
+
     @Override
     public String getName() {
         return super.getName();
