@@ -1,4 +1,4 @@
 package tb_composition_room;
 
-public class Bed {
+public class Bed extends FurnitureItem {
 }
