@@ -8,4 +8,42 @@ public class Walls {
     private String colour;
     private WindowInRoom windowInRoom;
     private Doors doors;
+
+    public Walls(double length, double width, double heigth, double numberOfWalls, String colour, WindowInRoom windowInRoom, Doors doors) {
+        this.length = length;
+        this.width = width;
+        this.heigth = heigth;
+        this.numberOfWalls = numberOfWalls;
+        this.colour = colour;
+        this.windowInRoom = windowInRoom;
+        this.doors = doors;
+    }
+
+    public double getLength() {
+        return length;
+    }
+
+    public double getWidth() {
+        return width;
+    }
+
+    public double getHeigth() {
+        return heigth;
+    }
+
+    public double getNumberOfWalls() {
+        return numberOfWalls;
+    }
+
+    public String getColour() {
+        return colour;
+    }
+
+    public WindowInRoom getWindowInRoom() {
+        return windowInRoom;
+    }
+
+    public Doors getDoors() {
+        return doors;
+    }
 }
