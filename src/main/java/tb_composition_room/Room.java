@@ -26,11 +26,15 @@ public class Room {
 
     public boolean protectRoom() {
         walls.getWindowInRoom().closeWindowsInTheRoom();
-        walls.lockDoor();
-        return true;
+        return walls.lockDoor();
     }
 
-        public Ceiling getCeiling() {
+    public void enterRoom() {
+        walls.unlockDoor();
+        ceiling.turnTheChandalierOn();
+    }
+
+    public Ceiling getCeiling() {
         return ceiling;
     }
 
