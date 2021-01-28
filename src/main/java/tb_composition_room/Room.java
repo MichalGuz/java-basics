@@ -34,6 +34,14 @@ public class Room {
         ceiling.turnTheChandalierOn();
     }
 
+    public void closeRoom() {
+        walls.getWindowInRoom().closeWindowsInTheRoom();
+        if(protectRoom()) {
+            walls.unlockDoor();
+        }
+        walls.lockDoor();
+    }
+
     public Ceiling getCeiling() {
         return ceiling;
     }
