@@ -15,6 +15,11 @@ public class Room {
         this.walls = walls;
     }
 
+    public void cleanRoom() {
+        furniture.cleanFurniture();
+        floor.cleanFloor();
+    }
+
     public Ceiling getCeiling() {
         return ceiling;
     }
