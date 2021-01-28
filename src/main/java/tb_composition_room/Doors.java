@@ -11,12 +11,14 @@ public class Doors {
         this.heigth = heigth;
     }
 
-    public void openTheDoor() {
+    public boolean openTheDoor() {
         System.out.println("The door was opened");
+        return false;
     }
 
-    public void closeTheDoor() {
+    public boolean closeTheDoor() {
         System.out.println("The door was closed");
+        return true;
     }
 
 
