@@ -16,6 +16,14 @@ public class Furniture {
         this.chair = chair;
     }
 
+    public void cleanFurniture() {
+        bed.makeBed();
+        sofa.openSofa();
+        cupboard.openCupboard();
+        table.coverTheTable();
+        chair.moveChair();
+    }
+
     public Bed getBed() {
         return bed;
     }
