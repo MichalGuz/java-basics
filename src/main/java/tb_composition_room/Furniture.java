@@ -15,4 +15,24 @@ public class Furniture {
         this.table = table;
         this.chair = chair;
     }
+
+    public Bed getBed() {
+        return bed;
+    }
+
+    public Sofa getSofa() {
+        return sofa;
+    }
+
+    public Cupboard getCupboard() {
+        return cupboard;
+    }
+
+    public Table getTable() {
+        return table;
+    }
+
+    public Chair getChair() {
+        return chair;
+    }
 }
