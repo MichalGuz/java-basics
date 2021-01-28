@@ -11,6 +11,15 @@ public class WindowInRoom {
         this.heigth = heigth;
     }
 
+    public void openWindowsInTheRoom(){
+        System.out.println("Windows in the room were opened");
+    }
+
+    public void closeWindowsInTheRoom(){
+        System.out.println("Windows in the room were closed");
+    }
+
+
     public int getNumberOfWindows() {
         return numberOfWindows;
     }
