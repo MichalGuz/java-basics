@@ -19,6 +19,15 @@ public class Walls {
         this.doors = doors;
     }
 
+    public void lockDoor(){
+        System.out.println("The door are locked");
+    }
+
+    public void unlockDoor() {
+        System.out.println("The door are unlocked");
+    }
+
+
     public double getLength() {
         return length;
     }
