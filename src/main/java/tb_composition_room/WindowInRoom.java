@@ -12,13 +12,24 @@ public class WindowInRoom {
     }
 
     public void openWindowsInTheRoom(){
-        System.out.println("Windows in the room were opened");
+        if(getNumberOfWindows() <= 0) {
+            System.out.println("There is no window in the room");
+        } else if (getNumberOfWindows() == 1) {
+            System.out.println("The window in the room was opened");
+        } else if (getNumberOfWindows() > 1) {
+            System.out.println("All windows in the room were opened");
+        }
     }
 
     public void closeWindowsInTheRoom(){
-        System.out.println("Windows in the room were closed");
+        if(getNumberOfWindows() <= 0) {
+            System.out.println("There is no window in the room");
+        } else if (getNumberOfWindows() == 1) {
+            System.out.println("The window in the room was closed");
+        } else if (getNumberOfWindows() > 1) {
+            System.out.println("All windows in the room were closed");
+        }
     }
-
 
     public int getNumberOfWindows() {
         return numberOfWindows;
