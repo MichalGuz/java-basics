@@ -20,6 +20,10 @@ public class Room {
         floor.cleanFloor();
     }
 
+    public void airRoom() {
+        walls.getWindowInRoom().openWindowsInTheRoom();
+    }
+
     public Ceiling getCeiling() {
         return ceiling;
     }
