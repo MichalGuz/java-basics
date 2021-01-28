@@ -19,12 +19,14 @@ public class Walls {
         this.doors = doors;
     }
 
-    public void lockDoor(){
+    public boolean lockDoor(){
         System.out.println("The door are locked");
+        return doors.closeTheDoor();
     }
 
-    public void unlockDoor() {
+    public boolean unlockDoor() {
         System.out.println("The door are unlocked");
+        return doors.openTheDoor();
     }
 
 
