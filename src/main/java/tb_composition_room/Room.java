@@ -24,7 +24,12 @@ public class Room {
         walls.getWindowInRoom().openWindowsInTheRoom();
     }
 
-    public Ceiling getCeiling() {
+    public void protectRoom() {
+        walls.getWindowInRoom().closeWindowsInTheRoom();
+        walls.lockDoor();
+    }
+
+        public Ceiling getCeiling() {
         return ceiling;
     }
 
