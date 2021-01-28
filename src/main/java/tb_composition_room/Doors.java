@@ -11,6 +11,15 @@ public class Doors {
         this.heigth = heigth;
     }
 
+    public void openTheDoor() {
+        System.out.println("The door was opened");
+    }
+
+    public void closeTheDoor() {
+        System.out.println("The door was closed");
+    }
+
+
     public int getNumberOfDoors() {
         return numberOfDoors;
     }
