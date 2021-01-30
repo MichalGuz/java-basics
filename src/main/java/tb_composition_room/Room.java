@@ -43,6 +43,10 @@ public class Room {
         walls.lockDoor();
     }
 
+    public void showRoom() {
+        lights.lightsOn();
+    }
+
     public Ceiling getCeiling() {
         return ceiling;
     }
