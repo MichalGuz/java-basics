@@ -21,6 +21,12 @@ public class Lights {
         floorLamp.turnOnTheLamp();
     }
 
+    public void lightsOff() {
+        chandelier.turnOffTheLamp();
+        tableLamp.turnOffTheLamp();
+        floorLamp.turnOffTheLamp();
+    }
+
     public Chandelier getChandelier() {
         return chandelier;
     }
