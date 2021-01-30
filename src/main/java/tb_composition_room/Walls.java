@@ -3,16 +3,16 @@ package tb_composition_room;
 public class Walls {
     private double length;
     private double width;
-    private double heigth;
+    private double height;
     private double numberOfWalls;
     private String colour;
     private WindowInRoom windowInRoom;
     private Doors doors;
 
-    public Walls(double length, double width, double heigth, double numberOfWalls, String colour, WindowInRoom windowInRoom, Doors doors) {
+    public Walls(double length, double width, double height, double numberOfWalls, String colour, WindowInRoom windowInRoom, Doors doors) {
         this.length = length;
         this.width = width;
-        this.heigth = heigth;
+        this.height = height;
         this.numberOfWalls = numberOfWalls;
         this.colour = colour;
         this.windowInRoom = windowInRoom;
@@ -38,8 +38,8 @@ public class Walls {
         return width;
     }
 
-    public double getHeigth() {
-        return heigth;
+    public double getHeight() {
+        return height;
     }
 
     public double getNumberOfWalls() {
