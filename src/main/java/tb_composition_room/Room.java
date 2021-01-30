@@ -39,6 +39,7 @@ public class Room {
         if(protectRoom()) {
             walls.unlockDoor();
         }
+        lights.lightsOff();
         walls.lockDoor();
     }
 
