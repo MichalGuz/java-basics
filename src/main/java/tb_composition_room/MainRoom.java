@@ -14,5 +14,9 @@ public class MainRoom {
         Sofa sofa = new Sofa(1.2, 1.3, 2.2,"ivory", "wood and artificial leather");
         Furniture furniture = new Furniture(bed,sofa, cupboard, table, chair);
 
+        TableLamp tableLamp = new TableLamp("modern", "gold", 1, "led", 0.3, 0.5);
+        FloorLamp floorLamp = new FloorLamp("modern", "gold", 1, "led", 0.3, 1.75);
+        Lights lights = new Lights(chandelier, tableLamp, floorLamp, 1, 2 );
+
     }
 }
