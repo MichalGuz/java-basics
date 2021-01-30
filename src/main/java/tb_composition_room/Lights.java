@@ -15,6 +15,12 @@ public class Lights {
         this.numberOfFloorLamps = numberOfFloorLamps;
     }
 
+    public void lightsOn(){
+        chandelier.turnOnTheLamp();
+        tableLamp.turnOnTheLamp();
+        floorLamp.turnOnTheLamp();
+    }
+
     public Chandelier getChandelier() {
         return chandelier;
     }
