@@ -18,5 +18,8 @@ public class MainRoom {
         FloorLamp floorLamp = new FloorLamp("modern", "gold", 1, "led", 0.3, 1.75);
         Lights lights = new Lights(chandelier, tableLamp, floorLamp, 1, 2 );
 
+        Floor floor = new Floor(4.75, 10.5, "white artificial fur", new Hoover("Bosch", 5));
+        Room room = new Room(ceiling, furniture, lights, floor, walls);
+
     }
 }
