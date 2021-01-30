@@ -21,5 +21,10 @@ public class MainRoom {
         Floor floor = new Floor(4.75, 10.5, "white artificial fur", new Hoover("Bosch", 5));
         Room room = new Room(ceiling, furniture, lights, floor, walls);
 
+        room.enterRoom();
+        room.airRoom();
+        room.cleanRoom();
+        room.showRoom();
+        room.closeRoom();
     }
 }
