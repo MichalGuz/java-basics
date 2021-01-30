@@ -23,6 +23,7 @@ public class MainRoom {
 
         room.enterRoom();
         room.airRoom();
+        room.protectRoom();
         room.cleanRoom();
         room.showRoom();
         room.closeRoom();
