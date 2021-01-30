@@ -6,5 +6,13 @@ public class MainRoom {
 
         Chandelier chandelier = new Chandelier("modern", "gold", 6, "led", 1.1, 0.80);
         Ceiling ceiling = new Ceiling(4.75, 10.5, "white", chandelier);
+
+        Bed bed = new Bed(0.5, 2.1, 2.3,"osk", "wood");
+        Cupboard cupboard =  new Cupboard(2.2, 2.0, 0.8,"oak", "wood");
+        Table table = new Table(0.8, 1.3, 2.0,"oak", "wood", 4);
+        Chair chair = new Chair(0.4, 0.4, 0.4,"oak", "wood");
+        Sofa sofa = new Sofa(1.2, 1.3, 2.2,"ivory", "wood and artificial leather");
+        Furniture furniture = new Furniture(bed,sofa, cupboard, table, chair);
+
     }
 }
