@@ -39,6 +39,8 @@ public class Printer {
                     System.out.println("Empty toner. Fill the toner to continue the printing.");
                 }
             }
+        } else {
+            System.out.println("Enter correct number of pages");
         }
     }
 }
