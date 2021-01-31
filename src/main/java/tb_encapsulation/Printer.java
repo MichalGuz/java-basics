@@ -11,5 +11,6 @@ public class Printer {
         this.duplex = duplex;
     }
 
-
+    public void fillTheToner(double extraToner) {
+    }
 }
