@@ -15,6 +15,9 @@ public class Printer {
     }
 
     private void fillTheToner(double extraToner) {
+        Random random = new Random();
+        extraToner = random.nextInt(100);
+
         if (tonerLevel < 100 && tonerLevel >= 0 && extraToner > 0 && extraToner < 101) {
             if (extraToner + tonerLevel >= 100) {
                 this.tonerLevel = 100;
