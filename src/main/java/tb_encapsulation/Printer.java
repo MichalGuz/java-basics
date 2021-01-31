@@ -26,4 +26,7 @@ public class Printer {
             System.out.println("Check toner and try again.");
         }
     }
+
+    public void printPage(int numberOfPages) {
+    }
 }
