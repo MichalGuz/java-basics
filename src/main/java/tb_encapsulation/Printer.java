@@ -13,6 +13,10 @@ public class Printer {
 
     public void fillTheToner(double extraToner) {
         if (tonerLevel < 100 && tonerLevel >= 0 && extraToner > 0 && extraToner < 101) {
+            if (extraToner + tonerLevel >= 100) {
+                this.tonerLevel = 100;
+                System.out.println("Toner has been filled. Toner level = 100");
+            }
         }
     }
 }
