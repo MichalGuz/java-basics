@@ -1,5 +1,6 @@
 package tb_encapsulation;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Printer {
@@ -72,5 +73,10 @@ public class Printer {
             isDuplex = false;
             System.out.println("default - print on a single side");
         }
+
+        Random random = new Random();
+        int toner = random.nextInt(100);
+        System.out.println("Current toner level: " + toner);
+
     }
 }
