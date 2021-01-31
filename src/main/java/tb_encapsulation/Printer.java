@@ -12,5 +12,7 @@ public class Printer {
     }
 
     public void fillTheToner(double extraToner) {
+        if (tonerLevel < 100 && tonerLevel >= 0 && extraToner > 0 && extraToner < 101) {
+        }
     }
 }
