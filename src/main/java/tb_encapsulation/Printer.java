@@ -28,5 +28,8 @@ public class Printer {
     }
 
     public void printPage(int numberOfPages) {
+        int counter = 0;
+        if (numberOfPages > 0) {
+        }
     }
 }
