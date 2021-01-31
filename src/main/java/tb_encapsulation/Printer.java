@@ -50,5 +50,10 @@ public class Printer {
         }
     }
 
+    private static Printer createPrinter(double tonerLevel, boolean duplex) {
+        return new Printer(tonerLevel,duplex);
+    }
+
+
 
 }
