@@ -58,5 +58,8 @@ public class Printer {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter number of pages to print");
         int number = scanner.nextInt();
+        boolean isDuplex = false;
+        scanner.nextLine();
+        System.out.println("Is duplex? (enter T or F)");
     }
 }
