@@ -58,8 +58,19 @@ public class Printer {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter number of pages to print");
         int number = scanner.nextInt();
+
         boolean isDuplex = false;
         scanner.nextLine();
         System.out.println("Is duplex? (enter T or F)");
+        String d = scanner.nextLine();
+        if (d == "T") {
+            System.out.println("print on both sides");
+            isDuplex = true;
+        } else if (d == "F") {
+            isDuplex = false;
+        } else {
+            isDuplex = false;
+            System.out.println("default - print on a single side");
+        }
     }
 }
