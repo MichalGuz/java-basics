@@ -30,6 +30,11 @@ public class Printer {
     public void printPage(int numberOfPages) {
         int counter = 0;
         if (numberOfPages > 0) {
+            for(int i = numberOfPages; i>0; i--) {
+                counter += 1;
+                System.out.println("printed page #" + counter);
+                tonerLevel -= 0.2;
+            }
         }
     }
 }
