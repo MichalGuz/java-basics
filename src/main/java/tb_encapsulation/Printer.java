@@ -84,4 +84,8 @@ public class Printer {
         Printer printer = createPrinter(toner, isDuplex);
         printer.printPage(number);
     }
+
+    public static void main(String[] args) {
+        usePrinter();
+    }
 }
