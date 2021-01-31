@@ -34,6 +34,10 @@ public class Printer {
                 counter += 1;
                 System.out.println("printed page #" + counter);
                 tonerLevel -= 0.2;
+                if(tonerLevel <= 0) {
+                    i = 0;
+                    System.out.println("Empty toner. Fill the toner to continue the printing.");
+                }
             }
         }
     }
