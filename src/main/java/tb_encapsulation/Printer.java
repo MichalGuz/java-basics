@@ -20,6 +20,10 @@ public class Printer {
                 this.tonerLevel = tonerLevel + extraToner;
                 System.out.println("Toner has been filled. Toner level = " + this.tonerLevel);
             }
+        } else {
+            System.out.println("Toner level = " + tonerLevel);
+            System.out.println("Extra toner = " + extraToner);
+            System.out.println("Check toner and try again.");
         }
     }
 }
