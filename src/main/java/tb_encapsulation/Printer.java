@@ -55,6 +55,8 @@ public class Printer {
     }
 
     public static void usePrinter() {
-
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter number of pages to print");
+        int number = scanner.nextInt();
     }
 }
