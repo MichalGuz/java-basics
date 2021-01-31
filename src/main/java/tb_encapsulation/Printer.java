@@ -13,7 +13,7 @@ public class Printer {
         this.duplex = duplex;
     }
 
-    public void fillTheToner(double extraToner) {
+    private void fillTheToner(double extraToner) {
         if (tonerLevel < 100 && tonerLevel >= 0 && extraToner > 0 && extraToner < 101) {
             if (extraToner + tonerLevel >= 100) {
                 this.tonerLevel = 100;
@@ -29,7 +29,7 @@ public class Printer {
         }
     }
 
-    public void printPage(int numberOfPages) {
+    private void printPage(int numberOfPages) {
         int counter = 0;
         if (numberOfPages > 0) {
             for(int i = numberOfPages; i>0; i--) {
