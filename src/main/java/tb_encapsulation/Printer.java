@@ -16,6 +16,9 @@ public class Printer {
             if (extraToner + tonerLevel >= 100) {
                 this.tonerLevel = 100;
                 System.out.println("Toner has been filled. Toner level = 100");
+            }  else {
+                this.tonerLevel = tonerLevel + extraToner;
+                System.out.println("Toner has been filled. Toner level = " + this.tonerLevel);
             }
         }
     }
