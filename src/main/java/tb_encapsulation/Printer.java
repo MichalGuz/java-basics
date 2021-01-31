@@ -1,5 +1,7 @@
 package tb_encapsulation;
 
+import java.util.Scanner;
+
 public class Printer {
     private double tonerLevel;
     private int printedPages;
@@ -37,10 +39,16 @@ public class Printer {
                 if(tonerLevel <= 0) {
                     i = 0;
                     System.out.println("Empty toner. Fill the toner to continue the printing.");
+                    Scanner scanner = new Scanner(System.in);
+                    System.out.println("Add toner (enter integer)");
+                    double toner = scanner.nextDouble();
+                    fillTheToner(toner);
                 }
             }
         } else {
             System.out.println("Enter correct number of pages");
         }
     }
+
+
 }
