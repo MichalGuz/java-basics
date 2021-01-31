@@ -54,6 +54,7 @@ public class Printer {
         return new Printer(tonerLevel,duplex);
     }
 
+    public static void usePrinter() {
 
-
+    }
 }
