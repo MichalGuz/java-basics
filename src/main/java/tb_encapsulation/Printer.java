@@ -78,5 +78,7 @@ public class Printer {
         int toner = random.nextInt(100);
         System.out.println("Current toner level: " + toner);
 
+        Printer printer = createPrinter(toner, isDuplex);
+        printer.printPage(number);
     }
 }
