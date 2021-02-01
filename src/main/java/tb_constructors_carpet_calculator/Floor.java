@@ -6,6 +6,10 @@ public class Floor {
 
     public Floor(double width, double length) {
         this.width = width;
-        this.length = length;
+        if (length < 0) {
+            this.length = 0;
+        } else {
+            this.length = length;
+        }
     }
 }
