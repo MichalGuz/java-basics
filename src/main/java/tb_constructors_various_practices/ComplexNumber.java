@@ -17,5 +17,11 @@ public class ComplexNumber {
         return imaginary;
     }
 
+    // all operations use two elements: this real/imaginary values and values of real/imaginary from methods' parameters
+    // the order of these elements is irrelevant
+    public void addComplexNumbers(double real, double imaginary){
+        System.out.println(this.real = getReal() + real);
+        System.out.println(this.imaginary = getImaginary() + imaginary);
+    }
 
 }
