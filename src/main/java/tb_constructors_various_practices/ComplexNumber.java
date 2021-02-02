@@ -49,5 +49,9 @@ public class ComplexNumber {
         one.subtractComplexNumbers(0.2, 0.55);
         one.subtractComplexNumbers(two);
 
+        one.addComplexNumbers(two);
+
+        System.out.println("number one = [real " + one.getReal() + ", imaginery " + one.getImaginary() + "]");
+        System.out.println("number two = [real " + two.getReal() + ", imaginery " + two.getImaginary() + "]");
     }
 }
