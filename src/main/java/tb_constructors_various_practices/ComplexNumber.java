@@ -24,4 +24,8 @@ public class ComplexNumber {
         System.out.println(this.imaginary = getImaginary() + imaginary);
     }
 
+    public void addComplexNumbers(ComplexNumber complexNumber){
+        System.out.println(this.real = complexNumber.getReal() + getReal());
+        System.out.println(this.imaginary = complexNumber.getImaginary() + getImaginary());
+    }
 }
