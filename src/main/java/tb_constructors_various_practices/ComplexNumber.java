@@ -38,4 +38,10 @@ public class ComplexNumber {
         System.out.println(this.real = complexNumber.getReal() - getReal());
         System.out.println(this.imaginary =  complexNumber.getImaginary() - getImaginary());
     }
+
+    public static void main(String[] args) {
+        ComplexNumber one = new ComplexNumber(1.0, 1.0);
+        ComplexNumber number = new ComplexNumber(2.5, -1.5);
+
+    }
 }
