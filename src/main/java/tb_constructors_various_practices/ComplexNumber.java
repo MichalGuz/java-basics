@@ -28,4 +28,9 @@ public class ComplexNumber {
         System.out.println(this.real = complexNumber.getReal() + getReal());
         System.out.println(this.imaginary = complexNumber.getImaginary() + getImaginary());
     }
+
+    public void subtractComplexNumbers(double real, double imaginary) {
+        System.out.println(this.real = getReal() - real);
+        System.out.println(this.imaginary =  getImaginary() - imaginary);
+    }
 }
