@@ -8,4 +8,14 @@ public class ComplexNumber {
         this.real = real;
         this.imaginary = imaginary;
     }
+
+    public double getReal() {
+        return real;
+    }
+
+    public double getImaginary() {
+        return imaginary;
+    }
+
+
 }
