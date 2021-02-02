@@ -41,7 +41,13 @@ public class ComplexNumber {
 
     public static void main(String[] args) {
         ComplexNumber one = new ComplexNumber(1.0, 1.0);
-        ComplexNumber number = new ComplexNumber(2.5, -1.5);
+        ComplexNumber two = new ComplexNumber(2.5, -1.5);
+
+        one.addComplexNumbers(1,1);
+        one.addComplexNumbers(two);
+
+        one.subtractComplexNumbers(0.2, 0.55);
+        one.subtractComplexNumbers(two);
 
     }
 }
