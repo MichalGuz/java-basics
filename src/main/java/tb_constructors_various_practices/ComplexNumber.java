@@ -20,23 +20,23 @@ public class ComplexNumber {
     // all operations use two elements: this real/imaginary values and values of real/imaginary from methods' parameters
     // the order of these elements is irrelevant
     public void addComplexNumbers(double real, double imaginary){
-        System.out.println(this.real = getReal() + real);
-        System.out.println(this.imaginary = getImaginary() + imaginary);
+        System.out.print("real =  " + (this.real = getReal() + real));
+        System.out.println(", imaginery = " + (this.imaginary = getImaginary() + imaginary));
     }
 
     public void addComplexNumbers(ComplexNumber complexNumber){
-        System.out.println(this.real = complexNumber.getReal() + getReal());
-        System.out.println(this.imaginary = complexNumber.getImaginary() + getImaginary());
+        System.out.print("real =  " + (this.real = complexNumber.getReal() + getReal()));
+        System.out.println(", imaginery = " + (this.imaginary = complexNumber.getImaginary() + getImaginary()));
     }
 
     public void subtractComplexNumbers(double real, double imaginary) {
-        System.out.println(this.real = getReal() - real);
-        System.out.println(this.imaginary =  getImaginary() - imaginary);
+        System.out.print("real =  " + (this.real = getReal() - real));
+        System.out.println(", imaginery = " + (this.imaginary =  getImaginary() - imaginary));
     }
 
     public void subtractComplexNumbers(ComplexNumber complexNumber) {
-        System.out.println(this.real = complexNumber.getReal() - getReal());
-        System.out.println(this.imaginary =  complexNumber.getImaginary() - getImaginary());
+        System.out.print("real =  " + (this.real = complexNumber.getReal() - getReal()));
+        System.out.println(", imaginery = " + (this.imaginary =  complexNumber.getImaginary() - getImaginary()));
     }
 
     public static void main(String[] args) {
