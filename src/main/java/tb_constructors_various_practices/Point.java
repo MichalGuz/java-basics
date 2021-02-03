@@ -37,7 +37,7 @@ public class Point {
     }
 
     public double distance(){
-        return 0;
+        return Math.sqrt((0 - x) * (0 - x) + (0 - y) * (0 - y));
     }
 
     public static void main(String[] args) {
