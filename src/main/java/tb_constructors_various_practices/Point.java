@@ -36,8 +36,13 @@ public class Point {
         return Math.sqrt((point.getX() - x) * (point.getX() - x) + ((point.getY() - y) * (point.getY() - y)));
     }
 
+    public double distance(){
+        return 0;
+    }
+
     public static void main(String[] args) {
         Point first = new Point(6, 5);
         Point second = new Point(3, 1);
+
     }
 }
