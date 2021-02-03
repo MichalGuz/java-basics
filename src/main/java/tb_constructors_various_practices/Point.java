@@ -33,7 +33,7 @@ public class Point {
     }
 
     public double distance(Point point) {
-        return 0;
+        return Math.sqrt((point.getX() - x) * (point.getX() - x) + ((point.getY() - y) * (point.getY() - y)));
     }
 
 }
