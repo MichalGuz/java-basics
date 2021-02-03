@@ -28,6 +28,8 @@ public class Point {
         this.y = y;
     }
 
+    // first x or y in returned formula is the parameter of method
+    // second x or y in returned formula is a property of tb_constructors_various_practices.Point class
     public double distance(int x, int y){
         return Math.sqrt((x - x) * (x - x) + (y - y) * (y - y));
     }
