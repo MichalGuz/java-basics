@@ -32,4 +32,8 @@ public class Hamburger {
     public Hamburger(String extra1, String extra2) {
         this("hamburger", "white", "beef", 18.49, extra1, extra2, "", "");
     }
+
+    public Hamburger(String extra1) {
+        this("hamburger", "white", "beef", 17.99, extra1, "", "", "");
+    }
 }
