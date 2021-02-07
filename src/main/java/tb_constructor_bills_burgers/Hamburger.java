@@ -9,4 +9,15 @@ public class Hamburger {
     private String extra2;
     private String extra3;
     private String extra4;
+
+    public Hamburger(String name, String roll, String meat, double price, String extra1, String extra2, String extra3, String extra4) {
+        this.name = name;
+        this.roll = roll;
+        this.meat = meat;
+        this.price = price;
+        this.extra1 = extra1;
+        this.extra2 = extra2;
+        this.extra3 = extra3;
+        this.extra4 = extra4;
+    }
 }
