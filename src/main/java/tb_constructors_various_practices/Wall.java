@@ -7,9 +7,10 @@ public class Wall {
     public Wall() {
     }
 
+
     public Wall(double width, double height) {
-        this.width = width;
-        this.height = height;
+        this.setWidth(width);
+        this.setHeight(height);
     }
 
     public double getWidth() {
