@@ -41,4 +41,35 @@ public class Hamburger {
         this("hamburger", "white", "beef", 15.99, "", "", "", "");
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String getRoll() {
+        return roll;
+    }
+
+    public String getMeat() {
+        return meat;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public String getExtra1() {
+        return extra1;
+    }
+
+    public String getExtra2() {
+        return extra2;
+    }
+
+    public String getExtra3() {
+        return extra3;
+    }
+
+    public String getExtra4() {
+        return extra4;
+    }
 }
