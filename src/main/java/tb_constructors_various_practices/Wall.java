@@ -7,7 +7,8 @@ public class Wall {
     public Wall() {
     }
 
-
+    // using set() method inside constructor is usually not recommended
+    // and here it just follows the exercise's directions
     public Wall(double width, double height) {
         this.setWidth(width);
         this.setHeight(height);
