@@ -13,4 +13,12 @@ public class DeluxeBurger extends Hamburger {
     public DeluxeBurger() {
         this("deluxe burger", "white", "beef", 26.99, "lettuce", "mayo", "tomato", "red onion", "chips", "cola");
     }
+
+    public String getChips() {
+        return chips;
+    }
+
+    public String getDrinks() {
+        return drinks;
+    }
 }
