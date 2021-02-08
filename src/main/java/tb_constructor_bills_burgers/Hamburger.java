@@ -72,4 +72,8 @@ public class Hamburger {
     public String getExtra4() {
         return extra4;
     }
+
+    public double getTotalPrice() {
+        return this.price;
+    }
 }
