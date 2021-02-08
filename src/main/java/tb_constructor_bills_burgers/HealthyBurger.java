@@ -17,4 +17,12 @@ public class HealthyBurger extends Hamburger {
     public HealthyBurger(String extra5) {
         this("healthy burger", "brown rye", "lean meet", 22.99, "lettuce", "tomato", "mustard", "onion", extra5, "");
     }
+
+    public String getExtra5() {
+        return extra5;
+    }
+
+    public String getExtra6() {
+        return extra6;
+    }
 }
