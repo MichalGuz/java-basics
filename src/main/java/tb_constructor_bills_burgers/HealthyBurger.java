@@ -25,4 +25,9 @@ public class HealthyBurger extends Hamburger {
     public String getExtra6() {
         return extra6;
     }
+
+    @Override
+    public double getTotalPrice() {
+        return super.getTotalPrice();
+    }
 }
