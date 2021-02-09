@@ -21,4 +21,9 @@ public class DeluxeBurger extends Hamburger {
     public String getDrinks() {
         return drinks;
     }
+
+    @Override
+    public double getTotalPrice() {
+        return super.getPrice();
+    }
 }
