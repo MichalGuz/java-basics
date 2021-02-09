@@ -17,5 +17,8 @@ public class MainBillsBurgers {
         System.out.println("Price of 6th extra [" + secondHealthyBurger.getExtra6() + "] costs " + secondHealthyBurger.getExtra6Price() );
         System.out.println("The " + secondHealthyBurger.getName() + " costs " + secondHealthyBurger.getTotalPrice());
 
+        DeluxeBurger deluxeBurger = new DeluxeBurger();
+        System.out.println("The " + deluxeBurger.getName() + " costs " + deluxeBurger.getTotalPrice() + " [" + deluxeBurger.getChips() + " and " + deluxeBurger.getDrinks() + " included]");
+    }
     }
 }
