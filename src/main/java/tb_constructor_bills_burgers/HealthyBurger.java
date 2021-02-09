@@ -27,6 +27,11 @@ public class HealthyBurger extends Hamburger {
     }
 
     @Override
+    public double getPrice() {
+        return super.getPrice();
+    }
+
+    @Override
     public double getTotalPrice() {
         return super.getTotalPrice();
     }
