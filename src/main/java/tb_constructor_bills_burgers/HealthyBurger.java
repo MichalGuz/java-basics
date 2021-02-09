@@ -30,4 +30,12 @@ public class HealthyBurger extends Hamburger {
     public double getTotalPrice() {
         return super.getTotalPrice();
     }
+
+    public double getExtra5Price() {
+        return 3.0;
+    }
+
+    public double getExtra6Price() {
+        return 0.9;
+    }
 }
