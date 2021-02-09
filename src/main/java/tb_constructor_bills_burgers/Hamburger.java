@@ -99,7 +99,7 @@ public class Hamburger {
         } else if(!getExtra4().equals("")) {
             return this.price + getExtra1Price() + getExtra2Price() + getExtra3Price() + getExtra4Price();
         } else {
-            return this.price;
+            return getPrice();
         }
     }
 }
