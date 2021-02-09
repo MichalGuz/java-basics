@@ -7,5 +7,8 @@ public class MainBillsBurgers {
 
         Hamburger secondHamburger = new Hamburger("lettuce", "tomato", "cheese", "onion");
         System.out.println(secondHamburger.getTotalPrice());
+
+        HealthyBurger healthyBurger = new HealthyBurger("cucumber");
+        System.out.println(healthyBurger.getTotalPrice());
     }
 }
