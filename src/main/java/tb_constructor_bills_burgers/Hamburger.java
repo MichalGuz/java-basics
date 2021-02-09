@@ -73,6 +73,22 @@ public class Hamburger {
         return extra4;
     }
 
+    public double getExtra1Price() {
+        return 2;
+    }
+
+    public double getExtra2Price() {
+        return 1.5;
+    }
+
+    public double getExtra3Price() {
+        return 1;
+    }
+
+    public double getExtra4Price() {
+        return 0.5;
+    }
+
     public double getTotalPrice() {
         return this.price;
     }
