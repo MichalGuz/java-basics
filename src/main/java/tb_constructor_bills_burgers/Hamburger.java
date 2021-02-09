@@ -26,19 +26,19 @@ public class Hamburger {
     }
 
     public Hamburger(String extra1, String extra2, String extra3) {
-        this("hamburger", "white", "beef", 15.99, extra1, extra2, extra3, "");
+        this("hamburger", "white", "beef", 15.00, extra1, extra2, extra3, "");
     }
 
     public Hamburger(String extra1, String extra2) {
-        this("hamburger", "white", "beef", 15.99, extra1, extra2, "", "");
+        this("hamburger", "white", "beef", 15.00, extra1, extra2, "", "");
     }
 
     public Hamburger(String extra1) {
-        this("hamburger", "white", "beef", 15.99, extra1, "", "", "");
+        this("hamburger", "white", "beef", 15.00, extra1, "", "", "");
     }
 
     public Hamburger() {
-        this("hamburger", "white", "beef", 15.99, "", "", "", "");
+        this("hamburger", "white", "beef", 15.00, "", "", "", "");
     }
 
     public String getName() {
@@ -74,7 +74,7 @@ public class Hamburger {
     }
 
     public double getExtra1Price() {
-        return 2;
+        return 2.0;
     }
 
     public double getExtra2Price() {
@@ -82,7 +82,7 @@ public class Hamburger {
     }
 
     public double getExtra3Price() {
-        return 1;
+        return 1.0;
     }
 
     public double getExtra4Price() {
