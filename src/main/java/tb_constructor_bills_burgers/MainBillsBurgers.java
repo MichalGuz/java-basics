@@ -3,13 +3,13 @@ package tb_constructor_bills_burgers;
 public class MainBillsBurgers {
     public static void main(String[] args) {
         Hamburger hamburger = new Hamburger();
-        System.out.println(hamburger.getTotalPrice());
+        System.out.println("Hamburger costs without any extra " + hamburger.getTotalPrice());
 
         Hamburger secondHamburger = new Hamburger("lettuce", "tomato", "cheese", "onion");
-        System.out.println(secondHamburger.getTotalPrice());
+        System.out.println("Second hamburger with 4 extra costs " + secondHamburger.getTotalPrice());
 
         HealthyBurger healthyBurger = new HealthyBurger("cucumber");
-        System.out.println(healthyBurger.getTotalPrice());
+        System.out.println("Healthy burger with one extra addition costs " + healthyBurger.getTotalPrice());
 
         HealthyBurger secondHealthyBurger = new HealthyBurger("pepper", "black seed");
         System.out.println("Basic healthy burger costs " + secondHamburger.getPrice());
