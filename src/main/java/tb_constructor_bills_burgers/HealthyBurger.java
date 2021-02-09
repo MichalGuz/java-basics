@@ -10,12 +10,12 @@ public class HealthyBurger extends Hamburger {
         this.extra6 = extra6;
     }
 
-    public HealthyBurger(String extra5, String extra6) {
-        this("healthy burger", "brown rye", "lentil burger", 20.00, "lettuce", "tomato", "mustard", "onion", extra5, extra6);
-    }
-
     public HealthyBurger(String extra5) {
         this("healthy burger", "brown rye", "lentil burger", 19.00, "lettuce", "tomato", "mustard", "onion", extra5, "");
+    }
+
+    public HealthyBurger(String extra5, String extra6) {
+        this("healthy burger", "brown rye", "lentil burger", 19.00, "lettuce", "tomato", "mustard", "onion", extra5, extra6);
     }
 
     public String getExtra5() {
@@ -31,22 +31,20 @@ public class HealthyBurger extends Hamburger {
         return super.getPrice();
     }
 
-    @Override
-    public double getTotalPrice() {
-        if (!getExtra5().equals("")) {
-            return getPrice() + getExtra5Price();
-        } else if (!getExtra6().equals("")) {
-            return getPrice() + getExtra5Price() + getExtra6Price();
-        } else {
-            return getPrice();
-        }
-    }
-
     public double getExtra5Price() {
         return 3.0;
     }
 
     public double getExtra6Price() {
-        return 0.9;
+        return 1;
+    }
+
+    @Override
+    public double getTotalPrice() {
+        if (getExtra6().equals("")) {
+            return getPrice() + getExtra5Price();
+        } else {
+            return getPrice() + getExtra5Price() + getExtra6Price();
+        }
     }
 }
