@@ -22,7 +22,7 @@ public class Hamburger {
     }
 
     public Hamburger(String extra1, String extra2, String extra3, String extra4) {
-        this("hamburger", "white", "beef", 15.99, extra1, extra2, extra3, extra4);
+        this("hamburger", "white", "beef", 15.00, extra1, extra2, extra3, extra4);
     }
 
     public Hamburger(String extra1, String extra2, String extra3) {
