@@ -20,5 +20,4 @@ public class MainBillsBurgers {
         DeluxeBurger deluxeBurger = new DeluxeBurger();
         System.out.println("The " + deluxeBurger.getName() + " costs " + deluxeBurger.getTotalPrice() + " [" + deluxeBurger.getChips() + " and " + deluxeBurger.getDrinks() + " included]");
     }
-    }
 }
