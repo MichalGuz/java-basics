@@ -54,7 +54,7 @@ public class Hamburger {
     }
 
     public double getPrice() {
-        return price;
+        return this.price;
     }
 
     public String getExtra1() {
