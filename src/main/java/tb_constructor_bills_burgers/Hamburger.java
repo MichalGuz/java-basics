@@ -90,11 +90,11 @@ public class Hamburger {
     }
 
     public double getTotalPrice() {
-        if(!getExtra1().equals("")) {
+        if(!getExtra1().equals("") && getExtra2().equals(""))  {
             return this.price + getExtra1Price();
-        } else if(!getExtra2().equals("")) {
+        } else if(!getExtra2().equals("") && getExtra3().equals("") ) {
             return this.price + getExtra1Price() + getExtra2Price();
-        } else if(!getExtra3().equals("")) {
+        } else if(!getExtra3().equals("") && getExtra4().equals("") ) {
             return this.price + getExtra1Price()+ getExtra2Price() + getExtra3Price();
         } else if(!getExtra4().equals("")) {
             return this.price + getExtra1Price() + getExtra2Price() + getExtra3Price() + getExtra4Price();
