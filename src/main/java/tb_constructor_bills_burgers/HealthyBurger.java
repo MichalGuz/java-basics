@@ -36,7 +36,7 @@ public class HealthyBurger extends Hamburger {
         if (!getExtra5().equals("")) {
             return getPrice() + getExtra5Price();
         } else if (!getExtra6().equals("")) {
-            return getPrice() + getExtra6Price();
+            return getPrice() + getExtra5Price() + getExtra6Price();
         } else {
             return getPrice();
         }
