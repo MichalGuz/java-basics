@@ -36,7 +36,7 @@ public class HealthyBurger extends Hamburger {
     }
 
     public double getExtra6Price() {
-        return 1;
+        return 0.9;
     }
 
     @Override
