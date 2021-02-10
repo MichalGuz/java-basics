@@ -33,5 +33,10 @@ public class Car extends Vehicle {
 
     public void accelerate(int rate) {
         int newVelocity = getCurrentVelocity() + rate;
+        if (newVelocity <= 0) {
+            stop();
+        } else {
+            changeVelocity(newVelocity, getCurrentDirection());
+        }
     }
 }
