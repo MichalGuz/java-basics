@@ -30,4 +30,8 @@ public class Car extends Vehicle {
     public void stop() {
         super.stop();
     }
+
+    public void accelerate(int rate) {
+        int newVelocity = getCurrentVelocity() + rate;
+    }
 }
