@@ -7,4 +7,9 @@ public class Bugatti extends SportCar {
         super("Veyron", "W16", 3, 7, false, 36);
         this.type = type;
     }
+
+    @Override
+    public void accelerate(int rate) {
+        super.accelerate(rate);
+    }
 }
