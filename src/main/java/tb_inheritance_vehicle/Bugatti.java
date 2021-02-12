@@ -28,5 +28,9 @@ public class Bugatti extends SportCar {
         } else if (newVelocity > 100){
             changeGear(7);
         }
+
+        if(newVelocity > 0) {
+            changeVelocity(newVelocity, getCurrentDirection());
+        }
     }
 }
