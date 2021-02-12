@@ -1,5 +1,5 @@
 package tb_inheritance_vehicle;
 
-public class Bugatti {
+public class Bugatti extends SportCar {
     private String type;
 }
