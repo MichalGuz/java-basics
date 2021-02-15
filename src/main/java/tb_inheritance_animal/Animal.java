@@ -10,4 +10,9 @@ public class Animal {
         this.brain = brain;
         this.body = body;
     }
+
+    public void eat() {
+        System.out.println("Animal class -> eat() called");
+    }
+
 }
