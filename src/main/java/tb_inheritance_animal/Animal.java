@@ -19,4 +19,17 @@ public class Animal {
         System.out.println("Animal class -> move() called");
         System.out.println("Animal is moving at" + speed);
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getBrain() {
+        return brain;
+    }
+
+    public int getBody() {
+        return body;
+    }
 }
+
