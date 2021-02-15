@@ -15,4 +15,9 @@ public class Dog extends Animal {
     private void chew() {
         System.out.println("Dog is chewing the food.");
     }
+
+    @Override
+    public void eat() {
+        super.eat();
+    }
 }
