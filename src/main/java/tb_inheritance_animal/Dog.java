@@ -11,4 +11,8 @@ public class Dog extends Animal {
         this.eyes = eyes;
         this.coat = coat;
     }
+
+    private void chew() {
+        System.out.println("Dog is chewing the food.");
+    }
 }
