@@ -22,4 +22,9 @@ public class Dog extends Animal {
         chew();
         super.eat();
     }
+
+    private void run(int speed) {
+        System.out.println("Dog class -> run() called");
+        move(speed);
+    }
 }
