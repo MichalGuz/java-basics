@@ -27,4 +27,9 @@ public class Dog extends Animal {
         System.out.println("Dog class -> run() called");
         move(speed);
     }
+
+    private void walk(int speed) {
+        System.out.println("Dog class -> walk() called");
+        move(speed);
+    }
 }
