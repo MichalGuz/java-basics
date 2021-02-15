@@ -5,8 +5,8 @@ public class Dog extends Animal {
     private int eyes;
     private String coat;
 
-    public Dog(String name, int brain, int body, int tail, int eyes, String coat) {
-        super(name, brain, body);
+    public Dog(String name, int tail, int eyes, String coat) {
+        super(name, 1, 1);
         this.tail = tail;
         this.eyes = eyes;
         this.coat = coat;
