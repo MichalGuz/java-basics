@@ -43,4 +43,9 @@ public class Dog extends Animal {
             System.out.println("Dog moving legs but remains in one place");
         }
     }
+
+    @Override
+    public void move(int speed) {
+        super.move(speed);
+    }
 }
