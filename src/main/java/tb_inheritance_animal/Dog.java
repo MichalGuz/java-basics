@@ -1,4 +1,5 @@
 package tb_inheritance_animal;
 
-public class Dog {
+public class Dog extends Animal {
+
 }
