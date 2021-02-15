@@ -15,4 +15,8 @@ public class Animal {
         System.out.println("Animal class -> eat() called");
     }
 
+    public void move(int speed) {
+        System.out.println("Animal class -> move() called");
+        System.out.println("Animal is moving at" + speed);
+    }
 }
