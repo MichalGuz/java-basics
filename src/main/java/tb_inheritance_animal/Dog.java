@@ -32,4 +32,15 @@ public class Dog extends Animal {
         System.out.println("Dog class -> walk() called");
         move(speed);
     }
+
+    public void moveLegs(int speed) {
+        System.out.println("Dog class -> moveLegs() called");
+        if(speed > 0 && speed <= 5) {
+            walk(speed);
+        } else if (speed > 5){
+            run(speed);
+        } else {
+            System.out.println("Dog moving legs but remains in one place");
+        }
+    }
 }
