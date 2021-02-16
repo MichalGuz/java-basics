@@ -5,8 +5,8 @@ public class Fish extends Animal {
     private int eyes;
     private int fins;
 
-    public Fish(String name, int brain, int body, int gills, int eyes, int fins) {
-        super(name, brain, body);
+    public Fish(String name, int gills, int eyes, int fins) {
+        super(name, 1, 1);
         this.gills = gills;
         this.eyes = eyes;
         this.fins = fins;
