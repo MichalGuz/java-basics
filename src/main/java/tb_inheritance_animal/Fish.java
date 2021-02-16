@@ -25,4 +25,9 @@ public class Fish extends Animal {
         moveFin();
         super.move(speed);
     }
+
+    @Override
+    public void move(int speed) {
+        System.out.println("Fish class -> move() called");
+    }
 }
