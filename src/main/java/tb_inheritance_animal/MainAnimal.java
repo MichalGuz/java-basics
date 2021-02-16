@@ -6,6 +6,6 @@ public class MainAnimal {
         dog.moveLegs(4);
 
         Fish fish = new Fish("Nemo", 2, 2, 3);
-
+        fish.swim(2);
     }
 }
