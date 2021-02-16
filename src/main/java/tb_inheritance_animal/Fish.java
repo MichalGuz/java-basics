@@ -20,7 +20,7 @@ public class Fish extends Animal {
 
     private void moveFin() {}
 
-    private void swim(int speed) {
+    public void swim(int speed) {
         moveMuscles();
         moveFin();
         super.move(speed);
