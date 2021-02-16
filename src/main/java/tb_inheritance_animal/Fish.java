@@ -27,7 +27,7 @@ public class Fish extends Animal {
     public void swim(int speed) {
         moveMuscles();
         moveFin();
-        super.move(speed);
+        move(speed);
     }
 
     @Override
