@@ -14,4 +14,8 @@ public class Fish extends Animal {
 
     private void rest() {}
 
+    private void moveMuscles() {}
+
+    private void moveFin() {}
+
 }
