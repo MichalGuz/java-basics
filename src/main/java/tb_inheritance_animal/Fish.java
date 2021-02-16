@@ -16,9 +16,13 @@ public class Fish extends Animal {
         System.out.println("Fish is resting");
     }
 
-    private void moveMuscles() {}
+    private void moveMuscles() {
+        System.out.println("Fish class -> moveMuscles() called");
+    }
 
-    private void moveFin() {}
+    private void moveFin() {
+        System.out.println("Fish class -> moveFin() called");
+    }
 
     public void swim(int speed) {
         moveMuscles();
