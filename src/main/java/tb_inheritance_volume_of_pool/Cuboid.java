@@ -23,5 +23,7 @@ public class Cuboid extends Rectangle {
     public static void main(String[] args) {
         Rectangle r = new Rectangle(1.0, 8.0);
         System.out.println(r.getArea());
+        Cuboid c = new Cuboid(r.getLength(), r.getWidth(), 5.0);
+        System.out.println(c.getVolume());
     }
 }
