@@ -5,7 +5,15 @@ public class Rectangle {
     private double width;
 
     public Rectangle(double length, double width) {
-        this.length = length;
-        this.width = width;
+        if (width >= 0.0) {
+            this.width = width;
+        } else {
+            this.width = 0.0;
+        }
+        if (length >= 0.0) {
+            this.length = length;
+        } else {
+            this.length = 0.0;
+        }
     }
 }
