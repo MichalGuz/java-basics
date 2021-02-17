@@ -5,6 +5,10 @@ public class Cuboid extends Rectangle {
 
     public Cuboid(double length, double width, double height) {
         super(length, width);
-        this.height = height;
+        if (height >= 0.0) {
+            this.height = height;
+        } else {
+            this.height = 0.0;
+        }
     }
 }
