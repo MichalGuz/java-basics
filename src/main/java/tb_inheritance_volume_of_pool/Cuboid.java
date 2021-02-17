@@ -19,4 +19,8 @@ public class Cuboid extends Rectangle {
     public double getVolume() {
         return getHeight() * getArea();
     }
+
+    public static void main(String[] args) {
+        Rectangle r = new Rectangle(1.0, 8.0);
+    }
 }
