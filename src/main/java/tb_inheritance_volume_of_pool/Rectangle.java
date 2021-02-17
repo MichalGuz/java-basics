@@ -25,4 +25,8 @@ public class Rectangle {
         return width;
     }
 
+    public double getArea() {
+        return getWidth() * getLength();
+    }
+
 }
