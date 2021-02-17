@@ -22,5 +22,6 @@ public class Cuboid extends Rectangle {
 
     public static void main(String[] args) {
         Rectangle r = new Rectangle(1.0, 8.0);
+        System.out.println(r.getArea());
     }
 }
