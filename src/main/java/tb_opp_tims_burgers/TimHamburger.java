@@ -49,6 +49,8 @@ public class TimHamburger {
         this.addition4Price = price;
     }
 
-    public double itemizedHamburger() {
+    public double itemizeHamburger() {
+        double hamburgerPrice = this.price;
+        System.out.println(this.name + " hamburger on a " + this.breadRollType + " roll price is " + this.price);
     }
 }
