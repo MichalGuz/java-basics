@@ -48,4 +48,7 @@ public class TimHamburger {
         this.addition4Name = name;
         this.addition4Price = price;
     }
+
+    public double itemizedHamburger() {
+    }
 }
