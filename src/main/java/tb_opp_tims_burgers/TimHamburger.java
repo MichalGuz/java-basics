@@ -9,6 +9,9 @@ public class TimHamburger {
     private String addition1Name;
     private double addition1Price;
 
+    private String addition2Name;
+    private double addition2Price;
+
     public TimHamburger(String name, String meat, double price, String breadRollType) {
         this.name = name;
         this.meat = meat;
