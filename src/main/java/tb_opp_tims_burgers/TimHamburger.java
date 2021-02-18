@@ -6,6 +6,9 @@ public class TimHamburger {
     private double price;
     private String breadRollType;
 
+    private String addition1Name;
+    private double addition1Price;
+
     public TimHamburger(String name, String meat, double price, String breadRollType) {
         this.name = name;
         this.meat = meat;
