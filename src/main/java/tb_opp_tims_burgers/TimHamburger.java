@@ -52,5 +52,6 @@ public class TimHamburger {
     public double itemizeHamburger() {
         double hamburgerPrice = this.price;
         System.out.println(this.name + " hamburger on a " + this.breadRollType + " roll price is " + this.price);
+        return hamburgerPrice;
     }
 }
