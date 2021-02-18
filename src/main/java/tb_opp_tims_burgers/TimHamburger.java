@@ -12,4 +12,8 @@ public class TimHamburger {
         this.price = price;
         this.breadRollType = breadRollType;
     }
+
+    public TimHamburger() {
+        this("standard", "beef", 8.75, "white");
+    }
 }
