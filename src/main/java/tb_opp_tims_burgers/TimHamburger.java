@@ -12,6 +12,9 @@ public class TimHamburger {
     private String addition2Name;
     private double addition2Price;
 
+    private String addition3Name;
+    private double addition3Price;
+
     public TimHamburger(String name, String meat, double price, String breadRollType) {
         this.name = name;
         this.meat = meat;
@@ -32,4 +35,6 @@ public class TimHamburger {
         this.addition2Name = name;
         this.addition2Price = price;
     }
+
+
 }
