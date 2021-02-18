@@ -19,4 +19,9 @@ public class TimHamburger {
     public TimHamburger() {
         this("standard", "beef", 8.75, "white");
     }
+
+    public void addHamburgerAddition1(String name, double price) {
+        this.addition1Name = name;
+        this.addition1Price = price;
+    }
 }
