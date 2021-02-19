@@ -64,6 +64,10 @@ public class TimHamburger {
             hamburgerPrice += this.addition3Price;
             System.out.println("Added " + this.addition3Name + " for an extra " + this.addition3Price);
         }
+        if(this.addition4Name != null) {
+            hamburgerPrice += this.addition4Price;
+            System.out.println("Added " + this.addition4Name + " for an extra " + this.addition4Price);
+        }
         return hamburgerPrice;
     }
 }
