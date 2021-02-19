@@ -68,6 +68,7 @@ public class TimHamburger {
             hamburgerPrice += this.addition4Price;
             System.out.println("Added " + this.addition4Name + " for an extra " + this.addition4Price);
         }
+        System.out.println("Total burger prize is " + hamburgerPrice);
         return hamburgerPrice;
     }
 }
