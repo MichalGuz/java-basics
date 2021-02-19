@@ -10,4 +10,9 @@ public class TimHealthyBurger extends TimHamburger {
     public TimHealthyBurger() {
         super("healthy", "fish", 10.25, "brown rye");
     }
+
+    public void addHealthAddition1(String name, double price){
+        this.healthyExtra1Name = name;
+        this.healthyExtra1Price = price;
+    }
 }
