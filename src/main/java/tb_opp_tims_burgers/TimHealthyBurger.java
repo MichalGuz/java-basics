@@ -23,6 +23,16 @@ public class TimHealthyBurger extends TimHamburger {
 
     @Override
     public double itemizeHamburger() {
-        return super.itemizeHamburger();
+        double healthyBurgerPrice = super.itemizedHamburger();
+        if(healthyExtra1Name != null) {
+            healthyBurgerPrice += healthyExtra1Price;
+            System.out.println("Added " + healthyExtra1Name + " for an extra " + healthyExtra1Price);
+        }
+        if(healthyExtra2Name != null) {
+            healthyBurgerPrice += healthyExtra2Price;
+            System.out.println("Added " + healthyExtra2Name + " for an extra " + healthyExtra2Price);
+        }
+        System.out.println("Total healthy burger price is " + healthyBurgerPrice);
+        return healthyBurgerPrice;
     }
 }
