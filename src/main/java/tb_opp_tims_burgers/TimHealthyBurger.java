@@ -20,4 +20,9 @@ public class TimHealthyBurger extends TimHamburger {
         this.healthyExtra2Name = name;
         this.healthyExtra2Price = price;
     }
+
+    @Override
+    public double itemizeHamburger() {
+        return super.itemizeHamburger();
+    }
 }
