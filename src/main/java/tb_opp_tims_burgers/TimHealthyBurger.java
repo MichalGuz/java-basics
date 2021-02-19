@@ -7,7 +7,7 @@ public class TimHealthyBurger extends TimHamburger {
     private String healthyExtra2Name;
     private double healthyExtra2Price;
 
-    public TimHealthyBurger(String name, String meat, double price, String breadRollType) {
-        super(name, meat, price, breadRollType);
+    public TimHealthyBurger() {
+        super("healthy", "fish", 10.25, "brown rye");
     }
 }
