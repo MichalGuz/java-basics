@@ -7,5 +7,10 @@ public class TimBurgerMain {
         hamburger.addHamburgerAddition2("tomato",0.65);
         hamburger.addHamburgerAddition3("barbecue sauce", 0.30);
         hamburger.itemizeHamburger();
+
+        TimDeluxeBurger deluxeBurger = new TimDeluxeBurger();
+        deluxeBurger.itemizeHamburger();
+
     }
 }
+
