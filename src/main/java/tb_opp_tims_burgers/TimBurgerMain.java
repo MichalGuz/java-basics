@@ -11,6 +11,7 @@ public class TimBurgerMain {
         TimDeluxeBurger deluxeBurger = new TimDeluxeBurger();
         deluxeBurger.itemizeHamburger();
 
+        TimHealthyBurger healthyBurger = new TimHealthyBurger();
     }
 }
 
