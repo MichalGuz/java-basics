@@ -18,6 +18,7 @@ public class TimBurgerMain {
         healthyBurger.addHamburgerAddition2("onion", 0.15);
         healthyBurger.addHamburgerAddition3("garlic spread", 0.25);
         healthyBurger.addHamburgerAddition4("olive", 0.75);
+        healthyBurger.itemizeHamburger();
     }
 }
 
