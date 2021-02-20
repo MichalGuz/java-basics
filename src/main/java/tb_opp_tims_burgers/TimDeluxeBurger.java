@@ -12,7 +12,7 @@ public class TimDeluxeBurger extends TimHamburger {
 
     @Override
     public void addHamburgerAddition2(String name, double price) {
-        super.addHamburgerAddition2(name, price);
+        System.out.println("Cannot add additional items to a deluxe burger");
     }
 
     @Override
