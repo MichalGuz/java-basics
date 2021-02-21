@@ -65,4 +65,7 @@ public class ConstructorBankAccount {
         this.balance += quotaOfDeposit;
         System.out.println("balance = " + this.balance);
     }
+
+    public void withdraw(double quotaOfWithdrawal) {
+    }
 }
