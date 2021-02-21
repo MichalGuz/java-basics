@@ -17,7 +17,7 @@ public class EncapPlayer {
         return name;
     }
 
-    public int getHitPoint() {
+    public int getHealthy() {
         return hitPoint;
     }
 
