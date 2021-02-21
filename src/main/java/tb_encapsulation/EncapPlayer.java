@@ -26,7 +26,7 @@ public class EncapPlayer {
     }
 
     public static void main(String[] args) {
-        EnPlayer player = new EnPlayer("One", 50, 3);
-        System.out.println("initial player health is: " + player.getHealth());
+        EncapPlayer player = new EncapPlayer("One", 50, 3);
+        System.out.println("initial player health is: " + player.getHealthy());
     }
 }
