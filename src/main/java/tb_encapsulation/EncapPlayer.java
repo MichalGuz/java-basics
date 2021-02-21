@@ -12,4 +12,16 @@ public class EncapPlayer {
         }
         this.weapon = weapon;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getHitPoint() {
+        return hitPoint;
+    }
+
+    public int getWeapon() {
+        return weapon;
+    }
 }
