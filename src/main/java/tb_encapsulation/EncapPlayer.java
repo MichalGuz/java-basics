@@ -24,4 +24,9 @@ public class EncapPlayer {
     public int getWeapon() {
         return weapon;
     }
+
+    public static void main(String[] args) {
+        EnPlayer player = new EnPlayer("One", 50, 3);
+        System.out.println("initial player health is: " + player.getHealth());
+    }
 }
