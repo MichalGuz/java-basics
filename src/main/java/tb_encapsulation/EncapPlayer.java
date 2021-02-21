@@ -17,7 +17,7 @@ public class EncapPlayer {
         return name;
     }
 
-    public int getHealthy() {
+    public int getHealth() {
         return hitPoint;
     }
 
@@ -27,6 +27,6 @@ public class EncapPlayer {
 
     public static void main(String[] args) {
         EncapPlayer player = new EncapPlayer("One", 50, 3);
-        System.out.println("initial player health is: " + player.getHealthy());
+        System.out.println("initial player health is: " + player.getHealth());
     }
 }
