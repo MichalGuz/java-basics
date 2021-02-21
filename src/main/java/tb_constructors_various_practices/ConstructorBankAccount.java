@@ -74,4 +74,9 @@ public class ConstructorBankAccount {
             System.out.println("balance = " + this.balance);
         }
     }
+
+    public static void main(String[] args) {
+        ConstructorBankAccount constructorBankAccount = new ConstructorBankAccount();
+    }
 }
+
