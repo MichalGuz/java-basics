@@ -60,4 +60,9 @@ public class ConstructorBankAccount {
     public void setPhoneNumberOfCustomer(String phoneNumberOfCustomer) {
         this.phoneNumberOfCustomer = phoneNumberOfCustomer;
     }
+
+    public void deposit(double quotaOfDeposit) {
+        this.balance += quotaOfDeposit;
+        System.out.println("balance = " + this.balance);
+    }
 }
