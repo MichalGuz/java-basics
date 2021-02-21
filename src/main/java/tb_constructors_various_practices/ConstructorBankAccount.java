@@ -83,6 +83,12 @@ public class ConstructorBankAccount {
         constructorBankAccount.withdraw(700);
         constructorBankAccount.deposit(2000);
         constructorBankAccount.withdraw(3000);
+
+        System.out.println(constructorBankAccount.getAccountNumber());
+        System.out.println(constructorBankAccount.getBalance());
+        System.out.println(constructorBankAccount.getNameOfCustomer());
+        System.out.println(constructorBankAccount.getEmailOfCustomer());
+        System.out.println(constructorBankAccount.getPhoneNumberOfCustomer());
     }
 }
 
