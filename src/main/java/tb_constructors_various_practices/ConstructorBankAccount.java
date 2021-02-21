@@ -40,4 +40,24 @@ public class ConstructorBankAccount {
     public String getPhoneNumberOfCustomer() {
         return phoneNumberOfCustomer;
     }
+
+    public void setAccountNumber(String accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
+    public void setNameOfCustomer(String nameOfCustomer) {
+        this.nameOfCustomer = nameOfCustomer;
+    }
+
+    public void setEmailOfCustomer(String emailOfCustomer) {
+        this.emailOfCustomer = emailOfCustomer;
+    }
+
+    public void setPhoneNumberOfCustomer(String phoneNumberOfCustomer) {
+        this.phoneNumberOfCustomer = phoneNumberOfCustomer;
+    }
 }
