@@ -67,5 +67,11 @@ public class ConstructorBankAccount {
     }
 
     public void withdraw(double quotaOfWithdrawal) {
+        if (quotaOfWithdrawal > this.balance) {
+            System.out.println("The quota of withdrawal exceeds the balance.");
+        } else {
+            this.balance -= quotaOfWithdrawal;
+            System.out.println("balance = " + this.balance);
+        }
     }
 }
