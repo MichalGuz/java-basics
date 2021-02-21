@@ -77,6 +77,12 @@ public class ConstructorBankAccount {
 
     public static void main(String[] args) {
         ConstructorBankAccount constructorBankAccount = new ConstructorBankAccount();
+
+        constructorBankAccount.setBalance(1000);
+        constructorBankAccount.deposit(250);
+        constructorBankAccount.withdraw(700);
+        constructorBankAccount.deposit(2000);
+        constructorBankAccount.withdraw(3000);
     }
 }
 
