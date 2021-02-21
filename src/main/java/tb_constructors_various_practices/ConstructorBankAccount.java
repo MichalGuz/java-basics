@@ -15,4 +15,9 @@ public class ConstructorBankAccount {
         this.emailOfCustomer = emailOfCustomer;
         this.phoneNumberOfCustomer = phoneNumberOfCustomer;
     }
+
+    public ConstructorBankAccount() {
+        this("1234", 100.0,"Default name", "Default email", "Default phone number");
+        System.out.println("ConstructorBankAccount constructor with default parameters called");
+    }
 }
