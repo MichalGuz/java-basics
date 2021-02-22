@@ -24,4 +24,8 @@ public class MobilePhone {
         }
         return -1;
     }
+
+    public boolean addNewContact(Contact contact) {
+        return false;
+    }
 }
