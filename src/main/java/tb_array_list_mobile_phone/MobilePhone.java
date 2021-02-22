@@ -8,6 +8,6 @@ public class MobilePhone {
 
     public MobilePhone(String myNumber, ArrayList<Contact> myContacts) {
         this.myNumber = myNumber;
-        this.myContacts = myContacts;
+        this.myContacts = new ArrayList<>();
     }
 }
