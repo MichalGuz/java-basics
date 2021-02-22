@@ -26,6 +26,10 @@ public class MobilePhone {
     }
 
     public boolean addNewContact(Contact contact) {
+        if (findContact(contact.getName()) >= 0) {
+            System.out.println("Contact already exists");
+            return false;
+        }
         return false;
     }
 }
