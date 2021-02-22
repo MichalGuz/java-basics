@@ -18,6 +18,10 @@ public class MobilePhone {
     private int findContact(String name) {
         for (int i = 0; i < myContacts.size(); i++) {
             Contact contact = this.myContacts.get(i);
+            if (contact.getName().equals(name)) {
+                return i;
+            }
         }
+        return -1;
     }
 }
