@@ -16,4 +16,8 @@ public class Contact {
     public String getName() {
         return name;
     }
+
+    public static Contact createContact(String name, String phoneNumber) {
+        return new Contact(name, phoneNumber);
+    }
 }
