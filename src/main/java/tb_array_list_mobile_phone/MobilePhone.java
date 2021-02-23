@@ -69,6 +69,7 @@ public class MobilePhone {
     }
 
     public Contact queryContact(String name) {
+        int foundIndex = findContact(name);
         return null;
     }
 }
