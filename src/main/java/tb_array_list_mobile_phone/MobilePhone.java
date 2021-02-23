@@ -43,7 +43,10 @@ public class MobilePhone {
         } else if (findContact(updatedContact.getName()) != -1) {
             System.out.println("Contact with name " + updatedContact.getName() + " already exists");
             return false;
+        } else {
+            myContacts.set(foundIndex, updatedContact);
+            System.out.println("The old contact: " + oldContact.getName() + " was replaced by a new one: " + updatedContact.getName());
+            return true;
         }
-        return false;
     }
 }
