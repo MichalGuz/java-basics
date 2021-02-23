@@ -34,4 +34,8 @@ public class MobilePhone {
             return true;
         }
     }
+
+    public boolean updateContact(Contact oldContact, Contact updatedContact) {
+        return false;
+    }
 }
