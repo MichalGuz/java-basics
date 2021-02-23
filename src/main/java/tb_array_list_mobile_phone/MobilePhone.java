@@ -75,4 +75,7 @@ public class MobilePhone {
         }
         return null;
     }
+
+    public void printContacts() {
+    }
 }
