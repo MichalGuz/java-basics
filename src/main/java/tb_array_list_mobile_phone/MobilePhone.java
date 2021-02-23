@@ -67,4 +67,8 @@ public class MobilePhone {
         }
         return null;
     }
+
+    public Contact queryContact(String name) {
+        return null;
+    }
 }
