@@ -51,7 +51,11 @@ public class MobilePhone {
     }
 
     public boolean removeContact(Contact contact) {
-        int foundIndex =findContact(contact);
+        int foundIndex = findContact(contact);
+        if(foundIndex < 0) {
+            System.out.println("Contact not found");
+            return false;
+        }
         return false;
     }
 }
