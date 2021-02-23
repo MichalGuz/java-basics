@@ -60,4 +60,8 @@ public class MobilePhone {
         System.out.println("The contact " + contact.getName() + " has been removed");
         return true;
     }
+
+    public String queryContact(Contact contact) {
+        return null;
+    }
 }
