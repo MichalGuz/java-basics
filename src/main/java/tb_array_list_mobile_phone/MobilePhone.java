@@ -56,6 +56,8 @@ public class MobilePhone {
             System.out.println("Contact not found");
             return false;
         }
-        return false;
+        myContacts.remove(foundIndex);
+        System.out.println("The contact " + contact.getName() + " has been removed");
+        return true;
     }
 }
