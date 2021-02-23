@@ -77,5 +77,8 @@ public class MobilePhone {
     }
 
     public void printContacts() {
+        for(Contact p: myContacts) {
+            System.out.println(p.getName() + " " + p.getPhoneNumber());
+        }
     }
 }
