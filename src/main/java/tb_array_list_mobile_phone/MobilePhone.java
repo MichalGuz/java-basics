@@ -40,6 +40,9 @@ public class MobilePhone {
         if (foundIndex < 0) {
             System.out.println("The contact: " + oldContact.getName() + " " + oldContact.getPhoneNumber() + " is not on the list");
             return false;
+        } else if (findContact(updatedContact.getName()) != -1) {
+            System.out.println("Contact with name " + updatedContact.getName() + " already exists");
+            return false;
         }
         return false;
     }
