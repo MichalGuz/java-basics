@@ -37,6 +37,10 @@ public class MobilePhone {
 
     public boolean updateContact(Contact oldContact, Contact updatedContact) {
         int foundIndex = findContact(oldContact);
+        if (foundIndex < 0) {
+            System.out.println("The contact: " + oldContact.getName() + " " + oldContact.getPhoneNumber() + " is not on the list");
+            return false;
+        }
         return false;
     }
 }
