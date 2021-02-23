@@ -36,6 +36,7 @@ public class MobilePhone {
     }
 
     public boolean updateContact(Contact oldContact, Contact updatedContact) {
+        int foundIndex = findContact(oldContact);
         return false;
     }
 }
