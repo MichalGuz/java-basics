@@ -51,6 +51,7 @@ public class MobilePhone {
     }
 
     public boolean removeContact(Contact contact) {
+        int foundIndex =findContact(contact);
         return false;
     }
 }
