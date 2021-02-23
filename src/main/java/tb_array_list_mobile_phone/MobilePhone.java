@@ -49,4 +49,8 @@ public class MobilePhone {
             return true;
         }
     }
+
+    public boolean removeContact(Contact contact) {
+        return false;
+    }
 }
