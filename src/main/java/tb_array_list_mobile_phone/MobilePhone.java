@@ -62,6 +62,9 @@ public class MobilePhone {
     }
 
     public String queryContact(Contact contact) {
+        if(findContact(contact) >= 0){
+            return contact.getName();
+        }
         return null;
     }
 }
