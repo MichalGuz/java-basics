@@ -44,5 +44,10 @@ public class MobilePhoneProcess {
         System.out.println("Enter the new contact phone number");
         String contactsNewPhoneNumber = scanner.nextLine();
         Contact updatedContact = Contact.createContact(contactsNewName, contactsNewPhoneNumber);
+        if (mobilePhone.updateContact(existingContact, updatedContact)) {
+            System.out.println("Successfully updated");
+        } else {
+            System.out.println("Error updating contact");
+        }
     }
 }
