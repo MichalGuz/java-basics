@@ -26,5 +26,6 @@ public class MobilePhoneProcess {
         String name = scanner.nextLine();
         System.out.println("Enter the phone number:");
         String phoneNumber = scanner.nextLine();
+        Contact contact = Contact.createContact(name, phoneNumber);
     }
 }
