@@ -43,5 +43,6 @@ public class MobilePhoneProcess {
         String contactsNewName = scanner.nextLine();
         System.out.println("Enter the new contact phone number");
         String contactsNewPhoneNumber = scanner.nextLine();
+        Contact updatedContact = Contact.createContact(contactsNewName, contactsNewPhoneNumber);
     }
 }
