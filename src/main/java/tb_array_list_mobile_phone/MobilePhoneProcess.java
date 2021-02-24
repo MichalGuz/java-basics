@@ -31,4 +31,7 @@ public class MobilePhoneProcess {
             System.out.println("Contact added: " + name + " " + phoneNumber);
         }
     }
+
+    private void update() {
+    }
 }
