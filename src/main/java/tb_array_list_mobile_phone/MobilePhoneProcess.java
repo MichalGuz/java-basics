@@ -33,5 +33,7 @@ public class MobilePhoneProcess {
     }
 
     private void update() {
+        System.out.println("Enter the name:");
+        String name = scanner.nextLine();
     }
 }
