@@ -20,4 +20,7 @@ public class MobilePhoneProcess {
                 "5 - to query an existing contact\n" +
                 "6 - to print a list of available actions");
     }
+
+    private void add() {
+    }
 }
