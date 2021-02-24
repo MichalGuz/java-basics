@@ -39,5 +39,9 @@ public class MobilePhoneProcess {
         if (existingContact == null) {
             System.out.println("Contact not found");
         }
+        System.out.println("Enter the new contact name");
+        String contactsNewName = scanner.nextLine();
+        System.out.println("Enter the new contact phone number");
+        String contactsNewPhoneNumber = scanner.nextLine();
     }
 }
