@@ -6,7 +6,7 @@ public class MobilePhone {
     private String myNumber;
     private ArrayList<Contact> myContacts;
 
-    public MobilePhone(String myNumber, ArrayList<Contact> myContacts) {
+    public MobilePhone(String myNumber) {
         this.myNumber = myNumber;
         this.myContacts = new ArrayList<>();
     }
