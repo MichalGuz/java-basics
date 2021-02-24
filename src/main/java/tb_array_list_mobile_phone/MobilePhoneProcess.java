@@ -9,4 +9,7 @@ public class MobilePhoneProcess {
 
     public void mobilePhoneProcess() {
     }
+
+    private void printInstructions() {
+    }
 }
