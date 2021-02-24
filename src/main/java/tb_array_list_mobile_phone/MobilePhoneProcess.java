@@ -22,5 +22,9 @@ public class MobilePhoneProcess {
     }
 
     private void add() {
+        System.out.println("Enter the name:");
+        String name = scanner.nextLine();
+        System.out.println("Enter the phone number:");
+        String phoneNumber = scanner.nextLine();
     }
 }
