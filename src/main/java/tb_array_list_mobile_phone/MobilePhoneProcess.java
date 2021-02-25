@@ -8,6 +8,7 @@ public class MobilePhoneProcess {
     Scanner scanner = new Scanner(System.in);
 
     public void mobilePhoneProcess() {
+        printInstructions();
     }
 
     private void printInstructions() {
