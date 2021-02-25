@@ -68,5 +68,6 @@ public class MobilePhoneProcess {
     private void query() {
         System.out.println("Enter the name:");
         String name = scanner.nextLine();
+        Contact existingContact = mobilePhone.queryContact(name);
     }
 }
