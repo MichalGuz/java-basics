@@ -50,4 +50,7 @@ public class MobilePhoneProcess {
             System.out.println("Error updating contact");
         }
     }
+
+    private void remove() {
+    }
 }
