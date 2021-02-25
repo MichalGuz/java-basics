@@ -9,6 +9,7 @@ public class MobilePhoneProcess {
 
     public void mobilePhoneProcess() {
         printInstructions();
+        boolean quit = false;
     }
 
     private void printInstructions() {
