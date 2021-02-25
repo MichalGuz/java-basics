@@ -60,6 +60,8 @@ public class MobilePhoneProcess {
         }
         if (mobilePhone.removeContact(existingContact)) {
             System.out.println("Successfully deleted");
+        }  else {
+            System.out.println("Error deleting contact");
         }
     }
 }
