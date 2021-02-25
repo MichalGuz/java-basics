@@ -14,6 +14,7 @@ public class MobilePhoneProcess {
         while (!quit) {
             System.out.println("Enter your choice:");
             int choice = scanner.nextInt();
+            scanner.nextLine();
         }
     }
 
