@@ -72,5 +72,6 @@ public class MobilePhoneProcess {
         if (existingContact == null) {
             System.out.println("Contact not found");
         }
+        System.out.println(existingContact.getName() + " " + existingContact.getPhoneNumber());
     }
 }
