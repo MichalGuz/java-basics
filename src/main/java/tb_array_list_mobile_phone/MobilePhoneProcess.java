@@ -15,6 +15,29 @@ public class MobilePhoneProcess {
             System.out.println("Enter your choice:");
             int choice = scanner.nextInt();
             scanner.nextLine();
+            switch (choice) {
+                case 0:
+                    quit = true;
+                    break;
+                case 1:
+                    mobilePhone.printContacts();
+                    break;
+                case 2:
+                    add();
+                    break;
+                case 3:
+                    update();
+                    break;
+                case 4:
+                    remove();
+                    break;
+                case 5:
+                    query();
+                    break;
+                case 6:
+                    printInstructions();
+                    break;
+            }
         }
     }
 
