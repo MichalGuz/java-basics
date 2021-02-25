@@ -52,5 +52,7 @@ public class MobilePhoneProcess {
     }
 
     private void remove() {
+        System.out.println("Enter the name:");
+        String name = scanner.nextLine();
     }
 }
