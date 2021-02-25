@@ -58,5 +58,8 @@ public class MobilePhoneProcess {
         if (existingContact == null) {
             System.out.println("Contact not found");
         }
+        if (mobilePhone.removeContact(existingContact)) {
+            System.out.println("Successfully deleted");
+        }
     }
 }
