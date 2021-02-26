@@ -38,6 +38,8 @@ public class MobPhoneLonger {
     }
 
     private void update(Contact contact, Contact updated) {
+        int index = findIndex(contact.getName());
+        contacts.set(index, updated);
     }
 
     private int findIndex(String name) {
