@@ -20,7 +20,7 @@ public class MobPhoneLonger {
 
     public void printListOfNumbers() {
         for(Contact item: contacts) {
-            System.out.println(item.getName() + " " + item.getPhoneNumber());
+            System.out.println("Contact: " + item.getName() + " " + item.getPhoneNumber());
         }
     }
 }
