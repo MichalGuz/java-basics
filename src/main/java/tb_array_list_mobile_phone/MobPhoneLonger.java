@@ -42,6 +42,10 @@ public class MobPhoneLonger {
         int index = -1;
         while (result == false) {
             for (int i =0; i<contacts.size(); i++) {
+                if (contacts.get(i).getName().equals(name)) {
+                    result = true;
+                    index = i;
+                }
             }
         }
         return index;
