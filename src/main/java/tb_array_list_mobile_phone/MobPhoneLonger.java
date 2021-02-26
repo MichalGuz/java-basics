@@ -25,5 +25,9 @@ public class MobPhoneLonger {
     }
 
     public void addContact() {
+        System.out.print("Enter the name:\n");
+        String name = scanner.nextLine();
+        System.out.print("Enter the number:\n");
+        String number = scanner.nextLine();
     }
 }
