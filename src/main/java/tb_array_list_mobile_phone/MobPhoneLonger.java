@@ -7,9 +7,9 @@ public class MobPhoneLonger {
     ArrayList<Contact> contacts = new ArrayList<>();
     Scanner scanner = new Scanner(System.in);
 
-    public void printInstructions(){
+    public void printInstructions() {
         System.out.println("Press ");
-        System.out.println("0 - To show the instructions." );
+        System.out.println("0 - To show the instructions.");
         System.out.println("1 - To print the list of contacts.");
         System.out.println("2 - To add a contact to the list.");
         System.out.println("3 - To modify a contact in the list.");
@@ -19,7 +19,7 @@ public class MobPhoneLonger {
     }
 
     public void printListOfNumbers() {
-        for(Contact item: contacts) {
+        for (Contact item : contacts) {
             System.out.println("Contact: " + item.getName() + " " + item.getPhoneNumber());
         }
     }
@@ -33,7 +33,11 @@ public class MobPhoneLonger {
         add(contact);
     }
 
-    private void add(Contact contact) {
+        private void add(Contact contact) {
         contacts.add(contact);
+    }
+
+    private int findIndex(String name) {
+        return -1;
     }
 }
