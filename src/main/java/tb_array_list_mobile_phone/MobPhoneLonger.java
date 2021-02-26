@@ -18,4 +18,6 @@ public class MobPhoneLonger {
         System.out.println("6 - To quit the application.");
     }
 
+    public void printListOfNumbers() {
+    }
 }
