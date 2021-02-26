@@ -41,6 +41,8 @@ public class MobPhoneLonger {
         boolean result = false;
         int index = -1;
         while (result == false) {
+            for (int i =0; i<contacts.size(); i++) {
+            }
         }
         return index;
     }
