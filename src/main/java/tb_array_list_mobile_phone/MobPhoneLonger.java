@@ -23,4 +23,7 @@ public class MobPhoneLonger {
             System.out.println("Contact: " + item.getName() + " " + item.getPhoneNumber());
         }
     }
+
+    public void addContact() {
+    }
 }
