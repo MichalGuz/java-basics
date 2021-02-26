@@ -1,6 +1,12 @@
 package tb_array_list_mobile_phone;
 
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class MobPhoneLonger {
+    ArrayList<Contact> contacts = new ArrayList<>();
+    Scanner scanner = new Scanner(System.in);
+
     public void printInstructions(){
         System.out.println("Press ");
         System.out.println("0 - To show the instructions." );
@@ -11,4 +17,5 @@ public class MobPhoneLonger {
         System.out.println("5 - To search for a contact in the list.");
         System.out.println("6 - To quit the application.");
     }
+
 }
