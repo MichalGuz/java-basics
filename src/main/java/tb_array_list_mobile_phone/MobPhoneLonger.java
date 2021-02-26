@@ -38,6 +38,10 @@ public class MobPhoneLonger {
     }
 
     private int findIndex(String name) {
-        return -1;
+        boolean result = false;
+        int index = -1;
+        while (result == false) {
+        }
+        return index;
     }
 }
