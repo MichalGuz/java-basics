@@ -52,6 +52,9 @@ public class MobPhoneLonger {
     public void removeContact() {
         System.out.print("Choose contact to remove - enter the name:\n");
         String name = scanner.nextLine();
+        if (searchOnList(name)) {
+            remove(name);
+        }
     }
 
     private void add(Contact contact) {
