@@ -54,6 +54,8 @@ public class MobPhoneLonger {
         String name = scanner.nextLine();
         if (searchOnList(name)) {
             remove(name);
+        } else {
+            System.out.println("Given contact doesn't exist");
         }
     }
 
