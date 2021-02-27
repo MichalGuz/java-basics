@@ -43,6 +43,7 @@ public class MobPhoneLonger {
             String updatedNumber = scanner.nextLine();
             Contact currentContact = contacts.get(findIndex(name));
             Contact updatedContact = new Contact(updatedName, updatedNumber);
+            update(currentContact, updatedContact);
         }
     }
 
