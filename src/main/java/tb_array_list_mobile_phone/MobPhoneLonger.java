@@ -44,6 +44,8 @@ public class MobPhoneLonger {
             Contact currentContact = contacts.get(findIndex(name));
             Contact updatedContact = new Contact(updatedName, updatedNumber);
             update(currentContact, updatedContact);
+        } else {
+            System.out.println("Given contact doesn't exist");
         }
     }
 
