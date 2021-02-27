@@ -49,7 +49,10 @@ public class MobPhoneLonger {
         }
     }
 
-        private void add(Contact contact) {
+    public void removeContact() {
+    }
+
+    private void add(Contact contact) {
         contacts.add(contact);
     }
 
