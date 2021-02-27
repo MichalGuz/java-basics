@@ -42,7 +42,10 @@ public class MobPhoneLonger {
         contacts.set(index, updated);
     }
 
-    private int findIndex(String name) {
+    private void remove(String name) {
+    }
+
+        private int findIndex(String name) {
         boolean result = false;
         int index = -1;
         while (result == false) {
