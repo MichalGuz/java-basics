@@ -59,7 +59,7 @@ public class MobPhoneLonger {
                 counter++;
             }
         }
-        return false;
+        return result;
     }
 
         private int findIndex(String name) {
