@@ -48,6 +48,8 @@ public class MobPhoneLonger {
     }
 
     private boolean searchOnList(String name) {
+        boolean result = false;
+        int counter = 0;
         return false;
     }
 
