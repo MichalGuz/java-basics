@@ -36,6 +36,8 @@ public class MobPhoneLonger {
     public void updateContact() {
         System.out.print("Choose contact to update - enter the name:\n");
         String name = scanner.nextLine();
+        if(searchOnList(name)) {
+        }
     }
 
         private void add(Contact contact) {
