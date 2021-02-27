@@ -33,7 +33,10 @@ public class MobPhoneLonger {
         add(contact);
     }
 
-    private void add(Contact contact) {
+    public void updateContact() {
+    }
+
+        private void add(Contact contact) {
         contacts.add(contact);
     }
 
@@ -62,7 +65,7 @@ public class MobPhoneLonger {
         return result;
     }
 
-        private int findIndex(String name) {
+    private int findIndex(String name) {
         boolean result = false;
         int index = -1;
         while (result == false) {
