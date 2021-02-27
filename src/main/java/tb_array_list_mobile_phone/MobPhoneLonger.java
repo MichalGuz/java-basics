@@ -51,8 +51,10 @@ public class MobPhoneLonger {
         boolean result = false;
         int counter = 0;
         while(counter < contacts.size()) {
+            for (Contact c : contacts) {
+            }
         }
-            return false;
+        return false;
     }
 
         private int findIndex(String name) {
