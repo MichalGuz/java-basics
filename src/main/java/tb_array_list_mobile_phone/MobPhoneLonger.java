@@ -44,6 +44,7 @@ public class MobPhoneLonger {
 
     private void remove(String name) {
         int toRemove = findIndex(name);
+        contacts.remove(toRemove);
     }
 
         private int findIndex(String name) {
