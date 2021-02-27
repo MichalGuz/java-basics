@@ -56,6 +56,7 @@ public class MobPhoneLonger {
                     result = true;
                     counter = contacts.size();
                 }
+                counter++;
             }
         }
         return false;
