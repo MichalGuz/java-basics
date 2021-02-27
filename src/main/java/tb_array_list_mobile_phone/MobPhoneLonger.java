@@ -47,6 +47,10 @@ public class MobPhoneLonger {
         contacts.remove(toRemove);
     }
 
+    private boolean searchOnList(String name) {
+        return false;
+    }
+
         private int findIndex(String name) {
         boolean result = false;
         int index = -1;
