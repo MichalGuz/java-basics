@@ -43,6 +43,7 @@ public class MobPhoneLonger {
     }
 
     private void remove(String name) {
+        int toRemove = findIndex(name);
     }
 
         private int findIndex(String name) {
