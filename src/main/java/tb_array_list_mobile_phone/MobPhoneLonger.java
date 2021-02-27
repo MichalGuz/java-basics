@@ -41,6 +41,8 @@ public class MobPhoneLonger {
             String updatedName = scanner.nextLine();
             System.out.print("and enter the number to update\n");
             String updatedNumber = scanner.nextLine();
+            Contact currentContact = contacts.get(findIndex(name));
+            Contact updatedContact = new Contact(updatedName, updatedNumber);
         }
     }
 
