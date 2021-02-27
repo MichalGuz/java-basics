@@ -52,6 +52,10 @@ public class MobPhoneLonger {
         int counter = 0;
         while(counter < contacts.size()) {
             for (Contact c : contacts) {
+                if (c.getName().equals(name)) {
+                    result = true;
+                    counter = contacts.size();
+                }
             }
         }
         return false;
