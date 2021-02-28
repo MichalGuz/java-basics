@@ -33,6 +33,9 @@ public class MobPhoneLongerProcess {
                 case 5:
                     mobPhoneLonger.findContact();
                     break;
+                case 6:
+                    quit = true;
+                    break;
             }
         }
     }
