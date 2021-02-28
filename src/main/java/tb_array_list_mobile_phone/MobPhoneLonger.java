@@ -62,6 +62,8 @@ public class MobPhoneLonger {
     public void findContact() {
         System.out.print("Choose contact to find - enter the name:\n");
         String name = scanner.nextLine();
+        if (searchOnList(name)) {
+        }
     }
 
     private void add(Contact contact) {
