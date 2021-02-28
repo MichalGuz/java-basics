@@ -11,6 +11,7 @@ public class MobPhoneLongerProcess {
         boolean quit = false;
         mobPhoneLonger.printInstructions();
         while (!quit) {
+            System.out.println("Enter your choice");
         }
     }
 }
