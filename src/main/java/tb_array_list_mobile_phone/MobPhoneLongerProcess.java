@@ -7,5 +7,7 @@ public class MobPhoneLongerProcess {
     Scanner scanner = new Scanner(System.in);
 
     public void mobPhoneLongerProcess() {
+        int choice = 0;
+        boolean quit = false;
     }
 }
