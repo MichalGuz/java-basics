@@ -10,5 +10,7 @@ public class MobPhoneLongerProcess {
         int choice = 0;
         boolean quit = false;
         mobPhoneLonger.printInstructions();
+        while (!quit) {
+        }
     }
 }
