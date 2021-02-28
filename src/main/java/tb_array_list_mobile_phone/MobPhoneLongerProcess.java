@@ -30,6 +30,9 @@ public class MobPhoneLongerProcess {
                 case 4:
                     mobPhoneLonger.removeContact();
                     break;
+                case 5:
+                    mobPhoneLonger.findContact();
+                    break;
             }
         }
     }
