@@ -9,5 +9,6 @@ public class MobPhoneLongerProcess {
     public void mobPhoneLongerProcess() {
         int choice = 0;
         boolean quit = false;
+        mobPhoneLonger.printInstructions();
     }
 }
