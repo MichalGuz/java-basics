@@ -21,6 +21,9 @@ public class MobPhoneLongerProcess {
                 case 1:
                     mobPhoneLonger.printListOfNumbers();
                     break;
+                case 2:
+                    mobPhoneLonger.addContact();
+                    break;
             }
         }
     }
