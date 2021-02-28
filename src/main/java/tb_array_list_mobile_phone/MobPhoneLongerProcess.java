@@ -5,4 +5,7 @@ import java.util.Scanner;
 public class MobPhoneLongerProcess {
     MobPhoneLonger mobPhoneLonger = new MobPhoneLonger();
     Scanner scanner = new Scanner(System.in);
+
+    public void mobPhoneLongerProcess() {
+    }
 }
