@@ -12,6 +12,7 @@ public class MobPhoneLongerProcess {
         mobPhoneLonger.printInstructions();
         while (!quit) {
             System.out.println("Enter your choice");
+            choice = scanner.nextInt();
         }
     }
 }
