@@ -39,4 +39,9 @@ public class MobPhoneLongerProcess {
             }
         }
     }
+
+    public static void main(String[] args) {
+        MobPhoneLongerProcess operate = new MobPhoneLongerProcess();
+        operate.mobPhoneLongerProcess();
+    }
 }
