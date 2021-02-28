@@ -18,6 +18,9 @@ public class MobPhoneLongerProcess {
                 case 0:
                     mobPhoneLonger.printInstructions();
                     break;
+                case 1:
+                    mobPhoneLonger.printListOfNumbers();
+                    break;
             }
         }
     }
