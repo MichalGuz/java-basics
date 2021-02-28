@@ -65,6 +65,8 @@ public class MobPhoneLonger {
         if (searchOnList(name)) {
             int index = findIndex(name);
             System.out.println(name + " " + contacts.get(index).getPhoneNumber());
+        }  else {
+            System.out.println("Given contact doesn't exist");
         }
     }
 
