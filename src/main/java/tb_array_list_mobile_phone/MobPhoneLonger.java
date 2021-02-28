@@ -59,6 +59,10 @@ public class MobPhoneLonger {
         }
     }
 
+    public void findContact() {
+
+    }
+
     private void add(Contact contact) {
         contacts.add(contact);
     }
