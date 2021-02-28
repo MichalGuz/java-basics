@@ -15,6 +15,9 @@ public class MobPhoneLongerProcess {
             choice = scanner.nextInt();
             scanner.nextLine();
             switch (choice) {
+                case 0:
+                    mobPhoneLonger.printInstructions();
+                    break;
             }
         }
     }
