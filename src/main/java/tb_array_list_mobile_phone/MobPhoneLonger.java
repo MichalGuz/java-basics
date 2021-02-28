@@ -63,6 +63,8 @@ public class MobPhoneLonger {
         System.out.print("Choose contact to find - enter the name:\n");
         String name = scanner.nextLine();
         if (searchOnList(name)) {
+            int index = findIndex(name);
+            System.out.println(name + " " + contacts.get(index).getPhoneNumber());
         }
     }
 
