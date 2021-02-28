@@ -24,6 +24,9 @@ public class MobPhoneLongerProcess {
                 case 2:
                     mobPhoneLonger.addContact();
                     break;
+                case 3:
+                    mobPhoneLonger.updateContact();
+                    break;
             }
         }
     }
