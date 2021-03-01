@@ -34,6 +34,7 @@ public class MobPhoneLongerProcess {
                     mobPhoneLonger.findContact();
                     break;
                 case 6:
+                    System.out.println("Quit the program was chosen. See you again!");
                     quit = true;
                     break;
             }
