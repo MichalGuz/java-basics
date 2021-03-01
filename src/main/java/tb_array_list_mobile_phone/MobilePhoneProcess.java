@@ -17,6 +17,7 @@ public class MobilePhoneProcess {
             scanner.nextLine();
             switch (choice) {
                 case 0:
+                    System.out.println("Quit the program was chosen. See you again!");
                     quit = true;
                     break;
                 case 1:
