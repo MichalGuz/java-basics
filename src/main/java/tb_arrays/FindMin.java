@@ -14,5 +14,8 @@ public class FindMin {
     private static int[] readElements(int elements) {
         System.out.println("Enter "+ elements + " of integers:");
         int[] array = new int[elements];
+        for (int i=0; i<array.length; i++){
+            array[i] = scanner.nextInt();
+        }
     }
 }
