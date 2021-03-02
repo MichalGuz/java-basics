@@ -10,4 +10,7 @@ public class FindMin {
         int elements = scanner.nextInt();
         return elements;
     }
+
+    private static int[] readElements(int elements) {
+    }
 }
