@@ -1,5 +1,6 @@
 package tb_arrays;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class FindMin {
@@ -17,5 +18,7 @@ public class FindMin {
         for (int i=0; i<array.length; i++){
             array[i] = scanner.nextInt();
         }
+        System.out.println("Array = " + Arrays.toString(array));
+        return array;
     }
 }
