@@ -21,4 +21,8 @@ public class FindMin {
         System.out.println("Array = " + Arrays.toString(array));
         return array;
     }
+
+    private static int findMin(int[] array) {
+        return -1;
+    }
 }
