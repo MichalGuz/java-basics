@@ -23,6 +23,7 @@ public class FindMin {
     }
 
     private static int findMin(int[] array) {
+        int min = Integer.MAX_VALUE;
         return -1;
     }
 }
