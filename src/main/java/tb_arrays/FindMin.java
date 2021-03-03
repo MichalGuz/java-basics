@@ -33,4 +33,8 @@ public class FindMin {
         System.out.println("Min is "+ min);
         return min;
     }
+
+    public static void main(String[] args) {
+        int r = readInteger();
+    }
 }
