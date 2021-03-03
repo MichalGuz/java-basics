@@ -37,5 +37,6 @@ public class FindMin {
     public static void main(String[] args) {
         int r = readInteger();
         int[] arr = readElements(r);
+        findMin(arr);
     }
 }
