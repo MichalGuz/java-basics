@@ -25,6 +25,7 @@ public class FindMin {
     private static int findMin(int[] array) {
         int min = Integer.MAX_VALUE;
         for (int i=0; i<array.length; i++) {
+            int value = array[i];
         }
         return -1;
     }
