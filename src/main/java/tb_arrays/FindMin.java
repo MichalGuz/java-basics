@@ -30,6 +30,7 @@ public class FindMin {
                 min = value;
             }
         }
-        return -1;
+        System.out.println("Min is "+ min);
+        return min;
     }
 }
