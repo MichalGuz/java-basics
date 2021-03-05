@@ -19,5 +19,6 @@ public class AverageFromScanner {
     }
 
     public static double getAverage(int[] numbers) {
+        int sum = 0;
     }
 }
