@@ -17,4 +17,7 @@ public class AverageFromScanner {
         }
         return values;
     }
+
+    public static double getAverage(int[] numbers) {
+    }
 }
