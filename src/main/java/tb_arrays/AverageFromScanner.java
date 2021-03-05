@@ -6,7 +6,8 @@ public class AverageFromScanner {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void printElementsAndAverage() {
-        int[] myIntegers = getNumbers(5);
+        int[] myIntegers = getNumbers(6);
+
     }
 
     public static int[] getNumbers(int number) {
