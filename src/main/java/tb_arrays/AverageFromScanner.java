@@ -14,5 +14,6 @@ public class AverageFromScanner {
 
         for (int i = 0; i < values.length; i++) {
         }
+        return values;
     }
 }
