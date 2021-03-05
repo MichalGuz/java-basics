@@ -10,8 +10,7 @@ public class AverageFromScanner {
         for (int i=0; i<myIntegers.length; i++) {
             System.out.println("Element " + (i+1)  + " typed was value " + myIntegers[i]);
         }
-
-    }
+        System.out.println("Average is " + getAverage(myIntegers));
     }
 
     public static int[] getNumbers(int number) {
