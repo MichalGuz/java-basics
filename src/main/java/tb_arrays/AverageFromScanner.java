@@ -30,4 +30,8 @@ public class AverageFromScanner {
         }
         return  (double) sum / (double) numbers.length;
     }
+
+    public static void main(String[] args) {
+        printElementsAndAverage();
+    }
 }
