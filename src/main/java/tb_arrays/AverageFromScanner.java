@@ -23,5 +23,6 @@ public class AverageFromScanner {
         for(int i=0; i<numbers.length; i++) {
             sum += numbers[i];
         }
+        return  (double) sum / (double) numbers.length;
     }
 }
