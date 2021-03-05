@@ -9,5 +9,6 @@ public class AverageFromScanner {
     }
 
     public static int[] getNumbers(int number) {
+        System.out.println("Enter " + number + " integer values.");
     }
 }
