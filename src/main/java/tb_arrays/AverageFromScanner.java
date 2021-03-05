@@ -13,6 +13,7 @@ public class AverageFromScanner {
         int[] values = new int[number];
 
         for (int i = 0; i < values.length; i++) {
+            values[i] = scanner.nextInt();
         }
         return values;
     }
