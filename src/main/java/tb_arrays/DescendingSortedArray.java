@@ -13,4 +13,7 @@ public class DescendingSortedArray {
         }
         return numbers;
     }
+
+    public static void descendingSortOfArray(int[] array) {
+    }
 }
