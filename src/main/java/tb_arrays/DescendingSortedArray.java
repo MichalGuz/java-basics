@@ -34,6 +34,7 @@ public class DescendingSortedArray {
         int[] array = getNumbers(capacity);
         System.out.print("Array of typed elements = ");
         for (int i=0; i<array.length; i++) {
+            System.out.print(array[i] + ", ");
         }
     }
 }
