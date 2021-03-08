@@ -24,5 +24,8 @@ public class DescendingSortedArray {
                 }
             }
         }
+
+        for (int m = 0; m < array.length; m++) {
+        }
     }
 }
