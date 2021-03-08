@@ -29,4 +29,7 @@ public class DescendingSortedArray {
             System.out.print(array[m] + ", ");
         }
     }
+
+    public static void printNumbers(int capacity) {
+    }
 }
