@@ -20,6 +20,7 @@ public class DescendingSortedArray {
                 if (array[i] > array[p]) {
                     int temp = array[p];
                     array[p] = array[i];
+                    array[i] = temp;
                 }
             }
         }
