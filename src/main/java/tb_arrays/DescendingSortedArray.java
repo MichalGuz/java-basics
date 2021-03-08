@@ -36,5 +36,6 @@ public class DescendingSortedArray {
         for (int i=0; i<array.length; i++) {
             System.out.print(array[i] + ", ");
         }
+        System.out.print("Array of sorted elements in descending order = ");
     }
 }
