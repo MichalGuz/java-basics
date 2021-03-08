@@ -40,5 +40,6 @@ public class DescendingSortedArray {
         descendingSortOfArray(array);
     }
 
-    public static void main(String[] args) {}
+    public static void main(String[] args) {
+        printNumbers(7);}
 }
