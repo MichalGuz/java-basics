@@ -8,6 +8,8 @@ public class DescendingSortedArray {
     public static int[] getNumbers(int capacity) {
         int[] numbers = new int[capacity];
         System.out.println("Enter " + capacity + " integers values:");
+        for (int i=0; i<numbers.length; i++) {
+        }
         return numbers;
     }
 }
