@@ -18,6 +18,7 @@ public class DescendingSortedArray {
         for (int i = 0; i < array.length; i++) {
             for (int p = 0; p < array.length; p++) {
                 if (array[i] > array[p]) {
+                    int temp = array[p];
                 }
             }
         }
