@@ -26,6 +26,7 @@ public class DescendingSortedArray {
         }
 
         for (int m = 0; m < array.length; m++) {
+            System.out.print(array[m] + ", ");
         }
     }
 }
