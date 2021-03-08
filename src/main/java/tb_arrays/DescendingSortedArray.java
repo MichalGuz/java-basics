@@ -15,5 +15,7 @@ public class DescendingSortedArray {
     }
 
     public static void descendingSortOfArray(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+        }
     }
 }
