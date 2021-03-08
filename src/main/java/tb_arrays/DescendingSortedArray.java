@@ -39,4 +39,6 @@ public class DescendingSortedArray {
         System.out.print("Array of sorted elements in descending order = ");
         descendingSortOfArray(array);
     }
+
+    public static void main(String[] args) {}
 }
