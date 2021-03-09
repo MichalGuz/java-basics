@@ -15,6 +15,6 @@ public class PrintArray {
         }
     }
 
-
-
+    public static void printIntArray(int[] array){
+    }
 }
