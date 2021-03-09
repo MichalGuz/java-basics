@@ -16,6 +16,7 @@ public class PrintArray {
     }
 
     public static void printIntArray(int[] array) {
+        int counter = 0;
         for (int v : array) {
         }
     }
