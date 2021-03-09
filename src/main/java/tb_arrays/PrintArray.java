@@ -1,5 +1,6 @@
 package tb_arrays;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class PrintArray {
@@ -8,6 +9,9 @@ public class PrintArray {
         System.out.println("Enter the number to set the range of array:");
         int range = scanner.nextInt();
         int[] values = new int[range];
+        Random random = new Random();
+        int v = random.nextInt(25);
+
     }
 
 
