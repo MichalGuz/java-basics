@@ -27,4 +27,8 @@ public class PrintArray {
     public static void process() {
         printIntArray(fillIntArray());
     }
+
+    public static void main(String[] args) {
+        process();
+    }
 }
