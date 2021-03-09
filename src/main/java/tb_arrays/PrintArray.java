@@ -25,6 +25,6 @@ public class PrintArray {
     }
 
     public static void process() {
-
+        printIntArray(fillIntArray());
     }
 }
