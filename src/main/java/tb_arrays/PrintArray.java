@@ -18,6 +18,8 @@ public class PrintArray {
     public static void printIntArray(int[] array) {
         int counter = 0;
         for (int v : array) {
+            counter++;
+            System.out.println("the " + counter + " element of an array is: " + v);
         }
     }
 }
