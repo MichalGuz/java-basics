@@ -13,6 +13,7 @@ public class PrintArray {
         for (int i = 0; i < values.length; i++) {
             values[i] = random.nextInt(25);
         }
+        return values;
     }
 
     public static void printIntArray(int[] array) {
