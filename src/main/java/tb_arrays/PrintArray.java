@@ -22,4 +22,8 @@ public class PrintArray {
             System.out.println("the " + counter + " element of an array is: " + v);
         }
     }
+
+    public static void process() {
+
+    }
 }
