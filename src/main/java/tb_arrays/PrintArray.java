@@ -7,7 +7,7 @@ public class PrintArray {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number to set the range of array:");
         int range = scanner.nextInt();
-
+        int[] values = new int[range];
     }
 
 
