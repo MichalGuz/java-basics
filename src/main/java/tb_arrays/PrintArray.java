@@ -4,4 +4,6 @@ import java.util.Scanner;
 
 public class PrintArray {
     Scanner scanner = new Scanner(System.in);
+    int range = scanner.nextInt();
+
 }
