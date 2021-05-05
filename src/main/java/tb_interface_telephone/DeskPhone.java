@@ -30,6 +30,10 @@ public class DeskPhone implements Telephone {
 
     @Override
     public boolean callPhone(int phoneNumber) {
-        return false;
+        if(phoneNumber == myNumber) {
+            System.out.println("The " + phoneNumber + " is calling the desk phone");
+            isRinging = true;
+        }
+        return isRinging;
     }
 }
