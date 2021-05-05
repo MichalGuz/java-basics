@@ -27,4 +27,9 @@ public class DeskPhone implements Telephone {
     public boolean isRinging() {
         return isRinging;
     }
+
+    @Override
+    public boolean callPhone(int phoneNumber) {
+        return false;
+    }
 }
