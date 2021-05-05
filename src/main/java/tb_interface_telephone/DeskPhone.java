@@ -17,4 +17,14 @@ public class DeskPhone implements Telephone {
     public void dial(int phoneNumber) {
         System.out.println("Dial number:  " + phoneNumber + " on the desk phone");
     }
+
+    @Override
+    public void answer() {
+        System.out.println("Answer the call on the desk phone");
+    }
+
+    @Override
+    public boolean isRinging() {
+        return isRinging;
+    }
 }
