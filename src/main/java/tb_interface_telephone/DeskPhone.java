@@ -7,4 +7,14 @@ public class DeskPhone implements Telephone {
     public DeskPhone(int myNumber) {
         this.myNumber = myNumber;
     }
+
+    @Override
+    public void powerOn() {
+        System.out.println("Turn on the desk phone");
+    }
+
+    @Override
+    public void dial(int phoneNumber) {
+        System.out.println("Dial number:  " + phoneNumber + " on the desk phone");
+    }
 }
