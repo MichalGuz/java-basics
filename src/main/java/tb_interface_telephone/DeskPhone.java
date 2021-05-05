@@ -33,6 +33,8 @@ public class DeskPhone implements Telephone {
         if(phoneNumber == myNumber) {
             System.out.println("The " + phoneNumber + " is calling the desk phone");
             isRinging = true;
+        } else {
+            isRinging = false;
         }
         return isRinging;
     }
