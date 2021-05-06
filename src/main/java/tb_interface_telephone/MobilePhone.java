@@ -13,4 +13,13 @@ public class MobilePhone implements Telephone {
     public void powerOn() {
         System.out.println("Turn on the mobile phone");
     }
+
+    @Override
+    public void dial(int phoneNumber) {
+        if (isOn) {
+            System.out.println("Dial number:  " + phoneNumber + " on the mobile phone");
+        } else {
+            System.out.println("The mobile phone is off ");
+        }
+    }
 }
