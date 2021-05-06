@@ -5,7 +5,7 @@ public class MobilePhone implements Telephone {
     private boolean isRinging;
     private boolean isOn;
 
-    public MobilePhone(int myNumber) {
+public MobilePhone(int myNumber) {
         this.myNumber = myNumber;
     }
 
@@ -21,5 +21,10 @@ public class MobilePhone implements Telephone {
         } else {
             System.out.println("The mobile phone is off ");
         }
+    }
+
+    @Override
+    public void answer() {
+        System.out.println("Answer the call on the mobile phone");
     }
 }
