@@ -1,4 +1,4 @@
 package tb_interface_telephone;
 
-public class MobilePhone {
+public class MobilePhone implements Telephone {
 }
