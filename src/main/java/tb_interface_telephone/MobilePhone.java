@@ -5,7 +5,7 @@ public class MobilePhone implements Telephone {
     private boolean isRinging;
     private boolean isOn;
 
-public MobilePhone(int myNumber) {
+    public MobilePhone(int myNumber) {
         this.myNumber = myNumber;
     }
 
@@ -36,6 +36,11 @@ public MobilePhone(int myNumber) {
         } else {
             isRinging = false;
         }
+        return isRinging;
+    }
+
+    @Override
+    public boolean isRinging() {
         return isRinging;
     }
 }
