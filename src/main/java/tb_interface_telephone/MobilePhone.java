@@ -27,4 +27,15 @@ public MobilePhone(int myNumber) {
     public void answer() {
         System.out.println("Answer the call on the mobile phone");
     }
+
+    @Override
+    public boolean callPhone(int phoneNumber) {
+        if(phoneNumber == myNumber && isOn) {
+            System.out.println("The " + phoneNumber + " is calling the mobile phone");
+            isRinging = true;
+        } else {
+            isRinging = false;
+        }
+        return isRinging;
+    }
 }
