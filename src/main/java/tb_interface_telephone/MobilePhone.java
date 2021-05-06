@@ -8,4 +8,9 @@ public class MobilePhone implements Telephone {
     public MobilePhone(int myNumber) {
         this.myNumber = myNumber;
     }
+
+    @Override
+    public void powerOn() {
+        System.out.println("Turn on the mobile phone");
+    }
 }
