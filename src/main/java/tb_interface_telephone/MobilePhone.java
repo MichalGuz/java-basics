@@ -33,14 +33,17 @@ public class MobilePhone implements Telephone {
     public boolean callPhone(int phoneNumber) {
         if(phoneNumber == myNumber && isOn) {
             System.out.println("The " + phoneNumber + " is calling the mobile phone");
-            isRinging = true;
+            this.isRinging = true;
+
         } else {
-            isRinging = false;
+           this.isRinging = false;
         }
-        return isRinging;
+        return this.isRinging;
     }
 
     @Override
-    public boolean isRinging() { return isRinging;
+    public boolean isRinging() {
+        System.out.println("The phone is ringing");
+        return this.isRinging;
     }
 }
