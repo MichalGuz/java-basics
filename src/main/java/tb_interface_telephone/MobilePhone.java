@@ -12,6 +12,7 @@ public class MobilePhone implements Telephone {
     @Override
     public void powerOn() {
         System.out.println("Turn on the mobile phone");
+        isOn = true;
     }
 
     @Override
