@@ -1,5 +1,7 @@
 package tb_interface_savable;
 
+import java.util.List;
+
 public class Customer implements Saveable {
     private String name;
     private int number;
@@ -24,5 +26,9 @@ public class Customer implements Saveable {
                 ", number = " + this.number +
                 ", phone = " + this.phone +
                 ", email = " + this.email;
+    }
+
+    @Override
+    public List<String> save() {
     }
 }
