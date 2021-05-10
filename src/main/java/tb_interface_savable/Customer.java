@@ -1,5 +1,6 @@
 package tb_interface_savable;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Customer implements Saveable {
@@ -30,5 +31,6 @@ public class Customer implements Saveable {
 
     @Override
     public List<String> save() {
+        List<String> values = new ArrayList<>();
     }
 }
