@@ -5,4 +5,11 @@ public class Customer implements Saveable {
     private int number;
     private int phone;
     private String email;
+
+    public Customer(String name, int number, int phone, String email) {
+        this.name = name;
+        this.number = number;
+        this.phone = phone;
+        this.email = email;
+    }
 }
