@@ -16,4 +16,13 @@ public class Customer implements Saveable {
     public String showCustomerMessage() {
         return "The method from Customer class was used";
     }
+
+    @Override
+    public String toString() {
+        return "Customer:\n " +
+                " name = " + this.name +
+                ", number = " + this.number +
+                ", phone = " + this.phone +
+                ", email = " + this.email;
+    }
 }
