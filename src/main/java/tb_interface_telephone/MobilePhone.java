@@ -32,7 +32,7 @@ public class MobilePhone implements Telephone {
     @Override
     public boolean callPhone(int phoneNumber) {
         if(phoneNumber == myNumber && isOn) {
-            System.out.println("The " + phoneNumber + " is calling the mobile phone");
+            System.out.println("The mobile phone is calling (" + phoneNumber + ")");
             this.isRinging = true;
 
         } else {
