@@ -12,4 +12,8 @@ public class Customer implements Saveable {
         this.phone = phone;
         this.email = email;
     }
+
+    public String showCustomerMessage() {
+        return "The method from Customer class was used";
+    }
 }
