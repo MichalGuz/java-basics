@@ -11,9 +11,9 @@ public class TelephoneMain {
 
         telephone = new MobilePhone(433245454);
         telephone.powerOn();
-        telephone.dial(433245454);
-        telephone.callPhone(777334585);
+        telephone.callPhone(433245454);
         telephone.isRinging();
         telephone.answer();
+        telephone.dial(777334585);
     }
 }
