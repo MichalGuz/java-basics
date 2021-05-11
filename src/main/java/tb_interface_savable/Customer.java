@@ -41,6 +41,9 @@ public class Customer implements Saveable {
 
     @Override
     public void read(List<String> savedItems) {
+        if(savedItems != null && savedItems.size() > 0){
 
-    }
+        }
+
+        }
 }
