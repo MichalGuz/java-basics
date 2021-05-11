@@ -8,6 +8,10 @@ public class MainSaveable {
         one.setAccount(1001);
         one.setLogin("big1");
         System.out.println(one);
+
+        Customer two = new Customer("two", 112, 600500600, "two@two.org");
+        System.out.println(two);
+        System.out.println(two.showCustomerMessage());
     }
 }
 
