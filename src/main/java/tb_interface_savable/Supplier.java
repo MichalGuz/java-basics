@@ -1,4 +1,4 @@
 package tb_interface_savable;
 
-public class Supplier {
+public class Supplier implements Saveable {
 }
