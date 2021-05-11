@@ -35,15 +35,17 @@ public class Customer implements Saveable {
         values.add(0, this.name);
         values.add(1, "" + this.number);
         values.add(2, "" + this.phone);
-        values.add(3,this.email);
+        values.add(3, this.email);
         return values;
     }
 
     @Override
     public void read(List<String> savedItems) {
-        if(savedItems != null && savedItems.size() > 0){
-
+        if (savedItems != null && savedItems.size() > 0) {
+            this.name = savedItems.get(0);
+            this.number = Integer.parseInt(savedItems.get(1));
+            this.phone = Integer.parseInt(savedItems.get(2));
+            this.email = savedItems.get(3);
         }
-
-        }
+    }
 }
