@@ -15,6 +15,10 @@ public class Supplier implements Saveable {
 
     @Override
     public String toString() {
-        return super.toString();
+        return "Supplier:\n " +
+                " name = " + this.name +
+                ", number = " + this.number +
+                ", account = " + this.account +
+                ", login = " + this.login;
     }
 }
