@@ -38,6 +38,11 @@ public class Supplier implements Saveable {
 
     @Override
     public void read(List<String> savedItems) {
-
+        if(savedItems != null && savedItems.size() > 0){
+            this.name = savedItems.get(0);
+            this.number = Integer.parseInt(savedItems.get(1));
+            this.account = Integer.parseInt(savedItems.get(2));
+            this.login = savedItems.get(3);
+        }
     }
 }
