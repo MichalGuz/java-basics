@@ -12,4 +12,9 @@ public class Supplier implements Saveable {
         this.account = account;
         this.login = login;
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
