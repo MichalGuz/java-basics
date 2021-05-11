@@ -49,4 +49,12 @@ public class Supplier implements Saveable {
     public String showSupplierMessage() {
         return "The method from Supplier class was used";
     }
+
+    public void setAccount(int account) {
+        this.account = account;
+    }
+
+    public void setLogin(String login) {
+        this.login = login;
+    }
 }
