@@ -38,4 +38,9 @@ public class Customer implements Saveable {
         values.add(3,this.email);
         return values;
     }
+
+    @Override
+    public void read(List<String> savedItems) {
+
+    }
 }
