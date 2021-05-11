@@ -7,6 +7,7 @@ public class MainSaveable {
         System.out.println(one.showSupplierMessage());
         one.setAccount(1001);
         one.setLogin("big1");
+        System.out.println(one);
     }
 }
 
