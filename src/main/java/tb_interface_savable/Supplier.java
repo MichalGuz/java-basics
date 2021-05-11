@@ -45,4 +45,8 @@ public class Supplier implements Saveable {
             this.login = savedItems.get(3);
         }
     }
+
+    public String showSupplierMessage() {
+        return "The method from Supplier class was used";
+    }
 }
