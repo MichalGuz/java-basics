@@ -40,6 +40,17 @@ public class MainSaveable {
                 System.out.println("Choose an option 0 or 1 four times in a row and then 0:");
                 int choice = scanner.nextInt();
                 scanner.nextLine();
+                switch (choice) {
+                    case 0:
+                        quit = true;
+                        break;
+                    case 1:
+                        System.out.println("Enter a number");
+                        String stringInput = scanner.nextLine();
+                        values.add(index, stringInput);
+                        index++;
+                        break;
+                }
             }
         }
     }
