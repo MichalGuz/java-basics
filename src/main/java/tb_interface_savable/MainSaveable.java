@@ -1,6 +1,7 @@
 package tb_interface_savable;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class MainSaveable {
     public static void main(String[] args) {
@@ -26,6 +27,11 @@ public class MainSaveable {
 
         public static ArrayList<String> readValues() {
             ArrayList<String> values = new ArrayList<String>();
+
+            Scanner scanner = new Scanner(System.in);
+            boolean quit = false;
+            int index = 0;
+
         }
     }
 }
