@@ -12,6 +12,9 @@ public class MainSaveable {
         Customer two = new Customer("two", 112, 600500600, "two@two.org");
         System.out.println(two);
         System.out.println(two.showCustomerMessage());
+
+        Saveable three = new Supplier("three", 113, 3333, "mat3");
+
     }
 }
 
