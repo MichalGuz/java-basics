@@ -57,6 +57,9 @@ public class MainSaveable {
     }
 
     public static void saveObject(Saveable item) {
+        for (int i=0; i<item.save().size(); i++) {
+            System.out.println("Saving " + item.save().get(i) + " to storage device");
+        }
     }
 }
 
