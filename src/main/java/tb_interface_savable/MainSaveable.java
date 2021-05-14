@@ -63,6 +63,7 @@ public class MainSaveable {
     }
 
     public static void loadObject(Saveable item) {
+        ArrayList<String> values = readValues();
     }
 }
 
