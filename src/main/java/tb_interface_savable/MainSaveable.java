@@ -1,5 +1,7 @@
 package tb_interface_savable;
 
+import java.util.ArrayList;
+
 public class MainSaveable {
     public static void main(String[] args) {
         Supplier one = new Supplier("one", 111, 1111, "Big_one");
@@ -21,6 +23,11 @@ public class MainSaveable {
         System.out.println(four);
         System.out.println(((Customer)four).showCustomerMessage());;
 
+
+        public static ArrayList<String> readValues() {
+            ArrayList<String> values = new ArrayList<String>();
+        }
     }
 }
+
 
