@@ -55,7 +55,9 @@ public class MainSaveable {
         }
         return values;
     }
-}
 
+    public static void saveObject(Saveable item) {
+    }
+}
 
 
