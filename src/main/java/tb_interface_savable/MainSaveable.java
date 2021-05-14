@@ -32,6 +32,10 @@ public class MainSaveable {
             boolean quit = false;
             int index = 0;
 
+            System.out.println("Choose\n" +
+                    "1 to enter a number\n" +
+                    "0 to quit");
+
         }
     }
 }
