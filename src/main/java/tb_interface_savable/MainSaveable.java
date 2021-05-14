@@ -36,6 +36,8 @@ public class MainSaveable {
                     "1 to enter a number\n" +
                     "0 to quit");
 
+            while (!quit) {
+            }
         }
     }
 }
