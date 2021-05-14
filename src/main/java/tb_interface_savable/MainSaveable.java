@@ -38,6 +38,8 @@ public class MainSaveable {
 
             while (!quit) {
                 System.out.println("Choose an option 0 or 1 four times in a row and then 0:");
+                int choice = scanner.nextInt();
+                scanner.nextLine();
             }
         }
     }
