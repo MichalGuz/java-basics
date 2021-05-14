@@ -37,6 +37,7 @@ public class MainSaveable {
                     "0 to quit");
 
             while (!quit) {
+                System.out.println("Choose an option 0 or 1 four times in a row and then 0:");
             }
         }
     }
