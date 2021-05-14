@@ -14,6 +14,8 @@ public class MainSaveable {
         System.out.println(two.showCustomerMessage());
 
         Saveable three = new Supplier("three", 113, 3333, "mat3");
+        System.out.println(three);
+        System.out.println(((Supplier)three).showSupplierMessage());
 
     }
 }
