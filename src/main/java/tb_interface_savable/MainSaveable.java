@@ -61,6 +61,9 @@ public class MainSaveable {
             System.out.println("Saving " + item.save().get(i) + " to storage device");
         }
     }
+
+    public static void loadObject(Saveable item) {
+    }
 }
 
 
