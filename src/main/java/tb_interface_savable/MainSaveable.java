@@ -22,10 +22,11 @@ public class MainSaveable {
         saveObject(two);
         loadObject(two);
 
-
         Saveable three = new Supplier("three", 113, 3333, "mat3");
         System.out.println(three);
         System.out.println(((Supplier) three).showSupplierMessage());
+        ((Supplier) three).setAccount(1003);
+        ((Supplier)three).setLogin("mat3_newLogin");
 
         Saveable four = new Customer("four", 114, 4444, "Ropex");
         System.out.println(four);
