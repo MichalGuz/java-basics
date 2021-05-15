@@ -8,8 +8,12 @@ public class MainSaveable {
         Supplier one = new Supplier("one", 111, 1111, "Big_one");
         System.out.println(one);
         System.out.println(one.showSupplierMessage());
+        saveObject(one);
+        loadObject(one);
         one.setAccount(1001);
         one.setLogin("big1");
+        saveObject(one);
+        loadObject(one);
         System.out.println(one);
 
         Customer two = new Customer("two", 112, 600500600, "two@two.org");
