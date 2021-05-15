@@ -27,6 +27,9 @@ public class MainSaveable {
         System.out.println(((Supplier) three).showSupplierMessage());
         ((Supplier) three).setAccount(1003);
         ((Supplier)three).setLogin("mat3_newLogin");
+        saveObject(three);
+        loadObject(three);
+        System.out.println(three);
 
         Saveable four = new Customer("four", 114, 4444, "Ropex");
         System.out.println(four);
