@@ -13,5 +13,10 @@ public class ArrayReferenceOrPrimitiveValue {
 
         System.out.println("value = " + value); // 10
         System.out.println("anotherValue = " + anotherValue); // 11
+
+        // reference variables "holds" only an address to the object (not the object directly)
+        int[] myArray = new int[3];
+        int[] anotherArray = myArray;
+
     }
 }
