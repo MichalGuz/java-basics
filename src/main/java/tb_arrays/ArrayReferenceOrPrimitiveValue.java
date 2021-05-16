@@ -6,5 +6,8 @@ public class ArrayReferenceOrPrimitiveValue {
         int value = 10;
         int anotherValue = value;
 
+        System.out.println("value = " + value); // 10
+        System.out.println("anotherValue = " + anotherValue); // 10
+
     }
 }
