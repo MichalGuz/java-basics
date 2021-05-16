@@ -1,5 +1,7 @@
 package tb_arrays;
 
+import java.util.Arrays;
+
 public class ArrayReferenceOrPrimitiveValue {
     public static void main(String[] args) {
         // primitive variables "holds" its values
@@ -18,5 +20,7 @@ public class ArrayReferenceOrPrimitiveValue {
         int[] myArray = new int[3];
         int[] anotherArray = myArray;
 
+        System.out.println("myArray = " + Arrays.toString(myArray)); // {0,0,0}
+        System.out.println("anotherArray = " + Arrays.toString(anotherArray)); // {0,0,0}
     }
 }
