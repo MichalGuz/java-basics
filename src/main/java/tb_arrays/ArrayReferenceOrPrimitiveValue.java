@@ -37,6 +37,7 @@ public class ArrayReferenceOrPrimitiveValue {
 
         System.out.println("anotherArray after dereferencing = " + Arrays.toString(anotherArray)); // {4,5,6,7}
         modifyArray(anotherArray);
+        System.out.println("anotherArray after second modification = " + Arrays.toString(anotherArray)); // {2,5,6,7}
     }
 
     private static void modifyArray(int[] array) {
