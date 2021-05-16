@@ -5,13 +5,21 @@ import java.util.Scanner;
 public class DescendingSortedArray {
     private static Scanner scanner = new Scanner(System.in);
 
-    public static int[] getNumbers(int capacity) {
-        int[] numbers = new int[capacity];
+    public static void processDescendingSortedArray() {
+        int capacity = 0;
+        System.out.println("Enter an integer: ");
+        capacity = scanner.nextInt();
         System.out.println("Enter " + capacity + " integers values:");
-        for (int i=0; i<numbers.length; i++) {
-            numbers[i] = scanner.nextInt();
-        }
-        return numbers;
+        int[] array = getNumbers(capacity);
+        printNumbers(array);
+    }
+
+    public static int[] getNumbers(int capacity) {
+       int[] numbers = new int[capacity];
+       for(int i=0; i<numbers.length; i++){
+           numbers[i] = scanner.nextInt();
+       }
+       return numbers;
     }
 
     public static void descendingSortOfArray(int[] array) {
@@ -30,8 +38,7 @@ public class DescendingSortedArray {
         }
     }
 
-    public static void printNumbers(int capacity) {
-        int[] array = getNumbers(capacity);
+    public static void printNumbers(int[] array) {
         System.out.print("Array of typed elements = ");
         for (int i=0; i<array.length; i++) {
             System.out.print(array[i] + ", ");
@@ -41,5 +48,6 @@ public class DescendingSortedArray {
     }
 
     public static void main(String[] args) {
-        printNumbers(7);}
+        processDescendingSortedArray();
+    }
 }
