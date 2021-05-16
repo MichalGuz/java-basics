@@ -11,5 +11,7 @@ public class ArrayReferenceOrPrimitiveValue {
 
         anotherValue++;
 
+        System.out.println("value = " + value); // 10
+        System.out.println("anotherValue = " + anotherValue); // 11
     }
 }
