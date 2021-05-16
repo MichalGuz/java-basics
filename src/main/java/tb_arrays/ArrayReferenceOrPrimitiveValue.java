@@ -22,5 +22,7 @@ public class ArrayReferenceOrPrimitiveValue {
 
         System.out.println("myArray = " + Arrays.toString(myArray)); // {0,0,0}
         System.out.println("anotherArray = " + Arrays.toString(anotherArray)); // {0,0,0}
+
+        anotherArray[0] = 1;
     }
 }
