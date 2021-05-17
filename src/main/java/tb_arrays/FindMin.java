@@ -44,6 +44,7 @@ public class FindMin {
                     array[i] = temp;
                 }
             }
+            min = array[i];
         }
     }
 
