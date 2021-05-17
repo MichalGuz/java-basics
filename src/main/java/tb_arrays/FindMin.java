@@ -46,6 +46,8 @@ public class FindMin {
             }
             min = array[i];
         }
+        System.out.println("int min (finMin) = " + min);
+        return min;
     }
 
     public static void main(String[] args) {
