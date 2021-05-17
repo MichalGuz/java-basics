@@ -35,7 +35,7 @@ public class FindMin {
     }
 
     private static int findMinMy(int[] array){
-
+        int min = 0;
     }
 
     public static void main(String[] args) {
