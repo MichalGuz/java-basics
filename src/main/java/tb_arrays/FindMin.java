@@ -38,6 +38,8 @@ public class FindMin {
         int min = 0;
         for (int i = 0; i < array.length; i++) {
             for(int k=0; k<array.length; k++){
+                if(array[i] > array[k]){
+                }
             }
         }
     }
