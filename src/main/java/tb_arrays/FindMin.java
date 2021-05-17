@@ -39,6 +39,9 @@ public class FindMin {
         for (int i = 0; i < array.length; i++) {
             for(int k=0; k<array.length; k++){
                 if(array[i] > array[k]){
+                    int temp = array[k];
+                    array[k] = array[i];
+                    array[i] = temp;
                 }
             }
         }
