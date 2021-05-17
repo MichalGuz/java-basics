@@ -34,8 +34,10 @@ public class FindMin {
         return min;
     }
 
-    private static int findMinMy(int[] array){
+    private static int findMinMy(int[] array) {
         int min = 0;
+        for (int i = 0; i < array.length; i++) {
+        }
     }
 
     public static void main(String[] args) {
