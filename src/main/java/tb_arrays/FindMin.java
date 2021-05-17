@@ -54,5 +54,6 @@ public class FindMin {
         int r = readInteger();
         int[] arr = readElements(r);
         findMin(arr);
+        findMinMy(arr);
     }
 }
