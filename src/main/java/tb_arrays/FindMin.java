@@ -34,6 +34,10 @@ public class FindMin {
         return min;
     }
 
+    private static int findMinMy(int[] array){
+
+    }
+
     public static void main(String[] args) {
         int r = readInteger();
         int[] arr = readElements(r);
