@@ -25,5 +25,9 @@ public class ReferenceAndPrimitive {
     public static void main(String[] args) {
         // variable primitive
         testAge();
+
+        // variable reference #2 called 'person'
+        Person person = new Person(null);
+        System.out.println(person.name); // null
     }
 }
