@@ -5,7 +5,9 @@ public class ReferenceAndPrimitive {
     static void testAge() {
         int age = 18;
         System.out.println(age); // 18
-        }
+        changeAge(age); // 21
+        System.out.println(age); // 18
+    }
 
     // variable primitive
     static void changeAge(int age) {
