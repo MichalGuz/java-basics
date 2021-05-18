@@ -1,5 +1,7 @@
 package tb_arrays;
 
+import tb_add_arrays_temp.Person;
+
 public class ReferenceAndPrimitive {
     // variable primitive
     static void testAge() {
