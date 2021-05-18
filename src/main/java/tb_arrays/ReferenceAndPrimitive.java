@@ -16,4 +16,14 @@ public class ReferenceAndPrimitive {
         age = 21;
         System.out.println(age); // 21
     }
+
+    // variable reference #1 called 'person'
+    static void transformName(Person person){
+        person.name = "Adam";
+    }
+
+    public static void main(String[] args) {
+        // variable primitive
+        testAge();
+    }
 }
