@@ -1,5 +1,6 @@
 package tb_arrays;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ReverseArrays {
@@ -18,5 +19,7 @@ public class ReverseArrays {
             int temp = scanner.nextInt();
             array[i] = temp;
         }
+        System.out.println("Array = " + Arrays.toString(array));
+        return array;
     }
 }
