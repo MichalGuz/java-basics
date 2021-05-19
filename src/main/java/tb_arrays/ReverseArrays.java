@@ -12,5 +12,6 @@ public class ReverseArrays {
     }
 
     public static int[] enterElementsOfArray(int number) {
+        System.out.println("enter " + number + " of integers:");
     }
 }
