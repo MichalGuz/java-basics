@@ -7,6 +7,7 @@ public class ReverseArrays {
 
     public static int enterNumberOfElements() {
         System.out.println("enter an integer:");
-        return 0;
+        int number = scanner.nextInt();
+        return number;
     }
 }
