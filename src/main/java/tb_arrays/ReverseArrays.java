@@ -10,4 +10,7 @@ public class ReverseArrays {
         int number = scanner.nextInt();
         return number;
     }
+
+    public static int[] enterElementsOfArray(int number) {
+    }
 }
