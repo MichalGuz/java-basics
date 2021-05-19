@@ -15,7 +15,8 @@ public class ReverseArrays {
         System.out.println("enter " + number + " of integers:");
         int[] array = new int[number];
         for (int i=0; i<number; i++){
-
+            int temp = scanner.nextInt();
+            array[i] = temp;
         }
     }
 }
